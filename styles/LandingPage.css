@@ -1,0 +1,31 @@
+.Landing-Page-Container {
+  background-color: #ba4242;
+  background-image: url("../images/Background_auto_x2_auto_x2_copy.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 93vh;
+}
+
+.Words-Container {
+  margin: 260px;
+}
+.Landing-Page-Intro {
+  font-size: 50px;
+}
+
+.Landing-Page-Name {
+  font-size: 100px;
+}
+
+.Landing-Page-School {
+  font-size: 26px;
+  font-weight: 500;
+}

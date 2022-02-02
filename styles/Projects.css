@@ -1,0 +1,43 @@
+.Projects-Container {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 8%;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 8%;
+  padding-bottom: 4vmax;
+  padding-top: 2vmax;
+}
+
+.Projects-Box {
+  margin-right: 12%;
+  margin-left: 12%;
+}
+
+.Projects-Title {
+  text-align: center;
+}
+
+/*
+#AGE,
+#Snake,
+#BreakOut {
+  display: inline-flex;
+  margin-top: 2%;
+  width: 90%;
+}
+
+#Age_Image,
+#Snake_Image,
+#Breakout_Image {
+  width: 70vh;
+  height: auto;
+}
+
+.Snake_Section,
+.Age_Engine_Section,
+.Breakout-Section {
+  margin-left: 5%;
+}
+*/

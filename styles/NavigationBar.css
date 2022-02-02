@@ -1,0 +1,28 @@
+.Navigation-Bar-Container {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color: #393535;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Navigation {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li a {
+  font-size: 32px;
+  font-weight: 200;
+  font-style: normal;
+  letter-spacing: 8%;
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+li a:hover {
+  color: red;
+}
