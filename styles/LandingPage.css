@@ -28,4 +28,9 @@
 .Landing-Page-School {
   font-size: 26px;
   font-weight: 500;
+  padding-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
 }

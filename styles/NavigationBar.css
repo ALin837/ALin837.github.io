@@ -12,9 +12,19 @@
   list-style-type: none;
 }
 
+li {
+  padding: 10px;
+  border-radius: 7%;
+}
+
+i {
+  color: white;
+  font-size: 28px;
+}
+
 li a {
-  font-size: 32px;
-  font-weight: 200;
+  font-size: 28px;
+  font-weight: 100;
   font-style: normal;
   letter-spacing: 8%;
   color: white;
@@ -23,6 +33,6 @@ li a {
   font-family: "Noto Sans", sans-serif;
 }
 
-li a:hover {
-  color: red;
+li:hover {
+  background-color: rgb(36, 35, 35);
 }
