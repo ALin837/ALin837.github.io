@@ -1,33 +1,45 @@
 .Landing-Page-Container {
-  background-color: #ba4242;
-  background-image: url("../images/Background_auto_x2_auto_x2_copy.jpg");
-  background-position: center;
+  /*background-image: url("../images/Images/Code.jpg");
   background-size: cover;
-  color: white;
+  background-position: left;
+  */
+  color: black;
   font-family: "Noto Sans", sans-serif;
   font-weight: 600;
   font-style: normal;
-  letter-spacing: 8%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 93vh;
+  justify-content: center;
+  height: 100vh;
+}
+
+.Content-Container {
+  display: inline-flex;
 }
 
 .Words-Container {
-  margin: 260px;
+  margin: 120px;
+  text-align: center;
+  padding: 10px;
 }
+
 .Landing-Page-Intro {
-  font-size: 50px;
+  font-size: 48px;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .Landing-Page-Name {
-  font-size: 100px;
+  color: #29416f;
+  font-size: 96px;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .Landing-Page-School {
-  font-size: 26px;
-  font-weight: 500;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
   padding-bottom: 20px;
 }
 

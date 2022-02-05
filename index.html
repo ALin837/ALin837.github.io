@@ -8,13 +8,14 @@
   <meta name="keywords" content="Andrew" />
   <meta name="description" content="Andrew" />
   <title>Andrew Lin</title>
+  <link rel="stylesheet" href="styles/index.css" />
   <link rel="stylesheet" href="styles/NavigationBar.css" />
   <link rel="stylesheet" href="styles/LandingPage.css" />
   <link rel="stylesheet" href="styles/Experience.css" />
   <link rel="stylesheet" href="styles/Projects.css" />
   <link rel="stylesheet" href="styles/Contact.css" />
   <link rel="stylesheet" href="styles/AboutMe.css" />
-  <link rel="stylesheet" href="styles/index.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
   <script src="https://kit.fontawesome.com/3e186372e2.js" crossorigin="anonymous"></script>
 </head>
 
@@ -22,35 +23,41 @@
   <div>
     <!--Navigation Bar-->
     <header class="Navigation-Bar-Container">
+      <div id="logo">
+        <a href="index.html">
+          Andrew Lin
+        </a>
+      </div>
+      <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
       <nav>
         <ul class="Navigation">
           <li class="Home">
-            <i class="fas fa-home"></i>
-            <a href="#top" title="Home">
+            <a href="index.html" title="Home">
+              <i class="fas fa-home"></i>
               Home
             </a>
           </li>
           <li class="About">
-            <i class="fas fa-user-tie"></i>
-            <a href="#About-Me" title="About Me">
+            <a href="AboutMe.html" title="About Me">
+              <i class="fas fa-user-tie"></i>
               About
             </a>
           </li>
           <li class="Experience">
-            <i class="fas fa-briefcase"></i>
-            <a href="#Experience-Me" title="Experience">
+            <a href="Experience.html" title="Experience">
+              <i class="fas fa-briefcase"></i>
               Experience
             </a>
           </li>
           <li class="Projects">
-            <i class="fas fa-server"></i>
-            <a href="#Projects-Me" title="Projects">
+            <a href="Projects.html" title="Projects">
+              <i class="fas fa-server"></i>
               Projects
             </a>
           </li>
           <li class="Resume">
-            <i class="fas fa-file"></i>
             <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume">
+              <i class="fas fa-file"></i>
               Resume
             </a>
           </li>
@@ -61,162 +68,57 @@
 
     <!--Landing Page-->
     <section class="Landing-Page-Container">
-      <div class="Words-Container">
-        <div class="Landing-Page-Intro">Hello! My Name is</div>
+      <div class=Content-Container>
+        <div class="Words-Container">
+          <div class="Landing-Page-Intro">Hello! My Name is</div>
 
-        <div class="Landing-Page-Name">Andrew Lin</div>
+          <div class="Landing-Page-Name">Andrew Lin</div>
 
-        <div class="Landing-Page-School">
-          I am a Computer Science Student at the University of Waterloo
-        </div>
-        <div class="socials">
-          <a href="https://github.com/ALin837" target="_blank">
-            <i class="fab fa-github" style="font-size: 50px; margin-right: 20px;"></i>
-          </a>
-
-          <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank">
-            <i class="fab fa-linkedin-in" style="font-size: 50px;  margin-right: 20px;"></i>
-          </a>
-
-          <a href="mailto: andrew.61523@gmail.com">
-            <i class="fas fa-envelope" style="font-size: 50px;  margin-right: 20px;"></i>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!--About Me-->
-    <section class="About-Me-Container" id="About-Me">
-      <div class="About-Me-Box">
-        <div class="About-Me-Title">
-          <h2>About Me</h2>
-        </div>
-        <div class="About-Me-Description">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-            pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc et
-            malesuada finibus. Sed commodo leo id varius tincidunt. Curabitur ac
-            quam interdum, consequat augue sed, efficitur tortor.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-            pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc et
-            malesuada finibus. Sed commodo leo id varius tincidunt. Curabitur ac
-            quam interdum, consequat augue sed, efficitur tortor.
-          </p>
-        </div>
-        <div id="Andrew">
-          <img src="images/Hockey_about_me_auto_x2.jpg"></img>
-        </div>
-      </div>
-    </section>
-
-    <!--Experience-->
-    <section class="Experience-Container" id="Experience-Me">
-      <div class="Experience-Box">
-        <div class="Experience-Title">
-          <h2>Experience</h2>
-        </div>
-        <div id="Monest">
-          <h3>Junior Developer @ Monest</h3>
-          <h4>December 2021 - Present</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-            pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc et
-            malesuada finibus. Sed commodo leo id varius tincidunt. Curabitur ac
-            quam interdum, consequat augue sed, efficitur tortor.
-          </p>
-        </div>
-
-        <div id="OpenText">
-          <h3>Software QA Automation Developer @ OpenText Corporation</h3>
-          <h4>Janurary 2022 - Present</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-            pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc et
-            malesuada finibus. Sed commodo leo id varius tincidunt. Curabitur ac
-            quam interdum, consequat augue sed, efficitur tortor.
-          </p>
-        </div>
-
-        <div id="InFlight">
-          <h3>QA Analyst @ InFlight Corporation</h3>
-          <h4>May 2021 - August 2021</h4>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-            dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-            pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc et
-            malesuada finibus. Sed commodo leo id varius tincidunt. Curabitur ac
-            quam interdum, consequat augue sed, efficitur tortor.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--Projects-->
-    <section class="Projects-Container" id="Projects-Me">
-      <div class="Projects-Box">
-        <div class="Projects-Title">
-          <h2>Projects</h2>
-        </div>
-
-        <div id="AGE">
-          <div class="AGE-image-box">
-            <img src="images/AGE-Engine.png" id="Age_Image"></img>
+          <div class="Landing-Page-School">
+            I am a Computer Science Student at the University of Waterloo
           </div>
-          <section class="Age_Engine_Section">
-            <h3>AGE Engine</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-              pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc
-              et malesuada finibus. Sed commodo leo id varius tincidunt.
-              Curabitur ac quam interdum, consequat augue sed, efficitur tortor.
-            </p>
-          </section>
-        </div>
+          <!-- 
+          <div class="socials">
+            <a href="https://github.com/ALin837" target="_blank">
+              <i class="fab fa-github" style="font-size: 50px; margin-right: 20px; color: black;"></i>
+            </a>
 
-        <div id="Snake">
-          <div class="Snake-image-box">
-            <img src="images/Snake.png" id="Snake_Image"></img>
-          </div>
-          <section class="Snake_Section">
-            <h3>Snake</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-              pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc
-              et malesuada finibus. Sed commodo leo id varius tincidunt.
-              Curabitur ac quam interdum, consequat augue sed, efficitur tortor.
-            </p>
-          </section>
-        </div>
+            <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank">
+              <i class="fab fa-linkedin-in" style="font-size: 50px;  margin-right: 20px; color: black"></i>
+            </a>
 
-        <div id="BreakOut">
-          <div class="Breakout-image-box">
-            <img src="images/Breakoutv2.png" id="Breakout_Image"></img>
+            <a href="mailto: andrew.61523@gmail.com">
+              <i class="fas fa-envelope" style="font-size: 50px;  margin-right: 20px; color: black"></i>
+            </a>
           </div>
-          <section class="Breakout-Section">
-            <h3>Breakout</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-              pretium, malesuada nunc quis, dictum dolor. Aliquam aliquam nunc
-              et malesuada finibus. Sed commodo leo id varius tincidunt.
-              Curabitur ac quam interdum, consequat augue sed, efficitur tortor.
-            </p>
-          </section>
+           -->
         </div>
+        <img src="images/Images/undraw_programming_re_kg9v.svg" alt="Image of Programmer" style="width: 50vw;">
       </div>
     </section>
 
-    <!--Contacts-->
-    <footer>Contact</footer>
   </div>
+  <!--Contacts-->
+  <footer>
+    <div class="footer-container">
+      <div class="footer-name">
+        Andrew Lin
+      </div>
+      <div class="footer-socials">
+        <a href="https://github.com/ALin837" target="_blank">
+          <i class="fab fa-github" style="font-size:25px; padding: 10px; color: black;"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank">
+          <i class="fab fa-linkedin-in" style="font-size: 25px;  padding: 10px; color: black"></i>
+        </a>
+
+        <a href="mailto: andrew.61523@gmail.com">
+          <i class="fas fa-envelope" style="font-size: 25px;  padding: 10px; color: black"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>

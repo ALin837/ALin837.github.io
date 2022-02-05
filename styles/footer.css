@@ -1,0 +1,16 @@
+footer {
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.footer-socials {
+  justify-content: center;
+}
+
+.footer-name {
+  color: black;
+  text-align: center;
+}

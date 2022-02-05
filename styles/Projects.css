@@ -1,6 +1,6 @@
 .Projects-Container {
   font-family: "Noto Sans", sans-serif;
-  font-weight: 600;
+  font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
   display: flex;
@@ -11,12 +11,13 @@
 }
 
 .Projects-Box {
-  margin-right: 12%;
-  margin-left: 12%;
+  margin-right: 25%;
+  margin-left: 25%;
 }
 
 .Projects-Title {
-  text-align: center;
+  text-align: left;
+  display: flex;
 }
 
 /*

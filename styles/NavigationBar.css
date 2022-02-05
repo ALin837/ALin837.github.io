@@ -2,9 +2,12 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  background-color: #393535;
+  background-color: #696767;
   display: flex;
   justify-content: flex-end;
+  align-items: center;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .Navigation {
@@ -12,27 +15,54 @@
   list-style-type: none;
 }
 
-li {
-  padding: 10px;
+#logo {
+  margin-right: auto;
+}
+
+#logo a {
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: normal;
+  font-style: normal;
+  letter-spacing: 8%;
+}
+
+.Home,
+.About,
+.Experience,
+.Projects,
+.Resume {
+  margin-right: 1em;
   border-radius: 7%;
 }
 
 i {
   color: white;
-  font-size: 28px;
+  font-size: 20px;
+  margin-right: 5px;
 }
 
-li a {
-  font-size: 28px;
-  font-weight: 100;
+.Home a,
+.About a,
+.Experience a,
+.Projects a,
+.Resume a {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
   color: white;
-  margin: 10px;
   text-decoration: none;
   font-family: "Noto Sans", sans-serif;
+  padding: 5px 5px;
 }
 
-li:hover {
-  background-color: rgb(36, 35, 35);
+.Home:hover,
+.About:hover,
+.Experience:hover,
+.Projects:hover,
+.Resume:hover {
+  background-color: rgb(73, 72, 72);
 }
