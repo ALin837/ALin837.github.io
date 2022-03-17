@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Experience-Container {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
@@ -9,8 +10,8 @@
 }
 
 .Experience-Box {
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .Experience-Title {

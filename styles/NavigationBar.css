@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Navigation-Bar-Container {
   position: -webkit-sticky;
   position: sticky;
@@ -21,7 +22,7 @@
 
 #logo a {
   color: white;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Poppins', "Noto-sans",sans-serif;
   font-size: 24px;
   font-weight: normal;
   font-style: normal;
@@ -55,7 +56,7 @@ i {
   letter-spacing: 8%;
   color: white;
   text-decoration: none;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Poppins',"Noto-sans" ,sans-serif;
   padding: 5px 5px;
 }
 

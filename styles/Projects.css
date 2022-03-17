@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Projects-Container {
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
@@ -11,8 +12,8 @@
 }
 
 .Projects-Box {
-  margin-right: 25%;
-  margin-left: 25%;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .Projects-Title {
@@ -20,25 +21,44 @@
   display: flex;
 }
 
-/*
-#AGE,
-#Snake,
-#BreakOut {
-  display: inline-flex;
-  margin-top: 2%;
-  width: 90%;
+.Age_Engine_Section, .Snake_Section, .Breakout-Section {
+  margin: 1em;
 }
 
 #Age_Image,
 #Snake_Image,
 #Breakout_Image {
-  width: 70vh;
+  margin: 1em;
   height: auto;
+  width: 25em;
 }
 
-.Snake_Section,
-.Age_Engine_Section,
-.Breakout-Section {
-  margin-left: 5%;
+#AGE {
+  height: auto;
+  width: auto;
+  display: flex;
+  margin-bottom: 2em;
+  background: #EBE2E2;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
 }
-*/
+
+#Snake {
+  height: auto;
+  width: auto;
+  display: flex;
+  margin-bottom: 2em;
+  background: #FBE1E1;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+#BreakOut {
+  height: auto;
+  width: auto;
+  display: flex;
+  margin-bottom: 2em;
+  background: #FFE4D6;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
