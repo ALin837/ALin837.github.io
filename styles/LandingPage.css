@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Landing-Page-Container {
-  /*background-image: url("../images/Images/Code.jpg");
+  background-image: url("../images/Images/aditya-chinchure-AxGByUaoz_o-unsplash.jpg");
   background-size: cover;
-  background-position: left;
-  */
-  color: black;
+  background-position: left top;
+  color: white;
   font-family: 'Poppins', "Noto-sans",sans-serif;
-  font-weight: 600;
+  font-weight: 800;
   font-style: normal;
   display: flex;
   align-items: center;
@@ -14,36 +13,36 @@
   height: 100vh;
 }
 
-.Content-Container {
-  display: inline-flex;
-}
 
 .Words-Container {
-  margin: 120px;
   text-align: center;
-  padding: 10px;
 }
 
 .Landing-Page-Intro {
-  font-size: 48px;
-  font-weight: normal;
+  font-size: 4rem;
+  font-weight: 500;
   font-style: normal;
 }
 
 .Landing-Page-Name {
-  color: #29416f;
-  font-size: 96px;
-  font-weight: normal;
+  /*color: #29416f;
+  /*color: white;*/
+  font-size: 6rem;
+  font-weight: bold;
   font-style: normal;
 }
 
 .Landing-Page-School {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
-  padding-bottom: 20px;
+  padding-bottom: 1.5rem;
 }
 
 a {
   text-decoration: none;
+}
+
+.Content-Container {
+  margin: 0px;
 }

@@ -17,12 +17,13 @@
   <link rel="stylesheet" href="styles/AboutMe.css" />
   <link rel="stylesheet" href="styles/footer.css" />
   <script src="https://kit.fontawesome.com/3e186372e2.js" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
 </head>
 
 <body>
   <div class="root">
     <!--Navigation Bar-->
-    <header class="Navigation-Bar-Container">
+    <header class="Navigation-Bar-Container" id="Navigation-Bar-Container">
       <div id="logo">
         <a href="index copy.html">
           Andrew Lin
@@ -33,31 +34,26 @@
         <ul class="Navigation">
           <li class="Home">
             <a href="index copy.html" title="Home">
-              <i class="fas fa-home"></i>
               Home
             </a>
           </li>
           <li class="About">
             <a href=#About-Me title="About Me">
-              <i class="fas fa-user-tie"></i>
               About
             </a>
           </li>
           <li class="Experience">
             <a href=#Experience-Me title="Experience">
-              <i class="fas fa-briefcase"></i>
               Experience
             </a>
           </li>
           <li class="Projects">
             <a href=#Projects-Me title="Projects">
-              <i class="fas fa-server"></i>
               Projects
             </a>
           </li>
           <li class="Resume">
             <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume">
-              <i class="fas fa-file"></i>
               Resume
             </a>
           </li>
@@ -65,9 +61,8 @@
       </nav>
     </header>
 
-
     <!--Landing Page-->
-    <section class="Landing-Page-Container" style="background-color: aliceblue;">
+    <section class="Landing-Page-Container">
       <div class=Content-Container>
         <div class="Words-Container">
           <div class="Landing-Page-Intro">Hello! My Name is</div>
@@ -77,47 +72,55 @@
           <div class="Landing-Page-School">
             I am a Computer Science Student at the University of Waterloo
           </div>
-          <!-- 
+
           <div class="socials">
             <a href="https://github.com/ALin837" target="_blank">
-              <i class="fab fa-github" style="font-size: 50px; margin-right: 20px; color: black;"></i>
+              <i class="fab fa-github" style="font-size: 40px; margin-right: 20px; color: white;"></i>
             </a>
 
             <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank">
-              <i class="fab fa-linkedin-in" style="font-size: 50px;  margin-right: 20px; color: black"></i>
+              <i class="fab fa-linkedin-in" style="font-size: 40px;  margin-right: 20px; color: white"></i>
             </a>
 
             <a href="mailto: andrew.61523@gmail.com">
-              <i class="fas fa-envelope" style="font-size: 50px;  margin-right: 20px; color: black"></i>
+              <i class="fas fa-envelope" style="font-size: 40px;  margin-right: 20px; color: white"></i>
             </a>
           </div>
-           -->
         </div>
-        <img src="images/Images/undraw_programming_re_kg9v.svg" alt="Image of Programmer" style="width: 55%;">
       </div>
     </section>
 
 
     <!--About Me-->
     <section class="About-Me-Container" id="About-Me">
-      <div class="About-Me-Box">
-        <h2 class="About-Me-Title">About Me</h2>
-        <div class="About-Me-Description">
-          <p>
-            I am a Computer Science Student at the University of Waterloo that is interested in Software,
-            Full Stack Web Development and Game development.
-          </p>
-          <p>
-            I became interested in Computer Science after
-            taking an Introduction to CS course in High School. In those courses that’s where I learned
-            Turing, HTML & CSS, Python and Java.
-          </p>
-          <p>
-            After taking that course in highschool that’s when I knew I wanted
-            to study Computer Science at the University of Waterloo.
-          </p>
+      <div class="About-me-wrap">
+        <div class="About-Me-Title">
+          <h2>About Me</h2>
         </div>
-        <!--<img src="images/Images/undraw_source_code_re_wd9m.svg" alt="source code" style="width: 70%; display: center;">-->
+        <div class="wrap">
+          <div class="Image-box">
+            <img src="images/Images/Andrew.jpg" alt="Andrew Lin" id="About-Me-Image">
+          </div>
+          <div class="About-Me-Box">
+            <div class="About-Me-Description">
+              <p>
+                I am a Computer Science Student at the University of Waterloo that is interested in
+                Software,
+                Full Stack Web Development and Game development.
+              </p>
+              <p>
+                I became interested in Computer Science after
+                taking an Introduction to CS course in High School. In those courses that’s where I
+                learned
+                Turing, HTML & CSS, Python and Java.
+              </p>
+              <p>
+                After taking that course in highschool that’s when I knew I wanted
+                to study Computer Science at the University of Waterloo.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
@@ -126,115 +129,144 @@
       <div class="Experience-Box">
         <div class="Experience-Title">
           <h2>Experience</h2>
-          <img src="images/Images/undraw_shared_workspace_re_3gsu.svg" alt="code-shared-working" style="width: 500px;">
-        </div>
-        <div id="Monest">
-          <h3>Junior Developer @ Monest</h3>
-          <h4>December 2021 - Present</h4>
-          <ul>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-              deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-              assumenda, enim velit minus dicta. Architecto.
-            </li>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-              deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-              assumenda, enim velit minus dicta. Architecto.
-            </li>
-          </ul>
+          <!--
+      <img src="images/Images/undraw_shared_workspace_re_3gsu.svg" alt="code-shared-working" style="width: 500px;">
+      -->
         </div>
 
-        <div id="OpenText">
-          <h3>Software QA Automation Developer @ OpenText Corporation</h3>
-          <h4>Janurary 2022 - Present</h4>
-          <ul>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-              deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-              assumenda, enim velit minus dicta. Architecto.
-            </li>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-              deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-              assumenda, enim velit minus dicta. Architecto.
-            </li>
-          </ul>
-        </div>
+        <div class="Experience-Inner">
 
-        <div id="InFlight">
-          <h3>QA Analyst @ InFlight Corporation</h3>
-          <h4>May 2021 - August 2021</h4>
-          <ul>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-              deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-              assumenda, enim velit minus dicta. Architecto.
-            </li>
-            <li>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-              deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-              assumenda, enim velit minus dicta. Architecto.
-            </li>
-          </ul>
+          <div class="Experience-Content" id="Monest">
+            <h3>Junior Developer @ Monest</h3>
+            <h4>December 2021 - Present</h4>
+            <ul>
+              <li>
+                Implemented an Email Sign-up feature onto Monest's website to save emails using Django's
+                REST API
+                framework and models, and saved emails into a PostgreSQL database.
+              </li>
+              <li>
+                Involved in both frontend and backend bug fixing, refactoring of React Components, and
+                adding additional
+                APIs to improve code manageability and sustainability.
+              </li>
+            </ul>
+          </div>
+          <!----->
+          <div class="Experience-Content" id="OpenText">
+            <h3>Software QA Automation Developer @ OpenText Corporation</h3>
+            <h4>Janurary 2022 - Present</h4>
+            <ul>
+              <li>
+                Developed automated tests to test REST APIs and utilized Jmeter JSR223 samplers and
+                assertions, and
+                Groovy scripts to facilitate API response, performance, and load testing.
+              </li>
+              <li>
+                Collaborated with the developer and QA teams to help create multiple test plans and test
+                cases to ensure
+                proper testing coverage.
+              </li>
+              <li>
+                Developed a TCP and UDP Client/Server application using Go for performance statistic
+                baselines.
+              </li>
+            </ul>
+          </div>
+
+          <div class="Experience-Content" id="InFlight">
+            <h3>QA Analyst @ InFlight Corporation</h3>
+            <h4>May 2021 - August 2021</h4>
+            <ul>
+              <li>
+                Created test plans to test multiple areas within Business Enterprise Systems
+              </li>
+              <li>
+                Experience with Manual Regression Testing, Functional Testing, Black Box Testing and
+                utilized many other
+                Testing Practices to test backend and frontend issues.
+              </li>
+              <li>
+                Automated testing processes with Selenium to test functional behaviour.
+              </li>
+            </ul>
+          </div>
+
         </div>
       </div>
     </section>
 
     <!--Projects-->
     <section class="Projects-Container" id="Projects-Me">
+      <div class="Projects-Title">
+        <h2>Projects</h2>
+      </div>
       <div class="Projects-Box">
-        <div class="Projects-Title">
-
-          <h2>Projects</h2>
-          <!--
-              <img src="images/Images/undraw_code_thinking_re_gka2.svg" alt="code-thinking" style="width: 500px;">
-              -->
-        </div>
-
         <div id="AGE">
-          <div class="AGE-image-box">
+          <div class="image-box">
             <img src="images/AGE-Engine.png" id="Age_Image"></img>
           </div>
           <section class="Age_Engine_Section">
-            <h3>AGE Engine</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-              pretium,
-            </p>
+            <div>
+              <div class="Section-Header">
+                <h3>AGE Engine</h3>
+              </div>
+              <div class="Section-Content">
+                <p>
+                  Utilized O.O.P Principles and MVC design pattern to produce a Game Engine to support
+                  the
+                  creation of ASCII art video games using the Ncurses library
+                </p>
+              </div>
+            </div>
           </section>
         </div>
 
         <div id="Snake">
-          <div class="Snake-image-box">
+          <section class="Snake_Section">
+            <div>
+              <div class="Section-Header">
+                <h3>Snake</h3>
+              </div>
+              <div class="Section-Content">
+                <p>
+                  Utilized knowledge of Objected Oriented Programming to recreate a simulation of
+                  Snake.
+                  The
+                  game has a speed-up feature as levels get harder and music.
+                </p>
+              </div>
+            </div>
+          </section>
+          <div class="image-box">
             <img src="images/Snake.png" id="Snake_Image"></img>
           </div>
-          <section class="Snake_Section">
-            <h3>Snake</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-              pretium,
-            </p>
-          </section>
         </div>
 
         <div id="BreakOut">
-          <div class="Breakout-image-box">
+          <div class="image-box">
             <img src="images/Breakoutv2.png" id="Breakout_Image"></img>
           </div>
           <section class="Breakout-Section">
-            <h3>Breakout</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
-              dapibus eget tellus vel sodales. Cras id nulla orci. Duis nec sem
-              pretium,
-            </p>
+            <div>
+              <div class="Section-Header">
+                <h3>Breakout</h3>
+              </div>
+              <div class="Section-Content">
+                <p>
+                  Utilized knowledge of Objected Oriented Programming to recreate a simulation of
+                  Breakout.
+                  The game uses basic collision physics and keeps track of highscores and includes
+                  music.
+
+                </p>
+              </div>
+            </div>
           </section>
         </div>
       </div>
     </section>
+
 
     <!--Contacts-->
     <footer>

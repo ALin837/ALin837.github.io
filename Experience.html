@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <script src="https://kit.fontawesome.com/3e186372e2.js" crossorigin="anonymous"></script>
+    <script src="js/experience.js"></script>
 </head>
 
 <body>
@@ -69,58 +70,75 @@
             <div class="Experience-Box">
                 <div class="Experience-Title">
                     <h2>Experience</h2>
+                    <!--
                     <img src="images/Images/undraw_shared_workspace_re_3gsu.svg" alt="code-shared-working"
-                        style="width: 500px;">
-                </div>
-                <div id="Monest">
-                    <h3>Junior Developer @ Monest</h3>
-                    <h4>December 2021 - Present</h4>
-                    <ul>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-                            deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-                            assumenda, enim velit minus dicta. Architecto.
-                        </li>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-                            deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-                            assumenda, enim velit minus dicta. Architecto.
-                        </li>
-                    </ul>
+                        style="width: auto; height:50%;">
+                        -->
                 </div>
 
-                <div id="OpenText">
-                    <h3>Software QA Automation Developer @ OpenText Corporation</h3>
-                    <h4>Janurary 2022 - Present</h4>
-                    <ul>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-                            deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-                            assumenda, enim velit minus dicta. Architecto.
-                        </li>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-                            deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-                            assumenda, enim velit minus dicta. Architecto.
-                        </li>
-                    </ul>
-                </div>
+                <div class="Experience-Inner">
+                    <div class="Experience-tablist">
+                        <button id="Monest-button" onclick="switchVisible1()">Monest</button>
+                        <button id="OpenText-button" onclick="switchVisible2()">OpenText</button>
+                        <button id="InFlight-button" onclick="switchVisible3()">InFlight</button>
+                    </div>
 
-                <div id="InFlight">
-                    <h3>QA Analyst @ InFlight Corporation</h3>
-                    <h4>May 2021 - August 2021</h4>
-                    <ul>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-                            deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-                            assumenda, enim velit minus dicta. Architecto.
-                        </li>
-                        <li>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla rerum qui excepturi, a quam
-                            deleniti. Nobis accusantium voluptas eveniet dolorem nostrum hic doloribus, saepe,
-                            assumenda, enim velit minus dicta. Architecto.
-                        </li>
-                    </ul>
+                    <div class="Experience-Content" id="Monest" style="display: block;">
+                        <h3>Junior Developer @ Monest</h3>
+                        <h4>December 2021 - Present</h4>
+                        <ul>
+                            <li>
+                                Implemented an Email Sign-up feature onto Monest's website to save emails using Django's
+                                REST API
+                                framework and models, and saved emails into a PostgreSQL database.
+                            </li>
+                            <li>
+                                Involved in both frontend and backend bug fixing, refactoring of React Components, and
+                                adding additional
+                                APIs to improve code manageability and sustainability.
+                            </li>
+                        </ul>
+                    </div>
+                    <!----->
+                    <div class="Experience-Content" id="OpenText" style="display: none;">
+                        <h3>Software QA Automation Developer @ OpenText Corporation</h3>
+                        <h4>Janurary 2022 - Present</h4>
+                        <ul>
+                            <li>
+                                Developed automated tests to test REST APIs and utilized Jmeter JSR223 samplers and
+                                assertions, and
+                                Groovy scripts to facilitate API response, performance, and load testing.
+                            </li>
+                            <li>
+                                Collaborated with the developer and QA teams to help create multiple test plans and test
+                                cases to ensure
+                                proper testing coverage.
+                            </li>
+                            <li>
+                                Developed a TCP and UDP Client/Server application using Go for performance statistic
+                                baselines.
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="Experience-Content" id="InFlight" style="display: none;">
+                        <h3>QA Analyst @ InFlight Corporation</h3>
+                        <h4>May 2021 - August 2021</h4>
+                        <ul>
+                            <li>
+                                Created test plans to test multiple areas within Business Enterprise Systems
+                            </li>
+                            <li>
+                                Experience with Manual Regression Testing, Functional Testing, Black Box Testing and
+                                utilized many other
+                                Testing Practices to test backend and frontend issues.
+                            </li>
+                            <li>
+                                Automated testing processes with Selenium to test functional behaviour.
+                            </li>
+                        </ul>
+                    </div>
+
                 </div>
             </div>
         </section>

@@ -7,17 +7,18 @@
   display: flex;
   justify-content: center;
   letter-spacing: 8%;
+  padding-bottom: 5rem;
 }
-
 .Experience-Box {
   margin-right: 15%;
   margin-left: 15%;
 }
 
 .Experience-Title {
-  margin-top: 50px;
+  margin-top: 3.1rem;
   display: flex;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
 }
 
 h2 {
@@ -28,7 +29,8 @@ h2 {
 }
 
 h3 {
-  font-size: 36px;
+  font-size: 2.3rem;
+  margin: 0px;
   font-weight: normal;
   font-style: normal;
 }
@@ -43,4 +45,34 @@ ul li {
   font-size: 18px;
   font-weight: normal;
   font-style: normal;
+}
+
+/*
+button {
+  font-family: 'Poppins',"Noto Sans", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 0px;
+  border-radius: 7%;
+  display :block;
+  background-color: white;
+  margin-bottom: 1.5rem;
+}
+
+button:hover {
+  background-color: rgb(175, 171, 171);
+}
+*/
+
+
+
+.Experience-tablist {
+  margin: 2.5rem;
+  width: 20rem;
+}
+
+.Experience-Content {
+  margin: 1rem;
 }

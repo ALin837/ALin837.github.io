@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Projects-Container {
+  background-color: #ffffff;
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
-  display: flex;
   justify-content: center;
   letter-spacing: 8%;
   padding-bottom: 4vmax;
@@ -14,15 +14,31 @@
 .Projects-Box {
   margin-right: 20%;
   margin-left: 20%;
+
 }
 
+
 .Projects-Title {
-  text-align: left;
-  display: flex;
+  margin-right: 20%;
+  margin-left: 20%;
 }
 
 .Age_Engine_Section, .Snake_Section, .Breakout-Section {
   margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.Section-Header {
+  display: block;
+
+}
+
+.Section-Content {
+  display: block;
+
 }
 
 #Age_Image,
@@ -30,35 +46,42 @@
 #Breakout_Image {
   margin: 1em;
   height: auto;
-  width: 25em;
+  width: 25vw;
+  border-radius: 10%;
 }
 
 #AGE {
-  height: auto;
-  width: auto;
-  display: flex;
   margin-bottom: 2em;
+  /*
   background: #EBE2E2;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
+  */
+  display: flex;
 }
 
 #Snake {
-  height: auto;
-  width: auto;
   display: flex;
   margin-bottom: 2em;
+    /*
   background: #FBE1E1;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
+  */
 }
 
 #BreakOut {
-  height: auto;
-  width: auto;
   display: flex;
   margin-bottom: 2em;
+  /*
   background: #FFE4D6;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
+  */
 }
+/*
+
+#AGE:hover, #Snake:hover, #BreakOut:hover {
+  transform: scale(1.05);
+}
+*/

@@ -4,36 +4,45 @@
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
-  display: flex;
-  justify-content: center;
   letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2vmax;
+
 }
 
-.image-about-me {
-  justify-content: center;
+.About-me-wrap {
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 2%;
 }
-
-img {
-  border-radius: 10%;
+/*
+.wrap {
+  display: flex;
 }
-
-.About-Me-Box {
-  margin-right: 30%;
-  margin-left: 30%;
-}
+*/
 
 .About-Me-Title {
   text-align: left;
+  display: block;
 }
 
 h2 {
-  font-weight: normal;
+  font-weight: 600;
   font-style: normal;
   font-size: 48px;
 }
 
-p {
+.About-Me-Description {
   font-size: 18px;
+}
+
+#About-Me-Image {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.Image-box {
+  margin-right: 2rem;
+  width: 15vw;
+  float: left;
 }
