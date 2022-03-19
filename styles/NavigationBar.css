@@ -34,13 +34,12 @@
 }
 
 #logo {
-  color: #d1d4d4;
   margin-right: auto;
   margin-left: 5%;
 }
 
 #logo a {
-  color: white;
+  color: #d1d4d4;
   font-family: 'Poppins', "Noto-sans",sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
