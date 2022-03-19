@@ -11,6 +11,7 @@
 
 }
 
+
 .About-me-wrap {
   margin-right: 20%;
   margin-left: 20%;
@@ -33,6 +34,7 @@ h2 {
   font-size: 2rem;
 }
 
+
 .About-Me-Description {
   font-size: 1rem;
 }
@@ -46,4 +48,19 @@ h2 {
   margin-right: 2rem;
   width: 15vw;
   float: left;
+}
+
+@media only screen and (max-width: 950px)  {
+  .Image-box {
+    margin-right: 2rem;
+    width: 14vh;
+    float: left;
+  }
+}
+
+
+@media only screen and (min-width: 1500px)  {
+  .About-Me-Box{
+    display: flex;
+  }
 }
