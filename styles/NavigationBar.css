@@ -14,6 +14,15 @@
   transition: 1s;
 }
 
+.wrap-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  margin-right: 15%;
+  margin-left: 15%;
+
+}
 .nav-button:hover, .nav-buttons:hover {
   transform: scale(1.2);
   cursor: pointer;
@@ -32,8 +41,8 @@
 #logo a {
   color: white;
   font-family: 'Poppins', "Noto-sans",sans-serif;
-  font-size: 2rem;
-  font-weight: normal;
+  font-size: 1.25rem;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;
 }
@@ -44,16 +53,15 @@
   border-radius: 7%;
 }
 
-i {
-  color: white;
-  font-size: 1.5rem;
-  margin-right: 5px;
+.nav-buttons a,.nav-button a {
+  transition: 1.5s;
 }
+
 
 .nav-button a, .nav-buttons a {
   display: inline-block;
-  font-size: 1.3rem;
-  font-weight: normal;
+  font-size: 1.1rem;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;
   color: white;
@@ -71,7 +79,3 @@ i {
   background-color: rgb(73, 72, 72);
 }
 */
-
-#Resume {
-  background-color: #4a4543;
-}

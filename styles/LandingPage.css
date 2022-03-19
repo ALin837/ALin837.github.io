@@ -21,21 +21,21 @@
 }
 
 .Landing-Page-Intro {
-  font-size: 4rem;
-  font-weight: 400;
+  font-size: 2rem;
+  font-weight: 300;
   font-style: normal;
 }
 
 .Landing-Page-Name {
   /*color: #29416f;
   /*color: white;*/
-  font-size: 6rem;
-  font-weight: 700;
+  font-size: 4rem;
+  font-weight: 400;
   font-style: normal;
 }
 
 .Landing-Page-School {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: normal;
   font-style: normal;
   padding-bottom: 1.5rem;

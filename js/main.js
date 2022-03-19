@@ -1,9 +1,21 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("Navigation-Bar-Container").style.background = "#545b87";
+    document.getElementById("Navigation-Bar-Container").style.background = "white";
+    document.getElementById("logo-text").style.color = "black";
+    document.getElementById("home-text").style.color = "black";
+    document.getElementById("about-text").style.color = "black";
+    document.getElementById("experience-text").style.color = "black";
+    document.getElementById("projects-text").style.color = "black";
+    document.getElementById("resume-text").style.color = "black";
   } else {
     document.getElementById("Navigation-Bar-Container").style.background = "none";
+    document.getElementById("logo-text").style.color = "white";
+    document.getElementById("home-text").style.color = "white";
+    document.getElementById("about-text").style.color = "white";
+    document.getElementById("experience-text").style.color = "white";
+    document.getElementById("projects-text").style.color = "white";
+    document.getElementById("resume-text").style.color = "white";
   }
 }
 
