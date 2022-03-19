@@ -2,7 +2,6 @@
 .Landing-Page-Container {
   background-image: url("../images/Images/Toronto.jpg");
   background-size: cover;
-  color: white;
   font-family: 'Poppins', "Noto-sans",sans-serif;
   font-weight: 800;
   font-style: normal;
@@ -21,14 +20,15 @@
 }
 
 .Landing-Page-Intro {
+  color: rgb(209, 212, 212);
   font-size: 2rem;
   font-weight: 300;
   font-style: normal;
 }
 
 .Landing-Page-Name {
-  /*color: #29416f;
-  /*color: white;*/
+  /*color: #29416f;*/
+  color: white;
   font-size: 4rem;
   font-weight: 400;
   font-style: normal;

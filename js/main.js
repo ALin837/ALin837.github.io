@@ -10,7 +10,7 @@ function scrollFunction() {
     document.getElementById("resume-text").style.color = "black";
   } else {
     document.getElementById("Navigation-Bar-Container").style.background = "none";
-    document.getElementById("logo-text").style.color = "white";
+    document.getElementById("logo-text").style.color = "#d1d4d4";
     document.getElementById("home-text").style.color = "white";
     document.getElementById("about-text").style.color = "white";
     document.getElementById("experience-text").style.color = "white";
