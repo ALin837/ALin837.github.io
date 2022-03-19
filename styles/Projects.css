@@ -14,13 +14,15 @@
 .Projects-Box {
   margin-right: 20%;
   margin-left: 20%;
-
 }
 
 
 .Projects-Title {
   margin-right: 20%;
   margin-left: 20%;
+  display: flex;
+  text-align: left;
+  justify-content: left;
 }
 
 .Age_Engine_Section, .Snake_Section, .Breakout-Section {
@@ -47,38 +49,37 @@
   margin: 1em;
   height: auto;
   width: 25vw;
-  border-radius: 10%;
+  
 }
 
-#AGE {
+.Project-section {
   margin-bottom: 2em;
+  display: flex;
+}
+
   /*
+#AGE {
+
   background: #EBE2E2;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  */
-  display: flex;
+
 }
 
 #Snake {
-  display: flex;
-  margin-bottom: 2em;
-    /*
   background: #FBE1E1;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  */
+
 }
 
 #BreakOut {
-  display: flex;
-  margin-bottom: 2em;
-  /*
   background: #FFE4D6;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  */
 }
+*/
+
 /*
 
 #AGE:hover, #Snake:hover, #BreakOut:hover {
