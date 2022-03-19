@@ -17,7 +17,6 @@
   <link rel="stylesheet" href="styles/AboutMe.css" />
   <link rel="stylesheet" href="styles/footer.css" />
   <script src="https://kit.fontawesome.com/3e186372e2.js" crossorigin="anonymous"></script>
-  <script src="js/main.js"></script>
 </head>
 
 <body>
@@ -32,27 +31,27 @@
       <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
       <nav>
         <ul class="Navigation">
-          <li class="Home">
-            <a href="index.html" title="Home">
+          <li class="nav-buttons">
+            <a data-link="Landing-Page" title="Home" class="scroll_to">
               Home
             </a>
           </li>
-          <li class="About">
-            <a href=#About-Me title="About Me">
+          <li class="nav-buttons">
+            <a data-link="About-Me" title="About Me" class="scroll_to">
               About
             </a>
           </li>
-          <li class="Experience">
-            <a href=#Experience-Me title="Experience">
+          <li class="nav-buttons">
+            <a data-link="Experience-Me" title="Experience" class="scroll_to">
               Experience
             </a>
           </li>
-          <li class="Projects">
-            <a href=#Projects-Me title="Projects">
+          <li class="nav-buttons">
+            <a data-link="Projects-Me" title="Projects" class="scroll_to">
               Projects
             </a>
           </li>
-          <li class="Resume">
+          <li class="nav-button" id="Resume">
             <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume">
               Resume
             </a>
@@ -62,7 +61,7 @@
     </header>
 
     <!--Landing Page-->
-    <section class="Landing-Page-Container">
+    <section class="Landing-Page-Container" id="Landing-Page">
       <div class=Content-Container>
         <div class="Words-Container">
           <div class="Landing-Page-Intro">Hello! My Name is</div>
@@ -206,7 +205,7 @@
           <div class="image-box">
             <img src="images/AGE-Engine.png" id="Age_Image"></img>
           </div>
-          <section class="Age_Engine_Section">
+          <div class="Age_Engine_Section">
             <div>
               <div class="Section-Header">
                 <h3>AGE Engine</h3>
@@ -219,11 +218,11 @@
                 </p>
               </div>
             </div>
-          </section>
+          </div>
         </div>
 
         <div id="Snake">
-          <section class="Snake_Section">
+          <div class="Snake_Section">
             <div>
               <div class="Section-Header">
                 <h3>Snake</h3>
@@ -237,7 +236,7 @@
                 </p>
               </div>
             </div>
-          </section>
+          </div>
           <div class="image-box">
             <img src="images/Snake.png" id="Snake_Image"></img>
           </div>
@@ -247,7 +246,7 @@
           <div class="image-box">
             <img src="images/Breakoutv2.png" id="Breakout_Image"></img>
           </div>
-          <section class="Breakout-Section">
+          <div class="Breakout-Section">
             <div>
               <div class="Section-Header">
                 <h3>Breakout</h3>
@@ -262,9 +261,9 @@
                 </p>
               </div>
             </div>
-          </section>
-        </div>
-      </div>
+            <div>
+            </div>
+          </div>
     </section>
 
 
@@ -290,6 +289,7 @@
       </div>
     </footer>
   </div>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

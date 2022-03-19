@@ -14,8 +14,8 @@
   transition: 1s;
 }
 
-li a:hover {
-  color: black;
+.nav-button:hover, .nav-buttons:hover {
+  transform: scale(1.2);
 }
 
 .Navigation {
@@ -37,12 +37,9 @@ li a:hover {
   letter-spacing: 8%;
 }
 
-.Home,
-.About,
-.Experience,
-.Projects,
-.Resume {
-  margin-right: 1em;
+.nav-buttons,.nav-button {
+  transition: 1s;
+  margin-right: 1rem;
   border-radius: 7%;
 }
 
@@ -52,11 +49,7 @@ i {
   margin-right: 5px;
 }
 
-.Home a,
-.About a,
-.Experience a,
-.Projects a,
-.Resume a {
+.nav-button a, .nav-buttons a {
   display: inline-block;
   font-size: 1.3rem;
   font-weight: normal;
@@ -78,3 +71,6 @@ i {
 }
 */
 
+#Resume {
+  background-color: #4a4543;
+}

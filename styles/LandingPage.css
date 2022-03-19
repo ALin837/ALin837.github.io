@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Landing-Page-Container {
-  background-image: url("../images/Images/aditya-chinchure-AxGByUaoz_o-unsplash.jpg");
+  background-image: url("../images/Images/Toronto.jpg");
   background-size: cover;
-  background-position: center;
   color: white;
   font-family: 'Poppins', "Noto-sans",sans-serif;
   font-weight: 800;
@@ -13,6 +12,9 @@
   height: 100vh;
 }
 
+.Content-Container {
+  filter: brightness(100%);
+}
 
 .Words-Container {
   text-align: center;
@@ -20,7 +22,7 @@
 
 .Landing-Page-Intro {
   font-size: 4rem;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -28,7 +30,7 @@
   /*color: #29416f;
   /*color: white;*/
   font-size: 6rem;
-  font-weight: bold;
+  font-weight: 700;
   font-style: normal;
 }
 
