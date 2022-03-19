@@ -60,8 +60,8 @@
 
 .nav-button a, .nav-buttons a {
   display: inline-block;
-  font-size: 1.1rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 8%;
   color: white;
