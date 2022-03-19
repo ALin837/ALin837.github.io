@@ -2,6 +2,7 @@
 .Landing-Page-Container {
   background-image: url("../images/Images/Toronto.jpg");
   background-size: cover;
+  background-position: center;
   font-family: 'Poppins', "Noto-sans",sans-serif;
   font-weight: 800;
   font-style: normal;
