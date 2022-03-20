@@ -41,7 +41,14 @@ for (var i = 0; i < sections.length; i++) {
   element.addEventListener("click", () => {
       const el = document.getElementById(element.getAttribute("data-link"));
       el.scrollIntoView({behavior:"smooth", block:"start"})
+      let x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "none";
+      }
   })
+
 }
 
 function DisplayOptions() {
@@ -50,5 +57,14 @@ function DisplayOptions() {
     x.style.display = "none";
   } else {
     x.style.display = "block";
+  }
+}
+
+window.onresize = () => {
+  let x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "none";
   }
 }
