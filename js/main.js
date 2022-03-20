@@ -31,3 +31,12 @@ for (var i = 0; i < sections.length; i++) {
       el.scrollIntoView({behavior:"smooth", block:"start"})
   })
 }
+
+function DisplayOptions() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

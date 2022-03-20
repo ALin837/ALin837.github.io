@@ -1,9 +1,11 @@
 footer {
+  background-color: #f5f3f3;
   bottom: 0px;
   display: flex;
   justify-content: center;
-  margin-top: 3em;
-  padding-bottom: 3em;
+  margin-top: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .footer-socials {
@@ -12,5 +14,6 @@ footer {
 
 .footer-name {
   color: black;
+  font-weight: 400;
   text-align: center;
 }

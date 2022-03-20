@@ -10,29 +10,34 @@
   <title>Andrew Lin</title>
   <link rel="shortcut icon" href="images/canadian_geese_rMo_icon.ico">
   <link rel="stylesheet" href="styles/index.css" />
-  <link rel="stylesheet" href="styles/NavigationBar.css" />
+  <link rel="stylesheet" href="styles/MobileNavBar.css" />
   <link rel="stylesheet" href="styles/LandingPage.css" />
   <link rel="stylesheet" href="styles/Experience.css" />
   <link rel="stylesheet" href="styles/Projects.css" />
   <link rel="stylesheet" href="styles/Contact.css" />
   <link rel="stylesheet" href="styles/AboutMe.css" />
   <link rel="stylesheet" href="styles/footer.css" />
-  <script src="https://kit.fontawesome.com/3e186372e2.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/71c6f26d48.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <div class="root">
     <!--Navigation Bar-->
-    <header class="Navigation-Bar-Container" id="Navigation-Bar-Container">
+    <header class="Mobile-Bar-Container">
       <div class="wrap-nav">
         <div id="logo">
           <a href="index.html" id="logo-text">
             Andrew Lin
           </a>
         </div>
-        <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
-        <nav>
-          <ul class="Navigation">
+        <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="wrap-nav" id="myLinks">
+        <nav class="MobileView">
+          <ul class="Nav">
             <li class="nav-buttons">
               <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
                 HOME
@@ -62,6 +67,80 @@
         </nav>
       </div>
     </header>
+
+    <!--
+    <header id="Mobile-Bar-Container">
+      <div class="wrap-nav">
+        <div id="logo2">
+          <a href="index.html" id="logo-text">
+            Andrew Lin
+          </a>
+        </div>
+        <div id="myLinks" style="display: none;">
+          <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+            HOME
+          </a>
+          <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+            ABOUT
+          </a>
+          <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+            EXPERIENCE
+          </a>
+          <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+            PROJECTS
+          </a>
+          <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume" id="resume-text">
+            RESUME
+          </a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()">
+          <i class="fa-solid fa-bars" style="font-size: 1 rem; color:rgb(0, 0, 0);"></i>
+        </a>
+      </div>
+    </header>
+  -->
+
+    <!--
+    <header class="Navigation-Bar-Container" id="Navigation-Bar-Container">
+      <div class="wrap-nav">
+        <div id="logo">
+          <a href="index.html" id="logo-text">
+            Andrew Lin
+          </a>
+        </div>
+        <nav class="NormalView">
+          <ul class="Navigation">
+            <li class="nav-buttons">
+              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+                HOME
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+                EXPERIENCE
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+                PROJECTS
+              </a>
+            </li>
+            <li class="nav-button" id="Resume">
+              <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume" id="resume-text">
+                RESUME
+              </a>
+            </li>
+          </ul>
+        </nav>
+        
+  </div>
+  </header>
+  -->
 
     <!--Landing Page-->
     <section class="Landing-Page-Container" id="Landing-Page">

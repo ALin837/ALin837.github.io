@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="styles/Contact.css" />
   <link rel="stylesheet" href="styles/AboutMe.css" />
   <link rel="stylesheet" href="styles/footer.css" />
-  <script src="https://kit.fontawesome.com/3e186372e2.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/71c6f26d48.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -29,10 +29,46 @@
           <a href="index.html" id="logo-text">
             Andrew Lin
           </a>
+          <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()">
+            <i class="fa-solid fa-bars"></i>
+          </a>
         </div>
         <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
-        <nav>
+        <nav id="NormalNavBar">
           <ul class="Navigation">
+            <li class="nav-buttons">
+              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+                HOME
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+                EXPERIENCE
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+                PROJECTS
+              </a>
+            </li>
+            <li class="nav-button" id="Resume">
+              <a href="/Files/Andrew_Lin_Resume_20-03-2022-01-05-34.pdf" target="_blank" title="Resume"
+                id="resume-text">
+                RESUME
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="mobile-nav" id="myLinks">
+        <nav class="MobileView">
+          <ul class="Nav">
             <li class="nav-buttons">
               <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
                 HOME
