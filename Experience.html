@@ -23,46 +23,82 @@
 <body>
     <div class="root">
         <!--Navigation Bar-->
-        <header class="Navigation-Bar-Container">
-            <div id="logo">
-                <a href="index.html">
-                    Andrew Lin
+        <header class="Navigation-Bar-Container" id="Navigation-Bar-Container">
+            <div class="wrap-nav">
+                <div id="logo">
+                    <a href="index.html" id="logo-text">
+                        Andrew Lin
+                    </a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()" id="hamburger">
+                    <i class="fa-solid fa-bars"></i>
                 </a>
+
+                <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
+                <nav id="NormalNavBar">
+                    <ul class="Navigation">
+                        <li class="nav-buttons">
+                            <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+                                HOME
+                            </a>
+                        </li>
+                        <li class="nav-buttons">
+                            <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="nav-buttons">
+                            <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+                                EXPERIENCE
+                            </a>
+                        </li>
+                        <li class="nav-buttons">
+                            <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+                                PROJECTS
+                            </a>
+                        </li>
+                        <li class="nav-button" id="Resume">
+                            <a href="/Files/Andrew_Lin_Resume_20-03-2022-01-05-34.pdf" target="_blank" title="Resume"
+                                id="resume-text" class="ResumeClass">
+                                RESUME
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav>
-                <ul class="Navigation">
-                    <li class="Home">
-                        <a href="index.html" title="Home">
-                            <i class="fas fa-home"></i>
-                            Home
-                        </a>
-                    </li>
-                    <li class="About">
-                        <a href="AboutMe.html" title="About Me">
-                            <i class="fas fa-user-tie"></i>
-                            About
-                        </a>
-                    </li>
-                    <li class="Experience">
-                        <a href="Experience.html" title="Experience">
-                            <i class="fas fa-briefcase"></i>
-                            Experience
-                        </a>
-                    </li>
-                    <li class="Projects">
-                        <a href="Projects.html" title="Projects">
-                            <i class="fas fa-server"></i>
-                            Projects
-                        </a>
-                    </li>
-                    <li class="Resume">
-                        <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume">
-                            <i class="fas fa-file"></i>
-                            Resume
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+
+            <div class="mobile-nav" id="myLinks">
+                <nav class="MobileView">
+                    <ul class="Nav">
+                        <li class="nav-buttons">
+                            <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+                                HOME
+                            </a>
+                        </li>
+                        <li class="nav-buttons">
+                            <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="nav-buttons">
+                            <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+                                EXPERIENCE
+                            </a>
+                        </li>
+                        <li class="nav-buttons">
+                            <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+                                PROJECTS
+                            </a>
+                        </li>
+                        <li class="nav-button" id="Resume">
+                            <a href="/Files/Andrew_Lin_Resume_20-03-2022-01-05-34.pdf" target="_blank" title="Resume"
+                                id="resume-text" class="ResumeClass">
+                                RESUME
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
         <!--Experience-->
@@ -71,38 +107,37 @@
                 <div class="Experience-Title">
                     <h2>Experience</h2>
                     <!--
-                    <img src="images/Images/undraw_shared_workspace_re_3gsu.svg" alt="code-shared-working"
-                        style="width: auto; height:50%;">
-                        -->
+    <img src="images/Images/undraw_shared_workspace_re_3gsu.svg" alt="code-shared-working" style="width: 500px;">
+    -->
                 </div>
 
                 <div class="Experience-Inner">
-                    <div class="Experience-tablist">
-                        <button id="Monest-button" onclick="switchVisible1()">Monest</button>
-                        <button id="OpenText-button" onclick="switchVisible2()">OpenText</button>
-                        <button id="InFlight-button" onclick="switchVisible3()">InFlight</button>
-                    </div>
-
-                    <div class="Experience-Content" id="Monest" style="display: block;">
-                        <h3>Junior Developer @ Monest</h3>
-                        <h4>December 2021 - Present</h4>
-                        <ul>
-                            <li>
-                                Implemented an Email Sign-up feature onto Monest's website to save emails using Django's
-                                REST API
-                                framework and models, and saved emails into a PostgreSQL database.
-                            </li>
-                            <li>
-                                Involved in both frontend and backend bug fixing, refactoring of React Components, and
-                                adding additional
-                                APIs to improve code manageability and sustainability.
-                            </li>
-                        </ul>
+                    <div class="Work-wrap">
+                        <div class="Experience-Content" id="Monest">
+                            <h3> <span> Junior Developer </span>, Monest</h3>
+                            <ul>
+                                <li>
+                                    Implemented an Email Sign-up feature onto Monest's website to save emails using
+                                    Django's
+                                    REST API
+                                    framework and models, and saved emails into a PostgreSQL database.
+                                </li>
+                                <li>
+                                    Involved in both frontend and backend bug fixing, refactoring of React Components,
+                                    and
+                                    adding additional
+                                    APIs to improve code manageability and sustainability.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dates">
+                            <p class="date-content">12/2021 – present</p> <br>
+                            <p class="date-content">London, Canada</p>
+                        </div>
                     </div>
                     <!----->
-                    <div class="Experience-Content" id="OpenText" style="display: none;">
-                        <h3>Software QA Automation Developer @ OpenText Corporation</h3>
-                        <h4>Janurary 2022 - Present</h4>
+                    <div class="Experience-Content" id="OpenText">
+                        <h3> <span>Software QA Automation Developer </span>, OpenText Corporation</h3>
                         <ul>
                             <li>
                                 Developed automated tests to test REST APIs and utilized Jmeter JSR223 samplers and
@@ -121,9 +156,8 @@
                         </ul>
                     </div>
 
-                    <div class="Experience-Content" id="InFlight" style="display: none;">
-                        <h3>QA Analyst @ InFlight Corporation</h3>
-                        <h4>May 2021 - August 2021</h4>
+                    <div class="Experience-Content" id="InFlight">
+                        <h3><span>QA Analyst</span>, InFlight Corporation</h3>
                         <ul>
                             <li>
                                 Created test plans to test multiple areas within Business Enterprise Systems
