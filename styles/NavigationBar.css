@@ -44,10 +44,10 @@
 }
 
 #logo a {
-  color: #d1d4d4;
+  color: white;
   font-family: 'Poppins', "Noto-sans",sans-serif;
   font-size: 1.25rem;
-  font-weight: 500;
+  font-weight: 390;
   font-style: normal;
   letter-spacing: 8%;
 }
@@ -66,7 +66,7 @@
 .nav-button a, .nav-buttons a {
   display: inline-block;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 390;
   font-style: normal;
   letter-spacing: 8%;
   color: white;

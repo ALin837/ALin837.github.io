@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Experience-Container {
   background-color: #f5f3f3;
+  /*
+  background-image: url("../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  color:white;
+  */
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -15,7 +21,7 @@
 }
 
 .Experience-Title {
-  margin-top: 2.5rem;
+  margin-top: 3rem;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -23,15 +29,14 @@
 
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin: 0px;
-  font-weight: 500;
+  font-weight: 400;
   font-style: normal;
 }
 
 span {
-  color: rgb(34, 8, 8);
-  font-weight: 500;
+  font-weight: 400;
   font-size: 2rem;
 }
 
