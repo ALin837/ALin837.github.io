@@ -56,8 +56,9 @@ ul li {
 }
 
 .experience-skill {
+  font-size: 1rem;
   margin: 0.5rem;
-  padding: 0.6rem;
+  padding: 0.4rem;
   border-radius: 10px;
   color: white;
 }
