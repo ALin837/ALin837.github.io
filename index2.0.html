@@ -10,7 +10,7 @@
   <title>Andrew Lin</title>
   <link rel="shortcut icon" href="images/canadian_geese_rMo_icon.ico">
   <link rel="stylesheet" href="styles/index.css" />
-  <link rel="stylesheet" href="styles/MobileNavBar.css" />
+  <link rel="stylesheet" href="styles/NavigationBar.css" />
   <link rel="stylesheet" href="styles/LandingPage.css" />
   <link rel="stylesheet" href="styles/Experience.css" />
   <link rel="stylesheet" href="styles/Projects.css" />
@@ -23,19 +23,51 @@
 <body>
   <div class="root">
     <!--Navigation Bar-->
-    <header class="Mobile-Bar-Container">
+    <header class="Navigation-Bar-Container" id="Navigation-Bar-Container">
       <div class="wrap-nav">
         <div id="logo">
           <a href="index.html" id="logo-text">
             Andrew Lin
           </a>
         </div>
-        <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()">
+        <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()" id="hamburger">
           <i class="fa-solid fa-bars"></i>
         </a>
+
+        <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
+        <nav id="NormalNavBar">
+          <ul class="Navigation">
+            <li class="nav-buttons">
+              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+                HOME
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
+                ABOUT
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
+                EXPERIENCE
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+                PROJECTS
+              </a>
+            </li>
+            <li class="nav-button" id="Resume">
+              <a href="/Files/Andrew_Lin_Resume_20-03-2022-01-05-34.pdf" target="_blank" title="Resume" id="resume-text"
+                class="ResumeClass">
+                RESUME
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
 
-      <div class="wrap-nav" id="myLinks">
+      <div class="mobile-nav" id="myLinks">
         <nav class="MobileView">
           <ul class="Nav">
             <li class="nav-buttons">
@@ -59,7 +91,8 @@
               </a>
             </li>
             <li class="nav-button" id="Resume">
-              <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume" id="resume-text">
+              <a href="/Files/Andrew_Lin_Resume_20-03-2022-01-05-34.pdf" target="_blank" title="Resume" id="resume-text"
+                class="ResumeClass">
                 RESUME
               </a>
             </li>
@@ -67,80 +100,6 @@
         </nav>
       </div>
     </header>
-
-    <!--
-    <header id="Mobile-Bar-Container">
-      <div class="wrap-nav">
-        <div id="logo2">
-          <a href="index.html" id="logo-text">
-            Andrew Lin
-          </a>
-        </div>
-        <div id="myLinks" style="display: none;">
-          <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
-            HOME
-          </a>
-          <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
-            ABOUT
-          </a>
-          <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
-            EXPERIENCE
-          </a>
-          <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
-            PROJECTS
-          </a>
-          <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume" id="resume-text">
-            RESUME
-          </a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()">
-          <i class="fa-solid fa-bars" style="font-size: 1 rem; color:rgb(0, 0, 0);"></i>
-        </a>
-      </div>
-    </header>
-  -->
-
-    <!--
-    <header class="Navigation-Bar-Container" id="Navigation-Bar-Container">
-      <div class="wrap-nav">
-        <div id="logo">
-          <a href="index.html" id="logo-text">
-            Andrew Lin
-          </a>
-        </div>
-        <nav class="NormalView">
-          <ul class="Navigation">
-            <li class="nav-buttons">
-              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
-                HOME
-              </a>
-            </li>
-            <li class="nav-buttons">
-              <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
-                ABOUT
-              </a>
-            </li>
-            <li class="nav-buttons">
-              <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
-                EXPERIENCE
-              </a>
-            </li>
-            <li class="nav-buttons">
-              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
-                PROJECTS
-              </a>
-            </li>
-            <li class="nav-button" id="Resume">
-              <a href="/Files/Andrew_Lin_Resume_New_COOP2.pdf" target="_blank" title="Resume" id="resume-text">
-                RESUME
-              </a>
-            </li>
-          </ul>
-        </nav>
-        
-  </div>
-  </header>
-  -->
 
     <!--Landing Page-->
     <section class="Landing-Page-Container" id="Landing-Page">
@@ -218,15 +177,12 @@
       <div class="Experience-Box">
         <div class="Experience-Title">
           <h2>Experience</h2>
-          <!--
-      <img src="images/Images/undraw_shared_workspace_re_3gsu.svg" alt="code-shared-working" style="width: 500px;">
-      -->
         </div>
 
         <div class="Experience-Inner">
-
           <div class="Experience-Content" id="Monest">
-            <h3>Junior Developer @ Monest</h3>
+            <h3><span>Monest</span></h3>
+            <h3>Junior Developer</h3>
             <ul>
               <li>
                 Implemented an Email Sign-up feature onto Monest's website to save emails using Django's
@@ -242,7 +198,8 @@
           </div>
           <!----->
           <div class="Experience-Content" id="OpenText">
-            <h3>Software QA Automation Developer @ OpenText Corporation</h3>
+            <h3><span>OpenText Corporation</span></h3>
+            <h3>Software QA Automation Developer</h3>
             <ul>
               <li>
                 Developed automated tests to test REST APIs and utilized Jmeter JSR223 samplers and
@@ -262,7 +219,8 @@
           </div>
 
           <div class="Experience-Content" id="InFlight">
-            <h3>QA Analyst @ InFlight Corporation</h3>
+            <h3><span>InFlight Corporation</span></h3>
+            <h3>QA Analyst</h3>
             <ul>
               <li>
                 Created test plans to test multiple areas within Business Enterprise Systems
@@ -290,9 +248,9 @@
       <div class="Projects-Box">
         <div class="Project-section" id="AGE">
           <div class="image-box">
-            <img src="images/AGE-Engine.png" id="Age_Image"></img>
+            <img src="images/AGE-Engine.png" id="Age_Image" class="project-image"></img>
           </div>
-          <div class="Age_Engine_Section">
+          <div class="Projects-desc">
             <div>
               <div class="Section-Header">
                 <h3>AGE Engine</h3>
@@ -309,7 +267,7 @@
         </div>
 
         <div class="Project-section" id="Snake">
-          <div class="Snake_Section">
+          <div class="Projects-desc" id="snake-section">
             <div>
               <div class="Section-Header">
                 <h3>Snake</h3>
@@ -324,16 +282,16 @@
               </div>
             </div>
           </div>
-          <div class="image-box">
-            <img src="images/Snake.png" id="Snake_Image"></img>
+          <div class="image-box" id="snake-image">
+            <img src="images/Snake.png" id="Snake_Image" class="project-image"></img>
           </div>
         </div>
 
         <div class="Project-section" id="BreakOut">
           <div class="image-box">
-            <img src="images/Breakoutv2.png" id="Breakout_Image"></img>
+            <img src="images/Breakoutv2.png" id="Breakout_Image" class="project-image"></img>
           </div>
-          <div class="Breakout-Section">
+          <div class="Projects-desc">
             <div>
               <div class="Section-Header">
                 <h3>Breakout</h3>
