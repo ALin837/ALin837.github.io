@@ -1,24 +1,27 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("Navigation-Bar-Container").style.background = "white";
+    document.getElementById("Navigation-Bar-Container").style.background = "#2e2d2d";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "3px 3px 10px rgba(0, 0, 0, 0.1)";
-    document.getElementById("logo-text").style.color = "black";
-    document.getElementById("hamburger").style.color = "black"
+    /*
+    document.getElementById("logo-text").style.color = "white";
+    document.getElementById("hamburger").style.color = "white"
     let resume = document.getElementsByClassName("ResumeClass");
     for (let i = 0; i < resume.length; i++) {
       let element = resume[i];
-      element.style.color="black";
+      element.style.color="white";
     }
     let collection = document.getElementsByClassName("scroll_to");
     for (let i = 0; i < collection.length; i++) {
       let element = collection[i];
-      element.style.color="black";
+      element.style.color="white";
     }
+    */
 
   } else {
     document.getElementById("Navigation-Bar-Container").style.background = "none";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "none";
+    /*
     document.getElementById("logo-text").style.color = "#d1d4d4";
     document.getElementById("hamburger").style.color =  "#d1d4d4";
     let resume = document.getElementsByClassName("ResumeClass");
@@ -31,6 +34,7 @@ function scrollFunction() {
       let element = collection[i];
       element.style.color="white";
     }
+    */
   }
 }
 
