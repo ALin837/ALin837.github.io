@@ -26,13 +26,6 @@
   display: flex;
 }
 
-h2 {
-  font-weight: 420;
-  font-style: normal;
-  font-size: 2rem;
-  padding-bottom: 5px;
-  border-bottom: 3px rgb(90, 54, 54) solid;
-}
 
 
 .About-Me-Description {
