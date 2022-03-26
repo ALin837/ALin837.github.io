@@ -76,3 +76,17 @@
   }
 
 }
+
+.project-image:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+#Age {
+  cursor: auto;
+  opacity: 100%;
+}  
+
+.Text {
+  margin-left:1em;
+}
