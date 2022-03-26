@@ -4,6 +4,7 @@
   background-image: url("../images/Images/Toronto.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   
   /*
   background-image: url("../images/Images/background-copy.jpg");
