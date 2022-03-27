@@ -7,12 +7,11 @@
   letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2vmax;
-  display: flex;
 }
 
 .About-me-wrap {
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 17%;
+  margin-left: 17%;
   margin-bottom: 2%;
 
 }
@@ -24,25 +23,30 @@
 
 .About-Me-Title {
   margin-top: 1.5rem;
-  text-align: left;
+  text-align: center;
+  justify-content: center;
   display: flex;
 }
 
+.wrap {
+  display: flex;
 
+}
 
 .About-Me-Description {
   font-size: 1rem;
+  text-align: center;
 }
 
 #About-Me-Image {
   border-radius: 50%;
-  width: 100%;
+  width: 10%;
 }
 
 .Image-box {
-  margin-right: 2rem;
-  width: 13vw;
-  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 950px)  {

@@ -8,22 +8,21 @@
   justify-content: center;
   letter-spacing: 8%;
   padding-bottom: 4vmax;
-  padding-top: 2vmax;
+  padding-top: 2rem;
 }
 
 .Projects-Box {
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 17%;
+  margin-left: 17%;
 }
 
 
 .Projects-Title {
-  margin-top: 2rem;
   margin-right: 20%;
   margin-left: 20%;
   display: flex;
   text-align: left;
-  justify-content: left;
+  justify-content: center;
 }
 
 .Projects-desc {
@@ -47,7 +46,7 @@
 .project-image {
   margin: 1em;
   height: auto;
-  width: 25vw;
+  width: 30vw;
   
 }
 
@@ -57,11 +56,13 @@
 }
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 900px) {
   .Project-section {
     margin-bottom: 2em;
     flex-wrap: wrap;
+    justify-content: center;
   }
+  
   #AGE-Section, #Breakout-Section {
     order: 2;
   }
@@ -69,24 +70,57 @@
     order: 1;
   }
   .project-image {
-    margin: 1em;
-    height: auto;
-    width: 50vw;
     
+    height: auto;
+    width: 80vw;
+  }
+  
+  .Projects-Box {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .Section-Header {
+    display: block;
+    text-align: center;
+  }
+  .Section-Content {
+    display: block;
+    text-align: center;
+  }
+  .project-skill-container {
+    justify-content: center;
   }
 
 }
 
 .project-image:hover {
   cursor: pointer;
-  opacity: 50%;
+  transform: scale(1.05);
 }
 
 #Age {
   cursor: auto;
   opacity: 100%;
+  transform: scale(1);
 }  
 
 .Text {
   margin-left:1em;
+}
+.Project-Text {
+  font-size:0.9rem;
+}
+
+
+.project-skill-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-skill {
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 10px;
+  color: white;
 }

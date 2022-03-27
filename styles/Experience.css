@@ -7,10 +7,15 @@
   background-position: center;
   color:white;
   */
+  background-image: url("../images/Images/patrick-tomasso-lZbRV_a4Yxg-unsplash (1).jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 8%;
+  letter-spacing: 8%; 
   display: flex;
   justify-content: center;
   padding-bottom: 4rem;
@@ -25,23 +30,16 @@
   display: flex;
   text-align: center;
   justify-content: center;
-}
-
-
-h3 {
-  font-size: 1.4rem;
-  margin: 0px;
-  font-weight: 400;
-  font-style: normal;
+  color: white;
 }
 
 span {
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 ul li {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   font-style: normal;
 }
@@ -51,8 +49,20 @@ ul li {
   width: 20rem;
 }
 
-.Experience-Content {
+.Company {
+  background-color: rgb(241, 246, 248);
+  padding: 1rem;
   margin-bottom: 3rem;
+}
+
+.Experience-Content {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*
+  background-color: rgb(241, 246, 248);
+  */
 }
 
 .experience-skill-container {
@@ -61,9 +71,23 @@ ul li {
 }
 
 .experience-skill {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0.5rem;
   padding: 0.4rem;
   border-radius: 10px;
   color: white;
+}
+
+.Company {
+  display: flex;
+}
+
+.company-image {
+  width:100%;
+  border-radius: 15px;
+}
+
+.Company-image-box {
+  padding: 2.7rem;
+  width:25vw;
 }
