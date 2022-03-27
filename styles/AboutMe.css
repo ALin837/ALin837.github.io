@@ -9,6 +9,10 @@
   padding-top: 2vmax;
 }
 
+.wrap {
+  display: flex;
+  justify-content: center;
+}
 .About-me-wrap {
   margin-right: 17%;
   margin-left: 17%;

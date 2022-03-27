@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .Contact-Container {
+    font-family: 'Poppins',"Noto Sans", sans-serif;
     padding: 3rem;
-    background-color: rgb(17, 17, 17);
+    background-color: #111111;
     color: white;
     display: flex;
     justify-content: center;
@@ -14,8 +17,9 @@
     font-size: 2.7rem;
 }
 .Contact-Quick {
-    width: 50%;
+    width: 30%;
     flex-wrap: wrap;
+    border-right: white 2px solid;
 }
 .Contact-links {
     display: flex;
@@ -29,14 +33,21 @@
 
 /*Contact Form*/
 .Contact-Form {
-    width: 50%;
+    padding-left: 2rem;
+    width:50%;
+ 
 
 }
 
 .Contact-Form-Title {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
 }
 
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    border-bottom: 3px rgb(146, 125, 99) solid;
+}
 .Contact-Form-Input {
     display: flex;
 }

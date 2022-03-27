@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.Contact-Container {
+    font-family: 'Poppins',"Noto Sans", sans-serif;
+    padding: 3rem;
+    background-color: #111111;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/*Contact Form*/
+
+.contact-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    border-bottom: 3px rgb(146, 125, 99) solid;
+}
