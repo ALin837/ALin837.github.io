@@ -3,20 +3,22 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("Navigation-Bar-Container").style.background = "#2e2d2d";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "3px 3px 10px rgba(0, 0, 0, 0.1)";
+    
     /*
-    document.getElementById("logo-text").style.color = "white";
-    document.getElementById("hamburger").style.color = "white"
+    document.getElementById("logo-text").style.color = "black";
+    document.getElementById("hamburger").style.color = "black"
     let resume = document.getElementsByClassName("ResumeClass");
     for (let i = 0; i < resume.length; i++) {
       let element = resume[i];
-      element.style.color="white";
+      element.style.color="black";
     }
     let collection = document.getElementsByClassName("scroll_to");
     for (let i = 0; i < collection.length; i++) {
       let element = collection[i];
-      element.style.color="white";
+      element.style.color="black";
     }
     */
+    
 
   } else {
     document.getElementById("Navigation-Bar-Container").style.background = "none";
@@ -35,6 +37,7 @@ function scrollFunction() {
       element.style.color="white";
     }
     */
+    
   }
 }
 

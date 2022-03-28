@@ -7,10 +7,15 @@
   background-position: center;
   color:white;
   */
+  background-image: url("../images/Images/patrick-tomasso-lZbRV_a4Yxg-unsplash (1).jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 8%;
+  letter-spacing: 8%; 
   display: flex;
   justify-content: center;
   padding-bottom: 4rem;
@@ -22,48 +27,98 @@
 
 .Experience-Title {
   margin-top: 3rem;
+  margin-bottom:2rem;
   display: flex;
   text-align: center;
   justify-content: center;
-}
-
-
-h3 {
-  font-size: 1.4rem;
-  margin: 0px;
-  font-weight: 400;
-  font-style: normal;
+  color: white;
 }
 
 span {
-  font-weight: 400;
-  font-size: 2rem;
+  font-weight: 500;
+  font-size: 1.5rem;
 }
 
 ul li {
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 400;
   font-style: normal;
 }
 
-.Experience-tablist {
-  margin: 2.5rem;
-  width: 20rem;
-}
-
-.Experience-Content {
+.Company {
+  background-color: rgb(241, 246, 248);
+  padding: 1rem;
   margin-bottom: 3rem;
 }
 
+.Experience-Content {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+  /*
+  background-color: rgb(241, 246, 248);
+  */
+}
+.Experience-Box {
+  margin-right: 17%;
+  margin-left: 17%;
+}
 .experience-skill-container {
   display: flex;
   flex-wrap: wrap;
 }
 
 .experience-skill {
-  font-size: 1rem;
+  font-size: 0.8rem;
   margin: 0.5rem;
   padding: 0.4rem;
   border-radius: 10px;
   color: white;
+  box-shadow: 2px 2px #888888;
+}
+
+.Company {
+  display: flex;
+}
+
+.company-image {
+  width:100%;
+  height: auto;
+  border-radius: 15px;
+}
+
+.Company-image-box {
+  padding: 2.7rem;
+  width: 30%;
+}
+
+@media only screen and (max-width:1000px) {
+  .Company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Company-image-box {
+    padding: 2.7rem;
+    width: 30vw;
+  }
+  
+  .Experience-Box {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+
+  .Experience-Wrap {
+    text-align: center;
+  }
+  ul li {
+    text-align: left;
+  }
+  .experience-skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }

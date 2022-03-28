@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .Projects-Container {
   background-color: #ffffff;
   font-family: 'Poppins',"Noto Sans", sans-serif;
@@ -8,22 +9,23 @@
   justify-content: center;
   letter-spacing: 8%;
   padding-bottom: 4vmax;
-  padding-top: 2vmax;
+  padding-top: 2rem;
 }
 
 .Projects-Box {
-  margin-right: 20%;
-  margin-left: 20%;
+  margin-right: 17%;
+  margin-left: 17%;
 }
 
 
 .Projects-Title {
-  margin-top: 2rem;
+  padding-top:1rem;
   margin-right: 20%;
   margin-left: 20%;
+  margin-bottom: 2rem;
   display: flex;
   text-align: left;
-  justify-content: left;
+  justify-content: center;
 }
 
 .Projects-desc {
@@ -45,9 +47,10 @@
 }
 
 .project-image {
-  margin: 1em;
+  margin: 1.5em;
   height: auto;
-  width: 25vw;
+  width: 30vw;
+  box-shadow: 10px 40px 60px -19px rgba(0,0,0,0.31);
   
 }
 
@@ -57,11 +60,13 @@
 }
 
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (max-width: 900px) {
   .Project-section {
     margin-bottom: 2em;
     flex-wrap: wrap;
+    justify-content: center;
   }
+  
   #AGE-Section, #Breakout-Section {
     order: 2;
   }
@@ -69,24 +74,60 @@
     order: 1;
   }
   .project-image {
-    margin: 1em;
+    margin-bottom: -0.5rem;
     height: auto;
-    width: 50vw;
-    
+    width: 80vw;
+  }
+  
+  .Projects-Box {
+    margin-right: 10%;
+    margin-left: 10%;
+  }
+  .Section-Header {
+    display: block;
+    text-align: center;
+  }
+  .Section-Content {
+    display: block;
+    text-align: center;
+  }
+  .project-skill-container {
+    justify-content: center;
+  }
+  .Text {
+    margin-top: 1rem;
   }
 
 }
 
 .project-image:hover {
   cursor: pointer;
-  opacity: 50%;
+  transform: scale(1.05);
 }
 
 #Age {
   cursor: auto;
-  opacity: 100%;
+  transform: scale(1);
 }  
 
 .Text {
-  margin-left:1em;
+  margin-left:1.5em;
+}
+.Project-Text {
+  font-size:0.9rem;
+}
+
+
+.project-skill-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-skill {
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px #888888;
 }
