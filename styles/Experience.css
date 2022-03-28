@@ -52,7 +52,7 @@ ul li {
 .Company {
 
   padding: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 .Experience-Content {
@@ -106,7 +106,7 @@ ul li {
   }
   .Company-image-box {
     padding: 2.7rem;
-    width: 30vw;
+    width: 40vw;
   }
   
   .Experience-Box {
