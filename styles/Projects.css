@@ -2,6 +2,7 @@
 
 .Projects-Container {
   background-color: #ffffff;
+  color: rgb(49, 49, 49);
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -19,12 +20,14 @@
 
 
 .Projects-Title {
-  padding-top:1rem;
-  margin-right: 20%;
-  margin-left: 20%;
+  background-attachment: fixed;
+  background-image: url("../images/Images/arif-riyanto-1DRq1ZsE2N0-unsplash (1).jpg");
+  background-size: cover;
+  background-position: center;
   margin-bottom: 2rem;
+  color: white;
+  padding: 10vh;
   display: flex;
-  text-align: left;
   justify-content: center;
 }
 

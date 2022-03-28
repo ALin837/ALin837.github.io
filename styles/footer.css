@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 footer {
-  background-color: #f5f3f3;
+  background-color: #161515;
   font-family: 'Poppins', "Noto-sans",sans-serif;
   bottom: 0px;
   display: flex;
@@ -11,11 +11,12 @@ footer {
 }
 
 .footer-socials {
+  display: flex;
   justify-content: center;
 }
 
 .footer-name {
-  color: black;
-  font-weight: 400;
+  color: white;
+  font-weight: 300;
   text-align: center;
 }

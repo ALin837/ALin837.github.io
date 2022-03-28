@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Experience-Container {
-  background-color: #f5f3f3;
   /*
   background-image: url("../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg");
   background-size: cover;
   background-position: center;
   color:white;
   */
-  background-image: url("../images/Images/patrick-tomasso-lZbRV_a4Yxg-unsplash (1).jpg");
+
   background-size: cover;
   background-position: center;
-  background-attachment: fixed;
-  
+
+  color: rgb(49, 49, 49);
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -26,12 +25,17 @@
 }
 
 .Experience-Title {
-  margin-top: 3rem;
+  background-image: url("../images/Images/patrick-tomasso-lZbRV_a4Yxg-unsplash (1).jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
   margin-bottom:2rem;
   display: flex;
   text-align: center;
   justify-content: center;
   color: white;
+  box-sizing: border-box;
+  padding: 10vh;
 }
 
 span {
@@ -46,7 +50,7 @@ ul li {
 }
 
 .Company {
-  background-color: rgb(241, 246, 248);
+
   padding: 1rem;
   margin-bottom: 3rem;
 }

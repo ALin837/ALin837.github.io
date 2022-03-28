@@ -15,6 +15,12 @@ code {
 
 .Section-title {
   font-weight: 500;
+  font-size: 7vh;
+  border-bottom: 3px rgb(146, 125, 99) solid;
+}
+
+.About-title {
+  font-weight: 500;
   font-size: 2.3rem;
   border-bottom: 3px rgb(146, 125, 99) solid;
 }
