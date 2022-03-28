@@ -39,7 +39,7 @@
 .Landing-Page-Name {
   /*color: #29416f;*/
   color: white;
-  font-size: 4rem;
+  font-size: 5.5rem;
   font-weight: 300;
   font-style: normal;
 }
@@ -63,5 +63,5 @@ a {
 }
 
 #github-icon:hover, #linkedin-icon:hover, #email-icon:hover {
-  color: rgb(126, 129, 131);
+  color: rgb(162, 166, 168);
 }
