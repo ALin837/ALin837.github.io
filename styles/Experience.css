@@ -105,13 +105,21 @@ ul li {
     justify-content: center;
   }
   .Company-image-box {
-    padding: 2.7rem;
+    padding: 1rem;
     width: 40vw;
   }
-  
+
+  .Experience-Content {
+    width: 100%;
+    margin-right: 0px;
+    margin-left: 0px;
+    /*
+    background-color: rgb(241, 246, 248);
+    */
+  }
   .Experience-Box {
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 0px;
+    margin-left: 0px;
   }
 
   .Experience-Wrap {
