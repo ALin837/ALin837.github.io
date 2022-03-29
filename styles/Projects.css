@@ -53,7 +53,8 @@
   margin: 1.5em;
   height: auto;
   width: 30vw;
-  box-shadow: 10px 40px 60px -19px rgba(0,0,0,0.31);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  transition: transform .35s ease;
   
 }
 
@@ -105,7 +106,8 @@
 
 .project-image:hover {
   cursor: pointer;
-  transform: scale(1.05);
+  transform: scale(1.03);
+  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
 }
 
 #Age {

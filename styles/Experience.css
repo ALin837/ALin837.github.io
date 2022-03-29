@@ -61,9 +61,6 @@ ul li {
   justify-content: center;
   align-items: center;
   width: 70%;
-  /*
-  background-color: rgb(241, 246, 248);
-  */
 }
 .Experience-Box {
   margin-right: 17%;
@@ -85,18 +82,18 @@ ul li {
 
 .Company {
   display: flex;
+  margin-bottom: 2rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+  transition: all .2s ease-out;
 }
 
-.company-image {
-  width:100%;
-  height: auto;
-  border-radius: 15px;
+.Company:hover {
+  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
+
 }
 
-.Company-image-box {
-  padding: 2.7rem;
-  width: 30%;
-}
 
 @media only screen and (max-width:1000px) {
   .Company {
