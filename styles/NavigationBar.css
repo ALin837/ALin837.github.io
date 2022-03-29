@@ -27,8 +27,9 @@
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  margin-right: 15%;
-  margin-left: 15%;
+  margin-right: 13.5%;
+  margin-left: 13.5%;
+
 }
 .nav-button:hover, .nav-buttons:hover {
   transform: scale(1.2);
@@ -48,7 +49,7 @@
 #logo a {
   color: white;
   font-family: 'Poppins', "Noto-sans",sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 8%;
@@ -67,7 +68,7 @@
 
 .nav-button a, .nav-buttons a {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 8%;
@@ -89,7 +90,7 @@
 }
 
 
-@media only screen and (max-width:928px) and (min-width:685px) {
+@media only screen and (max-width:1095px) {
 
   .wrap-nav {
     display: flex;
@@ -107,7 +108,7 @@
 }
 
 
-@media only screen and (max-width: 690px) {
+@media only screen and (max-width: 800px) {
   .nav-button:hover, .nav-buttons:hover {
     transform: scale(1.02);
     cursor: pointer;

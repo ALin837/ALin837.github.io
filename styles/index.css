@@ -14,8 +14,9 @@ code {
 }
 
 .Section-title {
+  padding-top: 1rem;
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2.25rem;
   border-bottom: 3px rgb(146, 125, 99) solid;
 }
 

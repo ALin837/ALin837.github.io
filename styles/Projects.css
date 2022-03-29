@@ -25,6 +25,7 @@
   justify-content: left;
 }
 
+
 .Projects-desc {
   margin: 1em;
   display: flex;
@@ -48,13 +49,48 @@
   height: auto;
   width: 30vw;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-  transition: transform .35s ease;
+  transition: all .2s ease-out;
   
+}
+.project-image:hover {
+  cursor: pointer;
+  transform: scale(1.015);
+  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
+}
+
+#Age:hover {
+  cursor: auto;
+  transform: scale(1);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}  
+
+.Text {
+  margin-left:1.5em;
 }
 
 .Project-section {
   margin-bottom: 2em;
   display: flex;
+}
+
+
+.Project-Text {
+  font-size:0.9rem;
+}
+
+
+.project-skill-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-skill {
+  font-size: 0.8rem;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  color: white;
+  box-shadow: 2px 2px #888888;
 }
 
 
@@ -106,38 +142,4 @@
   }
   
   
-}
-
-.project-image:hover {
-  cursor: pointer;
-  transform: scale(1.03);
-  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
-}
-
-#Age {
-  cursor: auto;
-  transform: scale(1);
-  box-shadow:none;
-}  
-
-.Text {
-  margin-left:1.5em;
-}
-.Project-Text {
-  font-size:0.9rem;
-}
-
-
-.project-skill-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-skill {
-  font-size: 0.8rem;
-  margin: 0.5rem;
-  padding: 0.4rem;
-  border-radius: 5px;
-  color: white;
-  box-shadow: 2px 2px #888888;
 }
