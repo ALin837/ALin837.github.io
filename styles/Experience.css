@@ -1,15 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Experience-Container {
-  /*
-  background-image: url("../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg");
-  background-size: cover;
-  background-position: center;
-  color:white;
-  */
-
-  background-size: cover;
-  background-position: center;
-
   color: rgb(49, 49, 49);
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
@@ -25,23 +15,46 @@
 }
 
 .Experience-Title {
-  background-image: url("../images/Images/patrick-tomasso-lZbRV_a4Yxg-unsplash (1).jpg");
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
   margin-bottom:2rem;
   display: flex;
   text-align: center;
-  justify-content: center;
-  color: white;
+  justify-content: left;
   box-sizing: border-box;
-  padding: 10vh;
+}
+
+
+
+.row-experience {
+  display: flex;
+
+}
+.timeline-segment {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.vertical-line {
+  height: 50%;
+  width: 5px;
+  background-color: #636060;
+}
+
+.ball {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  border: rgb(54, 53, 53) 1px solid;
+
 }
 
 span {
   font-weight: 500;
   font-size: 1.5rem;
 }
+
 
 ul li {
   font-size: 0.9rem;
@@ -50,9 +63,8 @@ ul li {
 }
 
 .Company {
-
   padding: 1rem;
-  margin-bottom: 1rem;
+  width: 75%;
 }
 
 .Experience-Content {
@@ -66,6 +78,8 @@ ul li {
   margin-right: 17%;
   margin-left: 17%;
 }
+
+/*Experience skill*/
 .experience-skill-container {
   display: flex;
   flex-wrap: wrap;
@@ -80,9 +94,11 @@ ul li {
   box-shadow: 2px 2px #888888;
 }
 
+
+/*Company*/
 .Company {
+  margin: 1rem;
   display: flex;
-  margin-bottom: 2rem;
   border: 1px solid rgba(0,0,0,.125);
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
@@ -96,6 +112,10 @@ ul li {
 
 
 @media only screen and (max-width:1000px) {
+  .row-experience {
+    display: flex;
+    justify-content: center;
+  }
   .Company {
     display: flex;
     flex-wrap: wrap;
@@ -110,14 +130,8 @@ ul li {
     width: 100%;
     margin-right: 0px;
     margin-left: 0px;
-    /*
-    background-color: rgb(241, 246, 248);
-    */
   }
-  .Experience-Box {
-    margin-right: 0px;
-    margin-left: 0px;
-  }
+
 
   .Experience-Wrap {
     text-align: center;
@@ -129,5 +143,22 @@ ul li {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+}
+
+@media only screen and (max-width:680px) {
+  .Experience-Box {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+  .Experience-Title {
+    margin-bottom:2rem;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .timeline-segment {
+    display: none;
   }
 }

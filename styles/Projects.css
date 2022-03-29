@@ -20,15 +20,8 @@
 
 
 .Projects-Title {
-  background-attachment: fixed;
-  background-image: url("../images/Images/arif-riyanto-1DRq1ZsE2N0-unsplash (1).jpg");
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 2rem;
-  color: white;
-  padding: 10vh;
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 .Projects-desc {
@@ -104,6 +97,16 @@
 
 }
 
+
+@media only screen and (max-width:680px) {
+  .Projects-Title {
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+}
+
 .project-image:hover {
   cursor: pointer;
   transform: scale(1.03);
@@ -113,6 +116,7 @@
 #Age {
   cursor: auto;
   transform: scale(1);
+  box-shadow:none;
 }  
 
 .Text {
