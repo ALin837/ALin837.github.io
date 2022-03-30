@@ -20,6 +20,7 @@
 
 .Contact-Wrap {
     display: flex;
+    flex-wrap: wrap;
     justify-content:center;
 
 }
@@ -36,7 +37,7 @@
     align-items: center;
 }
 .Contact-Quick {
-    width: 50%;
+    min-width: 50%;
 }
 .contact-socials {
     display: flex;
@@ -71,6 +72,18 @@ label {
     display: grid;
 }
 
+#fname {
+    width: 89%;
+}
+#lname {
+    width: 89%;
+}
+#email {
+    width: 95%;
+}
+#subject {
+    width: 100%;
+}
 
 .message {
    display: grid;
@@ -101,7 +114,7 @@ textarea {
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     outline-width: 0;
-    font-size: 0.9rem;;
+    font-size: 0.9rem;
 }
 
 input[type=button] {
@@ -122,10 +135,14 @@ input[type=button]:hover {
     cursor: pointer;
 
 }
-@media only screen and (max-width:680px) {
-    .Contact-Wrap {
-        display: block;
+@media only screen and (max-width:849px) {
+    .Contact-Quick {
+        margin-bottom: 2rem;
     }
-    
+    .Contact-Form-Input {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
 }
   
