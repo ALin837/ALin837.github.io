@@ -1,7 +1,8 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("Navigation-Bar-Container").style.background = "#2e2d2d";
+    //"#2e2d2d"
+    document.getElementById("Navigation-Bar-Container").style.background = "white";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "3px 3px 10px rgba(0, 0, 0, 0.1)";
     
     /*
@@ -21,8 +22,8 @@ function scrollFunction() {
     
 
   } else {
-    document.getElementById("Navigation-Bar-Container").style.background = "none";
-    document.getElementById("Navigation-Bar-Container").style.boxShadow = "none";
+    document.getElementById("Navigation-Bar-Container").style.background = "white";
+    document.getElementById("Navigation-Bar-Container").style.boxShadow = "3px 3px 10px rgba(0, 0, 0, 0.1)";
     /*
     document.getElementById("logo-text").style.color = "#d1d4d4";
     document.getElementById("hamburger").style.color =  "#d1d4d4";

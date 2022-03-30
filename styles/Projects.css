@@ -7,22 +7,12 @@
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
-  justify-content: center;
-  letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2rem;
-}
-
-.Projects-Box {
-  margin-right: 17%;
+  box-sizing: border-box;
+  width: 100%;
   margin-left: 17%;
-}
-
-
-.Projects-Title {
-  padding-top: 2rem;
-  display: flex;
-  justify-content: left;
+  margin-right: 17%;
 }
 
 
@@ -48,12 +38,14 @@
   margin: 1.5em;
   height: auto;
   width: 30vw;
+  filter: brightness(70%);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   transition: all .2s ease-out;
   
 }
 .project-image:hover {
   cursor: pointer;
+  filter: brightness(100%);
   transform: scale(1.015);
   box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
 }
@@ -90,7 +82,7 @@
   padding: 0.4rem;
   border-radius: 5px;
   color: white;
-  box-shadow: 2px 2px #888888;
+  background-color: rgb(41, 39, 39);
 }
 
 

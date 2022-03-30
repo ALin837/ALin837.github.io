@@ -17,9 +17,19 @@ code {
   padding-top: 1rem;
   font-weight: 400;
   font-size: 2.25rem;
-  border-bottom: 3px rgb(146, 125, 99) solid;
 }
 
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.Main-wrap {
+  margin: 0 17%;
+  max-width: 1260px;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
+}
 
 
 h3 {

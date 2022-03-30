@@ -7,22 +7,11 @@
   letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2vmax;
-  display: flex;
-}
-
-.About-me-wrap {
-  margin-right: 17%;
+  box-sizing: border-box;
+  width: 100%;
   margin-left: 17%;
-  margin-bottom: 2%;
-
+  margin-right: 17%;
 }
-
-.About-Me-Title {
-  margin-top: 1rem;
-  text-align: left;
-  display: flex;
-}
-
 
 
 .About-Me-Description {
@@ -56,11 +45,9 @@
 }
 
 @media only screen and (max-width:680px) {
-  .About-Me-Title {
-    margin-top: 1.5rem;
+  .About-Me-Description{
+
     text-align: center;
-    display: flex;
-    justify-content: center;
   }
   
   

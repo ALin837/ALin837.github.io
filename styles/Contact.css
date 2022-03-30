@@ -3,24 +3,135 @@
 .Contact-Container {
     font-family: 'Poppins',"Noto Sans", sans-serif;
     background-color: #111111;
+    background-color: white;
     color: white;
+    color: black;
     padding-bottom: 3rem;
+    box-sizing: border-box;
+    width: 100%;
+    
 
+}
+
+.Contact-Title {
+    display: flex;
+    margin-left:17%;
 }
 
 .Contact-Wrap {
-    margin-right: 17%;
+    display: flex;
+    justify-content:center;
     margin-left: 17%;
+    margin-right: 17%;
+}
+
+#Contact-Me {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.contact-socials {
+    display: flex;
+    justify-content: left;
+}
+
+
+/*Contact Quick*/
+.Contact-Quick-Title {
+    display: flex;
+    justify-content: center;
+    font-size: 2.7rem;
+}
+.Contact-Quick {
+    margin-right: auto;
+
+}
+.Contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contact-Link-List {
+    list-style-type: none;
 }
 
 /*Contact Form*/
-.Contact-Form {
-    display: block;
+
+
+.Contact-Form-Input {
+    display: flex;
+    margin-right: 0px;
 }
 
-.Contact-Form-Title {
-    margin-top: 1.5rem;
-    text-align: left;
+label {
+    font-size: 1.1rem;
+}
+
+.name {
     display: flex;
-  }
-  
+    margin-bottom: 1.5rem;
+}
+
+.email-seg {
+    margin-bottom: 1.5rem;
+}
+
+.message-seg {
+    margin-bottom: 1.5rem;
+}
+.email-address {
+    display: grid;
+}
+
+
+.message {
+   display: grid;
+}
+
+#left-name {
+    margin-right: 1.5rem;
+}
+
+input[type=text] {
+    border-radius: 4px;
+    font-family: 'Poppins',"Noto Sans", sans-serif;
+    outline-width: 0;
+    font-size: 0.9rem;
+    padding: 10px;
+    height: 20px;
+    border: 1px solid #ccc; 
+}
+
+textarea {
+    font-family: 'Poppins',"Noto Sans", sans-serif;
+     /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    outline-width: 0;
+    font-size: 0.9rem;;
+}
+
+input[type=button] {
+    font-family: 'Poppins',"Noto Sans", sans-serif;
+    background-color: white;
+    border-radius: 4px; /* Rounded borders */
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(0,0,0,.125);
+    outline-width: 0;
+    margin-right: 1.5rem;
+    font-size: 0.9rem;
+    padding: 6px 14px;
+    transition: all .2s ease-out;
+}
+
+input[type=button]:hover {
+    background-color: rgb(210, 213, 214);
+    cursor: pointer;
+
+}
