@@ -4,26 +4,11 @@
   font-family: 'Poppins',"Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
-  letter-spacing: 8%; 
-  display: flex;
-  justify-content: center;
-  padding-bottom: 4rem;
-}
-.Experience-Box {
-  margin-right: 17%;
-  margin-left: 17%;
-}
+  letter-spacing: 8%;
+  padding-bottom: 4vmax;
+  padding-top: 2vmax;
 
-.Experience-Title {
-  padding-top: 2rem;
-  margin-bottom:2rem;
-  display: flex;
-  text-align: center;
-  justify-content: left;
-  box-sizing: border-box;
 }
-
-
 
 .row-experience {
   display: flex;
@@ -58,7 +43,7 @@ span {
 
 
 ul li {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   font-style: normal;
 }
@@ -75,10 +60,6 @@ ul li {
   align-items: center;
   width: 70%;
 }
-.Experience-Box {
-  margin-right: 17%;
-  margin-left: 17%;
-}
 
 /*Experience skill*/
 .experience-skill-container {
@@ -87,12 +68,12 @@ ul li {
 }
 
 .experience-skill {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0.5rem;
   padding: 0.4rem;
-  border-radius: 10px;
+  border-radius: 3px;
   color: white;
-  box-shadow: 2px 2px #888888;
+  background-color: rgb(41, 39, 39);
 }
 
 
@@ -111,8 +92,18 @@ ul li {
 
 }
 
+@media only screen and (max-width:680px) {
+  .Company {
+    margin: 1rem auto;
+  }
+  .timeline-segment {
+    display: none;
+  }
+}
 
+/*
 @media only screen and (max-width:1000px) {
+
   .row-experience {
     display: flex;
     justify-content: center;
@@ -146,20 +137,4 @@ ul li {
     justify-content: center;
   }
 }
-
-@media only screen and (max-width:680px) {
-  .Experience-Box {
-    margin-right: 5%;
-    margin-left: 5%;
-  }
-  .Experience-Title {
-    margin-bottom:2rem;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-  }
-  
-  .timeline-segment {
-    display: none;
-  }
-}
+*/

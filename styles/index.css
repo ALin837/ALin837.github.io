@@ -14,11 +14,18 @@ code {
 }
 
 .Section-title {
+  padding-top: 1rem;
   font-weight: 400;
-  font-size: 3rem;
-  border-bottom: 3px rgb(146, 125, 99) solid;
+  font-size: 2.25rem;
+
 }
 
+.Main-wrap {
+  margin: 0 auto;
+  max-width: 1260px;
+  padding: 0px 1.0875rem 1.45rem;
+  padding-top: 0;
+}
 
 
 h3 {
@@ -29,7 +36,7 @@ h3 {
 
 h4 {
   font-family: 'Poppins',"Noto Sans", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 500;
-
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 5px 0px; 
 }

@@ -7,57 +7,85 @@
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
-  justify-content: center;
-  letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2rem;
-}
 
-.Projects-Box {
-  margin-right: 17%;
-  margin-left: 17%;
 }
 
 
-.Projects-Title {
-  padding-top: 2rem;
-  display: flex;
-  justify-content: left;
+
+
+.image-box {
+  width: 100%;
+  height: 500px;
+
 }
 
-.Projects-desc {
+
+.Section-wrap {
   margin: 1em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-
-.Section-Header {
-  display: block;
-
-}
-
-.Section-Content {
-  display: block;
-
-}
 
 .project-image {
-  margin: 1.5em;
-  height: auto;
-  width: 30vw;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(70%);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-  transition: transform .35s ease;
-  
+  transition: all .2s ease-out;
+
+}
+
+.project-image:hover {
+  cursor: pointer;
+  filter: brightness(100%);
+  transform: scale(1.015);
+  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
+}
+
+.image-wrap {
+  height: 700px;
+  width: 100%;
+}
+
+#Age:hover {
+  cursor: auto;
+  transform: scale(1);
+  filter: brightness(70%);
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+}  
+
+.Text {
+  margin-left:1.5rem;
 }
 
 .Project-section {
-  margin-bottom: 2em;
-  display: flex;
+  margin-bottom: 7em;
 }
 
 
+.Project-Text {
+  font-size:1rem;
+}
+
+
+.project-skill-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-skill {
+  font-size: 1rem;
+  margin: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(41, 39, 39);
+}
+
+
+/*
 @media only screen and (max-width: 900px) {
   .Project-section {
     margin-bottom: 2em;
@@ -107,37 +135,4 @@
   
   
 }
-
-.project-image:hover {
-  cursor: pointer;
-  transform: scale(1.03);
-  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
-}
-
-#Age {
-  cursor: auto;
-  transform: scale(1);
-  box-shadow:none;
-}  
-
-.Text {
-  margin-left:1.5em;
-}
-.Project-Text {
-  font-size:0.9rem;
-}
-
-
-.project-skill-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-skill {
-  font-size: 0.8rem;
-  margin: 0.5rem;
-  padding: 0.4rem;
-  border-radius: 5px;
-  color: white;
-  box-shadow: 2px 2px #888888;
-}
+*/

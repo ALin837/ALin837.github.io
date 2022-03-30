@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Landing-Page-Container {
-  
+  /*
   background-image: url("../images/Images/Toronto.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
   
-  /*
+  
   background-image: url("../images/Images/background-copy.jpg");
   background-size: cover;
   background-position: center;
@@ -17,38 +17,39 @@
   font-style: normal;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   height: 100vh;
 }
 
-.Content-Container {
-  filter: brightness(100%);
-}
-
 .Words-Container {
-  text-align: center;
+  text-align: left;
 }
 
 .Landing-Page-Intro {
   color: rgb(209, 212, 212);
+  color: black;
+  color: rgb(49, 49, 49);
   font-size: 1.5rem;
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
 
 .Landing-Page-Name {
   /*color: #29416f;*/
   color: white;
-  font-size: 5.5rem;
+  color: black;
+  color: rgb(49, 49, 49);
+  font-size: 4rem;
   font-weight: 300;
   font-style: normal;
 }
 
 .Landing-Page-School {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: normal;
   font-style: normal;
   padding-bottom: 1.5rem;
+  color: rgb(49, 49, 49);
 }
 
 a {
@@ -60,6 +61,8 @@ a {
 }
 #github-icon, #linkedin-icon, #email-icon {
   color: white;
+  color: black;
+  color: rgb(49, 49, 49);
 }
 
 #github-icon:hover, #linkedin-icon:hover, #email-icon:hover {
