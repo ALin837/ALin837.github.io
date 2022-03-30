@@ -50,6 +50,7 @@
     display: flex;
     justify-content: center;
     width: 50%;
+
 }
 
 label {
@@ -57,21 +58,32 @@ label {
 }
 
 .name {
-    display: flex;
+    display: grid;
     margin-bottom: 1.5rem;
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+
 }
+
 
 .email-seg {
+    width: 100%;
     margin-bottom: 1.5rem;
 }
+
+#email {
+    width: 100%;
+}
+
 
 .message-seg {
+    
+    width: 100%;
     margin-bottom: 1.5rem;
 }
-.email-address {
-    display: grid;
-}
 
+/*
 #fname {
     width: 89%;
 }
@@ -84,23 +96,20 @@ label {
 #subject {
     width: 100%;
 }
+*/
 
-.message {
-   display: grid;
-}
 
-#left-name {
-    margin-right: 1.5rem;
-}
+
 
 input[type=text] {
+    box-sizing: border-box;
     border-radius: 4px;
     font-family: 'Poppins',"Noto Sans", sans-serif;
     outline-width: 0;
     font-size: 0.9rem;
     padding: 10px;
-    height: 20px;
     border: 1px solid #ccc; 
+    width: 100%;
 }
 
 textarea {
@@ -115,6 +124,7 @@ textarea {
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
     outline-width: 0;
     font-size: 0.9rem;
+    width: 100%;
 }
 
 input[type=button] {
@@ -135,14 +145,18 @@ input[type=button]:hover {
     cursor: pointer;
 
 }
-@media only screen and (max-width:849px) {
+
+@media only screen and (max-width:881px) {
     .Contact-Quick {
         margin-bottom: 2rem;
     }
     .Contact-Form-Input {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: auto;
+    
     }
+
 }
+  
   
