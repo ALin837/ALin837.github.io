@@ -16,14 +16,12 @@
 .Contact-Title {
     display: flex;
     padding-top: 2rem;
-    margin-left:17%;
 }
 
 .Contact-Wrap {
     display: flex;
     justify-content:center;
-    margin-left: 17%;
-    margin-right: 17%;
+
 }
 
 #Contact-Me {
@@ -31,38 +29,26 @@
     width: 100%;
 }
 
+/*Contact Quick*/
+.Contact-links {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.Contact-Quick {
+    width: 50%;
+}
 .contact-socials {
     display: flex;
     justify-content: left;
 }
 
 
-/*Contact Quick*/
-.Contact-Quick-Title {
-    display: flex;
-    justify-content: center;
-    font-size: 2.7rem;
-}
-.Contact-Quick {
-    margin-right: auto;
-
-}
-.Contact-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Contact-Link-List {
-    list-style-type: none;
-}
-
 /*Contact Form*/
-
-
 .Contact-Form-Input {
     display: flex;
-    margin-right: 0px;
+    justify-content: center;
+    width: 50%;
 }
 
 label {
@@ -136,3 +122,10 @@ input[type=button]:hover {
     cursor: pointer;
 
 }
+@media only screen and (max-width:680px) {
+    .Contact-Wrap {
+        display: block;
+    }
+    
+}
+  

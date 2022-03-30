@@ -7,10 +7,7 @@
   letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2vmax;
-  box-sizing: border-box;
-  width: 100%;
-  margin-left: 17%;
-  margin-right: 17%;
+
 }
 
 .row-experience {
@@ -46,7 +43,7 @@ span {
 
 
 ul li {
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 400;
   font-style: normal;
 }
@@ -71,7 +68,7 @@ ul li {
 }
 
 .experience-skill {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin: 0.5rem;
   padding: 0.4rem;
   border-radius: 3px;
@@ -95,7 +92,16 @@ ul li {
 
 }
 
+@media only screen and (max-width:680px) {
+  .Company {
+    margin: 1rem auto;
+  }
+  .timeline-segment {
+    display: none;
+  }
+}
 
+/*
 @media only screen and (max-width:1000px) {
 
   .row-experience {
@@ -131,21 +137,4 @@ ul li {
     justify-content: center;
   }
 }
-
-@media only screen and (max-width:680px) {
-  .Experience-Container {
-
-    margin-left: 2%; 
-    margin-right: 2%;
-  
-    
-  }
-
-  h2 {
-    text-align: center;
-  }
- 
-  .timeline-segment {
-    display: none;
-  }
-}
+*/
