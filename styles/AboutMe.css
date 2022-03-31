@@ -1,19 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .About-Me-Container {
   color: rgb(49, 49, 49);
-  font-family: 'Poppins',"Noto Sans", sans-serif;
+  font-family: 'Poppins', "Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2vmax;
-
+  font-size: 1.25rem;
 }
 
-
-.About-Me-Description {
-  font-size: 1rem;
-}
 
 #About-Me-Image {
   border-radius: 50%;

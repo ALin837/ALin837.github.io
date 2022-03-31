@@ -3,7 +3,7 @@
 .Projects-Container {
   background-color: #ffffff;
   color: rgb(49, 49, 49);
-  font-family: 'Poppins',"Noto Sans", sans-serif;
+  font-family: 'Poppins', "Noto Sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
@@ -58,10 +58,10 @@
   transform: scale(1);
   filter: brightness(70%);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
-}  
+}
 
 .Text {
-  margin-left:1.5rem;
+  margin-left: 1.5rem;
 }
 
 .Project-section {
@@ -70,7 +70,7 @@
 
 
 .Project-Text {
-  font-size:1rem;
+  font-size: 1.25rem;
 }
 
 
@@ -80,7 +80,7 @@
 }
 
 .project-skill {
-  font-size: 1rem;
+  font-size: 1.25rem;
   margin: 0.5rem;
   padding: 0.4rem;
   border-radius: 5px;
