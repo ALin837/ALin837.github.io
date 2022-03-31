@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .Navigation-Bar-Container {
-  background-color: white; 
+  background-color: rgb(255, 255, 255); 
   position: fixed;
   box-shadow: none;
   /*
@@ -32,8 +32,9 @@
   margin-left: 13.5%;
 
 }
-.nav-button:hover, .nav-buttons:hover {
-  transform: scale(1.2);
+.nav-button a:hover, .nav-buttons a:hover {
+  /*transform: scale(1.2);*/
+  color: #F05454;
   cursor: pointer;
 }
 
@@ -47,13 +48,18 @@
   margin-left: 5%;
 }
 
+#logo a:hover {
+  color: #F05454;
+  cursor: pointer;
+}
+
 #logo a {
   color: white;
   color: black;
   font-family: 'Poppins', "Noto-sans",sans-serif;
   font-size: 1.1rem;
   font-weight: 300;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;
 }
@@ -64,16 +70,14 @@
   border-radius: 7%;
 }
 
-.nav-buttons a,.nav-button a {
-  transition: 1.5s;
-}
+
 
 
 .nav-button a, .nav-buttons a {
   display: inline-block;
   font-size: 0.9rem;
   font-weight: 300;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;
   color: white;
@@ -167,6 +171,10 @@
     display: inline;
     right: 2%;
     position: absolute;
+  }
+
+  .icon:hover {
+    color: #F05454;
   }
   #NormalNavBar {
     display: none;

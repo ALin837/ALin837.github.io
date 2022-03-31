@@ -15,9 +15,9 @@ code {
 
 .Section-title {
   padding-top: 1rem;
-  font-weight: 400;
-  font-size: 2.25rem;
-
+  font-weight: 500;
+  font-size: 2.5rem;
+  color: #F05454;
 }
 
 .Main-wrap {
@@ -36,7 +36,8 @@ h3 {
 
 h4 {
   font-family: 'Poppins',"Noto Sans", sans-serif;
-  font-size: 2rem;
-  font-weight: 400;
+  font-size: 1.5rem;
+  font-weight: 500;
   margin: 5px 0px; 
+  color: black;
 }
