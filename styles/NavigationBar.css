@@ -115,6 +115,7 @@
 
   .nav-button {
     background-color: white;
+    padding: 0px;
   }
 
   .nav-button a {
@@ -174,7 +175,7 @@
   }
 
   .icon {
-    font-size: 1rem;
+    font-size: 1.15rem;
     display: inline;
     right: 2%;
     position: absolute;
