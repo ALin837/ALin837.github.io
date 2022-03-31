@@ -30,7 +30,7 @@
 }
 
 .nav-button:hover {
-  background-color: #4b1779;
+  background-color: #641fa0;
 }
 
 .Navigation {
@@ -47,7 +47,7 @@
   display: inline-block;
   color: black;
   font-family: 'Poppins', "Noto-sans", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 8%;
@@ -65,7 +65,7 @@
 .nav-button a,
 .nav-buttons a {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 8%;
@@ -77,6 +77,7 @@
 
 .nav-button {
   background-color: #9b40ea;
+  transition: 0.3s;
 }
 
 .nav-button a {

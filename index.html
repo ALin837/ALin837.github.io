@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="styles/Projects.css" />
   <link rel="stylesheet" href="styles/Contact.css" />
   <link rel="stylesheet" href="styles/AboutMe.css" />
+  <link rel="stylesheet" href="styles/Skills.css" />
   <link rel="stylesheet" href="styles/footer.css" />
   <script src="https://kit.fontawesome.com/71c6f26d48.js" crossorigin="anonymous"></script>
 </head>
@@ -44,6 +45,11 @@
             <li class="nav-buttons">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
+                SKILLS
               </a>
             </li>
             <li class="nav-buttons">
@@ -82,6 +88,11 @@
             <li class="nav-buttons">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
+              </a>
+            </li>
+            <li class="nav-buttons">
+              <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
+                SKILLS
               </a>
             </li>
             <li class="nav-buttons">
@@ -124,8 +135,9 @@
                 I am a <b>Computer Science Student</b> at the <b>University of Waterloo</b>.
               </div>
 
+              <button id="Go-to-Contact" onclick="Contact();"> Contact Me </button>
 
-
+              <!--
               <div class="socials">
                 <a href="https://github.com/ALin837" target="_blank">
                   <i class="fab fa-github" id="github-icon" style="font-size: 2rem; margin-right: 20px;"></i>
@@ -139,6 +151,7 @@
                   <i class="fas fa-envelope" id="email-icon" style="font-size: 2rem;  margin-right: 20px;"></i>
                 </a>
               </div>
+              -->
 
             </div>
           </div>
@@ -181,6 +194,101 @@
                     Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
                   </p>
                 </div>
+              </div>
+              <div class="socials">
+                <a href="https://github.com/ALin837" target="_blank">
+                  <i class="fab fa-github" id="github-icon" style="font-size: 2rem; margin-right: 20px;"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
+                  <i class="fab fa-linkedin-in" id="linkedin-icon" style="font-size: 2rem;  margin-right: 20px;"></i>
+                </a>
+
+                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
+                  <i class="fas fa-envelope" id="email-icon" style="font-size: 2rem;  margin-right: 20px;"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="Skills-Container" id="Skills-Me">
+          <h2 class="Section-title">SKILLS</h2>
+          <div class="Skill-Section">
+            <h3><span>Programming Languages:</span></h3>
+            <div class="experience-skill-container">
+              <div class="experience-skill">
+                <code>C/C++</code>
+              </div>
+              <div class="experience-skill">
+                <code>Java</code>
+              </div>
+              <div class="experience-skill">
+                <code>Python</code>
+              </div>
+              <div class="experience-skill">
+                <code>HTML</code>
+              </div>
+              <div class="experience-skill">
+                <code>CSS</code>
+              </div>
+              <div class="experience-skill">
+                <code>JavaScript</code>
+              </div>
+              <div class="experience-skill">
+                <code>Golang</code>
+              </div>
+              <div class="experience-skill">
+                <code>C#.Net</code>
+              </div>
+              <div class="experience-skill">
+                <code>Groovy</code>
+              </div>
+            </div>
+          </div>
+          <div class="Skill-Section">
+            <h3><span>Libraries/Frameworks:</span></h3>
+            <div class="experience-skill-container">
+              <div class="experience-skill">
+                <code>React</code>
+              </div>
+              <div class="experience-skill">
+                <code>Django</code>
+              </div>
+              <div class="experience-skill">
+                <code>Node.js</code>
+              </div>
+              <div class="experience-skill">
+                <code>Express.js</code>
+              </div>
+              <div class="experience-skill">
+                <code>Socket.io</code>
+              </div>
+              <div class="experience-skill">
+                <code>PyGame</code>
+              </div>
+              <div class="experience-skill">
+                <code>Ncurses</code>
+              </div>
+            </div>
+          </div>
+          <div class="Skill-Section">
+            <h3><span>Tools:</span></h3>
+            <div class="experience-skill-container">
+              <div class="experience-skill">
+                <code>Git</code>
+              </div>
+              <div class="experience-skill">
+                <code>Jmeter</code>
+              </div>
+              <div class="experience-skill">
+                <code>Selenium</code>
+              </div>
+              <div class="experience-skill">
+                <code>PostgreSQL</code>
+              </div>
+              <div class="experience-skill">
+                <code>Kanban/JIRA board</code>
               </div>
             </div>
           </div>
@@ -405,6 +513,9 @@
                 <div class="Section-wrap">
                   <h4>ASCII Game Engine</h4>
                   <div class="Section-Content">
+                    <p class="Project-Text">
+                      <b>Sorry this is a private project</b>
+                    </p>
                     <p class="Project-Text">
                       An ASCII Game Engine to support the creation of ASCII art video games. Recreated Google's
                       Dinosaur

@@ -60,6 +60,12 @@ for (var i = 0; i < sections.length; i++) {
 
 }
 
+const contactButton = document.getElementById("Go-to-Contact");
+function Contact() {
+  const el = document.getElementById("Contact-Me");
+  el.scrollIntoView({behavior:"smooth", block: "start"})
+}
+
 function DisplayOptions() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
