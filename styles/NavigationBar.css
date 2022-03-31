@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .Navigation-Bar-Container {
-  background-color: rgb(255, 255, 255); 
+  background-color: rgb(255, 255, 255);
   position: fixed;
   box-shadow: none;
   display: flex;
@@ -21,10 +22,15 @@
 
 }
 
-#logo-text:hover, .nav-button a:hover, .nav-buttons a:hover {
+#logo-text:hover,
+.nav-buttons a:hover {
   transform: scale(1.05);
-  color: #F05454;
+  color: #9b40ea;
   cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #4b1779;
 }
 
 .Navigation {
@@ -40,7 +46,7 @@
 .logo a {
   display: inline-block;
   color: black;
-  font-family: 'Poppins', "Noto-sans",sans-serif;
+  font-family: 'Poppins', "Noto-sans", sans-serif;
   font-size: 1.1rem;
   font-weight: 400;
   font-style: normal;
@@ -49,24 +55,34 @@
   transition: 0.3s;
 }
 
-.nav-buttons,.nav-button {
+.nav-buttons,
+.nav-button {
   margin-right: 1rem;
-  border-radius: 7%;
+  border-radius: 5px;
 }
 
 
-.nav-button a, .nav-buttons a {
+.nav-button a,
+.nav-buttons a {
   display: inline-block;
   font-size: 1rem;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 8%;
-  color: black;
   text-decoration: none;
-  font-family: 'Poppins',"Noto-sans" ,sans-serif;
+  font-family: 'Poppins', "Noto-sans", sans-serif;
   padding: 5px 5px;
   transition: 0.3s;
 }
+
+.nav-button {
+  background-color: #9b40ea;
+}
+
+.nav-button a {
+  color: white;
+}
+
 
 .icon {
   font-size: 1rem;
@@ -90,18 +106,37 @@
 
 
 @media only screen and (max-width: 850px) {
-  .logo a:hover, .nav-button a:hover, .nav-buttons a:hover {
+
+  .nav-button:hover {
+    background-color: white;
+  }
+
+  .nav-button {
+    background-color: white;
+  }
+
+  .nav-button a {
+    background-color: none;
+    color: black;
+  }
+
+  .logo a:hover,
+  .nav-button a:hover,
+  .nav-buttons a:hover {
     transform: scale(1.05);
-    color: #F05454;
+    color: #9b40ea;
     cursor: pointer;
   }
+
+
+
   .MobileView {
     margin-left: -4px;
   }
 
   .Navigation-Bar-Container {
     position: fixed;
-    background-color: transparent; 
+    background-color: transparent;
     background-color: white;
     box-shadow: "3px 3px 10px rgba(0, 0, 0, 0.1)";
     display: flex;
@@ -115,7 +150,7 @@
     padding-left: 0px;
     list-style-type: none;
   }
-  
+
   .wrap-nav {
     display: flex;
     align-items: center;
@@ -135,7 +170,7 @@
     margin-right: auto;
     margin-left: 0%;
   }
-  
+
   .icon {
     font-size: 1rem;
     display: inline;
@@ -144,14 +179,14 @@
   }
 
   .icon:hover {
-    color: #F05454;
+    color: #9b40ea;
   }
+
   #NormalNavBar {
     display: none;
   }
-  
+
   #myLinks {
     display: none;
   }
 }
-

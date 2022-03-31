@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 .Landing-Page-Container {
   /*
   background-image: url("../images/Images/Toronto.jpg");
@@ -11,8 +12,8 @@
   background-size: cover;
   background-position: center;
   */
-  
-  font-family: 'Poppins', "Noto-sans",sans-serif;
+
+  font-family: 'Poppins', "Noto-sans", sans-serif;
   font-weight: 800;
   font-style: normal;
   display: flex;
@@ -39,8 +40,8 @@
   color: white;
   color: black;
   color: rgb(49, 49, 49);
-  color: #F05454;
-  font-size: 4rem;
+  color: #9b40ea;
+  font-size: 4.3rem;
   font-weight: 500;
   font-style: normal;
 }
@@ -60,12 +61,17 @@ a {
 .Content-Container {
   margin: 0px;
 }
-#github-icon, #linkedin-icon, #email-icon {
+
+#github-icon,
+#linkedin-icon,
+#email-icon {
   color: white;
   color: black;
   color: rgb(49, 49, 49);
 }
 
-#github-icon:hover, #linkedin-icon:hover, #email-icon:hover {
+#github-icon:hover,
+#linkedin-icon:hover,
+#email-icon:hover {
   color: rgb(162, 166, 168);
 }
