@@ -2,15 +2,11 @@
 
 .Contact-Container {
     font-family: 'Poppins', "Noto Sans", sans-serif;
-    background-color: #111111;
-    background-color: white;
     color: white;
     color: black;
     padding-bottom: 3rem;
     box-sizing: border-box;
     width: 100%;
-
-
 }
 
 .Contact-Title {
@@ -84,24 +80,6 @@ label {
     width: 100%;
     margin-bottom: 1.5rem;
 }
-
-/*
-#fname {
-    width: 89%;
-}
-#lname {
-    width: 89%;
-}
-#email {
-    width: 95%;
-}
-#subject {
-    width: 100%;
-}
-*/
-
-
-
 
 input[type=text] {
     box-sizing: border-box;
