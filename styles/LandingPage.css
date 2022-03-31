@@ -19,6 +19,8 @@
   align-items: center;
   justify-content: left;
   height: 100vh;
+  padding-top: 10vh;
+  height: 50vh;
 }
 
 .Words-Container {
