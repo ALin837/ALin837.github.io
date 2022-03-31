@@ -1,3 +1,4 @@
+/*
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
@@ -18,7 +19,7 @@ function scrollFunction() {
       let element = collection[i];
       element.style.color="black";
     }
-    */
+    
     
 
   } else {
@@ -37,11 +38,11 @@ function scrollFunction() {
       let element = collection[i];
       element.style.color="white";
     }
-    */
+    
     
   }
 }
-
+*/
 
 const sections = document.getElementsByClassName("scroll_to");
 for (var i = 0; i < sections.length; i++) {
