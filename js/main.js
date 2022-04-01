@@ -101,7 +101,7 @@ window.addEventListener("scroll", ()=> {
   sections_s.forEach(section => {
     const sectionTop = section.offsetTop
     const sectionHeight = section.clientHeight
-    if (scrollY >= (sectionTop - 45)) {
+    if (scrollY >= (sectionTop - 100)) {
       current = section.getAttribute('id');
     }
   })
@@ -117,7 +117,7 @@ window.addEventListener("scroll", ()=> {
     project.classList.remove('active')
     contact.classList.add('active')
   }
-  if (window.scrollY === 0) {
+  if (window.scrollY === 0)  {
     const home = document.getElementById("home-text-normal")
     home.classList.add('active')
   }
