@@ -24,7 +24,7 @@
 <body>
   <div class="root">
     <!--Navigation Bar-->
-    <header class="Navigation-Bar-Container" id="Navigation-Bar-Container">
+    <header class=" Navigation-Bar-Container" id="Navigation-Bar-Container">
       <div class="wrap-nav">
         <div class="logo">
           <a href="index.html" id="logo-text"> ANDREW LIN
@@ -38,7 +38,7 @@
         <nav id="NormalNavBar">
           <ul class="Navigation">
             <li class="nav-buttons">
-              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text">
+              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text-normal">
                 HOME
               </a>
             </li>
@@ -58,12 +58,12 @@
               </a>
             </li>
             <li class="nav-buttons">
-              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
+              <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text-normal">
                 PROJECTS
               </a>
             </li>
             <li class="nav-buttons">
-              <a data-link="Contact-Me" title="Contact" class="scroll_to" id="Contact-text">
+              <a data-link="Contact-Me" title="Contact" class="scroll_to" id="Contact-text-normal">
                 CONTACT
               </a>
             </li>
@@ -120,7 +120,6 @@
         </nav>
       </div>
     </header>
-
     <div class="Main-wrap">
       <main>
         <!--Landing Page-->
@@ -132,35 +131,15 @@
               <div class="Landing-Page-Name"><b>ANDREW LIN</b> </div>
 
               <div class="Landing-Page-School">
-                I am a <b>Computer Science Student</b> at the <b>University of Waterloo</b>.
+                I am a <b>Computer Science Student</b> at the <b>University of Waterloo.</b>
               </div>
 
               <button id="Go-to-Contact" onclick="Contact();"> Contact Me </button>
-
-              <!--
-              <div class="socials">
-                <a href="https://github.com/ALin837" target="_blank">
-                  <i class="fab fa-github" id="github-icon" style="font-size: 2rem; margin-right: 20px;"></i>
-                </a>
-
-                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <i class="fab fa-linkedin-in" id="linkedin-icon" style="font-size: 2rem;  margin-right: 20px;"></i>
-                </a>
-
-                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <i class="fas fa-envelope" id="email-icon" style="font-size: 2rem;  margin-right: 20px;"></i>
-                </a>
-              </div>
-              -->
-
             </div>
+            <div class="arrow bounce" id="bounce-arrow" onclick="About();"></div>
           </div>
         </section>
-
-
         <!--About Me-->
-
-
         <section class="About-Me-Container" id="About-Me">
           <h2 class="Section-title">ABOUT ME</h2>
           <div class="About-me-wrap">
@@ -652,7 +631,7 @@
     <!--Footer-->
     <footer>
       <div class="footer-container">
-        <div class="footer-name">
+        <div class="footer-name over">
           Made by Andrew Lin
         </div>
         <!--

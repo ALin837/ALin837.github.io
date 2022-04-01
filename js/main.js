@@ -65,6 +65,12 @@ function Contact() {
   const el = document.getElementById("Contact-Me");
   el.scrollIntoView({behavior:"smooth", block: "start"})
 }
+const downArrow = document.getElementById("bounce-arrow");
+function About() {
+  const el = document.getElementById("About-Me");
+  el.scrollIntoView({behavior:"smooth", block: "start"})
+}
+
 
 function DisplayOptions() {
   var x = document.getElementById("myLinks");
@@ -83,3 +89,36 @@ window.onresize = () => {
     x.style.display = "none";
   }
 }
+
+
+/*Scroll bar highlighting*/
+const sections_s = document.querySelectorAll('section')
+const navli = document.querySelectorAll('#NormalNavBar ul .nav-buttons a')
+
+
+window.addEventListener("scroll", ()=> {
+  let current = "";
+  sections_s.forEach(section => {
+    const sectionTop = section.offsetTop
+    const sectionHeight = section.clientHeight
+    if (scrollY >= (sectionTop - 45)) {
+      current = section.getAttribute('id');
+    }
+  })
+  navli.forEach( li => {
+    li.classList.remove('active')
+    if (li.dataset['link'] == current) {
+      li.classList.add('active')
+    }
+  })
+  if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+    const contact = document.getElementById("Contact-text-normal")
+    const project = document.getElementById("projects-text-normal")
+    project.classList.remove('active')
+    contact.classList.add('active')
+  }
+  if (window.scrollY === 0) {
+    const home = document.getElementById("home-text-normal")
+    home.classList.add('active')
+  }
+})

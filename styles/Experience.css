@@ -8,7 +8,6 @@
   letter-spacing: 8%;
   padding-bottom: 4vmax;
   padding-top: 2vmax;
-
 }
 
 .row-experience {
@@ -72,6 +71,8 @@ ul li {
 
 /*Company*/
 .Company {
+
+  background-color: white;
   padding: 1rem;
   width: 75%;
   margin: 1rem;
