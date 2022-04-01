@@ -59,17 +59,24 @@ a {
   margin: 0px;
 }
 
+.socials {
+  margin-bottom: 3%;
+}
+
 #github-icon,
 #linkedin-icon,
 #email-icon {
+  color: white;
+}
+
+.outer {
   color: rgb(49, 49, 49);
   transition: 0.3s;
 }
 
-#github-icon:hover,
-#linkedin-icon:hover,
-#email-icon:hover {
-  color: rgb(162, 166, 168);
+
+.outer:hover {
+  color: rgb(93, 97, 97);
 }
 
 #Go-to-Contact {
@@ -138,14 +145,13 @@ a {
   }
 }
 
-
-@media only screen and (max-width:700px) {
+@media only screen and (max-width: 1100px) {
   .Landing-Page-Intro {
     font-size: 1.5rem;
   }
 
   .Landing-Page-Name {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .Landing-Page-School {
@@ -153,14 +159,19 @@ a {
   }
 
   #Go-to-Contact {
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
+}
+
+
+@media only screen and (max-width:700px) {
   .Landing-Page-Container {
     flex-wrap: wrap;
     justify-content: center;
   }
 
+  /*
   .Content-Container {
     position: relative;
     top: 12%;
@@ -173,4 +184,5 @@ a {
     height: auto;
     width: 300px;
   }
+  */
 }
