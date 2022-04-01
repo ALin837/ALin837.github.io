@@ -10,20 +10,15 @@
 
 }
 
-
-
-
 .image-box {
   width: 100%;
   height: 500px;
 
 }
 
-
 .Section-wrap {
   margin: 1em;
 }
-
 
 .project-image {
   width: 100%;
@@ -88,54 +83,12 @@
 }
 
 
-/*
-@media only screen and (max-width: 900px) {
-  .Project-section {
-    margin-bottom: 2em;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  #AGE-Section, #Breakout-Section {
-    order: 2;
-  }
-  #AGE-Image, #Breakout-Image {
-    order: 1;
-  }
-  .project-image {
-    margin-bottom: -0.5rem;
-    height: auto;
-    width: 80vw;
-  }
-  
-  .Projects-Box {
-    margin-right: 10%;
-    margin-left: 10%;
-  }
-  .Section-Header {
-    display: block;
-    text-align: center;
-  }
-  .Section-Content {
-    display: block;
-    text-align: center;
-  }
-  .project-skill-container {
-    justify-content: center;
-  }
-  .Text {
-    margin-top: 1rem;
-  }
-
-}
-
 
 @media only screen and (max-width:680px) {
-  .Projects-Title {
-    display: flex;
-    justify-content: center;
+  .project-skill {
+    font-size: 1.1rem;
   }
-  
-  
+
+
+
 }
-*/

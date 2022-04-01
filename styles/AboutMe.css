@@ -22,29 +22,3 @@
   width: 13vw;
   float: left;
 }
-
-/*
-@media only screen and (max-width: 950px)  {
-  .Image-box {
-    margin-right: 2rem;
-    width: 14vh;
-    float: left;
-  }
-}
-
-
-@media only screen and (min-width: 1350px)  {
-  .About-Me-Description{
-    padding-top: 4%;
-  }
-}
-
-@media only screen and (max-width:680px) {
-  .About-Me-Description{
-
-    text-align: center;
-  }
-  
-  
-}
-*/

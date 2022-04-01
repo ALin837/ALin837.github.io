@@ -39,17 +39,12 @@
 
 }
 
-
 ul li {
   font-size: 1.25rem;
   font-weight: 400;
   font-style: normal;
 }
 
-.Company {
-  padding: 1rem;
-  width: 75%;
-}
 
 .Experience-Content {
   padding: 2rem;
@@ -77,6 +72,8 @@ ul li {
 
 /*Company*/
 .Company {
+  padding: 1rem;
+  width: 75%;
   margin: 1rem;
   display: flex;
   border: 1px solid rgba(0, 0, 0, .125);
@@ -91,49 +88,19 @@ ul li {
 }
 
 @media only screen and (max-width:680px) {
+  .timeline-segment {
+    display: none;
+  }
+
   .Company {
     margin: 1rem auto;
   }
 
-  .timeline-segment {
-    display: none;
-  }
-}
-
-/*
-@media only screen and (max-width:1000px) {
-
-  .row-experience {
-    display: flex;
-    justify-content: center;
-  }
-  .Company {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .Company-image-box {
-    padding: 1rem;
-    width: 40vw;
-  }
-
-  .Experience-Content {
-    width: 100%;
-    margin-right: 0px;
-    margin-left: 0px;
-  }
-
-
-  .Experience-Wrap {
-    text-align: center;
-  }
   ul li {
-    text-align: left;
+    font-size: 1rem;
   }
-  .experience-skill-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+  .experience-skill {
+    font-size: 1.1rem;
   }
 }
-*/
