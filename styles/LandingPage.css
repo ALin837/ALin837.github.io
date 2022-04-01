@@ -93,30 +93,19 @@ a {
 }
 
 
-@media only screen and (max-width:680px) {
-  .Landing-Page-Intro {
-    font-size: 1.5rem;
-  }
 
-  .Landing-Page-Name {
-    font-size: 4rem;
-  }
-
-  .Landing-Page-School {
-    font-size: 1.5rem;
-  }
-
-  #Go-to-Contact {
-    font-size: 1rem;
-  }
-
+#undraw-photo {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
 
 .arrow {
   margin-top: 1rem;
   position: absolute;
-  bottom: 2rem;
+  bottom: 5%;
   left: 50%;
   margin-left: -20px;
   width: 40px;
@@ -146,5 +135,42 @@ a {
 
   60% {
     transform: translateY(-15px);
+  }
+}
+
+
+@media only screen and (max-width:700px) {
+  .Landing-Page-Intro {
+    font-size: 1.5rem;
+  }
+
+  .Landing-Page-Name {
+    font-size: 3.5rem;
+  }
+
+  .Landing-Page-School {
+    font-size: 1.5rem;
+  }
+
+  #Go-to-Contact {
+    font-size: 1rem;
+  }
+
+  .Landing-Page-Container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .Content-Container {
+    position: relative;
+    top: 15%;
+  }
+
+  .image-contain {
+    position: relative;
+    bottom: 5%;
+    z-index: -1;
+    height: auto;
+    width: 300px;
   }
 }
