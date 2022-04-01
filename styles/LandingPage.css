@@ -48,7 +48,7 @@
   font-size: 2rem;
   font-weight: normal;
   font-style: normal;
-  padding-bottom: 1.5rem;
+  margin-bottom: 3%;
 }
 
 a {
@@ -84,7 +84,7 @@ a {
   box-sizing: border-box;
   padding: 5px 10px;
   font-size: 1.25rem;
-  margin-bottom: 1rem;
+  margin-bottom: 3%;
   height: 3rem;
   background-color: #9b40ea;
   border: none;

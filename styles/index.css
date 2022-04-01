@@ -49,3 +49,16 @@ h4 {
   margin: 5px 0px;
   color: rgb(49, 49, 49);
 }
+
+.spacer {
+  aspect-ratio: 450/900;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.layer1 {
+  background-image: url('../images/stacked-waves-haikei (23).svg');
+
+}
