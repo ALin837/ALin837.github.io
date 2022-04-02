@@ -17,7 +17,8 @@ code {
   padding-top: 1rem;
   font-weight: 600;
   font-size: 2.5rem;
-  color: #9b40ea;
+  color: #3c47e8;
+  border-bottom: 5px solid rgb(49, 49, 49);
 }
 
 .Main-wrap {
@@ -60,5 +61,11 @@ h4 {
 
 .layer1 {
   background-image: url('../images/stacked-waves-haikei (23).svg');
+
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
 
 }

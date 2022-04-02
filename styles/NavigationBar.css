@@ -24,13 +24,13 @@
 
 #logo-text:hover,
 .nav-buttons a:hover {
-  transform: scale(1.05);
-  color: #9b40ea;
+  transform: scale(1.15);
+  color: #3c47e8;
   cursor: pointer;
 }
 
 .nav-button:hover {
-  background-color: #641fa0;
+  background-color: #232a8d;
 }
 
 .Navigation {
@@ -76,7 +76,7 @@
 }
 
 .nav-button {
-  background-color: #9b40ea;
+  background-color: #3c47e8;
   padding: 0px 5px;
   transition: 0.3s;
 }
@@ -98,8 +98,8 @@
 }
 
 .active {
-  color: #9b40ea;
-  transform: scale(1.05);
+  color: #3c47e8;
+  transform: scale(1.15);
   cursor: pointer;
 }
 

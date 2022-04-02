@@ -38,7 +38,7 @@
 }
 
 .Landing-Page-Name {
-  color: #9b40ea;
+  color: #3c47e8;
   font-size: 4.5rem;
   font-weight: 500;
   font-style: normal;
@@ -86,7 +86,7 @@ a {
   font-size: 1.25rem;
   margin-bottom: 3%;
   height: 3rem;
-  background-color: #9b40ea;
+  background-color: #3c47e8;
   border: none;
   border-radius: 5px;
   color: white;
@@ -95,7 +95,7 @@ a {
 
 #Go-to-Contact:hover {
   font-family: 'Poppins', "Noto-sans", sans-serif;
-  background-color: #641fa0;
+  background-color: #232a8d;
   cursor: pointer;
 }
 
