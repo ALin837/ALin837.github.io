@@ -133,7 +133,7 @@
   .nav-button a:hover,
   .nav-buttons a:hover {
     transform: scale(1.05);
-    color: #9b40ea;
+    color: #3c47e8;
     cursor: pointer;
   }
 
@@ -188,7 +188,7 @@
   }
 
   .icon:hover {
-    color: #9b40ea;
+    color: #3c47e8;
   }
 
   #NormalNavBar {
