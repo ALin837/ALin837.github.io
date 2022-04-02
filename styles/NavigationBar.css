@@ -42,36 +42,10 @@
 
 }
 
-#logo-text:hover,
-.nav-buttons a:hover {
-  transform: scale(1.15);
-  color: #3c47e8;
-  cursor: pointer;
-}
-
-.nav-button:hover {
-  background-color: #3c47e8;
-}
-
-.nav-button a:hover {
-  color: white;
-}
-
-.nav-button {
-  background-color: white;
-  border: 2px solid #3c47e8;
-  padding: 0px 5px;
-  transition: 0.5s;
-}
-
-.nav-button a {
-  color: #3c47e8;
-}
-
-
 .Navigation {
   display: inline-flex;
   list-style-type: none;
+  text-align: center;
 }
 
 .logo {
@@ -91,11 +65,40 @@
   transition: 0.3s;
 }
 
+#logo-text:hover,
+.nav-buttons a:hover {
+  transform: scale(1.15);
+  color: #3c47e8;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  background-color: #3c47e8;
+}
+
+.nav-button a:hover {
+  color: white;
+}
+
+.nav-button a {
+  color: #3c47e8;
+}
+
+
 .nav-buttons,
 .nav-button {
   margin-right: 1rem;
   border-radius: 5px;
+  border: 2px solid #ffffff;
 }
+
+.nav-button {
+  background-color: white;
+  border: 2px solid #3c47e8;
+  padding: 0px 5px;
+  transition: 0.5s;
+}
+
 
 
 .nav-button a,
@@ -111,6 +114,7 @@
   transition: 0.3s;
 }
 
+/*Hamburger Menu*/
 .icon {
   font-size: 1rem;
   color: black;
@@ -138,7 +142,13 @@
 }
 
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 885px) {
+
+  .nav-buttons,
+  .nav-button {
+    border: none;
+  }
+
 
   .nav-button:hover {
     background-color: white;
