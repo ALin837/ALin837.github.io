@@ -9,6 +9,26 @@
   z-index: 2;
   transition: 1s;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  /*Animations*/
+  animation-name: fadeInOpacityTop;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-delay: 1s;
+  animation-duration: 0.25s;
+  animation-fill-mode: forwards;
+
+}
+
+@keyframes fadeInOpacityTop {
+  0% {
+    opacity: 0;
+    transform: translate(0, -25px);
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
 
@@ -126,6 +146,7 @@
 
   .nav-button {
     background-color: white;
+    border: none;
     padding: 0px;
   }
 

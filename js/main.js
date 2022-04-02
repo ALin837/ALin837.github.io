@@ -59,6 +59,10 @@ for (var i = 0; i < sections.length; i++) {
   })
 
 }
+const ResumeButton = document.getElementById("Go-to-Resume");
+function Resume() {
+  window.open('/Files/Andrew_Lin_Resume_30-03-2022-20-11-11.pdf', '_blank')
+}
 
 const contactButton = document.getElementById("Go-to-Contact");
 function Contact() {
