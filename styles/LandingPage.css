@@ -80,13 +80,17 @@ a {
   }
 }
 
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
 #Go-to-Contact,
 #Go-to-Resume {
   font-family: 'Poppins', "Noto-sans", sans-serif;
   box-sizing: border-box;
   padding: 5px 10px;
   font-size: 1.25rem;
-  margin-bottom: 3%;
   height: 3rem;
   font-weight: 500;
   border: #3c47e8 2px solid;
