@@ -30,8 +30,24 @@
 }
 
 .nav-button:hover {
-  background-color: #232a8d;
+  background-color: #3c47e8;
 }
+
+.nav-button a:hover {
+  color: white;
+}
+
+.nav-button {
+  background-color: white;
+  border: 2px solid #3c47e8;
+  padding: 0px 5px;
+  transition: 0.5s;
+}
+
+.nav-button a {
+  color: #3c47e8;
+}
+
 
 .Navigation {
   display: inline-flex;
@@ -74,17 +90,6 @@
   padding: 5px 5px;
   transition: 0.3s;
 }
-
-.nav-button {
-  background-color: #3c47e8;
-  padding: 0px 5px;
-  transition: 0.3s;
-}
-
-.nav-button a {
-  color: white;
-}
-
 
 .icon {
   font-size: 1rem;

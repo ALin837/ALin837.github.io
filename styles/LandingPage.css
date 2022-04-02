@@ -9,26 +9,16 @@
   justify-content: left;
   height: 100vh;
   color: rgb(49, 49, 49);
-  animation-name: fadeInOpacity;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
 }
 
-@keyframes fadeInOpacity {
-  0% {
-    opacity: 0;
-    transform: translate(0, -50px);
-    transition: all 1s;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 .Words-Container {
   text-align: left;
+  animation-name: fadeInOpacityBottom;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: 0.5s;
+
 }
 
 .Landing-Page-Intro {
@@ -79,6 +69,17 @@ a {
   color: rgb(93, 97, 97);
 }
 
+@keyframes fadeInOpacityBottom {
+  0% {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 #Go-to-Contact {
   font-family: 'Poppins', "Noto-sans", sans-serif;
   box-sizing: border-box;
@@ -86,16 +87,25 @@ a {
   font-size: 1.25rem;
   margin-bottom: 3%;
   height: 3rem;
-  background-color: #3c47e8;
-  border: none;
+  font-weight: 500;
+  border: #3c47e8 2px solid;
   border-radius: 5px;
-  color: white;
-  transition: 0.3s;
+  color: #3c47e8;
+  background-color: white;
+  transition: 0.5s;
+  animation-name: fadeInOpacityBottom;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-delay: 0.6s;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+  opacity: 0;
 }
 
 #Go-to-Contact:hover {
   font-family: 'Poppins', "Noto-sans", sans-serif;
-  background-color: #232a8d;
+  background-color: #3c47e8;
+  color: white;
   cursor: pointer;
 }
 
