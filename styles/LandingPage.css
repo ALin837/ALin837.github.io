@@ -111,6 +111,7 @@ a {
 }
 
 .image-contain {
+  width: 90%;
   height: auto;
   z-index: -1;
   animation: fadeInOpacityBottom 0.5s 1 ease-in, action 1s infinite alternate;
