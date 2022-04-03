@@ -12,3 +12,6 @@ https://fontawesome.com/
 I also used Haikei to generate the scatter circle background. Haikei is a very useful web app that can be used to generate SVG shapes, backgrounds and patterns.\
 https://haikei.app/
 
+I used some of my images from Undraw.\
+https://undraw.co/illustrations
+
