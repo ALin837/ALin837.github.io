@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Navigation-Bar-Container {
   background-color: rgb(255, 255, 255);
@@ -9,6 +9,7 @@
   z-index: 2;
   transition: 1s;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+
   opacity: 0;
   /*Animations*/
   animation-name: fadeInOpacityTop;
@@ -56,7 +57,7 @@
 .logo a {
   display: inline-block;
   color: black;
-  font-family: 'Poppins', "Noto-sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
   font-size: 1.2rem;
   font-weight: 400;
   font-style: normal;
@@ -109,7 +110,7 @@
   font-style: normal;
   letter-spacing: 8%;
   text-decoration: none;
-  font-family: 'Poppins', "Noto-sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
   padding: 5px 5px;
   transition: 0.3s;
 }

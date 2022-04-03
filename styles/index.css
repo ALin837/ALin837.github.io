@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
 body {
   background-color: #f8f9f9;
   margin: 0;
@@ -50,17 +52,17 @@ h3 {
   margin: 0px;
   font-weight: 400;
   color: rgb(49, 49, 49);
-  font-family: 'Poppins', "Noto Sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
 }
 
 span {
-  font-family: 'Poppins', "Noto Sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: 600;
 }
 
 
 h4 {
-  font-family: 'Poppins', "Noto Sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
   margin: 5px 0px;

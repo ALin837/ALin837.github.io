@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Landing-Page-Container {
-  font-family: 'Poppins', "Noto-sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: 800;
   font-style: normal;
   display: flex;
@@ -81,7 +81,7 @@ a {
 
 #Go-to-Contact,
 #Go-to-Resume {
-  font-family: 'Poppins', "Noto-sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
   box-sizing: border-box;
   padding: 5px 10px;
   font-size: 1.25rem;
@@ -104,7 +104,7 @@ a {
 
 #Go-to-Contact:hover,
 #Go-to-Resume:hover {
-  font-family: 'Poppins', "Noto-sans", sans-serif;
+  font-family: 'Nunito', "Noto-sans", sans-serif;
   background-color: #3c47e8;
   color: white;
   cursor: pointer;
@@ -210,11 +210,11 @@ a {
 
 @media only screen and (max-width:650px) {
   .Landing-Page-Intro {
-    font-size: 2.5rem;
+    font-size: 3rem;
   }
 
   .Landing-Page-School {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   #Go-to-Contact,
@@ -230,6 +230,10 @@ a {
 
   }
 
-
+  .image-contain {
+    width: auto;
+    height: 30vh;
+    margin: 0 auto;
+  }
 
 }

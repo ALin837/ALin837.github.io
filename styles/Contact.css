@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Contact-Container {
     padding-top: 2rem;
     color: rgb(49, 49, 49);
-    font-family: 'Poppins', "Noto Sans", sans-serif;
+    font-family: 'Nunito', "Noto-sans", sans-serif;
     padding-bottom: 3rem;
     box-sizing: border-box;
     width: 100%;
@@ -92,7 +92,7 @@ label {
 input[type=text] {
     box-sizing: border-box;
     border-radius: 4px;
-    font-family: 'Poppins', "Noto Sans", sans-serif;
+    font-family: 'Nunito', "Noto-sans", sans-serif;
     outline-width: 0;
     font-size: 1rem;
     padding: 10px;
@@ -101,7 +101,7 @@ input[type=text] {
 }
 
 textarea {
-    font-family: 'Poppins', "Noto Sans", sans-serif;
+    font-family: 'Nunito', "Noto-sans", sans-serif;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -115,7 +115,7 @@ textarea {
 }
 
 input[type=button] {
-    font-family: 'Poppins', "Noto Sans", sans-serif;
+    font-family: 'Nunito', "Noto-sans", sans-serif;
     background-color: white;
     border-radius: 4px;
     color: rgb(0, 0, 0);
