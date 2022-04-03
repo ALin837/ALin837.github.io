@@ -6,13 +6,13 @@
   font-style: normal;
   display: flex;
   height: 100vh;
-  color: rgb(49, 49, 49);
+  color: #121228;
 }
 
 .landing-page-wrap {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  column-gap: 1rem;
+  column-gap: 2rem;
   align-items: center;
 }
 
@@ -54,13 +54,13 @@ a {
 
 
 .outer {
-  color: rgb(49, 49, 49);
+  color: #121228;
   transition: 0.3s;
 }
 
 
 .outer:hover {
-  color: rgb(93, 97, 97);
+  color: rgb(88, 88, 112);
 }
 
 @keyframes fadeInOpacityBottom {

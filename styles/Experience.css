@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Experience-Container {
-  color: rgb(49, 49, 49);
+  color: #121228;
   font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: normal;
   font-style: normal;
@@ -26,7 +26,7 @@
 .vertical-line {
   height: 50%;
   width: 3px;
-  background-color: #636060;
+  background-color: #5b5a68;
 }
 
 .ball {
@@ -37,7 +37,7 @@
   width: 35px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
-  border: rgb(54, 53, 53) 3px solid;
+  border: #2e3037 3px solid;
 
 }
 
@@ -67,7 +67,8 @@ ul li {
   padding: 0.4rem;
   border-radius: 5px;
   color: white;
-  background-color: rgb(41, 39, 39);
+  background-color: rgb(52, 51, 60);
+
 }
 
 

@@ -51,13 +51,14 @@ h3 {
   font-size: 1.5rem;
   margin: 0px;
   font-weight: 400;
-  color: rgb(49, 49, 49);
+  color: #121228;
   font-family: 'Nunito', "Noto-sans", sans-serif;
 }
 
 span {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: 600;
+  font-size: 1.65;
 }
 
 
@@ -66,7 +67,7 @@ h4 {
   font-size: 1.75rem;
   font-weight: 600;
   margin: 5px 0px;
-  color: rgb(49, 49, 49);
+  color: #121228;
 }
 
 .spacer {
