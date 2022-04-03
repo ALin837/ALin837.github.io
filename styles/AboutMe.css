@@ -16,10 +16,10 @@
   width: 100%;
 }
 
-/*
-.Image-box {
-  margin-right: 2rem;
-  width: 13vw;
-  float: left;
+@media only screen and (max-width: 820px) {
+  .About-Me-Container {
+    padding-top: 10vmax;
+  }
+
+
 }
-*/

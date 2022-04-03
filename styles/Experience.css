@@ -16,7 +16,7 @@
 }
 
 .timeline-segment {
-  width: 25%;
+  width: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -30,8 +30,11 @@
 }
 
 .ball {
-  height: 25px;
-  width: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  width: 35px;
   border-radius: 50%;
   background-color: rgb(255, 255, 255);
   border: rgb(54, 53, 53) 3px solid;
@@ -50,7 +53,6 @@ ul li {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 70%;
 }
 
 /*Experience skill*/
@@ -74,9 +76,10 @@ ul li {
 
   background-color: white;
   padding: 1rem;
-  width: 75%;
+  /*Timeline*/
+  width: 90%;
+
   margin: 1rem;
-  display: flex;
   border: 1px solid rgba(0, 0, 0, .125);
   border-radius: 0.25rem;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);

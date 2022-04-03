@@ -18,6 +18,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
 
 }
 
@@ -28,9 +29,9 @@
 
 /*Contact Quick*/
 .Contact-links {
+    padding-top: 0;
     display: flex;
     justify-content: left;
-    align-items: center;
 }
 
 .Contact-Quick {
@@ -40,6 +41,13 @@
 .contact-socials {
     display: flex;
     justify-content: left;
+    margin-bottom: 3rem;
+}
+
+/*undraw photo*/
+.contact-image-contain {
+    height: 400px;
+    width: auto;
 }
 
 
@@ -131,14 +139,19 @@ input[type=button]:hover {
     }
 
     .Contact-Form-Input {
-
         width: 100%;
-
     }
 
     .contact-socials {
         justify-content: center;
     }
+
+    /*undraw photo*/
+    .contact-image-contain {
+        height: 300px;
+        width: auto;
+    }
+
 
 
 }

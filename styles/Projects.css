@@ -41,11 +41,6 @@
   box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
 }
 
-.image-wrap {
-  height: 700px;
-  width: 100%;
-}
-
 #Age:hover {
   cursor: auto;
   transform: scale(1);
@@ -87,6 +82,19 @@
 @media only screen and (max-width:680px) {
   .project-skill {
     font-size: 1.1rem;
+  }
+
+  .image-box {
+    width: 100%;
+    height: auto;
+    margin-bottom: 2%;
+  }
+
+  .project-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+
   }
 
 

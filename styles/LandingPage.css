@@ -5,12 +5,26 @@
   font-weight: 800;
   font-style: normal;
   display: flex;
-  align-items: center;
-  justify-content: left;
   height: 100vh;
   color: rgb(49, 49, 49);
 }
 
+.landing-page-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1rem;
+  align-items: center;
+}
+
+.socials {
+  margin-bottom: 10%;
+}
+
+#github-icon,
+#linkedin-icon,
+#email-icon {
+  color: white;
+}
 
 .Words-Container {
   text-align: left;
@@ -22,21 +36,14 @@
 }
 
 .Landing-Page-Intro {
-  font-size: 2rem;
+  font-size: 4rem;
   font-weight: 400;
-  font-style: normal;
-}
-
-.Landing-Page-Name {
-  color: #3c47e8;
-  font-size: 4.5rem;
-  font-weight: 500;
   font-style: normal;
 }
 
 .Landing-Page-School {
   font-size: 2rem;
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   margin-bottom: 3%;
 }
@@ -45,19 +52,6 @@ a {
   text-decoration: none;
 }
 
-.Content-Container {
-  margin: 0px;
-}
-
-.socials {
-  margin-bottom: 3%;
-}
-
-#github-icon,
-#linkedin-icon,
-#email-icon {
-  color: white;
-}
 
 .outer {
   color: rgb(49, 49, 49);
@@ -96,8 +90,9 @@ a {
   border: #3c47e8 2px solid;
   border-radius: 5px;
   color: #3c47e8;
-  background-color: white;
+  background-color: #f8f9f9;
   transition: 0.5s;
+  /*animation*/
   animation-name: fadeInOpacityBottom;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
@@ -115,15 +110,21 @@ a {
   cursor: pointer;
 }
 
-
-
-#undraw-photo {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center center;
+.image-contain {
+  height: auto;
+  z-index: -1;
+  animation: fadeInOpacityBottom 0.5s 1 ease-in, action 1s infinite alternate;
 }
 
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
+}
 
 @keyframes fadeInOpacityTop {
   0% {
@@ -177,45 +178,58 @@ a {
   }
 }
 
-@media only screen and (max-width: 1100px) {
-  .Landing-Page-Intro {
-    font-size: 1.5rem;
+@media only screen and (max-width:950px) {
+  .Content-Container {
+    padding-top: 4rem;
   }
 
-  .Landing-Page-Name {
-    font-size: 4rem;
+  .Landing-Page-Intro {
+    font-size: 5vmax;
   }
 
   .Landing-Page-School {
-    font-size: 1.5rem;
+    font-size: 3vmax;
   }
 
-  #Go-to-Contact {
-    font-size: 1.1rem;
+  #Go-to-Contact,
+  #Go-to-Resume {
+    font-size: 1rem;
+  }
+
+  .image-contain {
+    width: auto;
+    height: 50vh;
+    margin: 0 auto;
+  }
+
+  .socials {
+    margin-bottom: 5%;
   }
 
 }
 
+@media only screen and (max-width:650px) {
+  .Landing-Page-Intro {
+    font-size: 2.5rem;
+  }
 
-@media only screen and (max-width:700px) {
-  .Landing-Page-Container {
-    flex-wrap: wrap;
+  .Landing-Page-School {
+    font-size: 1.25rem;
+  }
+
+  #Go-to-Contact,
+  #Go-to-Resume {
+    font-size: 1rem;
+  }
+
+  .landing-page-wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+
     justify-content: center;
+
   }
 
-  /*
-  .Content-Container {
-    position: relative;
-    top: 12%;
-  }
 
-  .image-contain {
-    position: relative;
-    bottom: 5%;
-    z-index: -1;
-    height: auto;
-    width: 300px;
-  }
-  */
 
 }

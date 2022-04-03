@@ -1,1 +1,20 @@
-<svg id="visual" viewBox="0 0 450 900" width="450" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><rect x="0" y="0" width="450" height="900" fill="#ffffff"></rect><g fill="#f0f4ff"><circle r="33" cx="341" cy="433"></circle><circle r="23" cx="147" cy="109"></circle><circle r="28" cx="145" cy="34"></circle><circle r="31" cx="204" cy="395"></circle><circle r="22" cx="293" cy="20"></circle><circle r="22" cx="285" cy="766"></circle><circle r="27" cx="140" cy="446"></circle><circle r="22" cx="71" cy="38"></circle><circle r="29" cx="213" cy="750"></circle><circle r="26" cx="136" cy="847"></circle><circle r="28" cx="435" cy="601"></circle><circle r="23" cx="172" cy="587"></circle><circle r="30" cx="272" cy="224"></circle><circle r="22" cx="38" cy="768"></circle><circle r="28" cx="372" cy="795"></circle><circle r="25" cx="365" cy="659"></circle><circle r="24" cx="296" cy="550"></circle></g></svg>
+<svg id="visual" viewBox="0 0 450 900" width="450" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<rect x="0" y="0" width="450" height="900" fill="#f8f9f9"></rect>
+<g fill="#e9efff">
+<circle r="33" cx="341" cy="433"></circle>
+<circle r="23" cx="147" cy="109"></circle>
+<circle r="28" cx="145" cy="34"></circle>
+<circle r="31" cx="204" cy="395"></circle>
+<circle r="22" cx="293" cy="20"></circle>
+<circle r="22" cx="285" cy="766"></circle>
+<circle r="27" cx="140" cy="446"></circle>
+<circle r="22" cx="130" cy="290"></circle>
+<circle r="29" cx="213" cy="750"></circle>
+<circle r="26" cx="136" cy="847"></circle>
+<circle r="28" cx="435" cy="601"></circle>
+<circle r="23" cx="172" cy="587"></circle>
+<circle r="30" cx="272" cy="224"></circle>
+<circle r="22" cx="38" cy="768"></circle>
+<circle r="28" cx="372" cy="795"></circle>
+<circle r="25" cx="365" cy="659"></circle>
+<circle r="24" cx="296" cy="550"></circle></g></svg>

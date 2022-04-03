@@ -124,59 +124,54 @@
       <main>
         <!--Landing Page-->
         <section class="Landing-Page-Container" id="Landing-Page">
-          <div class="Content-Container">
-            <div class="Words-Container">
-              <div class="Landing-Page-Intro">Hello! My Name is</div>
-
-
-              <div class="Landing-Page-Name"> <b>ANDREW LIN</b> </div>
-
-
-
-              <div class="Landing-Page-School">
-                I am a <b>Computer Science Student</b> at the <b>University of Waterloo.</b>
-
-
+          <div class="landing-page-wrap">
+            <div class="Content-Container">
+              <div class="Words-Container">
+                <div class="Landing-Page-Intro">Hi! I'm <b style="color: #3c47e8;">Andrew Lin</b> </div>
+                <div class="Landing-Page-School">
+                  I am a Computer Science Student at <br>
+                  the University of Waterloo.
+                </div>
+                <div class="socials">
+                  <a href="https://github.com/ALin837" target="_blank">
+                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                      <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
+                    </span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
+                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                      <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
+                    </span>
+                  </a>
+                  <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
+                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                      <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
+                    </span>
+                  </a>
+                </div>
               </div>
-
-              <div class="socials">
-                <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
-                  </span>
-                </a>
-                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
-                  </span>
-                </a>
-                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
-                  </span>
-                </a>
+              <div class="button-group">
+                <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> Contact Me </button>
+                <button id="Go-to-Resume" onclick="Resume();"> Resume </button>
               </div>
             </div>
-            <div class="button-group">
-              <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> Contact Me </button>
-              <button id="Go-to-Resume" onclick="Resume();"> Resume </button>
+            <div class="image-contain">
+              <img src="./images/undraw_dev_productivity_re_fylf (1).svg" class="undraw-photo" alt="">
             </div>
           </div>
+
           <div class="arrow " id="bounce-arrow" onclick="About();"></div>
         </section>
         <!--About Me-->
         <section class="About-Me-Container" id="About-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-user"></i> &nbspABOUT ME</h2>
+          <div class="section-title-container">
+            <h2 class="Section-title"> <i class="fa-solid fa-user"></i> &nbsp;ABOUT ME</h2>
+          </div>
           <div class="About-me-wrap">
             <div class="wrap">
-              <!--
-            <div class="Image-box">
-              <img src="images/Images/Andrew_square.jpg" alt="Andrew Lin" id="About-Me-Image">
-            </div>
-            -->
               <div class="About-Me-Box">
                 <div class="About-Me-Description">
                   <p>
@@ -190,11 +185,7 @@
                   <p>I started learning how to code after taking an
                     Introduction to Computer Science course in highschool where I learned about HTML, CSS, Turing,
                     Python
-                    and Java. That's where my passion for coding started and lead me to where I am today.
-                  </p>
-
-                  <p>
-                    Outside of school I enjoy playing hockey and volleyball.
+                    and Java.
                   </p>
 
                   <p>
@@ -206,83 +197,84 @@
           </div>
         </section>
 
+
         <!--Skills-->
         <section class="Skills-Container" id="Skills-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-brain"></i> &nbspSKILLS</h2>
+          <h2 class="Section-title"> <i class="fa-solid fa-brain"></i> &nbsp;SKILLS</h2>
           <div class="Skill-Section">
             <h3><span>Programming Languages:</span></h3>
-            <div class="experience-skill-container">
-              <div class="experience-skill">
+            <div class="skill-container">
+              <div class="skill">
                 <code>C/C++</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Java</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Python</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>HTML</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>CSS</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>JavaScript</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Golang</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>C#.Net</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Groovy</code>
               </div>
             </div>
           </div>
           <div class="Skill-Section">
             <h3><span>Libraries/Frameworks:</span></h3>
-            <div class="experience-skill-container">
-              <div class="experience-skill">
+            <div class="skill-container">
+              <div class="skill">
                 <code>React</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Django</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Node.js</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Express.js</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Socket.io</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>PyGame</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Ncurses</code>
               </div>
             </div>
           </div>
           <div class="Skill-Section">
             <h3><span>Tools:</span></h3>
-            <div class="experience-skill-container">
-              <div class="experience-skill">
+            <div class="skill-container">
+              <div class="skill">
                 <code>Git</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Jmeter</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Selenium</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>PostgreSQL</code>
               </div>
-              <div class="experience-skill">
+              <div class="skill">
                 <code>Kanban/JIRA board</code>
               </div>
             </div>
@@ -291,7 +283,7 @@
 
         <!--Experience-->
         <section class="Experience-Container" id="Experience-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-suitcase"></i> &nbspEXPERIENCE</h2>
+          <h2 class="Section-title"> <i class="fa-solid fa-suitcase"></i> &nbsp;EXPERIENCE</h2>
           <div class="Experience-Box">
             <div class="Experience-Inner">
               <div class="row-experience">
@@ -300,7 +292,6 @@
 
                   </div>
                   <div class="ball">
-
                   </div>
                   <div class="vertical-line">
 
@@ -458,7 +449,7 @@
 
         <!--Projects-->
         <section class="Projects-Container" id="Projects-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-book-bookmark"></i> &nbspPROJECTS</h2>
+          <h2 class="Section-title"> <i class="fa-solid fa-book-bookmark"></i> &nbsp;PROJECTS</h2>
           <div class="Projects-Box">
 
 
@@ -470,7 +461,7 @@
               </div>
               <div class="Projects-desc">
                 <div class="Section-wrap">
-                  <h4>My-Chat-App</h4>
+                  <h4> My-Chat-App&nbsp; <i class="fa-solid fa-comment"></i></h4>
                   <div class="Section-Content">
                     <p class="Project-Text">
                       A web-based chat application that allows users to talk to each other inside chatrooms.
@@ -506,7 +497,7 @@
               </div>
               <div class="Projects-desc" id="AGE-Section">
                 <div class="Section-wrap">
-                  <h4>ASCII Game Engine</h4>
+                  <h4>ASCII Game Engine&nbsp; <i class="fa-solid fa-gamepad"></i></h4>
                   <div class="Section-Content">
                     <p class="Project-Text">
                       <b>Sorry this is a private project</b>
@@ -537,7 +528,7 @@
               </div>
               <div class="Projects-desc">
                 <div class="Section-wrap">
-                  <h4>Snake</h4>
+                  <h4>Snake &nbsp;<i class="fa-solid fa-worm"></i></h4>
                   <div class="Section-Content">
                     <p class="Project-Text">
                       A re-creation of the Snake game that includes
@@ -564,7 +555,7 @@
               </div>
               <div class="Projects-desc" id="Breakout-Section">
                 <div class="Section-wrap">
-                  <h4>Breakout</h4>
+                  <h4>Breakout &nbsp;<i class="fa-solid fa-meteor"></i></h4>
                   <div class="Section-Content">
                     <p class="Project-Text">
                       A re-creation of the Atari Breakout game that tracks score and includes a double paddle mode for
@@ -588,7 +579,7 @@
 
         <!--Contact-->
         <section class="Contact-Container" id="Contact-Me">
-          <h2 class="Section-title"><i class="fa-solid fa-phone"></i> &nbspCONTACT</h2>
+          <h2 class="Section-title"><i class="fa-solid fa-phone"></i> &nbsp;CONTACT</h2>
           <div class="Contact-Wrap">
             <div class="Contact-Quick">
               <div class="Contact-links">
@@ -613,6 +604,9 @@
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>
                 </a>
+              </div>
+              <div class="contact-image-contain">
+                <img src="./images/undraw_mailbox_re_dvds.svg" class="undraw-photo" alt="">
               </div>
             </div>
             <div class="Contact-Form-Input">
