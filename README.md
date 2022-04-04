@@ -1,5 +1,5 @@
 # ALin837.github.io
-The first version of my personal website built using HTML/CSS and JavaScript \
+The first version of my personal website built using HTML/CSS and JavaScript (Please bear with me on the design)\
 https://alin837.github.io/
 
 # Lessons Learned
