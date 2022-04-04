@@ -6,8 +6,9 @@
   font-style: normal;
   display: flex;
   height: 100vh;
-  color: #121228;
+  color: #2f2e41;
 }
+
 
 .landing-page-wrap {
   display: grid;
@@ -39,13 +40,15 @@
   font-size: 4rem;
   font-weight: 400;
   font-style: normal;
+  margin-bottom: 0.5rem;
 }
 
 .Landing-Page-School {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 3%;
+  color: #434353;
 }
 
 a {
@@ -54,13 +57,13 @@ a {
 
 
 .outer {
-  color: #121228;
+  color: #2f2e41;
   transition: 0.3s;
 }
 
 
 .outer:hover {
-  color: rgb(88, 88, 112);
+  color: rgb(110, 110, 137);
 }
 
 @keyframes fadeInOpacityBottom {
@@ -179,18 +182,20 @@ a {
   }
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:915px) {
   .Content-Container {
     padding-top: 4rem;
   }
 
+
   .Landing-Page-Intro {
-    font-size: 5vmax;
+    font-size: 2.5rem;
   }
 
   .Landing-Page-School {
-    font-size: 3vmax;
+    font-size: 1.25rem;
   }
+
 
   #Go-to-Contact,
   #Go-to-Resume {
@@ -210,19 +215,6 @@ a {
 }
 
 @media only screen and (max-width:650px) {
-  .Landing-Page-Intro {
-    font-size: 3rem;
-  }
-
-  .Landing-Page-School {
-    font-size: 1.5rem;
-  }
-
-  #Go-to-Contact,
-  #Go-to-Resume {
-    font-size: 1rem;
-  }
-
   .landing-page-wrap {
     display: grid;
     grid-template-columns: 1fr;

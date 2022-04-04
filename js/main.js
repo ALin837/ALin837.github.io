@@ -1,3 +1,5 @@
+/*Transparent navigation bar when at the top of the page*/
+/*Older design had this*/
 /*
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -44,6 +46,8 @@ function scrollFunction() {
 }
 */
 
+/*Scroll to section for navigation bar*/
+
 const sections = document.getElementsByClassName("scroll_to");
 for (var i = 0; i < sections.length; i++) {
   let element = sections[i];
@@ -59,16 +63,21 @@ for (var i = 0; i < sections.length; i++) {
   })
 
 }
+
+/*Open Resume in new tab*/
 const ResumeButton = document.getElementById("Go-to-Resume");
 function Resume() {
   window.open('/Files/Andrew_Lin_Resume_30-03-2022-20-11-11.pdf', '_blank')
 }
 
+/*Go to Contact Section*/
 const contactButton = document.getElementById("Go-to-Contact");
 function Contact() {
   const el = document.getElementById("Contact-Me");
   el.scrollIntoView({behavior:"smooth", block: "start"})
 }
+
+/*Go to About Section*/
 const downArrow = document.getElementById("bounce-arrow");
 function About() {
   const el = document.getElementById("About-Me");
@@ -76,6 +85,8 @@ function About() {
 }
 
 
+
+/*Hamburger menu dropdown*/
 function DisplayOptions() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -84,7 +95,7 @@ function DisplayOptions() {
     x.style.display = "block";
   }
 }
-
+/*Close dropdown on window resize*/
 window.onresize = () => {
   let x = document.getElementById("myLinks");
   if (x.style.display === "block") {
@@ -98,8 +109,6 @@ window.onresize = () => {
 /*Scroll bar highlighting*/
 const sections_s = document.querySelectorAll('section')
 const navli = document.querySelectorAll('#NormalNavBar ul .nav-buttons a')
-
-
 window.addEventListener("scroll", ()=> {
   let current = "";
   sections_s.forEach(section => {
@@ -126,3 +135,5 @@ window.addEventListener("scroll", ()=> {
     home.classList.add('active')
   }
 })
+
+
