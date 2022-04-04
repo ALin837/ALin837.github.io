@@ -28,3 +28,18 @@
 
     background-color: rgb(52, 51, 60);
 }
+
+
+/*Have each fade in one by one
+#React {
+    /*Animation
+opacity: 0;
+animation-name: translateInLeft;
+animation-iteration-count: 1;
+animation-timing-function: ease-in-out;
+animation-delay: 0.6s;
+animation-duration: 0.5s;
+animation-fill-mode: forwards;
+}
+
+*/

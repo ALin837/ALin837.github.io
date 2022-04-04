@@ -10,6 +10,17 @@
   font-size: 1.25rem;
 }
 
+.About-Me-Description {
+  /*Animation*/
+  opacity: 0;
+  animation-name: translateInLeft;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0.6s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
 #About-Me-Image {
   border-radius: 50%;
   width: 100%;
@@ -20,5 +31,17 @@
     padding-top: 10vmax;
   }
 
+
+}
+
+@keyframes translateInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-300px);
+  }
+
+  to {
+    opacity: 1;
+  }
 
 }
