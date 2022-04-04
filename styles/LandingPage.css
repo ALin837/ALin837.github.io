@@ -63,7 +63,7 @@ a {
 
 
 .outer:hover {
-  color: rgb(110, 110, 137);
+  transform: translateY(-9px);
 }
 
 @keyframes fadeInOpacityBottom {
@@ -91,8 +91,10 @@ a {
   height: 3rem;
   font-weight: 500;
   border: #3c47e8 2px solid;
+  border: #e76215 2px solid;
   border-radius: 5px;
   color: #3c47e8;
+  color: #e76215;
   background-color: #f8f9f9;
   transition: 0.5s;
   /*animation*/
@@ -109,6 +111,7 @@ a {
 #Go-to-Resume:hover {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   background-color: #3c47e8;
+  background-color: #e76215;
   color: white;
   cursor: pointer;
 }

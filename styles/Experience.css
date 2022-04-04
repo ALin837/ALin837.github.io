@@ -114,7 +114,6 @@ ul li {
 
 .Company:hover {
   box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
-
 }
 
 @media only screen and (max-width:680px) {

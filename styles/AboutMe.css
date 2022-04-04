@@ -10,6 +10,12 @@
   font-size: 1.25rem;
 }
 
+.About-Me-Wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5%;
+}
+
 .About-Me-Description {
   /*Animation*/
   opacity: 0;

@@ -26,6 +26,7 @@
   filter: brightness(70%);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   transition: all .2s ease-out;
+  border-radius: 5px;
 
 }
 
