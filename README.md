@@ -19,5 +19,5 @@ I also used an image from UnSplash which is a website dedicated to sharing stock
 https://unsplash.com/images/stock/public-domain \
 Also specifiy from this photographer \
 https://unsplash.com/@clark_fransa \
-Please check out the individual's work \
+Please check out the individual's work 
 
