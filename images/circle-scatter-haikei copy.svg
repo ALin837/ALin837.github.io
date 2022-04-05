@@ -1,0 +1,80 @@
+<svg id="visual" viewBox="0 0 450 900" width="450" height="900" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+<rect x="0" y="0" width="450" height="900" fill="#f8f9f9"></rect>
+<g fill="#e9efff">
+<circle r="33" cx="341" cy="433" class="triangle-float1"></circle>
+<circle r="23" cx="147" cy="109" class="triangle-float1"></circle>
+<circle r="28" cx="145" cy="34" class="triangle-float1"></circle>
+<circle r="31" cx="204" cy="395" class="triangle-float1"></circle>
+<circle r="22" cx="293" cy="20" class="triangle-float1"></circle>
+<circle r="22" cx="285" cy="766" class="triangle-float1"></circle>
+<circle r="27" cx="140" cy="446" class="triangle-float1"></circle>
+<circle r="22" cx="130" cy="290" class="triangle-float2"></circle>
+<circle r="29" cx="213" cy="750" class="triangle-float2"></circle>
+<circle r="26" cx="136" cy="847" class="triangle-float2"></circle>
+<circle r="28" cx="435" cy="601" class="triangle-float2"></circle>
+<circle r="23" cx="172" cy="587" class="triangle-float2"></circle>
+<circle r="30" cx="272" cy="224" class="triangle-float3"></circle>
+<circle r="22" cx="38" cy="768" class="triangle-float3"></circle>
+<circle r="28" cx="372" cy="795" class="triangle-float3"></circle>
+<circle r="25" cx="365" cy="659" class="triangle-float3"></circle>
+<circle r="24" cx="296" cy="550" class="triangle-float3"></circle>
+</g>
+    <defs>
+        <style>
+            @keyframes float1 {
+                0% {
+                transform: translate(0, 0)
+                }
+
+                50% {
+                transform: translate(-10px, 0)
+                }
+
+                100% {
+                transform: translate(0, 0)
+                }
+            }
+
+            .triangle-float1 {
+                animation: float1 5s infinite;
+            }
+
+            @keyframes float2 {
+                0% {
+                transform: translate(0, 0)
+                }
+
+                50% {
+                transform: translate(-5px, -5px)
+                }
+
+                100% {
+                transform: translate(0, 0)
+                }
+            }
+
+            .triangle-float2 {
+                animation: float2 4s infinite;
+            }
+
+            @keyframes float3 {
+                0% {
+                transform: translate(0, 0)
+                }
+
+                50% {
+                transform: translate(0, -10px)
+                }
+
+                100% {
+                transform: translate(0, 0)
+                }
+            }
+
+            .triangle-float3 {
+                animation: float3 6s infinite;
+            }
+        </style>
+
+    </defs>
+</svg>

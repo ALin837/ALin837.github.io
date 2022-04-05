@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
+.Projects-Global {
+  padding-top: 2rem;
+  background-color: #f8f9f9;
+}
+
 .Projects-Container {
   color: #2f2e41;
   font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
-  padding-top: 5vmax;
 
 }
 
@@ -18,14 +22,16 @@
 
 
 
+
 .project-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  filter: brightness(70%);
+  filter: brightness(100%);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   transition: all .2s ease-out;
+  border-radius: 15px;
 
 }
 
@@ -34,10 +40,11 @@
   filter: brightness(100%);
 }
 
+
 .project-image:hover {
   cursor: pointer;
   filter: brightness(100%);
-  transform: scale(1.005);
+  transform: scale(1.0005);
   box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
 }
 
@@ -100,4 +107,15 @@
 
 
 
+}
+
+@keyframes fadeInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translate(0, 25px);
+  }
+
+  100% {
+    opacity: 1;
+  }
 }

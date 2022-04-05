@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
+.Contact-Global {
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+    background-color: #f8f9f9;
+}
+
+
 .Contact-Container {
     color: #2f2e41;
     font-family: 'Nunito', "Noto-sans", sans-serif;

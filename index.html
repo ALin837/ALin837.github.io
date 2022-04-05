@@ -21,7 +21,7 @@
   <script src="https://kit.fontawesome.com/71c6f26d48.js" crossorigin="anonymous"></script>
 </head>
 
-<body class="spacer layer1">
+<body>
   <div class="root">
     <!--Navigation Bar-->
     <header class=" Navigation-Bar-Container" id="Navigation-Bar-Container">
@@ -38,7 +38,7 @@
         <nav id="NormalNavBar">
           <ul class="Navigation">
             <li class="nav-buttons">
-              <a data-link="Landing-Page" title="Home" class="scroll_to active" id="home-text-normal">
+              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text-normal">
                 HOME
               </a>
             </li>
@@ -120,14 +120,15 @@
         </nav>
       </div>
     </header>
-    <div class="Main-wrap">
-      <main>
+
+    <div class="Landing-Page-Global top spacer layer2" id="Landing-Page">
+      <section class="Main-wrap">
         <!--Landing Page-->
-        <section class="Landing-Page-Container" id="Landing-Page">
+        <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
             <div class="Content-Container">
               <div class="Words-Container">
-                <div class="Landing-Page-Intro">Hi! I'm <b style="color: #3c47e8;">Andrew Lin</b> </div>
+                <div class="Landing-Page-Intro">Hi! I'm <b>Andrew Lin</b> </div>
                 <div class="Landing-Page-School">
                   I am a Computer Science Student at
                   the University of Waterloo.
@@ -158,130 +159,159 @@
                 <button id="Go-to-Resume" onclick="Resume();"> Resume </button>
               </div>
             </div>
-            <div class="image-contain">
-              <img src="./images/undraw_dev_productivity_re_fylf (1).svg" class="undraw-photo" alt="">
-            </div>
           </div>
-
           <div class="arrow " id="bounce-arrow" onclick="About();"></div>
         </section>
-        <!--About Me-->
-        <section class="About-Me-Container" id="About-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-user"></i> &nbsp;ABOUT ME</h2>
-          <div class="About-me-wrap">
-            <div class="wrap">
-              <div class="About-Me-Box">
-                <div class="About-Me-Description">
-                  <p>
-                    Hi! My name is <b> Andrew Lin</b>
-                  </p>
-                  <p>
-                    I am a <b> Computer Science Student</b> at the <b>University of Waterloo</b> that is interested in
-                    Software,
-                    Full Stack Web Development and Game development.
-                  </p>
-                  <p>I started learning how to code after taking an
-                    Introduction to Computer Science course in highschool where I learned about HTML, CSS, Turing,
-                    Python
-                    and Java.
-                  </p>
+      </section>
+    </div>
 
-                  <p>
-                    Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
-                  </p>
+
+
+    <div class="About-Me-Global top" id="About-Me">
+      <section class="Main-wrap">
+        <section class="About-Me-Container">
+          <div class="Section-title-wrap">
+            <div class="Section-title-container">
+              <h2 class="Section-title"> <i class="fa-solid fa-user"></i> &nbsp;About Me</h2>
+              <div class="divider-wrap">
+                <div class="divider"></div>
+              </div>
+            </div>
+          </div>
+          <div class="About-Me-Wrap">
+            <div class="About-Me-Description">
+              <p>
+                Hi!
+                I am a <b> Computer Science Student</b> that is interested in
+                Software and I am always looking for opportunities to grow as a developer.
+              </p>
+              <p>
+                Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
+              </p>
+
+              <p>
+                Check out my Resume below.
+              </p>
+              <button id="About-Me-Resume" onclick="Resume();"> Resume </button>
+            </div>
+            <div class="image-contain">
+              <img src="./images/undraw_code_thinking_re_gka2.svg" class="undraw-photo" alt="">
+            </div>
+          </div>
+        </section>
+      </section>
+    </div>
+
+
+    <div class="Skills-Global top" id="Skills-Me">
+      <section class="Main-wrap">
+        <!--Skills-->
+        <section class="Skills-Container">
+
+          <div class="Section-title-wrap">
+            <div class="Section-title-container">
+              <h2 class="Section-title"> <i class="fa-solid fa-computer"></i> &nbsp;Skills</h2>
+              <div class="divider-wrap">
+                <div class="divider"></div>
+              </div>
+            </div>
+          </div>
+          <div class="Skill-wrap">
+            <div class="Skill-Section">
+              <h3><span>Programming Languages:</span></h3>
+              <div class="skill-container" id="Programming-Languages">
+                <div class="skill">
+                  <code>C/C++</code>
+                </div>
+                <div class="skill">
+                  <code>Java</code>
+                </div>
+                <div class="skill">
+                  <code>Python</code>
+                </div>
+                <div class="skill">
+                  <code>HTML</code>
+                </div>
+                <div class="skill">
+                  <code>CSS</code>
+                </div>
+                <div class="skill">
+                  <code>JavaScript</code>
+                </div>
+                <div class="skill">
+                  <code>Golang</code>
+                </div>
+                <div class="skill">
+                  <code>C#.Net</code>
+                </div>
+                <div class="skill">
+                  <code>Groovy</code>
+                </div>
+              </div>
+            </div>
+            <div class="Skill-Section">
+              <h3><span>Libraries/Frameworks:</span></h3>
+              <div class="skill-container" id="Libraries-Frameworks">
+                <div class="skill" id="React">
+                  <code>React</code>
+                </div>
+                <div class="skill">
+                  <code>Django</code>
+                </div>
+                <div class="skill">
+                  <code>Node.js</code>
+                </div>
+                <div class="skill">
+                  <code>Express.js</code>
+                </div>
+                <div class="skill">
+                  <code>Socket.io</code>
+                </div>
+                <div class="skill">
+                  <code>PyGame</code>
+                </div>
+                <div class="skill">
+                  <code>Ncurses</code>
+                </div>
+              </div>
+            </div>
+            <div class="Skill-Section">
+              <h3><span>Tools:</span></h3>
+              <div class="skill-container" id="Tools">
+                <div class="skill">
+                  <code>Git</code>
+                </div>
+                <div class="skill">
+                  <code>Jmeter</code>
+                </div>
+                <div class="skill">
+                  <code>Selenium</code>
+                </div>
+                <div class="skill">
+                  <code>PostgreSQL</code>
+                </div>
+                <div class="skill">
+                  <code>Kanban/JIRA board</code>
                 </div>
               </div>
             </div>
           </div>
         </section>
+      </section>
+    </div>
 
-
-        <!--Skills-->
-        <section class="Skills-Container" id="Skills-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-computer"></i> &nbsp;SKILLS</h2>
-          <div class="Skill-Section">
-            <h3><span>Programming Languages:</span></h3>
-            <div class="skill-container">
-              <div class="skill">
-                <code>C/C++</code>
-              </div>
-              <div class="skill">
-                <code>Java</code>
-              </div>
-              <div class="skill">
-                <code>Python</code>
-              </div>
-              <div class="skill">
-                <code>HTML</code>
-              </div>
-              <div class="skill">
-                <code>CSS</code>
-              </div>
-              <div class="skill">
-                <code>JavaScript</code>
-              </div>
-              <div class="skill">
-                <code>Golang</code>
-              </div>
-              <div class="skill">
-                <code>C#.Net</code>
-              </div>
-              <div class="skill">
-                <code>Groovy</code>
-              </div>
-            </div>
-          </div>
-          <div class="Skill-Section">
-            <h3><span>Libraries/Frameworks:</span></h3>
-            <div class="skill-container">
-              <div class="skill">
-                <code>React</code>
-              </div>
-              <div class="skill">
-                <code>Django</code>
-              </div>
-              <div class="skill">
-                <code>Node.js</code>
-              </div>
-              <div class="skill">
-                <code>Express.js</code>
-              </div>
-              <div class="skill">
-                <code>Socket.io</code>
-              </div>
-              <div class="skill">
-                <code>PyGame</code>
-              </div>
-              <div class="skill">
-                <code>Ncurses</code>
-              </div>
-            </div>
-          </div>
-          <div class="Skill-Section">
-            <h3><span>Tools:</span></h3>
-            <div class="skill-container">
-              <div class="skill">
-                <code>Git</code>
-              </div>
-              <div class="skill">
-                <code>Jmeter</code>
-              </div>
-              <div class="skill">
-                <code>Selenium</code>
-              </div>
-              <div class="skill">
-                <code>PostgreSQL</code>
-              </div>
-              <div class="skill">
-                <code>Kanban/JIRA board</code>
-              </div>
-            </div>
-          </div>
-        </section>
-
+    <div class="Experience-Global top" id="Experience-Me">
+      <section class="Main-wrap">
         <!--Experience-->
-        <section class="Experience-Container" id="Experience-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-suitcase"></i> &nbsp;EXPERIENCE</h2>
+        <section class="Experience-Container">
+          <div class="Section-title-wrap">
+            <div class="Section-title-container">
+              <h2 class="Section-title"> <i class="fa-solid fa-suitcase"></i> &nbsp;Experience</h2>
+              <div class="divider-wrap">
+                <div class="divider"></div>
+              </div>
+            </div>
+          </div>
           <div class="Experience-Box">
             <div class="Experience-Inner">
               <div class="row-experience">
@@ -444,10 +474,22 @@
             </div>
           </div>
         </section>
+      </section>
+    </div>
 
-        <!--Projects-->
-        <section class="Projects-Container" id="Projects-Me">
-          <h2 class="Section-title"> <i class="fa-solid fa-book-bookmark"></i> &nbsp;PROJECTS</h2>
+    <!--Projects-->
+    <div class="Projects-Global top" id="Projects-Me">
+      <section class="Main-wrap">
+        <section class="Projects-Container">
+          <div class="Section-title-wrap">
+            <div class="Section-title-container">
+              <h2 class="Section-title"> <i class="fa-solid fa-book-bookmark"></i> &nbsp;Projects</h2>
+              <div class="divider-wrap">
+                <div class="divider"></div>
+              </div>
+            </div>
+          </div>
+
           <div class="Projects-Box">
 
 
@@ -497,9 +539,6 @@
                 <div class="Section-wrap">
                   <h4>ASCII Game Engine&nbsp; <i class="fa-solid fa-gamepad"></i></h4>
                   <div class="Section-Content">
-                    <p class="Project-Text">
-                      <b>Sorry this is a private project</b>
-                    </p>
                     <p class="Project-Text">
                       An ASCII Game Engine to support the creation of ASCII art video games. Recreated Google's
                       Dinosaur
@@ -576,9 +615,22 @@
           </div>
         </section>
 
+      </section>
+    </div>
+
+    <div class="Contact-Global top" id="Contact-Me">
+      <section class="Main-wrap">
         <!--Contact-->
-        <section class="Contact-Container" id="Contact-Me">
-          <h2 class="Section-title"><i class="fa-solid fa-phone"></i> &nbsp;CONTACT</h2>
+        <section class="Contact-Container">
+          <div class="Section-title-wrap">
+            <div class="Section-title-container">
+              <h2 class="Section-title"><i class="fa-solid fa-phone"></i> &nbsp;Contact</h2>
+              <div class="divider-wrap">
+                <div class="divider"></div>
+              </div>
+            </div>
+          </div>
+
           <div class="Contact-Wrap">
             <div class="Contact-Quick">
               <div class="Contact-links">
@@ -635,11 +687,8 @@
             </div>
           </div>
         </section>
-      </main>
+      </section>
     </div>
-
-
-
     <!--Footer-->
     <footer>
       <div class="footer-container">
@@ -647,22 +696,23 @@
           Made by Andrew Lin
         </div>
         <!--
-        <div class="footer-socials">
-          <a href="https://github.com/ALin837" target="_blank">
-            <i class="fab fa-github" id="github-icon" style="font-size:20px; padding: 10px;"></i>
-          </a>
-
-          <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank">
-            <i class="fab fa-linkedin-in" id="linkedin-icon" style="font-size: 20px;  padding: 10px;"></i>
-          </a>
-
-          <a href="mailto: andrew.61523@gmail.com">
-            <i class="fas fa-envelope" id="email-icon" style="font-size: 20px;  padding: 10px;"></i>
-          </a>
-        </div>
-        -->
+            <div class="footer-socials">
+              <a href="https://github.com/ALin837" target="_blank">
+                <i class="fab fa-github" id="github-icon" style="font-size:20px; padding: 10px;"></i>
+              </a>
+    
+              <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank">
+                <i class="fab fa-linkedin-in" id="linkedin-icon" style="font-size: 20px;  padding: 10px;"></i>
+              </a>
+    
+              <a href="mailto: andrew.61523@gmail.com">
+                <i class="fas fa-envelope" id="email-icon" style="font-size: 20px;  padding: 10px;"></i>
+              </a>
+            </div>
+            -->
       </div>
     </footer>
+
   </div>
   <script src="js/main.js"></script>
 </body>

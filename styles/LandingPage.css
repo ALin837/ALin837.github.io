@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
+.Landing-Page-Global {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+
+}
+
+
+
 .Landing-Page-Container {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: 800;
   font-style: normal;
   display: flex;
-  height: 100vh;
-  color: #2f2e41;
+
+  color: white;
 }
 
 
@@ -37,18 +46,19 @@
 }
 
 .Landing-Page-Intro {
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 0.5rem;
 }
 
 .Landing-Page-School {
+  color: #e5e7ee;
   font-size: 1.5rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 3%;
-  color: #434353;
+
 }
 
 a {
@@ -57,13 +67,13 @@ a {
 
 
 .outer {
-  color: #2f2e41;
+  color: #262729;
   transition: 0.3s;
 }
 
 
 .outer:hover {
-  color: rgb(110, 110, 137);
+  transform: translateY(-9px);
 }
 
 @keyframes fadeInOpacityBottom {
@@ -86,14 +96,16 @@ a {
 #Go-to-Resume {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   box-sizing: border-box;
-  padding: 5px 10px;
+  padding: 5px 35px;
   font-size: 1.25rem;
   height: 3rem;
   font-weight: 500;
-  border: #3c47e8 2px solid;
-  border-radius: 5px;
-  color: #3c47e8;
-  background-color: #f8f9f9;
+  border: none;
+  border-radius: 100px;
+
+  color: #f8f9f9;
+  background-color: #494C9E;
+  background-color: #40a47e;
   transition: 0.5s;
   /*animation*/
   animation-name: fadeInOpacityBottom;
@@ -108,16 +120,9 @@ a {
 #Go-to-Contact:hover,
 #Go-to-Resume:hover {
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  background-color: #3c47e8;
-  color: white;
+  background-color: #327d60;
+  color: #f8f9f9;
   cursor: pointer;
-}
-
-.image-contain {
-  width: 90%;
-  height: auto;
-  z-index: -1;
-  animation: fadeInOpacityBottom 0.5s 1 ease-in, action 1s infinite alternate;
 }
 
 @keyframes action {
@@ -146,7 +151,7 @@ a {
 .arrow {
   margin-top: 1rem;
   position: absolute;
-  bottom: 2%;
+  bottom: 1%;
   left: 50%;
   margin-left: -20px;
   width: 40px;
