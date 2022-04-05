@@ -1,12 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
+.Experience-Global {
+  background-color: #f8f9f9;
+}
+
 .Experience-Container {
   color: #2f2e41;
   font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
-  padding-top: 5vmax;
 }
 
 .row-experience {
@@ -35,7 +38,7 @@
   height: 35px;
   width: 35px;
   border-radius: 50%;
-  background-color: rgb(255, 255, 255);
+  background-color: transparent;
   border: #2e3037 3px solid;
 
 

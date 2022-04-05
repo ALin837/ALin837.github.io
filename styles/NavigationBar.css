@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Navigation-Bar-Container {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   position: fixed;
   box-shadow: none;
   display: flex;
@@ -74,17 +74,12 @@
 }
 
 .nav-button:hover {
-  background-color: #3c47e8;
-  background-color: #e76215;
-}
-
-.nav-button a:hover {
-  color: white;
+  background-color: #181f7b;
+  background-color: #262e9f;
 }
 
 .nav-button a {
-  color: #3c47e8;
-  color: #e76215;
+  color: #f8f9f9;
 }
 
 
@@ -92,15 +87,14 @@
 .nav-button {
   margin-right: 1rem;
   border-radius: 5px;
-  border: 2px solid #ffffff;
+  border: 2px solid transparent;
   color: #2f2e41;
 }
 
 .nav-button {
-  background-color: white;
-  border: 2px solid #3c47e8;
-  border: #e76215 2px solid;
-  padding: 0px 5px;
+  background-color: #3c47e8;
+  border: none;
+  padding: 2px 5px;
   transition: 0.5s;
 }
 

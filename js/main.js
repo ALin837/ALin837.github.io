@@ -1,5 +1,3 @@
-/*Transparent navigation bar when at the top of the page*/
-/*Older design had this*/
 /*
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
@@ -21,8 +19,9 @@ function scrollFunction() {
       let element = collection[i];
       element.style.color="black";
     }
+    */
     
-    
+    /*
 
   } else {
     document.getElementById("Navigation-Bar-Container").style.background = "white";
@@ -40,6 +39,7 @@ function scrollFunction() {
       let element = collection[i];
       element.style.color="white";
     }
+    
     
     
   }

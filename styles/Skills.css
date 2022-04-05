@@ -1,12 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
+.Skills-Global {
+    background-color: aliceblue;
+    background-color: #f8f9f9;
+}
+
+
+
 .Skills-Container {
     color: #2f2e41;
     font-family: 'Nunito', "Noto-sans", sans-serif;
     font-weight: normal;
     font-style: normal;
     letter-spacing: 8%;
-    padding-top: 5vmax;
 }
 
 .Skill-Section {
@@ -17,6 +23,7 @@
 .skill-container {
     display: flex;
     flex-wrap: wrap;
+
 }
 
 .skill {
