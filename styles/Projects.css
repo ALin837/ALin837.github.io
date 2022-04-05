@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Projects-Global {
+  padding-top: 2rem;
   background-color: #f8f9f9;
 }
 
@@ -29,7 +30,7 @@
   filter: brightness(100%);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   transition: all .2s ease-out;
-  border-radius: 5px;
+  border-radius: 15px;
 
 }
 

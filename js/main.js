@@ -107,7 +107,7 @@ window.onresize = () => {
 
 
 /*Scroll bar highlighting*/
-const sections_s = document.querySelectorAll('section')
+const sections_s = document.querySelectorAll('.top')
 const navli = document.querySelectorAll('#NormalNavBar ul .nav-buttons a')
 window.addEventListener("scroll", ()=> {
   let current = "";
