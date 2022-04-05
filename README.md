@@ -9,9 +9,6 @@ After working on this I learned a lot about CSS and what goes into building out 
 I used Font Awesome for all of my icons so I would like to reference Font Awesome and their awesome icons.\
 https://fontawesome.com/
 
-I also used Haikei to generate the scatter circle background. Haikei is a very useful web app that can be used to generate SVG shapes, backgrounds and patterns.\
-https://haikei.app/
-
 I used some images from Undraw. Undraw provides illustrations that you can use in any project, commercial or personal without attribution or any costs. \
 https://undraw.co/illustrations
 
