@@ -14,7 +14,7 @@ https://undraw.co/illustrations
 
 I also used an image from UnSplash which is a website dedicated to sharing stock photography. \
 https://unsplash.com/images/stock/public-domain \
-Also specifiy from this photographer \
+Also specifically from this photographer \
 https://unsplash.com/@clark_fransa \
 Please check out the individual's work 
 
