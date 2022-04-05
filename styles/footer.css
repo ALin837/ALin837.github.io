@@ -2,6 +2,8 @@
 
 footer {
   color: #2f2e41;
+  color: white;
+  background-color: #29282a;
   font-family: 'Nunito', "Noto-sans", sans-serif;
   bottom: 0px;
   display: flex;

@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
-
+/*Old Blue: #494C9E;*/
 /*Off white #f8f9f9*/
-/*Min Blue #3c47e8*/
+/*Old Main Blue #494C9E*/
+/*Main Blue: #494C9E*/
+/*Green: #40a47e*/
 
 body {
   margin: 0;
@@ -32,7 +34,7 @@ code {
   padding-top: 1rem;
   font-weight: 600;
   font-size: 2.75rem;
-  color: #3c47e8;
+  color: #494C9E;
   margin-bottom: 0.5rem;
   /*
   border-bottom: 4px solid #e76215;
@@ -68,7 +70,7 @@ code {
 
 .Main-wrap {
   margin: 0 auto;
-  max-width: 1260px;
+  max-width: 1400px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 }
@@ -103,7 +105,7 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
+  background-attachment: fixed;
 }
 
 .layer1 {
@@ -111,7 +113,7 @@ h4 {
 }
 
 .layer2 {
-  background-image: url('../images/blob-haikei\ \(3\).svg')
+  background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash-edit.jpg');
 }
 
 .fade-in {

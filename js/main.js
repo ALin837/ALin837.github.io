@@ -1,11 +1,11 @@
-/*
+
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     //"#2e2d2d"
-    document.getElementById("Navigation-Bar-Container").style.background = "white";
-    document.getElementById("Navigation-Bar-Container").style.boxShadow = "3px 3px 10px rgba(0, 0, 0, 0.1)";
     
+    document.getElementById("Navigation-Bar-Container").style.background = "#494C9E";
+
     /*
     document.getElementById("logo-text").style.color = "black";
     document.getElementById("hamburger").style.color = "black"
@@ -21,14 +21,14 @@ function scrollFunction() {
     }
     */
     
-    /*
+
 
   } else {
-    document.getElementById("Navigation-Bar-Container").style.background = "white";
-    document.getElementById("Navigation-Bar-Container").style.boxShadow = "3px 3px 10px rgba(0, 0, 0, 0.1)";
-    /*
-    document.getElementById("logo-text").style.color = "#d1d4d4";
-    document.getElementById("hamburger").style.color =  "#d1d4d4";
+    
+    document.getElementById("Navigation-Bar-Container").style.background = "none";
+    
+    document.getElementById("logo-text").style.color = "white";
+    document.getElementById("hamburger").style.color =  "white";
     let resume = document.getElementsByClassName("ResumeClass");
     for (let i = 0; i < resume.length; i++) {
       let element =resume[i];
@@ -42,9 +42,10 @@ function scrollFunction() {
     
     
     
+    
   }
 }
-*/
+
 
 /*Scroll to section for navigation bar*/
 
@@ -106,7 +107,7 @@ window.onresize = () => {
 }
 
 
-/*Scroll bar highlighting*/
+/*Scroll bar highlighting
 const sections_s = document.querySelectorAll('.top')
 const navli = document.querySelectorAll('#NormalNavBar ul .nav-buttons a')
 window.addEventListener("scroll", ()=> {
@@ -136,4 +137,4 @@ window.addEventListener("scroll", ()=> {
   }
 })
 
-
+*/

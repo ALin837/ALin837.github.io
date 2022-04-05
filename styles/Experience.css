@@ -3,6 +3,7 @@
 .Experience-Global {
   padding-top: 2rem;
   background-color: #f8f9f9;
+  background-color: white;
 }
 
 .Experience-Container {
@@ -84,6 +85,7 @@ ul li {
   width: 90%;
   margin: 1rem;
   border: 1px solid rgba(0, 0, 0, .125);
+
   border-radius: 25px;
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   transition: all .2s ease-out;
