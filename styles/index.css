@@ -33,7 +33,7 @@ code {
 .Section-title {
   padding-top: 1rem;
   font-weight: 600;
-  font-size: 2.75rem;
+  font-size: 2rem;
   color: #494C9E;
   margin-bottom: 0.5rem;
   /*
@@ -53,13 +53,12 @@ code {
   height: 100%;
   width: 100%;
   margin-top: 0px;
-  background-color: #2f2e41;
+  background-color: #40a45e;
   background-color: #3f3d56;
   background-color: #e76215;
   background-color: #f29a67;
   background-color: #464c97;
-
-  border-radius: 5px;
+  border-radius: 25px;
 }
 
 @media only screen and (max-width:500px) {
@@ -78,7 +77,7 @@ code {
 
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   margin: 0px;
   font-weight: 400;
   color: #2f2e41;
@@ -94,7 +93,7 @@ span {
 
 h4 {
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  font-size: 1.75rem;
+  font-size: 1.25rem;
   font-weight: 600;
   margin: 5px 0px;
   color: #2f2e41;
@@ -114,6 +113,10 @@ h4 {
 
 .layer2 {
   background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash-edit.jpg');
+}
+
+.layer3 {
+  background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
 }
 
 .fade-in {

@@ -16,7 +16,6 @@
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
-  font-size: 1.25rem;
 }
 
 .About-Me-Wrap {
@@ -26,6 +25,7 @@
 }
 
 .About-Me-Description {
+  font-size: 1.15rem;
   /*Animation*/
   opacity: 0;
   animation-name: translateInLeft;
@@ -37,7 +37,7 @@
 }
 
 .image-contain {
-  width: 90%;
+  width: 100%;
   height: auto;
   animation: action 1s infinite alternate;
 }
@@ -51,7 +51,7 @@
 #About-Me-Resume {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   box-sizing: border-box;
-  padding: 5px 35px;
+  padding: 5px 30px;
   font-size: 1.25rem;
   height: 3rem;
   font-weight: 500;
@@ -60,6 +60,7 @@
   color: #f8f9f9;
   background-color: #494C9E;
   transition: 0.5s;
+  margin-right: 4rem;
 }
 
 #About-Me-Resume:hover {
@@ -73,6 +74,17 @@
   .About-Me-Container {
     padding-top: 10vmax;
   }
+
+  .image-contain {
+    display: none;
+  }
+
+  .About-Me-Wrap {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 5%;
+  }
+
 
 
 }

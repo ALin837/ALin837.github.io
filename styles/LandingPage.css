@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
+.maximize-width {
+  width: 100%;
+}
+
 .Landing-Page-Global {
   height: 100vh;
   display: flex;
@@ -14,20 +18,12 @@
   font-weight: 800;
   font-style: normal;
   display: flex;
-
   color: white;
 }
 
 
-.landing-page-wrap {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 2rem;
-  align-items: center;
-}
-
 .socials {
-  margin-bottom: 10%;
+  margin-bottom: 5%;
 }
 
 #github-icon,
@@ -42,23 +38,21 @@
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
   animation-duration: 0.5s;
-
 }
 
 .Landing-Page-Intro {
-  font-size: 5rem;
+  font-size: 4.5rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 0.5rem;
 }
 
 .Landing-Page-School {
-  color: #e5e7ee;
   font-size: 1.5rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 3%;
-
+  color: #bec0c7;
 }
 
 a {
@@ -67,7 +61,7 @@ a {
 
 
 .outer {
-  color: #262729;
+  color: #36383c;
   transition: 0.3s;
 }
 
@@ -93,7 +87,7 @@ a {
 }
 
 #Go-to-Contact,
-#Go-to-Resume {
+#Go-to-Project {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   box-sizing: border-box;
   padding: 5px 35px;
@@ -104,8 +98,7 @@ a {
   border-radius: 100px;
 
   color: #f8f9f9;
-  background-color: #494C9E;
-  background-color: #40a47e;
+  background-color: #40a45e;
   transition: 0.5s;
   /*animation*/
   animation-name: fadeInOpacityBottom;
@@ -118,9 +111,9 @@ a {
 }
 
 #Go-to-Contact:hover,
-#Go-to-Resume:hover {
+#Go-to-Project:hover {
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  background-color: #327d60;
+  background-color: rgb(54, 120, 94);
   color: #f8f9f9;
   cursor: pointer;
 }
@@ -215,23 +208,6 @@ a {
 
   .socials {
     margin-bottom: 5%;
-  }
-
-}
-
-@media only screen and (max-width:650px) {
-  .landing-page-wrap {
-    display: grid;
-    grid-template-columns: 1fr;
-
-    justify-content: center;
-
-  }
-
-  .image-contain {
-    width: auto;
-    height: 30vh;
-    margin: 0 auto;
   }
 
 }

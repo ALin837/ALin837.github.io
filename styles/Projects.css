@@ -31,7 +31,7 @@
   filter: brightness(100%);
   box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   transition: all .2s ease-out;
-  border-radius: 15px;
+  border-radius: 10px;
 
 }
 
@@ -65,7 +65,7 @@
 
 
 .Project-Text {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 
@@ -75,7 +75,7 @@
 }
 
 .project-skill {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
   padding: 0.4rem;

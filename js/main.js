@@ -66,10 +66,16 @@ for (var i = 0; i < sections.length; i++) {
 }
 
 /*Open Resume in new tab*/
-const ResumeButton = document.getElementById("Go-to-Resume");
+const ProjectButton = document.getElementById("Go-to-Project");
+function Project() {  
+  const el = document.getElementById("Projects-Me");
+  el.scrollIntoView({behavior:"smooth", block: "start"})
+}
+
 function Resume() {
   window.open('/Files/Andrew_Lin_Resume_30-03-2022-20-11-11.pdf', '_blank')
 }
+
 
 /*Go to Contact Section*/
 const contactButton = document.getElementById("Go-to-Contact");
@@ -107,7 +113,7 @@ window.onresize = () => {
 }
 
 
-/*Scroll bar highlighting
+//Scroll bar highlighting
 const sections_s = document.querySelectorAll('.top')
 const navli = document.querySelectorAll('#NormalNavBar ul .nav-buttons a')
 window.addEventListener("scroll", ()=> {
@@ -137,4 +143,4 @@ window.addEventListener("scroll", ()=> {
   }
 })
 
-*/
+

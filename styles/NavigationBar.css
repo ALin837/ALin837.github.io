@@ -32,7 +32,7 @@
 
 .wrap-nav {
   box-sizing: border-box;
-  height: 67px;
+  height: auto;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -57,7 +57,7 @@
   color: white;
   display: inline-block;
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;
@@ -93,7 +93,7 @@
 .nav-button a,
 .nav-buttons a {
   display: inline-block;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;
@@ -182,6 +182,7 @@
   }
 
   .wrap-nav {
+    height: 65px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -202,7 +203,7 @@
   }
 
   .icon {
-    font-size: 1.15rem;
+    font-size: 1rem;
     display: inline;
     right: 2%;
     position: absolute;

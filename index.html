@@ -122,41 +122,44 @@
     </header>
 
     <div class="Landing-Page-Global top spacer layer2" id="Landing-Page">
-      <section class="Main-wrap">
+      <section class="Main-wrap maximize-width">
         <!--Landing Page-->
         <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
             <div class="Content-Container">
               <div class="Words-Container">
-                <div class="Landing-Page-Intro">Hi! I'm <b>Andrew Lin</b> </div>
-                <div class="Landing-Page-School">
-                  I am a Computer Science Student at
-                  the University of Waterloo.
+                <div class="Landing-Page-Intro">
+                  Hi! I'm <b>Andrew Lin</b>
                 </div>
-                <div class="socials">
-                  <a href="https://github.com/ALin837" target="_blank">
-                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                      <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
-                    </span>
-                  </a>
-                  <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                      <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
-                    </span>
-                  </a>
-                  <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                      <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
-                    </span>
-                  </a>
+                <div class="Landing-Page-School">
+                  I am a Computer Science Student from the University of Waterloo.
                 </div>
               </div>
+              <!--
+              <div class="socials">
+                <a href="https://github.com/ALin837" target="_blank">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
+                  </span>
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
+                  </span>
+                </a>
+                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
+                  </span>
+                </a>
+              </div>
+              --->
               <div class="button-group">
                 <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> Contact Me </button>
-                <button id="Go-to-Resume" onclick="Resume();"> Resume </button>
+                <button id="Go-to-Project" onclick="Project();"> Projects </button>
               </div>
             </div>
           </div>
@@ -181,19 +184,42 @@
           <div class="About-Me-Wrap">
             <div class="About-Me-Description">
               <p>
-                Hi!
-                I am a <b> Computer Science Student</b> that is interested in
-                Software and I am always looking for opportunities to grow as a developer.
+                Hi! My name is Andrew Lin and I study Computer Science at the University of Waterloo.
+                I started coding after taking Computer Science course in highschool. That's where I learned HTML/CSS,
+                Turing, Python and Java. In the end, that's how I ended up choosing to study Computer Science.
               </p>
               <p>
                 Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
               </p>
 
               <p>
-                Check out my Resume below.
+                Check out some of my socials below.
               </p>
-              <button id="About-Me-Resume" onclick="Resume();"> Resume </button>
+              <div class="socials">
+                <a href="https://github.com/ALin837" target="_blank">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
+                  </span>
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
+                  </span>
+                </a>
+                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
+                  </span>
+                </a>
+              </div>
+
+
+
             </div>
+
             <div class="image-contain">
               <img src="./images/undraw_code_thinking_re_gka2.svg" class="undraw-photo" alt="">
             </div>
@@ -283,6 +309,9 @@
                 </div>
                 <div class="skill">
                   <code>Jmeter</code>
+                </div>
+                <div class="skill">
+                  <code>Heroku</code>
                 </div>
                 <div class="skill">
                   <code>Selenium</code>
@@ -694,6 +723,7 @@
       <div class="footer-container">
         <div class="footer-name over">
           Made by Andrew Lin
+
         </div>
         <!--
             <div class="footer-socials">
