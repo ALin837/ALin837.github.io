@@ -35,6 +35,7 @@ code {
   font-weight: 600;
   font-size: 2rem;
   color: #494C9E;
+  color: #2f2e41;
   margin-bottom: 0.5rem;
   /*
   border-bottom: 4px solid #e76215;
@@ -61,19 +62,16 @@ code {
   border-radius: 25px;
 }
 
-@media only screen and (max-width:500px) {
-  .Section-title {
-    font-size: 2rem;
-  }
-}
-
 .Main-wrap {
   margin: 0 auto;
-  max-width: 1400px;
   padding: 0px 1.0875rem 1.45rem;
   padding-top: 0;
 }
 
+
+.max-width-container {
+  max-width: 1400px;
+}
 
 
 h3 {
@@ -108,14 +106,10 @@ h4 {
 }
 
 .layer1 {
-  background-image: url('../images/blob-haikei.svg')
-}
-
-.layer2 {
   background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash-edit.jpg');
 }
 
-.layer3 {
+.layer2 {
   background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
 }
 
@@ -130,4 +124,11 @@ h4 {
   height: 100%;
   object-fit: contain;
   object-position: center center;
+}
+
+
+@media only screen and (max-width:500px) {
+  .Section-title {
+    font-size: 2rem;
+  }
 }

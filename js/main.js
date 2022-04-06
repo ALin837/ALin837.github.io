@@ -5,6 +5,20 @@ function scrollFunction() {
     //"#2e2d2d"
     
     document.getElementById("Navigation-Bar-Container").style.background = "#494C9E";
+    /*Make Navigation Bar expand when at home*/
+    let navs = document.querySelectorAll(".nav-buttons a");
+    let nav =  document.querySelectorAll(".nav-button a");
+    let logo =  document.querySelectorAll(".logo a");
+    for (let i = 0; i < navs.length; i++) {
+      navs[i].style.fontSize = "1rem";
+    }
+    for (let i = 0; i < nav.length; i++) {
+      nav[i].style.fontSize = "1rem";
+    }
+    for (let i = 0; i < logo.length; i++) {
+      logo[i].style.fontSize = "1rem";
+    }
+
 
     /*
     document.getElementById("logo-text").style.color = "black";
@@ -26,7 +40,6 @@ function scrollFunction() {
   } else {
     
     document.getElementById("Navigation-Bar-Container").style.background = "none";
-    
     document.getElementById("logo-text").style.color = "white";
     document.getElementById("hamburger").style.color =  "white";
     let resume = document.getElementsByClassName("ResumeClass");
@@ -39,10 +52,23 @@ function scrollFunction() {
       let element = collection[i];
       element.style.color="white";
     }
+
+    /*Make Navigation Bar shrink when at home*/
+    let navs = document.querySelectorAll(".nav-buttons a");
+    let nav =  document.querySelectorAll(".nav-button a");
+    let logo =  document.querySelectorAll(".logo a");
+    for (let i = 0; i < navs.length; i++) {
+      navs[i].style.fontSize = "0.9rem";
+    }
+    for (let i = 0; i < nav.length; i++) {
+      nav[i].style.fontSize = "0.9rem";
+    }
     
+    for (let i = 0; i < logo.length; i++) {
+      logo[i].style.fontSize = "0.9rem";
+    }
     
-    
-    
+
   }
 }
 
@@ -120,7 +146,6 @@ window.addEventListener("scroll", ()=> {
   let current = "";
   sections_s.forEach(section => {
     const sectionTop = section.offsetTop
-    const sectionHeight = section.clientHeight
     if (scrollY >= (sectionTop - 100)) {
       current = section.getAttribute('id');
     }
@@ -131,6 +156,8 @@ window.addEventListener("scroll", ()=> {
       li.classList.add('active')
     }
   })
+  console.log(`right: ${window.innerHeight + window.scrollY}`)
+  console.log("left:" + document.body.offsetHeight)
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
     const contact = document.getElementById("Contact-text-normal")
     const project = document.getElementById("projects-text-normal")
