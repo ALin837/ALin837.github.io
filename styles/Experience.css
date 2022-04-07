@@ -3,14 +3,13 @@
 .Experience-Global {
   padding-top: 4vmax;
   padding-bottom: 4vmax;
-  background-color: #f8f9f9;
   background-color: white;
 }
 
 .Experience-Container {
   color: #2f2e41;
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  font-weight: normal;
+  line-height: 25px;
   font-style: normal;
   letter-spacing: 8%;
 }
@@ -30,31 +29,36 @@
 
 .vertical-line {
   height: 50%;
-  width: 5px;
-  background-color: #5b5a68;
-  background-color: #eceded;
+  width: 6px;
+  background-color: #2f2e41;
 }
 
 .ball {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 35px;
-  width: 35px;
+  height: 20px;
+  width: 20px;
   border-radius: 50%;
-  background-color: #f8f9f9;
-  border: #2e3037 3px solid;
-  border: #bebebe 3px solid;
-
-
+  background-color: white;
+  border: #2f2e41 5px solid;
 }
 
 ul li {
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
 }
 
+/*
+.job-title {
+  color: white;
+}
+
+.job-company {
+  color: white;
+}
+*/
 
 .Experience-Content {
   padding: 1.5rem;
@@ -82,15 +86,17 @@ ul li {
 
 /*Company*/
 .Company {
+  position: relative;
   background-color: #f8f9f9;
   padding: 1rem;
   /*Timeline*/
   width: 90%;
   margin: 1rem;
-  /*
-  border: 1px solid rgba(150, 148, 148, 0.125);
-  */
-  border-radius: 5px;
+
+  border: 5px solid #2f2e41;
+  border-radius: 15px 50px 30px 5px;
+  border-radius: 15px 50px;
+  border-radius: 15px 50px 30px;
 
   transition: all .2s ease-out;
   /**/
@@ -98,6 +104,7 @@ ul li {
   animation-duration: 1.5s;
   animation-fill-mode: forwards;
   animation-timing-function: ease;
+
 }
 
 @keyframes bounceIn {
@@ -122,13 +129,13 @@ ul li {
   }
 }
 
-/*
-.Company:hover {
-  box-shadow: 0 10px 15px 0 rgb(0 0 0 / 20%);
-}
-*/
+
 
 @media only screen and (max-width:680px) {
+  .triangle {
+    display: none;
+  }
+
   .timeline-segment {
     display: none;
   }
