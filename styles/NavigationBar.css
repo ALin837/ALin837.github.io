@@ -8,7 +8,7 @@
   transition: 1s;
   color: white;
   opacity: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   /*Animations*/
   animation-name: fadeInOpacityTop;
   animation-iteration-count: 1;
@@ -58,7 +58,7 @@
   display: inline-block;
   font-family: 'Nunito', "Noto-sans", sans-serif;
 
-  font-size: 1rem;
+  font-size: 0.9rem;
 
   font-weight: 500;
   font-style: normal;
@@ -95,7 +95,7 @@
 .nav-button a,
 .nav-buttons a {
   display: inline-block;
-  font-size: 1rem;
+  font-size: 0.9rem;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;

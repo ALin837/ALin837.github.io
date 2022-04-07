@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .About-Me-Global {
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 4vmax;
+  padding-bottom: 4vmax;
   background-color: #f8f9f9;
   background-color: white;
 }
@@ -25,7 +25,7 @@
 }
 
 .About-Me-Description {
-  font-size: 1.15rem;
+  font-size: 1rem;
   /*Animation*/
   opacity: 0;
   animation-name: translateInLeft;
@@ -45,22 +45,6 @@
 #About-Me-Image {
   border-radius: 50%;
   width: 100%;
-}
-
-
-#About-Me-Resume {
-  font-family: 'Nunito', "Noto-sans", sans-serif;
-  box-sizing: border-box;
-  padding: 5px 30px;
-  font-size: 1.25rem;
-  height: 3rem;
-  font-weight: 500;
-  border: none;
-  border-radius: 100px;
-  color: #f8f9f9;
-  background-color: #494C9E;
-  transition: 0.5s;
-  margin-right: 4rem;
 }
 
 #About-Me-Resume:hover {

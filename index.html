@@ -121,55 +121,34 @@
       </div>
     </header>
 
+
+    <!--Landing Page-->
     <div class="Landing-Page-Global top spacer layer1" id="Landing-Page">
       <section class="Main-wrap maximize-width max-width-container">
-        <!--Landing Page-->
         <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
             <div class="Content-Container">
               <div class="Words-Container">
                 <div class="Landing-Page-Intro">
-                  Hi! I'm <b>Andrew Lin</b>
+                  Hi! I'm Andrew Lin
                 </div>
                 <div class="Landing-Page-School">
                   I am a Computer Science Student from the University of Waterloo.
                 </div>
               </div>
-              <!--
-              <div class="socials">
-                <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
-                  </span>
-                </a>
-                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
-                  </span>
-                </a>
-                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
-                  </span>
-                </a>
-              </div>
-              --->
               <div class="button-group">
-                <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> Contact Me </button>
-                <button id="Go-to-Project" onclick="Project();"> Projects </button>
+                <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> Contact</button>
+                <button id="Go-to-Project" onclick="Resume();"> Resume </button>
               </div>
             </div>
           </div>
-          <div class="arrow " id="bounce-arrow" onclick="About();"></div>
         </section>
       </section>
+      <div class="arrow " id="bounce-arrow" onclick="About();"></div>
     </div>
 
 
-
+    <!--About Me-->
     <div class="About-Me-Global top" id="About-Me">
       <section class="Main-wrap max-width-container">
         <section class="About-Me-Container">
@@ -185,7 +164,7 @@
             <div class="About-Me-Description">
               <p>
                 Hi! My name is Andrew Lin and I study Computer Science at the University of Waterloo.
-                I started coding after taking Computer Science course in highschool. That's where I learned HTML/CSS,
+                I started coding after taking Computer Science in highschool and that's where I learned HTML/CSS,
                 Turing, Python and Java. In the end, that's how I ended up choosing to study Computer Science.
               </p>
               <p>
@@ -197,29 +176,25 @@
               </p>
               <div class="socials">
                 <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
                   </span>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
                   </span>
                 </a>
                 <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>
                 </a>
               </div>
-
-
-
             </div>
-
             <div class="image-contain">
               <img src="./images/undraw_code_thinking_re_gka2.svg" class="undraw-photo" alt="">
             </div>
@@ -228,12 +203,11 @@
       </section>
     </div>
 
-
+    <!--Skills-->
     <div class="Skills-Global top" id="Skills-Me">
       <section class="Main-wrap max-width-container">
-        <!--Skills-->
         <section class="Skills-Container">
-
+          <!--Skills Title-->
           <div class="Section-title-wrap">
             <div class="Section-title-container">
               <h2 class="Section-title"> <i class="fa-solid fa-computer"></i> &nbsp;Skills</h2>
@@ -242,9 +216,20 @@
               </div>
             </div>
           </div>
+
+          <!--Skills Content-->
           <div class="Skill-wrap">
-            <div class="Skill-Section">
-              <h3><span>Programming Languages:</span></h3>
+
+            <div class="Skill-Section" id="Programming-Lang">
+              <div class="skill-photo-wrap">
+                <div class="skill-photo">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+              </div>
+              <div class="skill-title">
+                <h3><span>Programming Languages:</span></h3>
+
+              </div>
               <div class="skill-container" id="Programming-Languages">
                 <div class="skill">
                   <code>C/C++</code>
@@ -275,8 +260,16 @@
                 </div>
               </div>
             </div>
-            <div class="Skill-Section">
-              <h3><span>Libraries/Frameworks:</span></h3>
+
+            <div class="Skill-Section" id="Libraries-Frameworks">
+              <div class="skill-photo-wrap">
+                <div class="skill-photo">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </div>
+              </div>
+              <div class="skill-title">
+                <h3><span>Libraries/Frameworks:</span></h3>
+              </div>
               <div class="skill-container" id="Libraries-Frameworks">
                 <div class="skill" id="React">
                   <code>React</code>
@@ -301,8 +294,16 @@
                 </div>
               </div>
             </div>
-            <div class="Skill-Section">
-              <h3><span>Tools:</span></h3>
+
+            <div class="Skill-Section" id="Tools">
+              <div class="skill-photo-wrap">
+                <div class="skill-photo">
+                  <i class="fa-brands fa-git-alt"></i>
+                </div>
+              </div>
+              <div class="skill-title">
+                <h3><span>Tools:</span></h3>
+              </div>
               <div class="skill-container" id="Tools">
                 <div class="skill">
                   <code>Git</code>
@@ -667,19 +668,19 @@
               </div>
               <div class="contact-socials">
                 <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
                   </span>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
                   </span>
                 </a>
                 <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>

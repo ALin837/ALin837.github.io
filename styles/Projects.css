@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Projects-Global {
-  padding-top: 2rem;
+  padding-top: 4vmax;
+  padding-bottom: 4vmax;
   background-color: #f8f9f9;
 }
 
@@ -65,7 +66,7 @@
 
 
 .Project-Text {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 
@@ -75,7 +76,7 @@
 }
 
 .project-skill {
-  font-size: 1.15rem;
+  font-size: 1rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
   padding: 0.4rem;
@@ -89,7 +90,7 @@
 
 @media only screen and (max-width:680px) {
   .project-skill {
-    font-size: 1.1rem;
+    font-size: 0.88rem;
   }
 
   .image-box {

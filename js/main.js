@@ -10,13 +10,13 @@ function scrollFunction() {
     let nav =  document.querySelectorAll(".nav-button a");
     let logo =  document.querySelectorAll(".logo a");
     for (let i = 0; i < navs.length; i++) {
-      navs[i].style.fontSize = "1rem";
+      navs[i].style.fontSize = "0.95rem";
     }
     for (let i = 0; i < nav.length; i++) {
-      nav[i].style.fontSize = "1rem";
+      nav[i].style.fontSize = "0.95rem";
     }
     for (let i = 0; i < logo.length; i++) {
-      logo[i].style.fontSize = "1rem";
+      logo[i].style.fontSize = "0.95rem";
     }
 
 
