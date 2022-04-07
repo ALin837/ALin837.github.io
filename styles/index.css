@@ -32,11 +32,10 @@ code {
   color: #494C9E;
   color: #2f2e41;
   margin-bottom: 0.5rem;
-  margin-top: 0.5rem;
+  padding-top: 0rem;
   /*
   border-bottom: 4px solid #e76215;
   */
-
 }
 
 .divider-wrap {
@@ -89,7 +88,7 @@ span {
 h4 {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   font-size: 1.1875rem;
-  font-weight: 600;
+  font-weight: 700;
   margin: 5px 0px;
   color: #2f2e41;
 }
@@ -125,8 +124,8 @@ h4 {
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:930px) {
   .Section-title {
-    font-size: 1.6rem;
+    padding-top: 1.5rem;
   }
 }
