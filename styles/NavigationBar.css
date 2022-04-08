@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
-
 .Navigation-Bar-Container {
   position: fixed;
   display: flex;
@@ -56,7 +54,7 @@
 .logo a {
   color: white;
   display: inline-block;
-  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-family: 'Lexend', "Noto-sans", sans-serif;
 
   font-size: 1rem;
 
@@ -100,7 +98,7 @@
   font-style: normal;
   letter-spacing: 8%;
   text-decoration: none;
-  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-family: 'Lexend', "Noto-sans", sans-serif;
   padding: 5px 5px;
   transition: 0.3s;
 }
@@ -138,7 +136,7 @@
 }
 
 
-@media only screen and (max-width: 830px) {
+@media only screen and (max-width: 875px) {
 
   .nav-buttons,
   .nav-button {

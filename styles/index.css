@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 /*Old Blue: #494C9E;*/
 /*Off white #f8f9f9*/
 /*Old Main Blue #494C9E*/
 /*Main Blue: #494C9E*/
 /*Green: #40a47e*/
+
 
 body {
   margin: 0;
@@ -48,12 +48,8 @@ code {
 
 .divider {
   height: 100%;
-  width: 100%;
+  width: 90%;
   margin-top: 0px;
-  background-color: #40a45e;
-  background-color: #3f3d56;
-  background-color: #e76215;
-  background-color: #f29a67;
   background-color: #464c97;
   border-radius: 25px;
 }
@@ -77,18 +73,18 @@ h3 {
   margin: 0px;
   font-weight: 400;
   color: #2f2e41;
-  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-family: 'Lexend', "Noto-sans", sans-serif;
 }
 
 span {
-  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-family: 'Lexend', "Noto-sans", sans-serif;
   font-weight: 700;
   font-size: 1.32;
 }
 
 
 h4 {
-  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-family: 'Lexend', "Noto-sans", sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
   margin: 5px 0px;

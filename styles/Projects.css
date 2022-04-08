@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
-
 .Projects-Global {
   padding-top: 3.5vmax;
   padding-bottom: 3.5vmax;
@@ -26,7 +24,7 @@
 
 .enabled,
 .disabled {
-  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-family: 'Lexend', "Noto-sans", sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
   margin: 5px 0px;
@@ -44,7 +42,7 @@
 
 .Projects-Container {
   color: #2f2e41;
-  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-family: 'Lexend', "Noto-sans", sans-serif;
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
