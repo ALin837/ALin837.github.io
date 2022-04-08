@@ -12,7 +12,7 @@
 .About-Me-Container {
   color: #2f2e41;
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 25px;
   font-style: normal;
   letter-spacing: 8%;
@@ -25,7 +25,7 @@
 }
 
 .About-Me-Description {
-  font-size: 1rem;
+  font-size: 1.15rem;
   /*Animation*/
   opacity: 0;
   animation-name: translateInLeft;
@@ -40,6 +40,16 @@
   width: 100%;
   height: auto;
   animation: action 1s infinite alternate;
+}
+
+@keyframes action {
+  0% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-10px);
+  }
 }
 
 #About-Me-Image {

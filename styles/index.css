@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
 /*Old Blue: #494C9E;*/
 /*Off white #f8f9f9*/
 /*Old Main Blue #494C9E*/
@@ -28,7 +29,7 @@ code {
 
 .Section-title {
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.15rem;
   color: #494C9E;
   color: #2f2e41;
   margin-bottom: 0.5rem;
@@ -65,13 +66,14 @@ code {
 
 
 .max-width-container {
+  max-width: 1400px;
   max-width: 1250px;
-
+  max-width: 1400px;
 }
 
 
 h3 {
-  font-size: 1.1875rem;
+  font-size: 1.3rem;
   margin: 0px;
   font-weight: 400;
   color: #2f2e41;
@@ -87,7 +89,7 @@ span {
 
 h4 {
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  font-size: 1.1875rem;
+  font-size: 1.3rem;
   font-weight: 700;
   margin: 5px 0px;
   color: #2f2e41;

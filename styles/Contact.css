@@ -65,7 +65,7 @@
 }
 
 label {
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 .name {
@@ -99,7 +99,7 @@ input[type=text] {
     border-radius: 4px;
     font-family: 'Nunito', "Noto-sans", sans-serif;
     outline-width: 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
@@ -115,7 +115,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     outline-width: 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     width: 100%;
 }
 
@@ -127,7 +127,7 @@ input[type=button] {
     border: 1px solid #ccc;
     outline-width: 0;
     margin-right: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.15rem;
     padding: 6px 14px;
     transition: all .2s ease-out;
 }

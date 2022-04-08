@@ -20,39 +20,12 @@ function scrollFunction() {
     }
 
 
-    /*
-    document.getElementById("logo-text").style.color = "black";
-    document.getElementById("hamburger").style.color = "black"
-    let resume = document.getElementsByClassName("ResumeClass");
-    for (let i = 0; i < resume.length; i++) {
-      let element = resume[i];
-      element.style.color="black";
-    }
-    let collection = document.getElementsByClassName("scroll_to");
-    for (let i = 0; i < collection.length; i++) {
-      let element = collection[i];
-      element.style.color="black";
-    }
-    */
     
 
 
   } else {
     
     document.getElementById("Navigation-Bar-Container").style.background = "none";
-    document.getElementById("logo-text").style.color = "white";
-    document.getElementById("hamburger").style.color =  "white";
-    let resume = document.getElementsByClassName("ResumeClass");
-    for (let i = 0; i < resume.length; i++) {
-      let element =resume[i];
-      element.style.color="white";
-    }
-    let collection = document.getElementsByClassName("scroll_to")
-    for (let i = 0; i < collection.length; i++) {
-      let element = collection[i];
-      element.style.color="white";
-    }
-
     /*Make Navigation Bar shrink when at home*/
     let navs = document.querySelectorAll(".nav-buttons a");
     let nav =  document.querySelectorAll(".nav-button a");
@@ -71,6 +44,7 @@ function scrollFunction() {
 
   }
 }
+
 
 
 /*Scroll to section for navigation bar*/

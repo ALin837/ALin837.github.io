@@ -7,6 +7,40 @@
 
 }
 
+.disabled {
+  cursor: not-allowed;
+  text-decoration: line-through;
+  text-decoration-color: rgb(40, 39, 39);
+  text-decoration-thickness: 3px;
+}
+
+.Projects-Box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2rem;
+}
+
+.See-work-link {
+  display: flex;
+}
+
+.enabled,
+.disabled {
+  font-family: 'Nunito', "Noto-sans", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 5px 0px;
+  color: #4b4fbb;
+  transition: all 0.3s ease-in-out;
+}
+
+
+.enabled:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+
 
 .Projects-Container {
   color: #2f2e41;
@@ -17,13 +51,13 @@
 
 }
 
-/*
 .image-box {
-  width: 100%;
-  height: 500px;
+  height: 300px;
   margin-bottom: 2%;
+
+  border-radius: 10px;
 }
-*/
+
 
 
 
@@ -32,10 +66,8 @@
   height: 100%;
   object-fit: cover;
   object-position: center center;
-  filter: brightness(100%);
-  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
   transition: all .2s ease-out;
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 
@@ -45,15 +77,15 @@
 }
 
 .Project-section {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  column-gap: 5%;
-  margin-bottom: 7em;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  background-color: #eeeeee;
+  border-radius: 10px;
 }
 
 
 .Project-Text {
-  font-size: 1rem;
+  font-size: 1.15rem;
 }
 
 
@@ -93,6 +125,11 @@
 
   }
 
+  .Projects-Box {
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
 
 
 }
