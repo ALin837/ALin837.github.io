@@ -36,7 +36,7 @@ function Project() {
 }
 
 function Resume() {
-  window.open('/Files/Andrew_Lin_Resume_30-03-2022-20-11-11.pdf', '_blank')
+  window.open('/Files/Andrew_Lin_Resume_08-04-2022-10-23-10.pdf', '_blank')
 }
 
 
