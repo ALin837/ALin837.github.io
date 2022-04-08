@@ -3,7 +3,7 @@
 }
 
 .Landing-Page-Global {
-  height: 80vh;
+  height: 70vh;
   display: flex;
   align-items: center;
 
@@ -11,7 +11,7 @@
 
 .button-group {
   display: flex;
-  justify-content: center;
+  justify-content: left;
 }
 
 
@@ -21,7 +21,7 @@
   font-weight: 800;
   font-style: normal;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   color: white;
 }
 
@@ -37,7 +37,7 @@
 }
 
 .Words-Container {
-  text-align: center;
+  text-align: left;
   animation-name: fadeInOpacityBottom;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
@@ -45,7 +45,7 @@
 }
 
 .Landing-Page-Intro {
-  text-align: center;
+  text-align: left;
   font-size: 4rem;
   font-weight: 700;
   font-style: normal;
@@ -53,7 +53,7 @@
 }
 
 .Landing-Page-School {
-  text-align: center;
+  text-align: left;
   font-size: 1.2rem;
   font-weight: 400;
   font-style: normal;
