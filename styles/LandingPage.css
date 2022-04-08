@@ -3,7 +3,7 @@
 }
 
 .Landing-Page-Global {
-  height: 70vh;
+  height: 60vh;
   display: flex;
   align-items: center;
 
@@ -54,7 +54,7 @@
 
 .Landing-Page-School {
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 400;
   font-style: normal;
   margin-bottom: 3%;
@@ -150,7 +150,7 @@ a {
 .arrow {
   margin-top: 1rem;
   position: absolute;
-  bottom: 23%;
+  bottom: 45%;
   left: 50%;
   margin-left: -20px;
   width: 30px;
@@ -193,7 +193,7 @@ a {
 
 
   .Landing-Page-Intro {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .Landing-Page-School {
@@ -218,7 +218,11 @@ a {
 
 }
 
-@media only screen and (max-width:300px) {
+@media only screen and (max-width:355px) {
+  .Landing-Page-Intro {
+    font-size: 2.5rem;
+  }
+
 
   #Go-to-Contact,
   #Go-to-Resume {
