@@ -8,7 +8,7 @@
   transition: 1s;
   color: white;
   opacity: 0;
-  font-size: 1rem;
+  font-size: 0.9rem;
   /*Animations*/
   animation-name: fadeInOpacityTop;
   animation-iteration-count: 1;
@@ -33,7 +33,7 @@
 
 .wrap-nav {
   box-sizing: border-box;
-  height: auto;
+  height: 67px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -138,7 +138,7 @@
 }
 
 
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 815px) {
 
   .nav-buttons,
   .nav-button {

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
 
 .Contact-Global {
-    padding-bottom: 3rem;
-    padding-top: 2rem;
+    padding-top: 4vmax;
+    padding-bottom: 4vmax;
     background-color: white;
 }
 
@@ -12,7 +12,6 @@
     font-family: 'Nunito', "Noto-sans", sans-serif;
     box-sizing: border-box;
     width: 100%;
-    padding-top: 5vmax;
 }
 
 .Contact-Title {
@@ -100,7 +99,7 @@ input[type=text] {
     border-radius: 4px;
     font-family: 'Nunito', "Noto-sans", sans-serif;
     outline-width: 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
@@ -116,7 +115,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     outline-width: 0;
-    font-size: 1rem;
+    font-size: 1.15rem;
     width: 100%;
 }
 

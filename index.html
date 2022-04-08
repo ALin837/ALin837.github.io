@@ -121,55 +121,36 @@
       </div>
     </header>
 
+
+    <!--Landing Page-->
     <div class="Landing-Page-Global top spacer layer1" id="Landing-Page">
       <section class="Main-wrap maximize-width max-width-container">
-        <!--Landing Page-->
         <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
             <div class="Content-Container">
               <div class="Words-Container">
                 <div class="Landing-Page-Intro">
-                  Hi! I'm <b>Andrew Lin</b>
+                  Hi! I'm Andrew Lin
                 </div>
                 <div class="Landing-Page-School">
-                  I am a Computer Science Student from the University of Waterloo.
+                  <p> I am a Computer Science Student from the University of Waterloo. </p>
                 </div>
               </div>
-              <!--
-              <div class="socials">
-                <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
-                  </span>
-                </a>
-                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
-                  </span>
-                </a>
-                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
-                  </span>
-                </a>
-              </div>
-              --->
               <div class="button-group">
-                <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> Contact Me </button>
-                <button id="Go-to-Project" onclick="Project();"> Projects </button>
+                <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> <i
+                    class="fa-solid fa-phone"></i> &nbsp;Contact</button>
+                <button id="Go-to-Project" onclick="Resume();"> <i class="fa-solid fa-download"></i> &nbsp;Resume
+                </button>
               </div>
             </div>
           </div>
-          <div class="arrow " id="bounce-arrow" onclick="About();"></div>
         </section>
       </section>
+      <div class="arrow " id="bounce-arrow" onclick="About();"></div>
     </div>
 
 
-
+    <!--About Me-->
     <div class="About-Me-Global top" id="About-Me">
       <section class="Main-wrap max-width-container">
         <section class="About-Me-Container">
@@ -185,7 +166,7 @@
             <div class="About-Me-Description">
               <p>
                 Hi! My name is Andrew Lin and I study Computer Science at the University of Waterloo.
-                I started coding after taking Computer Science course in highschool. That's where I learned HTML/CSS,
+                I started coding after taking Computer Science in highschool and that's where I learned HTML/CSS,
                 Turing, Python and Java. In the end, that's how I ended up choosing to study Computer Science.
               </p>
               <p>
@@ -197,29 +178,25 @@
               </p>
               <div class="socials">
                 <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
                   </span>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
                   </span>
                 </a>
                 <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>
                 </a>
               </div>
-
-
-
             </div>
-
             <div class="image-contain">
               <img src="./images/undraw_code_thinking_re_gka2.svg" class="undraw-photo" alt="">
             </div>
@@ -228,12 +205,11 @@
       </section>
     </div>
 
-
+    <!--Skills-->
     <div class="Skills-Global top" id="Skills-Me">
       <section class="Main-wrap max-width-container">
-        <!--Skills-->
         <section class="Skills-Container">
-
+          <!--Skills Title-->
           <div class="Section-title-wrap">
             <div class="Section-title-container">
               <h2 class="Section-title"> <i class="fa-solid fa-computer"></i> &nbsp;Skills</h2>
@@ -242,9 +218,20 @@
               </div>
             </div>
           </div>
+
+          <!--Skills Content-->
           <div class="Skill-wrap">
-            <div class="Skill-Section">
-              <h3><span>Programming Languages:</span></h3>
+
+            <div class="Skill-Section" id="Programming-Lang">
+              <div class="skill-photo-wrap">
+                <div class="skill-photo">
+                  <i class="fa-solid fa-code"></i>
+                </div>
+              </div>
+              <div class="skill-title">
+                <h3><span>Programming Languages:</span></h3>
+
+              </div>
               <div class="skill-container" id="Programming-Languages">
                 <div class="skill">
                   <code>C/C++</code>
@@ -275,8 +262,16 @@
                 </div>
               </div>
             </div>
-            <div class="Skill-Section">
-              <h3><span>Libraries/Frameworks:</span></h3>
+
+            <div class="Skill-Section" id="Libraries-Frameworks">
+              <div class="skill-photo-wrap">
+                <div class="skill-photo">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </div>
+              </div>
+              <div class="skill-title">
+                <h3><span>Libraries/Frameworks:</span></h3>
+              </div>
               <div class="skill-container" id="Libraries-Frameworks">
                 <div class="skill" id="React">
                   <code>React</code>
@@ -301,8 +296,16 @@
                 </div>
               </div>
             </div>
-            <div class="Skill-Section">
-              <h3><span>Tools:</span></h3>
+
+            <div class="Skill-Section" id="Tools">
+              <div class="skill-photo-wrap">
+                <div class="skill-photo">
+                  <i class="fa-brands fa-git-alt"></i>
+                </div>
+              </div>
+              <div class="skill-title">
+                <h3><span>Tools:</span></h3>
+              </div>
               <div class="skill-container" id="Tools">
                 <div class="skill">
                   <code>Git</code>
@@ -355,11 +358,11 @@
                   </div>
 
                 </div>
-
                 <div class="Company">
+
                   <div class="Experience-Content" id="Monest">
                     <div class="Experience-Wrap">
-                      <h3><span>Monest Co.</span></h3>
+                      <h3><span class="job-company">Monest Co.</span></h3>
                       <h3 class="job-title">Junior Developer, December 2021-Present</h3>
                       <ul>
                         <li>
@@ -373,6 +376,7 @@
                           APIs to improve code manageability and sustainability.
                         </li>
                       </ul>
+                      <!--
                       <div class="experience-skill-container">
                         <div class="experience-skill">
                           <code>Python</code>
@@ -387,6 +391,7 @@
                           <code>PostgreSQL</code>
                         </div>
                       </div>
+                      -->
                     </div>
                   </div>
                 </div>
@@ -413,7 +418,7 @@
                 <div class="Company">
                   <div class="Experience-Content" id="OpenText">
                     <div class="Experience-Wrap">
-                      <h3><span>OpenText Corporation</span></h3>
+                      <h3><span class="job-company">OpenText Corporation</span></h3>
                       <h3 class="job-title">Software QA Automation Developer, Janurary 2022-Present</h3>
                       <ul>
                         <li>
@@ -427,6 +432,7 @@
                           baselines.
                         </li>
                       </ul>
+                      <!--
                       <div class="experience-skill-container">
                         <div class="experience-skill">
                           <code> Golang</code>
@@ -441,6 +447,7 @@
                           <code> Groovy</code>
                         </div>
                       </div>
+                      -->
                     </div>
                   </div>
                 </div>
@@ -463,9 +470,10 @@
 
                 </div>
                 <div class="Company">
+
                   <div class="Experience-Content" id="InFlight">
                     <div class="Experience-Wrap">
-                      <h3><span>InFlight Corporation</span></h3>
+                      <h3><span class="job-company">InFlight Corporation</span></h3>
                       <h3 class="job-title">QA Analyst, May 2021-August 2021</h3>
                       <ul>
                         <li>
@@ -480,6 +488,7 @@
                           Automated testing processes with Selenium to test functional behaviour.
                         </li>
                       </ul>
+                      <!--
                       <div class="experience-skill-container">
                         <div class="experience-skill">
                           <code>Regression Testing</code>
@@ -493,6 +502,7 @@
                           <code>Functional Testing</code>
                         </div>
                       </div>
+                      -->
                     </div>
                   </div>
                 </div>
@@ -510,6 +520,7 @@
     <div class="Projects-Global top" id="Projects-Me">
       <section class="Main-wrap max-width-container">
         <section class="Projects-Container">
+          <!--Project Title-->
           <div class="Section-title-wrap">
             <div class="Section-title-container">
               <h2 class="Section-title"> <i class="fa-solid fa-book-bookmark"></i> &nbsp;Projects</h2>
@@ -519,126 +530,169 @@
             </div>
           </div>
 
+          <!--Project Content-->
           <div class="Projects-Box">
 
 
             <div class="Project-section">
-              <div class="image-box">
-                <a href="https://github.com/ALin837/My-Chat-App" target="_blank">
+              <div>
+                <div class="image-box">
                   <img src="images/Chat-app.jpg" class="project-image"></img>
-                </a>
+                </div>
+                <div class="Projects-desc">
+                  <div class="Section-wrap">
+                    <h4> My-Chat-App&nbsp; <i class="fa-solid fa-comment"></i></h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                        A web-based chat application that allows users to talk to each other in real-time within
+                        chatrooms. The
+                        frontend is built using HTML/CSS and Javascript while the backend is built using Node.js,
+                        Express.js, and Socket.io. Please try the application out!
+                      </p>
+                      <!--
+                      <div class="project-skill-container">
+                        <h4>Tech Stack: &nbsp;</h4>
+                        <div class="project-skill">
+                          <code>HTML</code>
+                        </div>
+                        <div class="project-skill">
+                          <code>CSS</code>
+                        </div>
+                        <div class="project-skill">
+                          <code>JavaScript</code>
+                        </div>
+                        <div class="project-skill">
+                          <code>Node.js</code>
+                        </div>
+                        <div class="project-skill">
+                          <code>Express.js</code>
+                        </div>
+                        <div class="project-skill">
+                          <code>Socket.io</code>
+                        </div>
+                      </div>
+                      -->
+                    </div>
+                  </div>
+                </div>
+                <div class="See-work-link">
+                  <a href="https://github.com/ALin837/My-Chat-App" target="_blank">
+                    <h5 class="enabled">See work &#8594</h5>
+                  </a>
+                </div>
               </div>
-              <div class="Projects-desc">
-                <div class="Section-wrap">
-                  <h4> My-Chat-App&nbsp; <i class="fa-solid fa-comment"></i></h4>
-                  <div class="Section-Content">
-                    <p class="Project-Text">
-                      A web-based chat application that allows users to talk to each other inside chatrooms.
-                    </p>
+            </div>
+
+            <div class="Project-section">
+              <div>
+                <div class="image-box" id="AGE-Image">
+                  <img src="images/AGE-Engine3.png" class="project-image" id="Age"></img>
+                </div>
+                <div class="Projects-desc" id="AGE-Section">
+                  <div class="Section-wrap">
+                    <h4>ASCII Game Engine&nbsp; <i class="fa-solid fa-gamepad"></i></h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                        Made during CS246E, this project is an ASCII Game Engine to support the creation of ASCII art
+                        video games. The game engine allows
+                        any
+                        user to be able to create sprites, handle collisions and movement.
+                        Using the engine I recreated Google's
+                        Dinosaur
+                        Game.
+                      </p>
+                    </div>
+                    <!--
                     <div class="project-skill-container">
+                      <h4>Tech Stack: &nbsp;</h4>
                       <div class="project-skill">
-                        <code>HTML</code>
+                        <code>C++</code>
                       </div>
                       <div class="project-skill">
-                        <code>CSS</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>JavaScript</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>Node.js</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>Express.js</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>Socket.io</code>
+                        <code>Ncurses</code>
                       </div>
                     </div>
+                    -->
                   </div>
                 </div>
               </div>
+              <div class="See-work-link">
+                <h5 class="disabled">See work &#8594</h5>
+              </div>
+
             </div>
 
             <div class="Project-section">
-              <div class="image-box" id="AGE-Image">
-                <img src="images/AGE-Engine3.png" class="project-image" id="Age"></img>
-              </div>
-              <div class="Projects-desc" id="AGE-Section">
-                <div class="Section-wrap">
-                  <h4>ASCII Game Engine&nbsp; <i class="fa-solid fa-gamepad"></i></h4>
-                  <div class="Section-Content">
-                    <p class="Project-Text">
-                      An ASCII Game Engine to support the creation of ASCII art video games. Recreated Google's
-                      Dinosaur
-                      game and the Impossible Game using the Engine.
-                    </p>
-                  </div>
-                  <div class="project-skill-container">
-                    <div class="project-skill">
-                      <code>C++</code>
-                    </div>
-                    <div class="project-skill">
-                      <code>Ncurses</code>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="Project-section">
-              <div class="image-box">
-                <a href="https://github.com/ALin837/Snake" target="_blank">
+              <div>
+                <div class="image-box">
                   <img src="images/Snake2.png" class="project-image"></img>
-                </a>
-              </div>
-              <div class="Projects-desc">
-                <div class="Section-wrap">
-                  <h4>Snake &nbsp;<i class="fa-solid fa-worm"></i></h4>
-                  <div class="Section-Content">
-                    <p class="Project-Text">
-                      A re-creation of the Snake game that includes
-                      a speed-up feature as scores get higher and higher. Also includes relaxing music to go along with
-                      the game.
-                    </p>
-                  </div>
-                  <div class="project-skill-container">
-                    <div class="project-skill">
-                      <code>Python</code>
+                </div>
+                <div class="Projects-desc">
+                  <div class="Section-wrap">
+                    <h4>Snake &nbsp;<i class="fa-solid fa-worm"></i></h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                        A re-creation of the Snake game that includes
+                        a speed-up feature as scores get higher and higher.
+                        The game also includes relaxing music to go along with
+                        the game.
+                      </p>
                     </div>
-                    <div class="project-skill">
-                      <code>PyGame</code>
+                    <!--
+                    <div class="project-skill-container">
+                      <h4>Tech Stack:</h4>
+                      <div class="project-skill">
+                        <code>Python</code>
+                      </div>
+                      <div class="project-skill">
+                        <code>PyGame</code>
+                      </div>
                     </div>
+                    -->
                   </div>
                 </div>
+              </div>
+              <div class="See-work-link">
+                <a href="https://github.com/ALin837/Snake" target="_blank">
+                  <h5 class="enabled">See work &#8594</h5>
+                </a>
               </div>
             </div>
 
             <div class="Project-section">
-              <div class="image-box" id="Breakout-Image">
-                <a href="https://github.com/ALin837/Breakout" target="_blank">
-                  <img src="images/Breakoutv2.png" class="project-image"></img>
-                </a>
-              </div>
-              <div class="Projects-desc" id="Breakout-Section">
-                <div class="Section-wrap">
-                  <h4>Breakout &nbsp;<i class="fa-solid fa-meteor"></i></h4>
-                  <div class="Section-Content">
-                    <p class="Project-Text">
-                      A re-creation of the Atari Breakout game that tracks score and includes a double paddle mode for
-                      higher
-                      scores
-                    </p>
-                  </div>
-                  <div class="project-skill-container">
-                    <div class="project-skill">
-                      <code>Python</code>
+              <div>
+                <div class="image-box" id="Breakout-Image">
+                  <img src="images/Breakoutv3.png" class="project-image"></img>
+                </div>
+                <div class="Projects-desc" id="Breakout-Section">
+                  <div class="Section-wrap">
+                    <h4>Breakout &nbsp;<i class="fa-solid fa-meteor"></i></h4>
+                    <div class="Section-Content">
+                      <p class="Project-Text">
+                        A re-creation of the Atari Breakout game that tracks score and
+                        includes a double paddle mode for higher scores. The game also includes sound
+                        effects and also includes basic collision physics
+                      </p>
                     </div>
-                    <div class="project-skill">
-                      <code>PyGame</code>
+                    <!--
+                    <div class="project-skill-container">
+                      <h4>Tech Stack: &nbsp;</h4>
+                      <div class="project-skill">
+                        <code>Python</code>
+                      </div>
+                      <div class="project-skill">
+                        <code>PyGame</code>
+                      </div>
                     </div>
+                    -->
+
                   </div>
                 </div>
+              </div>
+              <div class="See-work-link">
+                <a href="https://github.com/ALin837/Breakout" target="_blank">
+                  <h5 class="enabled">See work &#8594</h5>
+                </a>
               </div>
             </div>
           </div>
@@ -667,19 +721,19 @@
               </div>
               <div class="contact-socials">
                 <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
                   </span>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
                   </span>
                 </a>
                 <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.25rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>
@@ -745,6 +799,7 @@
 
   </div>
   <script src="js/main.js"></script>
+
 </body>
 
 </html>

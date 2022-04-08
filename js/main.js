@@ -2,75 +2,12 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    //"#2e2d2d"
-    
     document.getElementById("Navigation-Bar-Container").style.background = "#494C9E";
-    /*Make Navigation Bar expand when at home*/
-    let navs = document.querySelectorAll(".nav-buttons a");
-    let nav =  document.querySelectorAll(".nav-button a");
-    let logo =  document.querySelectorAll(".logo a");
-    for (let i = 0; i < navs.length; i++) {
-      navs[i].style.fontSize = "1rem";
-    }
-    for (let i = 0; i < nav.length; i++) {
-      nav[i].style.fontSize = "1rem";
-    }
-    for (let i = 0; i < logo.length; i++) {
-      logo[i].style.fontSize = "1rem";
-    }
-
-
-    /*
-    document.getElementById("logo-text").style.color = "black";
-    document.getElementById("hamburger").style.color = "black"
-    let resume = document.getElementsByClassName("ResumeClass");
-    for (let i = 0; i < resume.length; i++) {
-      let element = resume[i];
-      element.style.color="black";
-    }
-    let collection = document.getElementsByClassName("scroll_to");
-    for (let i = 0; i < collection.length; i++) {
-      let element = collection[i];
-      element.style.color="black";
-    }
-    */
-    
-
-
   } else {
-    
     document.getElementById("Navigation-Bar-Container").style.background = "none";
-    document.getElementById("logo-text").style.color = "white";
-    document.getElementById("hamburger").style.color =  "white";
-    let resume = document.getElementsByClassName("ResumeClass");
-    for (let i = 0; i < resume.length; i++) {
-      let element =resume[i];
-      element.style.color="white";
-    }
-    let collection = document.getElementsByClassName("scroll_to")
-    for (let i = 0; i < collection.length; i++) {
-      let element = collection[i];
-      element.style.color="white";
-    }
-
-    /*Make Navigation Bar shrink when at home*/
-    let navs = document.querySelectorAll(".nav-buttons a");
-    let nav =  document.querySelectorAll(".nav-button a");
-    let logo =  document.querySelectorAll(".logo a");
-    for (let i = 0; i < navs.length; i++) {
-      navs[i].style.fontSize = "0.9rem";
-    }
-    for (let i = 0; i < nav.length; i++) {
-      nav[i].style.fontSize = "0.9rem";
-    }
-    
-    for (let i = 0; i < logo.length; i++) {
-      logo[i].style.fontSize = "0.9rem";
-    }
-    
-
   }
 }
+
 
 
 /*Scroll to section for navigation bar*/

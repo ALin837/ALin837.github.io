@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap');
+
 /*Old Blue: #494C9E;*/
 /*Off white #f8f9f9*/
 /*Old Main Blue #494C9E*/
@@ -20,10 +21,6 @@ code {
 }
 
 
-.Section-title-container {
-  margin-top: 0.5rem;
-}
-
 .Section-title-wrap {
   display: flex;
   justify-content: left;
@@ -31,16 +28,15 @@ code {
 }
 
 .Section-title {
-  padding-top: 1rem;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.15rem;
   color: #494C9E;
   color: #2f2e41;
   margin-bottom: 0.5rem;
+  padding-top: 0rem;
   /*
   border-bottom: 4px solid #e76215;
   */
-
 }
 
 .divider-wrap {
@@ -71,11 +67,13 @@ code {
 
 .max-width-container {
   max-width: 1400px;
+  max-width: 1250px;
+  max-width: 1400px;
 }
 
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
   margin: 0px;
   font-weight: 400;
   color: #2f2e41;
@@ -85,14 +83,14 @@ h3 {
 span {
   font-family: 'Nunito', "Noto-sans", sans-serif;
   font-weight: 700;
-  font-size: 1.65;
+  font-size: 1.32;
 }
 
 
 h4 {
   font-family: 'Nunito', "Noto-sans", sans-serif;
-  font-size: 1.25rem;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   margin: 5px 0px;
   color: #2f2e41;
 }
@@ -103,6 +101,7 @@ h4 {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+
 }
 
 .layer1 {
@@ -127,8 +126,8 @@ h4 {
 }
 
 
-@media only screen and (max-width:500px) {
+@media only screen and (max-width:930px) {
   .Section-title {
-    font-size: 2rem;
+    padding-top: 1.5rem;
   }
 }
