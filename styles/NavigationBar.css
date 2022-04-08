@@ -138,13 +138,17 @@
 }
 
 
-@media only screen and (max-width: 815px) {
+@media only screen and (max-width: 830px) {
 
   .nav-buttons,
   .nav-button {
     border: none;
   }
 
+  .Navigation-Bar-Container {
+    background-color: #494C9E !important;
+
+  }
 
 
   .nav-button {
@@ -209,10 +213,6 @@
     display: inline;
     right: 2%;
     position: absolute;
-  }
-
-  .icon:hover {
-    color: #494C9E;
   }
 
   #NormalNavBar {
