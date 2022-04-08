@@ -33,7 +33,7 @@
 
 .wrap-nav {
   box-sizing: border-box;
-  height: auto;
+  height: 67px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -58,7 +58,7 @@
   display: inline-block;
   font-family: 'Nunito', "Noto-sans", sans-serif;
 
-  font-size: 0.9rem;
+  font-size: 1rem;
 
   font-weight: 500;
   font-style: normal;
@@ -95,7 +95,7 @@
 .nav-button a,
 .nav-buttons a {
   display: inline-block;
-  font-size: 0.9rem;
+  font-size: 1rem;
   font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;

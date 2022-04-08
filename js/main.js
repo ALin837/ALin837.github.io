@@ -2,46 +2,9 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    //"#2e2d2d"
-    
     document.getElementById("Navigation-Bar-Container").style.background = "#494C9E";
-    /*Make Navigation Bar expand when at home*/
-    let navs = document.querySelectorAll(".nav-buttons a");
-    let nav =  document.querySelectorAll(".nav-button a");
-    let logo =  document.querySelectorAll(".logo a");
-    for (let i = 0; i < navs.length; i++) {
-      navs[i].style.fontSize = "0.95rem";
-    }
-    for (let i = 0; i < nav.length; i++) {
-      nav[i].style.fontSize = "0.95rem";
-    }
-    for (let i = 0; i < logo.length; i++) {
-      logo[i].style.fontSize = "0.95rem";
-    }
-
-
-    
-
-
   } else {
-    
     document.getElementById("Navigation-Bar-Container").style.background = "none";
-    /*Make Navigation Bar shrink when at home*/
-    let navs = document.querySelectorAll(".nav-buttons a");
-    let nav =  document.querySelectorAll(".nav-button a");
-    let logo =  document.querySelectorAll(".logo a");
-    for (let i = 0; i < navs.length; i++) {
-      navs[i].style.fontSize = "0.9rem";
-    }
-    for (let i = 0; i < nav.length; i++) {
-      nav[i].style.fontSize = "0.9rem";
-    }
-    
-    for (let i = 0; i < logo.length; i++) {
-      logo[i].style.fontSize = "0.9rem";
-    }
-    
-
   }
 }
 
