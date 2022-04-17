@@ -1,13 +1,13 @@
 .Skills-Global {
     padding-top: 3.5vmax;
     padding-bottom: 3.5vmax;
-    background-color: #f8f9f9;
+    background-color: var(--offWhiteColor);
 
 }
 
 .Skills-Container {
-    color: #2f2e41;
-    font-family: 'Lexend', "Noto-sans", sans-serif;
+    color: var(--mainBlack);
+    font-family: var(--fonts);
     font-weight: normal;
     font-style: normal;
     letter-spacing: 8%;
@@ -39,7 +39,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background-color: #2f2e41;
+    background-color: var(--mainBlack);
     color: white;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@
     margin: 0.5rem;
     padding: 0.4rem;
     border-radius: 5px;
-    color: white;
+    color: var(--bright);
 
     background-color: rgb(52, 51, 60);
 }

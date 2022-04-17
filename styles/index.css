@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/*Old Blue: #494C9E;*/
-/*Off white #f8f9f9*/
-/*Old Main Blue #494C9E*/
-/*Main Blue: #494C9E*/
-/*Green: #40a47e*/
 
+.root {
+  --fonts: 'Lexend', "Noto-sans", sans-serif;
+  --mainBlack: #2f2e41;
+  --offWhiteColor: #f8f9f9;
+  --bright: white;
+  --mainBlue: #494C9E;
+}
 
 body {
   margin: 0;
@@ -30,8 +32,8 @@ code {
 .Section-title {
   font-weight: 600;
   font-size: 2.15rem;
-  color: #494C9E;
-  color: #2f2e41;
+  color: var(--mainBlue);
+  color: var(--mainBlack);
   margin-bottom: 0.5rem;
   padding-top: 0rem;
   /*
@@ -50,7 +52,7 @@ code {
   height: 100%;
   width: 90%;
   margin-top: 0px;
-  background-color: #464c97;
+  background-color: var(--mainBlue);
   border-radius: 25px;
 }
 
@@ -72,23 +74,23 @@ h3 {
   font-size: 1.3rem;
   margin: 0px;
   font-weight: 400;
-  color: #2f2e41;
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  color: var(--mainBlack);
+  font-family: var(--fonts);
 }
 
 span {
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   font-weight: 700;
   font-size: 1.32;
 }
 
 
 h4 {
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   font-size: 1.3rem;
   font-weight: 700;
   margin: 5px 0px;
-  color: #2f2e41;
+  color: var(--mainBlack);
 }
 
 .spacer {

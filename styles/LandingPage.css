@@ -17,12 +17,12 @@
 
 
 .Landing-Page-Container {
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   font-weight: 800;
   font-style: normal;
   display: flex;
   justify-content: left;
-  color: white;
+  color: var(--bright);
 }
 
 
@@ -33,7 +33,7 @@
 #github-icon,
 #linkedin-icon,
 #email-icon {
-  color: white;
+  color: var(--bright);
 }
 
 .Words-Container {
@@ -94,7 +94,7 @@ a {
 
 #Go-to-Contact,
 #Go-to-Resume {
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   box-sizing: border-box;
   padding: 4px 28px;
   font-size: 1rem;
@@ -103,7 +103,7 @@ a {
   border: none;
   border-radius: 100px;
 
-  color: #f8f9f9;
+  color: var(--offWhiteColor);
   background-color: #40a45e;
   transition: 0.5s;
   /*animation*/
@@ -118,9 +118,9 @@ a {
 
 #Go-to-Contact:hover,
 #Go-to-Resume:hover {
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   background-color: rgb(54, 120, 94);
-  color: #f8f9f9;
+  color: var(--offWhiteColor);
   cursor: pointer;
 }
 

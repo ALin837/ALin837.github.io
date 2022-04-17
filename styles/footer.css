@@ -1,7 +1,7 @@
 footer {
-  color: white;
-  background-color: #2f2e41;
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  color: var(--bright);
+  background-color: var(--mainBlack);
+  font-family: var(--fonts);
   bottom: 0px;
   display: flex;
   justify-content: center;

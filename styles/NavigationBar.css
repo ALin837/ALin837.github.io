@@ -4,7 +4,7 @@
   width: 100%;
   z-index: 2;
   transition: 1s;
-  color: white;
+  color: var(--bright);
   opacity: 0;
   font-size: 0.9rem;
   /*Animations*/
@@ -52,9 +52,9 @@
 
 
 .logo a {
-  color: white;
+  color: var(--bright);
   display: inline-block;
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
 
   font-size: 1rem;
 
@@ -73,7 +73,7 @@
 
 
 .nav-button a {
-  color: white;
+  color: var(--bright);
 }
 
 
@@ -98,7 +98,7 @@
   font-style: normal;
   letter-spacing: 8%;
   text-decoration: none;
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   padding: 5px 5px;
   transition: 0.3s;
 }
@@ -106,7 +106,7 @@
 /*Hamburger Menu*/
 .icon {
   font-size: 1rem;
-  color: white;
+  color: var(--bright);
   display: none;
 }
 
@@ -144,7 +144,7 @@
   }
 
   .Navigation-Bar-Container {
-    background-color: #494C9E !important;
+    background-color: var(--mainBlue) !important;
 
   }
 
