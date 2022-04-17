@@ -1,7 +1,7 @@
 .Projects-Global {
   padding-top: 3.5vmax;
   padding-bottom: 3.5vmax;
-  background-color: #f8f9f9;
+  background-color: var(--offWhiteColor);
 
 }
 
@@ -24,7 +24,7 @@
 
 .enabled,
 .disabled {
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   font-size: 1.3rem;
   font-weight: 700;
   margin: 5px 0px;
@@ -41,8 +41,8 @@
 
 
 .Projects-Container {
-  color: #2f2e41;
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  color: var(--mainBlack);
+  font-family: var(--fonts);
   font-weight: normal;
   font-style: normal;
   letter-spacing: 8%;
@@ -98,7 +98,7 @@
   margin-bottom: 1rem;
   padding: 0.4rem;
   border-radius: 5px;
-  color: white;
+  color: var(--bright);
 
   background-color: rgb(52, 51, 60);
 }

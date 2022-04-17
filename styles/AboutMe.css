@@ -1,14 +1,14 @@
 .About-Me-Global {
   padding-top: 3.5vmax;
   padding-bottom: 3.5vmax;
-  background-color: white;
+  background-color: var(--bright);
 }
 
 
 
 
 .About-Me-Container {
-  color: #2f2e41;
+  color: var(--mainBlack);
   font-family: 'Lexend', "Noto-sans", sans-serif;
   font-weight: 400;
   line-height: 25px;
