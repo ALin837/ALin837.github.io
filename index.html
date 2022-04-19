@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="styles/AboutMe.css" />
   <link rel="stylesheet" href="styles/Skills.css" />
   <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://kit.fontawesome.com/71c6f26d48.js" crossorigin="anonymous"></script>
 </head>
 
@@ -71,7 +72,7 @@
               </a>
             </li>
             <li class="nav-button" id="Resume">
-              <a href="/Files/Andrew_Lin_Resume_08-04-2022-10-23-10.pdf" target="_blank" title="Resume" id="resume-text"
+              <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
                 RESUME
               </a>
@@ -116,7 +117,7 @@
               </a>
             </li>
             <li class="nav-button" id="Resume">
-              <a href="/Files/Andrew_Lin_Resume_08-04-2022-10-23-10.pdf" target="_blank" title="Resume" id="resume-text"
+              <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
                 RESUME
               </a>
@@ -246,7 +247,7 @@
     <!--Skills-->
     <div class="Skills-Global top spacer layer4" id="Skills-Me">
       <section class="Main-wrap max-width-container">
-        <section class="Skills-Container">
+        <section class="Skills-Container" data-aos="fade-up">
           <!--Skills Title-->
           <div class="Section-title-wrap">
             <div class="Section-title-container">
@@ -373,7 +374,7 @@
     <div class="Experience-Global top spacer layer4" id="Experience-Me">
       <section class="Main-wrap max-width-container">
         <!--Experience-->
-        <section class="Experience-Container">
+        <section class="Experience-Container" data-aos="fade-up">
           <div class="Section-title-wrap">
             <div class="Section-title-container">
               <h2 class="Section-title"> <i class="fa-solid fa-suitcase"></i> &nbsp;Experience</h2>
@@ -510,7 +511,7 @@
     <!--Projects-->
     <div class="Projects-Global top spacer layer4" id="Projects-Me">
       <section class="Main-wrap max-width-container">
-        <section class="Projects-Container">
+        <section class="Projects-Container" data-aos="fade-up">
           <!--Project Title-->
           <div class="Section-title-wrap">
             <div class="Section-title-container">
@@ -638,7 +639,7 @@
     <div class="Contact-Global top spacer layer4" id="Contact-Me">
       <section class="Main-wrap max-width-container">
         <!--Contact-->
-        <section class="Contact-Container">
+        <section class="Contact-Container" data-aos="fade-up">
           <div class="Section-title-wrap">
             <div class="Section-title-container">
               <h2 class="Section-title"><i class="fa-solid fa-phone"></i> &nbsp;Contact</h2>
@@ -720,6 +721,10 @@
 
   </div>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 150, delay: 200, duration: 250, once: true, easing: 'ease', anchorPlacement: 'top-bottom', });
+  </script>
 
 </body>
 
