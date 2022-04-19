@@ -23,7 +23,7 @@
 }
 
 .About-Me-Description {
-  font-size: 1.15rem;
+  font-size: var(--bodyFontSize);
   /*Animation*/
   opacity: 0;
   animation-name: translateInLeft;
@@ -56,10 +56,6 @@
 }
 
 @media only screen and (max-width: 820px) {
-
-  .image-contain {
-    display: none;
-  }
 
   .About-Me-Wrap {
     display: grid;

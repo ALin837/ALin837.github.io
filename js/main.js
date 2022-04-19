@@ -2,9 +2,39 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("Navigation-Bar-Container").style.background = "#494C9E";
+    document.getElementById("Navigation-Bar-Container").style.background = "#5558b7";
+    document.getElementById("Navigation-Bar-Container").style.background = "#EEEEEE";
+    /*
+    document.getElementById("logo-text").style.color = "#f8f9f9";
+    document.getElementById("hamburger").style.color = "#f8f9f9";
+    let resume = document.getElementsByClassName("ResumeClass");
+    for (let i = 0; i < resume.length; i++) {
+      let element = resume[i];
+      element.style.color="#f8f9f9";
+    }
+    let collection = document.getElementsByClassName("scroll_to");
+    for (let i = 0; i < collection.length; i++) {
+      let element = collection[i];
+      element.style.color="#f8f9f9";
+    }
+    */
   } else {
     document.getElementById("Navigation-Bar-Container").style.background = "none";
+    
+    /*
+    document.getElementById("logo-text").style.color = "#2f2e41";
+    document.getElementById("hamburger").style.color =  "#2f2e41";
+    let resume = document.getElementsByClassName("ResumeClass");
+    for (let i = 0; i < resume.length; i++) {
+      let element =resume[i];
+      element.style.color="#2f2e41";
+    }
+    let collection = document.getElementsByClassName("scroll_to")
+    for (let i = 0; i < collection.length; i++) {
+      let element = collection[i];
+      element.style.color="#2f2e41";
+    }
+    */
   }
 }
 

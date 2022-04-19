@@ -1,7 +1,7 @@
 .Skills-Global {
     padding-top: 3.5vmax;
     padding-bottom: 3.5vmax;
-    background-color: var(--offWhiteColor);
+    background-color: var(--bright);
 
 }
 
@@ -36,15 +36,15 @@
 }
 
 .skill-photo {
-    width: 80px;
-    height: 80px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     background-color: var(--mainBlack);
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 1.75rem;
+    font-size: 2.5rem;
 
 }
 
@@ -57,7 +57,7 @@
 }
 
 .skill {
-    font-size: 1rem;
+    font-size: var(--bodyFontSize);
     margin: 0.5rem;
     padding: 0.4rem;
     border-radius: 5px;

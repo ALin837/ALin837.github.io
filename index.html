@@ -27,7 +27,8 @@
     <header class=" Navigation-Bar-Container" id="Navigation-Bar-Container">
       <div class="wrap-nav max-width-container">
         <div class="logo">
-          <a href="index.html" id="logo-text"> ANDREW LIN
+          <a href="index.html" id="logo-text">
+            &lt; ANDREW LIN /&gt;
           </a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()" id="hamburger">
@@ -42,11 +43,13 @@
                 HOME
               </a>
             </li>
+            <!--
             <li class="nav-buttons">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
               </a>
             </li>
+            -->
             <li class="nav-buttons">
               <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
                 SKILLS
@@ -85,11 +88,13 @@
                 HOME
               </a>
             </li>
+            <!--
             <li class="nav-buttons">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
               </a>
             </li>
+            -->
             <li class="nav-buttons">
               <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
                 SKILLS
@@ -123,34 +128,66 @@
 
 
     <!--Landing Page-->
-    <div class="Landing-Page-Global top spacer layer1" id="Landing-Page">
+    <div class="Landing-Page-Global top layer4 spacer" id="Landing-Page">
       <section class="Main-wrap maximize-width max-width-container">
         <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
             <div class="Content-Container">
-              <div class="Words-Container">
-                <div class="Landing-Page-Intro">
-                  Hi! I'm Andrew Lin
+              <div>
+
+                <div class="Words-Container">
+                  <div class="Landing-Page-Intro">
+                    Hi! I'm Andrew👋
+                  </div>
+                  <div class="Landing-Page-School">
+                    <p> I am a Computer Science Student from the University of Waterloo
+                      and I am always looking for opportunities to grow as a developer.
+                    </p>
+                  </div>
                 </div>
-                <div class="Landing-Page-School">
-                  <p> I am a Computer Science Student from the University of Waterloo. </p>
+
+                <div class="socials">
+                  <a href="https://github.com/ALin837" target="_blank">
+                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                      <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
+                    </span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
+                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                      <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
+                    </span>
+                  </a>
+                  <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
+                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                      <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
+                    </span>
+                  </a>
                 </div>
-              </div>
-              <div class="button-group">
-                <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> <i
-                    class="fa-solid fa-phone"></i> &nbsp;Contact</button>
-                <button id="Go-to-Resume" onclick="Resume();"> <i class="fa-solid fa-download"></i> &nbsp;Resume
-                </button>
+
+                <div class="button-group">
+                  <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> <i
+                      class="fa-solid fa-phone"></i> &nbsp;Contact</button>
+                  <button id="Go-to-Resume" onclick="Resume();"> <i class="fa-solid fa-download"></i> &nbsp;Resume
+                  </button>
+                </div>
+
               </div>
             </div>
+            <div class="image-contain">
+              <img src="./images/undraw_engineering_team_u99p.svg" class="undraw-photo" alt="">
+            </div>
           </div>
+
         </section>
       </section>
     </div>
 
 
-    <!--About Me-->
-    <div class="About-Me-Global top" id="About-Me">
+    <!--About Me
+    <div class="About-Me-Global top spacer layer4" id="About-Me">
       <section class="Main-wrap max-width-container">
         <section class="About-Me-Container">
           <div class="Section-title-wrap">
@@ -203,9 +240,11 @@
         </section>
       </section>
     </div>
+    -->
+
 
     <!--Skills-->
-    <div class="Skills-Global top" id="Skills-Me">
+    <div class="Skills-Global top spacer layer4" id="Skills-Me">
       <section class="Main-wrap max-width-container">
         <section class="Skills-Container">
           <!--Skills Title-->
@@ -331,7 +370,7 @@
       </section>
     </div>
 
-    <div class="Experience-Global top" id="Experience-Me">
+    <div class="Experience-Global top spacer layer4" id="Experience-Me">
       <section class="Main-wrap max-width-container">
         <!--Experience-->
         <section class="Experience-Container">
@@ -375,22 +414,6 @@
                           APIs to improve code manageability and sustainability.
                         </li>
                       </ul>
-                      <!--
-                      <div class="experience-skill-container">
-                        <div class="experience-skill">
-                          <code>Python</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>Django</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>React</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>PostgreSQL</code>
-                        </div>
-                      </div>
-                      -->
                     </div>
                   </div>
                 </div>
@@ -431,22 +454,6 @@
                           baselines.
                         </li>
                       </ul>
-                      <!--
-                      <div class="experience-skill-container">
-                        <div class="experience-skill">
-                          <code> Golang</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>C#.Net</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>Jmeter</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code> Groovy</code>
-                        </div>
-                      </div>
-                      -->
                     </div>
                   </div>
                 </div>
@@ -487,21 +494,6 @@
                           Automated testing processes with Selenium to test functional behaviour.
                         </li>
                       </ul>
-                      <!--
-                      <div class="experience-skill-container">
-                        <div class="experience-skill">
-                          <code>Regression Testing</code>
-
-                        </div>
-                        <div class="experience-skill">
-                          <code>Manual Testing</code>
-
-                        </div>
-                        <div class="experience-skill">
-                          <code>Functional Testing</code>
-                        </div>
-                      </div>
-                      -->
                     </div>
                   </div>
                 </div>
@@ -516,7 +508,7 @@
     </div>
 
     <!--Projects-->
-    <div class="Projects-Global top" id="Projects-Me">
+    <div class="Projects-Global top spacer layer4" id="Projects-Me">
       <section class="Main-wrap max-width-container">
         <section class="Projects-Container">
           <!--Project Title-->
@@ -548,35 +540,12 @@
                         frontend is built using HTML/CSS and Javascript while the backend is built using Node.js,
                         Express.js, and Socket.io. Please try the application out!
                       </p>
-                      <!--
-                      <div class="project-skill-container">
-                        <h4>Tech Stack: &nbsp;</h4>
-                        <div class="project-skill">
-                          <code>HTML</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>CSS</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>JavaScript</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>Node.js</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>Express.js</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>Socket.io</code>
-                        </div>
-                      </div>
-                      -->
                     </div>
                   </div>
                 </div>
                 <div class="See-work-link">
                   <a href="https://github.com/ALin837/My-Chat-App" target="_blank">
-                    <h5 class="enabled">See work &#8594</h5>
+                    <h5 class="enabled">See Code &#8594</h5>
                   </a>
                 </div>
               </div>
@@ -601,22 +570,11 @@
                         Game.
                       </p>
                     </div>
-                    <!--
-                    <div class="project-skill-container">
-                      <h4>Tech Stack: &nbsp;</h4>
-                      <div class="project-skill">
-                        <code>C++</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>Ncurses</code>
-                      </div>
-                    </div>
-                    -->
                   </div>
                 </div>
               </div>
               <div class="See-work-link">
-                <h5 class="disabled">See work &#8594</h5>
+                <h5 class="disabled">See Code &#8594</h5>
               </div>
 
             </div>
@@ -637,23 +595,12 @@
                         the game.
                       </p>
                     </div>
-                    <!--
-                    <div class="project-skill-container">
-                      <h4>Tech Stack:</h4>
-                      <div class="project-skill">
-                        <code>Python</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>PyGame</code>
-                      </div>
-                    </div>
-                    -->
                   </div>
                 </div>
               </div>
               <div class="See-work-link">
                 <a href="https://github.com/ALin837/Snake" target="_blank">
-                  <h5 class="enabled">See work &#8594</h5>
+                  <h5 class="enabled">See Code &#8594</h5>
                 </a>
               </div>
             </div>
@@ -670,27 +617,15 @@
                       <p class="Project-Text">
                         A re-creation of the Atari Breakout game that tracks score and
                         includes a double paddle mode for higher scores. The game also includes sound
-                        effects and also includes basic collision physics
+                        effects and basic collision physics
                       </p>
                     </div>
-                    <!--
-                    <div class="project-skill-container">
-                      <h4>Tech Stack: &nbsp;</h4>
-                      <div class="project-skill">
-                        <code>Python</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>PyGame</code>
-                      </div>
-                    </div>
-                    -->
-
                   </div>
                 </div>
               </div>
               <div class="See-work-link">
                 <a href="https://github.com/ALin837/Breakout" target="_blank">
-                  <h5 class="enabled">See work &#8594</h5>
+                  <h5 class="enabled">See Code &#8594</h5>
                 </a>
               </div>
             </div>
@@ -700,7 +635,7 @@
       </section>
     </div>
 
-    <div class="Contact-Global top" id="Contact-Me">
+    <div class="Contact-Global top spacer layer4" id="Contact-Me">
       <section class="Main-wrap max-width-container">
         <!--Contact-->
         <section class="Contact-Container">
@@ -716,23 +651,26 @@
           <div class="Contact-Wrap">
             <div class="Contact-Quick">
               <div class="Contact-links">
-                <p style="font-size:1.25rem; margin-right: 1rem;">Got any questions? Feel free to send me an email!</p>
+                <p>Got any questions? <br> Feel free to email me at
+                  <b>Andrew.61523@gmail.com</b>
+                </p>
               </div>
+
               <div class="contact-socials">
                 <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
                   </span>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
                   </span>
                 </a>
                 <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>

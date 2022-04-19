@@ -4,6 +4,10 @@
     background-color: var(--bright);
 }
 
+.Contact-link>p {
+    font-size: var(--bodyFontSize);
+    margin-right: 1rem;
+}
 
 .Contact-Container {
     color: var(--mainBlack);
@@ -63,7 +67,8 @@
 }
 
 label {
-    font-size: 1.15rem;
+    font-size: var(--bodyFontSize);
+
 }
 
 .name {
@@ -98,7 +103,7 @@ input[type=text] {
     border-radius: 4px;
     font-family: 'Lexend', "Noto-sans", sans-serif;
     outline-width: 0;
-    font-size: 1.15rem;
+    font-size: var(--bodyFontSize);
     padding: 10px;
     border: 1px solid #ccc;
     width: 100%;
@@ -115,7 +120,7 @@ textarea {
     margin-bottom: 16px;
     resize: vertical;
     outline-width: 0;
-    font-size: 1.15rem;
+    font-size: var(--bodyFontSize);
     width: 100%;
 }
 
@@ -127,7 +132,7 @@ input[type=button] {
     border: 1px solid #ccc;
     outline-width: 0;
     margin-right: 1.5rem;
-    font-size: 1.15rem;
+    font-size: var(--bodyFontSize);
     padding: 6px 14px;
     transition: all .2s ease-out;
 }

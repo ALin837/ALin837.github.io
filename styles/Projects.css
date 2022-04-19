@@ -25,10 +25,11 @@
 .enabled,
 .disabled {
   font-family: var(--fonts);
-  font-size: 1.3rem;
+  font-size: var(--bodyFontSize);
+  ;
   font-weight: 700;
   margin: 5px 0px;
-  color: #4b4fbb;
+  color: #5155ca;
   transition: all 0.3s ease-in-out;
 }
 
@@ -77,13 +78,14 @@
 .Project-section {
   margin-bottom: 2rem;
   padding: 2rem;
-  background-color: #eeeeee;
+  background-color: #e6e6e6;
   border-radius: 10px;
 }
 
 
 .Project-Text {
-  font-size: 1.15rem;
+  font-size: var(--bodyFontSize);
+  ;
 }
 
 

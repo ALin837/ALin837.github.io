@@ -44,7 +44,7 @@
 }
 
 ul li {
-  font-size: 1.15rem;
+  font-size: var(--bodyFontSize);
   font-weight: 400;
   font-style: normal;
 }

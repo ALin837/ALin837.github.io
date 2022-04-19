@@ -3,9 +3,17 @@
 .root {
   --fonts: 'Lexend', "Noto-sans", sans-serif;
   --mainBlack: #2f2e41;
+  --mainBlack: #242428;
   --offWhiteColor: #f8f9f9;
   --bright: white;
-  --mainBlue: #494C9E;
+  --mainBlue: #8285e8;
+  --mainBlue: #4e53e0;
+  --bodyFontSize: 1.3rem;
+  --sectionTitleSize: 2.25rem;
+  --h3size: 1.5rem;
+  --h4size: 1.3rem;
+  --LandingPage: 4.75rem;
+  --LandingPageSchool: 1.75rem;
 }
 
 body {
@@ -31,7 +39,7 @@ code {
 
 .Section-title {
   font-weight: 600;
-  font-size: 2.15rem;
+  font-size: var(--sectionTitleSize);
   color: var(--mainBlue);
   color: var(--mainBlack);
   margin-bottom: 0.5rem;
@@ -50,7 +58,7 @@ code {
 
 .divider {
   height: 100%;
-  width: 90%;
+  width: 100%;
   margin-top: 0px;
   background-color: var(--mainBlue);
   border-radius: 25px;
@@ -65,13 +73,11 @@ code {
 
 .max-width-container {
   max-width: 1400px;
-  max-width: 1250px;
-  max-width: 1400px;
 }
 
 
 h3 {
-  font-size: 1.3rem;
+  font-size: var(--h3size);
   margin: 0px;
   font-weight: 400;
   color: var(--mainBlack);
@@ -81,13 +87,12 @@ h3 {
 span {
   font-family: var(--fonts);
   font-weight: 700;
-  font-size: 1.32;
 }
 
 
 h4 {
   font-family: var(--fonts);
-  font-size: 1.3rem;
+  font-size: var(--h4size);
   font-weight: 700;
   margin: 5px 0px;
   color: var(--mainBlack);
@@ -110,6 +115,26 @@ h4 {
   background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
 }
 
+.layer3 {
+  background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
+}
+
+.layer4 {
+  background-image: url('../images/polygon-scatter-haikei.svg');
+}
+
+.layer5 {
+  background-image: url('../images/polygon-scatter-haikei.svg');
+  background-image: linear-gradient(90deg, rgba(220, 219, 224, 0.961) 0%, rgba(255, 255, 255, 0.902) 100%), url('../images/polygon-scatter-haikei.svg');
+}
+
+.border {
+  border-style: solid;
+  border-color: #E9E9E9;
+  border-top-width: 1px;
+  border-bottom-width: 1px;
+}
+
 .fade-in {
   opacity: 0;
   transition: opacity 250ms ease-in;
@@ -128,4 +153,31 @@ h4 {
   .Section-title {
     padding-top: 1.5rem;
   }
+}
+
+
+
+@media only screen and (max-width:915px) {
+  .root {
+    --bodyFontSize: 1.3rem;
+    --sectionTitleSize: 2.25rem;
+    --h3size: 1.5rem;
+    --h4size: 1.3rem;
+    --LandingPage: 4.25rem;
+    --LandingPageSchool: 1.25rem;
+  }
+
+}
+
+
+@media only screen and (max-width:355px) {
+  .root {
+    --bodyFontSize: 1.25rem;
+    --sectionTitleSize: 1.75rem;
+    --h3size: 1.25rem;
+    --h4size: 1.25rem;
+    --LandingPage: 4rem;
+    --LandingPageSchool: 1rem;
+  }
+
 }
