@@ -18,3 +18,5 @@ Also specifically from this photographer \
 https://unsplash.com/@clark_fransa \
 Please check out the individual's work 
 
+My scroll animations are from AOS. \
+https://github.com/michalsnik/aos
