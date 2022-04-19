@@ -172,7 +172,7 @@ h4 {
 
 @media only screen and (max-width:355px) {
   .root {
-    --bodyFontSize: 1.25rem;
+    --bodyFontSize: 1.15rem;
     --sectionTitleSize: 1.75rem;
     --h3size: 1.25rem;
     --h4size: 1.25rem;
