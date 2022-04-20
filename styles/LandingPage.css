@@ -18,10 +18,11 @@
 }
 
 .Landing-Page-Global {
-  height: 100vh;
+  height: 85vh;
   display: flex;
   align-items: center;
   background-color: var(--offWhiteColor);
+  background-color: #f1f5fd !important;
 }
 
 .button-group {

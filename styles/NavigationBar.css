@@ -1,19 +1,23 @@
 .Navigation-Bar-Container {
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   display: flex;
   width: 100%;
   z-index: 2;
   transition: 1s;
   color: var(--mainBlack);
-  opacity: 0;
+  background-color: #f1f5fd;
   font-size: 0.9rem;
-  /*Animations*/
+  /*Animations
+    opacity: 0;
   animation-name: fadeInOpacityTop;
   animation-iteration-count: 1;
   animation-timing-function: linear;
   animation-delay: 1s;
   animation-duration: 0.25s;
   animation-fill-mode: forwards;
+  */
 }
 
 @keyframes fadeInOpacityTop {
@@ -30,7 +34,7 @@
 
 .wrap-nav {
   box-sizing: border-box;
-  height: 67px;
+  height: 70px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -64,32 +68,49 @@
 }
 
 #logo-text:hover,
-.nav-buttons a:hover,
-.nav-button a:hover {
-  transform: scale(1.15);
+.nav-buttons a:hover {
+  color: var(--mainBlue);
   cursor: pointer;
 }
 
+.resume-button:hover {
+  background-color: #34389a;
+}
 
-.nav-button a {
+
+.resume-button a {
   color: var(--mainBlack);
 }
 
 
 .nav-buttons,
-.nav-button {
+.resume-button {
   margin-right: 1rem;
   border-radius: 5px;
   border: 2px solid transparent;
 }
 
-.nav-button {
+.resume-button {
   transition: 0.5s;
+
 }
 
+.resume-button-style {
+  background-color: var(--mainBlue);
+  color: var(--offWhiteColor);
+  border-radius: 100px;
+  padding: 3px 14px;
+}
 
+.resume-button a {
+  color: var(--offWhiteColor);
+}
 
-.nav-button a,
+.nav-button-style {
+  padding: 3px 0px;
+}
+
+.resume-button a,
 .nav-buttons a {
   display: inline-block;
   font-size: 1rem;
@@ -115,7 +136,7 @@
 }
 
 .active {
-  transform: scale(1.15);
+  color: var(--mainBlue);
   cursor: pointer;
 }
 
@@ -152,7 +173,7 @@
   }
 
   .logo a:hover,
-  .nav-button a:hover,
+  .resume-button a:hover,
   .nav-buttons a:hover {
     transform: scale(1.05);
     cursor: pointer;
@@ -172,6 +193,7 @@
     z-index: 2;
     transition: 1s;
     background-color: #EEEEEE !important;
+    background-color: white !important;
   }
 
   .Nav {
@@ -213,5 +235,9 @@
 
   #myLinks {
     display: none;
+  }
+
+  .resume-button a {
+    color: var(--mainBlack);
   }
 }

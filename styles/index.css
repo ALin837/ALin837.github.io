@@ -8,10 +8,10 @@
   --bright: white;
   --mainBlue: #8285e8;
   --mainBlue: #4e53e0;
-  --bodyFontSize: 1.3rem;
-  --sectionTitleSize: 2.25rem;
-  --h3size: 1.5rem;
-  --h4size: 1.3rem;
+  --bodyFontSize: 1.15rem;
+  --sectionTitleSize: 2rem;
+  --h3size: 1.25rem;
+  --h4size: 1.15rem;
   --LandingPage: 4.75rem;
   --LandingPageSchool: 1.75rem;
 }
@@ -121,6 +121,7 @@ h4 {
 
 .layer4 {
   background-image: url('../images/polygon-scatter-haikei.svg');
+
 }
 
 .layer5 {

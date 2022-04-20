@@ -39,42 +39,40 @@
         <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
         <nav id="NormalNavBar">
           <ul class="Navigation">
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text-normal">
                 HOME
               </a>
             </li>
-            <!--
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
               </a>
             </li>
-            -->
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
                 SKILLS
               </a>
             </li>
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
                 EXPERIENCE
               </a>
             </li>
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text-normal">
                 PROJECTS
               </a>
             </li>
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="Contact-Me" title="Contact" class="scroll_to" id="Contact-text-normal">
                 CONTACT
               </a>
             </li>
-            <li class="nav-button" id="Resume">
+            <li class="resume-button resume-button-style" id="Resume">
               <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
-                RESUME
+                <i class="fa-solid fa-download"></i> &nbsp;RESUME
               </a>
             </li>
           </ul>
@@ -89,13 +87,11 @@
                 HOME
               </a>
             </li>
-            <!--
             <li class="nav-buttons">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
               </a>
             </li>
-            -->
             <li class="nav-buttons">
               <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
                 SKILLS
@@ -116,7 +112,7 @@
                 CONTACT
               </a>
             </li>
-            <li class="nav-button" id="Resume">
+            <li class="resume-button" id="Resume">
               <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
                 RESUME
@@ -129,7 +125,7 @@
 
 
     <!--Landing Page-->
-    <div class="Landing-Page-Global top layer4 spacer" id="Landing-Page">
+    <div class="Landing-Page-Global top" id="Landing-Page">
       <section class="Main-wrap maximize-width max-width-container">
         <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
@@ -186,10 +182,10 @@
     </div>
 
 
-    <!--About Me
-    <div class="About-Me-Global top spacer layer4" id="About-Me">
+    <!--About Me-->
+    <div class="About-Me-Global top" id="About-Me">
       <section class="Main-wrap max-width-container">
-        <section class="About-Me-Container">
+        <section class="About-Me-Container" data-aos="fade-up">
           <div class="Section-title-wrap">
             <div class="Section-title-container">
               <h2 class="Section-title"> <i class="fa-solid fa-user"></i> &nbsp;About Me</h2>
@@ -208,43 +204,20 @@
               <p>
                 Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
               </p>
-
-              <p>
-                Check out some of my socials below.
-              </p>
-              <div class="socials">
-                <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
-                  </span>
-                </a>
-                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
-                  </span>
-                </a>
-                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
-                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
-                  </span>
-                </a>
-              </div>
             </div>
             <div class="image-contain">
               <img src="./images/undraw_code_thinking_re_gka2.svg" class="undraw-photo" alt="">
             </div>
           </div>
+
         </section>
       </section>
     </div>
-    -->
+
 
 
     <!--Skills-->
-    <div class="Skills-Global top spacer layer4" id="Skills-Me">
+    <div class="Skills-Global top border" id="Skills-Me">
       <section class="Main-wrap max-width-container">
         <section class="Skills-Container" data-aos="fade-up">
           <!--Skills Title-->
@@ -370,7 +343,7 @@
       </section>
     </div>
 
-    <div class="Experience-Global top spacer layer4" id="Experience-Me">
+    <div class="Experience-Global top border" id="Experience-Me">
       <section class="Main-wrap max-width-container">
         <!--Experience-->
         <section class="Experience-Container" data-aos="fade-up">
@@ -508,7 +481,7 @@
     </div>
 
     <!--Projects-->
-    <div class="Projects-Global top spacer layer4" id="Projects-Me">
+    <div class="Projects-Global top border" id="Projects-Me">
       <section class="Main-wrap max-width-container">
         <section class="Projects-Container" data-aos="fade-up">
           <!--Project Title-->
@@ -635,7 +608,7 @@
       </section>
     </div>
 
-    <div class="Contact-Global top spacer layer4" id="Contact-Me">
+    <div class="Contact-Global top border" id="Contact-Me">
       <section class="Main-wrap max-width-container">
         <!--Contact-->
         <section class="Contact-Container" data-aos="fade-up">
