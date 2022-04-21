@@ -1,12 +1,13 @@
 .Contact-Global {
-    padding-top: 4vmax;
-    padding-bottom: 4vmax;
-    background-color: var(--bright);
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+    background-color: #f1f5ff;
 }
 
 .Contact-links p {
     font-size: var(--bodyFontSize);
     margin-right: 1rem;
+    text-align: center;
 }
 
 .Contact-Container {
@@ -38,7 +39,7 @@
 .Contact-links {
     padding-top: 0;
     display: flex;
-    justify-content: left;
+    justify-content: center;
 }
 
 .Contact-Quick {
@@ -47,7 +48,7 @@
 
 .contact-socials {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     margin-bottom: 3rem;
 }
 

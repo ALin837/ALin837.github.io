@@ -116,27 +116,12 @@ h4 {
 
 }
 
-.layer1 {
-  background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash-edit.jpg');
-}
-
-.layer2 {
-  background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
-}
-
-.layer3 {
-  background-image: url('../images/Images/arnold-francisca-f77Bh3inUpE-unsplash.jpg');
-}
 
 .layer4 {
   background-image: url('../images/polygon-scatter-haikei.svg');
 
 }
 
-.layer5 {
-  background-image: url('../images/polygon-scatter-haikei.svg');
-  background-image: linear-gradient(90deg, rgba(220, 219, 224, 0.961) 0%, rgba(255, 255, 255, 0.902) 100%), url('../images/polygon-scatter-haikei.svg');
-}
 
 .border {
   border-style: solid;
