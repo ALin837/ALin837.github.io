@@ -6,7 +6,7 @@
 }
 
 .Experience-Container {
-  color: var(--mainBlack);
+  color: var(--contentColor);
   font-family: 'Lexend', "Noto-sans", sans-serif;
   line-height: 25px;
   font-style: normal;

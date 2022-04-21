@@ -4,8 +4,9 @@
   --fonts: 'Lexend', "Noto-sans", sans-serif;
   --mainBlack: #2f2e41;
   --mainBlack: #242428;
+  --contentColor: #3a3a40;
   --offWhiteColor: #f8f9f9;
-  --bright: white;
+  --bright: #fefefe;
   --mainBlue: #8285e8;
   --mainBlue: #4e53e0;
   --bodyFontSize: 1.15rem;
@@ -14,6 +15,14 @@
   --h4size: 1.15rem;
   --LandingPage: 4.75rem;
   --LandingPageSchool: 1.75rem;
+}
+
+.center {
+  justify-content: center;
+}
+
+.left {
+  justify-content: left;
 }
 
 body {
@@ -33,7 +42,7 @@ code {
 
 .Section-title-wrap {
   display: flex;
-  justify-content: left;
+
 
 }
 

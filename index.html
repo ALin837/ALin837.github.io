@@ -40,18 +40,13 @@
         <nav id="NormalNavBar">
           <ul class="Navigation">
             <li class="nav-buttons nav-button-style">
-              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text-normal">
+              <a data-link="Landing-Page" title="Home" class="scroll_to active" id="home-text-normal">
                 HOME
               </a>
             </li>
             <li class="nav-buttons nav-button-style">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
-              </a>
-            </li>
-            <li class="nav-buttons nav-button-style">
-              <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
-                SKILLS
               </a>
             </li>
             <li class="nav-buttons nav-button-style">
@@ -90,11 +85,6 @@
             <li class="nav-buttons">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
-              </a>
-            </li>
-            <li class="nav-buttons">
-              <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
-                SKILLS
               </a>
             </li>
             <li class="nav-buttons">
@@ -166,14 +156,14 @@
                 <div class="button-group">
                   <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> <i
                       class="fa-solid fa-phone"></i> &nbsp;Contact</button>
-                  <button id="Go-to-Resume" onclick="Resume();"> <i class="fa-solid fa-download"></i> &nbsp;Resume
+                  <button id="Go-to-Resume" onclick="Project();"> <i class="fa-solid fa-book"></i> &nbsp;Projects
                   </button>
                 </div>
 
               </div>
             </div>
-            <div class="image-contain">
-              <img src="./images/undraw_engineering_team_u99p.svg" class="undraw-photo" alt="">
+            <div class="landing-image-contain">
+              <img src="./images/drawkit-images/Group (5).svg" class="undraw-photo" alt="">
             </div>
           </div>
 
@@ -181,49 +171,13 @@
       </section>
     </div>
 
-
-    <!--About Me-->
-    <div class="About-Me-Global top" id="About-Me">
-      <section class="Main-wrap max-width-container">
-        <section class="About-Me-Container" data-aos="fade-up">
-          <div class="Section-title-wrap">
-            <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-user"></i> &nbsp;About Me</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
-            </div>
-          </div>
-          <div class="About-Me-Wrap">
-            <div class="About-Me-Description">
-              <p>
-                Hi! My name is Andrew Lin and I study Computer Science at the University of Waterloo.
-                I started coding after taking Computer Science in highschool and that's where I learned HTML/CSS,
-                Turing, Python and Java. In the end, that's how I ended up choosing to study Computer Science.
-              </p>
-              <p>
-                Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
-              </p>
-            </div>
-            <div class="image-contain">
-              <img src="./images/undraw_code_thinking_re_gka2.svg" class="undraw-photo" alt="">
-            </div>
-          </div>
-
-        </section>
-      </section>
-    </div>
-
-
-
-    <!--Skills-->
+    <!--School Skills-->
     <div class="Skills-Global top border" id="Skills-Me">
       <section class="Main-wrap max-width-container">
         <section class="Skills-Container" data-aos="fade-up">
-          <!--Skills Title-->
-          <div class="Section-title-wrap">
+          <div class="Section-title-wrap center">
             <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-computer"></i> &nbsp;Skills</h2>
+              <h2 class="Section-title">What I Do</h2>
               <div class="divider-wrap">
                 <div class="divider"></div>
               </div>
@@ -235,107 +189,46 @@
 
             <div class="Skill-Section" id="Programming-Lang">
               <div class="skill-photo-wrap">
-                <div class="skill-photo">
-                  <i class="fa-solid fa-code"></i>
-                </div>
+                <img src="./images/drawkit-images/Group (5).png" alt="" class="skill-image">
               </div>
               <div class="skill-title">
-                <h3><span>Programming Languages:</span></h3>
+                <h3><span>Community Involvment</span></h3>
 
               </div>
               <div class="skill-container" id="Programming-Languages">
-                <div class="skill">
-                  <code>C/C++</code>
-                </div>
-                <div class="skill">
-                  <code>Java</code>
-                </div>
-                <div class="skill">
-                  <code>Python</code>
-                </div>
-                <div class="skill">
-                  <code>HTML</code>
-                </div>
-                <div class="skill">
-                  <code>CSS</code>
-                </div>
-                <div class="skill">
-                  <code>JavaScript</code>
-                </div>
-                <div class="skill">
-                  <code>Golang</code>
-                </div>
-                <div class="skill">
-                  <code>C#.Net</code>
-                </div>
-                <div class="skill">
-                  <code>Groovy</code>
-                </div>
+                <p>
+                  I enjoy getting involved in the community and I play hockey and volleyball in my free time.
+                </p>
               </div>
             </div>
 
             <div class="Skill-Section" id="Libraries-Frameworks">
               <div class="skill-photo-wrap">
-                <div class="skill-photo">
-                  <i class="fa-solid fa-laptop-code"></i>
-                </div>
+                <img src="./images/drawkit-images/Group (4).png" alt="" class="skill-image">
               </div>
               <div class="skill-title">
-                <h3><span>Libraries/Frameworks:</span></h3>
+                <h3><span>Software Development</span></h3>
               </div>
               <div class="skill-container" id="Libraries-Frameworks">
-                <div class="skill" id="React">
-                  <code>React</code>
-                </div>
-                <div class="skill">
-                  <code>Django</code>
-                </div>
-                <div class="skill">
-                  <code>Node.js</code>
-                </div>
-                <div class="skill">
-                  <code>Express.js</code>
-                </div>
-                <div class="skill">
-                  <code>Socket.io</code>
-                </div>
-                <div class="skill">
-                  <code>PyGame</code>
-                </div>
-                <div class="skill">
-                  <code>Ncurses</code>
-                </div>
+                <p>
+                  I have a solid foundation in Computer Science and have taken courses relating to object orientated
+                  programming, and logic and computation
+                </p>
               </div>
             </div>
 
             <div class="Skill-Section" id="Tools">
               <div class="skill-photo-wrap">
-                <div class="skill-photo">
-                  <i class="fa-brands fa-git-alt"></i>
-                </div>
+                <img src="./images/drawkit-images/Group (6).png" alt="" class="skill-image">
               </div>
               <div class="skill-title">
-                <h3><span>Tools:</span></h3>
+                <h3><span>Software Testing</span></h3>
               </div>
               <div class="skill-container" id="Tools">
-                <div class="skill">
-                  <code>Git</code>
-                </div>
-                <div class="skill">
-                  <code>Jmeter</code>
-                </div>
-                <div class="skill">
-                  <code>Heroku</code>
-                </div>
-                <div class="skill">
-                  <code>Selenium</code>
-                </div>
-                <div class="skill">
-                  <code>PostgreSQL</code>
-                </div>
-                <div class="skill">
-                  <code>Kanban/JIRA board</code>
-                </div>
+                <p>I come from a QA background and I have experience testing applications in a professional
+                  setting.
+                </p>
+
               </div>
             </div>
           </div>
@@ -343,13 +236,112 @@
       </section>
     </div>
 
+    <!--About Me-->
+    <div class="About-Me-Global top" id="About-Me">
+      <section class="Main-wrap max-width-container">
+        <section class="About-Me-Container" data-aos="fade-up">
+          <div class="image-about-wrap">
+
+            <div class="About-Me-Wrap">
+              <div class="Section-title-wrap">
+                <div class="Section-title-container">
+                  <h2 class="Section-title"> About Me</h2>
+                  <div class="divider-wrap">
+                    <div class="divider"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="About-Me-Description">
+                <p>
+                  My name is Andrew Lin and I study Computer Science at the University of Waterloo.
+                  I started coding after taking Computer Science in highschool and that's where I learned HTML/CSS,
+                  Turing, Python and Java. Ultimately, that's how I ended up choosing to study Computer Science.
+                </p>
+                <p>
+                  Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
+                </p>
+              </div>
+              <section class="about-Skills-Container" data-aos="fade-up">
+                <!--Skills Title-->
+                <div class="Section-title-wrap">
+                  <div class="Section-title-container">
+                    <h2 class="Section-title"> Skills</h2>
+                    <div class="divider-wrap">
+                      <div class="divider"></div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--Skills Content-->
+                <div class="about-Skill-wrap">
+                  <div class="about-Skill-Section" id="Programming-Lang">
+                    <div class="about-skill-container" id="Programming-Languages">
+                      <div class="about-skill">
+                        <code>C/C++</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Java</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Python</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>HTML</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>CSS</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>JavaScript</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Golang</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>C#.Net</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Groovy</code>
+                      </div>
+                      <div class="about-skill" id="React">
+                        <code>React</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Django</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Node.js</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Express.js</code>
+                      </div>
+                      <div class="about-skill">
+                        <code>Socket.io</code>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+
+            <div class="image-contain">
+              <img src="./images/drawkit-images/Group (6).svg" class="undraw-photo-about" alt="">
+            </div>
+
+          </div>
+
+
+        </section>
+      </section>
+    </div>
+
+    <!--Experience-->
     <div class="Experience-Global top border" id="Experience-Me">
       <section class="Main-wrap max-width-container">
-        <!--Experience-->
         <section class="Experience-Container" data-aos="fade-up">
           <div class="Section-title-wrap">
             <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-suitcase"></i> &nbsp;Experience</h2>
+              <h2 class="Section-title">Experience</h2>
               <div class="divider-wrap">
                 <div class="divider"></div>
               </div>
@@ -487,7 +479,7 @@
           <!--Project Title-->
           <div class="Section-title-wrap">
             <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-book-bookmark"></i> &nbsp;Projects</h2>
+              <h2 class="Section-title">Projects</h2>
               <div class="divider-wrap">
                 <div class="divider"></div>
               </div>
@@ -608,13 +600,13 @@
       </section>
     </div>
 
+    <!--Contact-->
     <div class="Contact-Global top border" id="Contact-Me">
       <section class="Main-wrap max-width-container">
-        <!--Contact-->
         <section class="Contact-Container" data-aos="fade-up">
           <div class="Section-title-wrap">
             <div class="Section-title-container">
-              <h2 class="Section-title"><i class="fa-solid fa-phone"></i> &nbsp;Contact</h2>
+              <h2 class="Section-title">Contact</h2>
               <div class="divider-wrap">
                 <div class="divider"></div>
               </div>
@@ -649,6 +641,7 @@
                   </span>
                 </a>
               </div>
+              <!---->
               <div class="contact-image-contain">
                 <img src="./images/undraw_mailbox_re_dvds.svg" class="undraw-photo" alt="">
               </div>

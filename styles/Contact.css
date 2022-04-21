@@ -10,7 +10,7 @@
 }
 
 .Contact-Container {
-    color: var(--mainBlack);
+    color: var(--contentColor);
     font-family: 'Lexend', "Noto-sans", sans-serif;
     box-sizing: border-box;
     width: 100%;

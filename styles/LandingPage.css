@@ -22,7 +22,7 @@
   display: flex;
   align-items: center;
   background-color: var(--offWhiteColor);
-  background-color: #f1f5fd !important;
+  background-color: #f1f5ff !important;
 }
 
 .button-group {
@@ -119,6 +119,13 @@ a {
 
 }
 
+.landing-image-contain {
+  width: 89%;
+  height: auto;
+  animation: action 1s infinite alternate;
+}
+
+
 #Go-to-Contact:hover,
 #Go-to-Resume:hover {
   font-family: var(--fonts);
@@ -133,7 +140,7 @@ a {
   }
 
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
 
@@ -214,7 +221,7 @@ a {
 
 @media only screen and (max-width: 820px) {
 
-  .image-contain {
+  .landing-image-contain {
     display: none;
   }
 

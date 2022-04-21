@@ -19,6 +19,7 @@
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
 }
 
 
@@ -29,23 +30,13 @@
 /*Experience skill*/
 
 .skill-photo-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-.skill-photo {
-    width: 100px;
+.skill-image {
     height: 100px;
-    border-radius: 50%;
-    background-color: var(--mainBlack);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-
+    object-fit: cover;
+    object-position: center center;
 }
 
 .skill-container {
@@ -56,6 +47,12 @@
 
 }
 
+.skill-container p {
+    font-size: var(--bodyFontSize);
+    color: var(--contentColor);
+
+}
+
 .skill {
     font-size: var(--bodyFontSize);
     margin: 0.5rem;
@@ -63,41 +60,5 @@
     border-radius: 5px;
     color: var(--bright);
 
-    background-color: rgb(52, 51, 60);
-}
-
-.fa-code:hover,
-.fa-laptop-code:hover,
-.fa-git-alt:hover {
-    animation-name: spin;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-}
-
-/*Animation*/
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-
-
-@media only screen and (max-width:620px) {
-    .Skill-wrap {
-        margin-top: 0px;
-        display: grid;
-        grid-template-columns: 1fr;
-    }
-
-    .Skill-Section {
-        margin-top: 3.5rem;
-    }
-
-
+    background-color: rgb(32, 32, 33);
 }

@@ -4,7 +4,7 @@ function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     
     document.getElementById("Navigation-Bar-Container").style.background = "#5558b7";
-    document.getElementById("Navigation-Bar-Container").style.background = "rgba(255,255,255,.97)";
+    document.getElementById("Navigation-Bar-Container").style.background = "rgba(254,254,254,.97)";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "0 0 1.25rem rgb(30 34 40 / 6%)";
     /*
     document.getElementById("logo-text").style.color = "#f8f9f9";
@@ -23,7 +23,7 @@ function scrollFunction() {
   } else {
     
    
-    document.getElementById("Navigation-Bar-Container").style.background = "#f1f5fd";
+    document.getElementById("Navigation-Bar-Container").style.background = "#f1f5ff";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "none";
      /* 
     document.getElementById("logo-text").style.color = "#2f2e41";
