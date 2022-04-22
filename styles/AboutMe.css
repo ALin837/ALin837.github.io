@@ -2,6 +2,9 @@
   padding-top: 3.5vmax;
   padding-bottom: 3.5vmax;
   background-color: var(--bright);
+  margin-bottom: 1.25rem;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
 }
 
 .image-about-wrap {
@@ -13,7 +16,7 @@
 
 .About-Me-Container {
   color: var(--contentColor);
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   font-weight: 400;
   line-height: 25px;
   font-style: normal;
@@ -78,7 +81,7 @@
   border-radius: 5px;
   color: var(--bright);
 
-  background-color: rgb(32, 32, 33);
+  background-color: rgb(49, 49, 52);
 }
 
 

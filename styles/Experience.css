@@ -2,12 +2,13 @@
   padding-top: 3.5vmax;
   padding-bottom: 3.5vmax;
   background-color: var(--bright);
-
+  margin-bottom: 1.25rem;
+  border-radius: 1rem;
 }
 
 .Experience-Container {
   color: var(--contentColor);
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  font-family: var(--fonts);
   line-height: 25px;
   font-style: normal;
   letter-spacing: 8%;

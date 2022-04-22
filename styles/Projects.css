@@ -2,6 +2,8 @@
   padding-top: 3.5vmax;
   padding-bottom: 3.5vmax;
   background-color: var(--bright);
+  margin-bottom: 1.25rem;
+  border-radius: 1rem;
 
 }
 
@@ -104,9 +106,34 @@
   background-color: rgb(52, 51, 60);
 }
 
+.github-button-wrap {
+  display: flex;
+
+}
+
+.github-button {
+
+  font-family: var(--fonts);
+  padding: 10px 28px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 100px;
+
+  color: var(--offWhiteColor);
+  background-color: var(--mainBlue);
+  transition: 0.5s;
+}
+
+.github-button:hover {
+  font-family: var(--fonts);
+  background-color: #34389a;
+  color: var(--offWhiteColor);
+  cursor: pointer;
+}
 
 
-@media only screen and (max-width:680px) {
+@media only screen and (max-width:940px) {
   .project-skill {
     font-size: 0.88rem;
   }

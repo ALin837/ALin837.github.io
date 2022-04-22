@@ -26,7 +26,7 @@
   <div class="root">
     <!--Navigation Bar-->
     <header class=" Navigation-Bar-Container" id="Navigation-Bar-Container">
-      <div class="wrap-nav max-width-container">
+      <div class="wrap-nav max-width-container" id="wrap-navigation">
         <div class="logo">
           <a href="index.html" id="logo-text">
             &lt; ANDREW LIN /&gt;
@@ -66,12 +66,14 @@
                 CONTACT
               </a>
             </li>
+            <!--
             <li class="resume-button resume-button-style" id="Resume">
               <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
-                <i class="fa-solid fa-download"></i> &nbsp;RESUME
+                RESUME
               </a>
             </li>
+            -->
           </ul>
         </nav>
       </div>
@@ -106,12 +108,14 @@
                 CONTACT
               </a>
             </li>
+            <!--
             <li class="resume-button" id="Resume">
               <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
                 RESUME
               </a>
             </li>
+            -->
           </ul>
         </nav>
       </div>
@@ -119,8 +123,9 @@
 
 
     <!--Landing Page-->
-    <div class="Landing-Page-Global top" id="Landing-Page">
+    <div class="Landing-Page-Global top spacer layer4" id="Landing-Page">
       <section class="Main-wrap maximize-width max-width-container">
+
         <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
             <div class="Content-Container">
@@ -128,113 +133,107 @@
 
                 <div class="Words-Container">
                   <div class="Landing-Page-Intro">
-                    Hi! I'm Andrew👋
+                    <!--Hi! I'm Andrew👋-->
+                    Hi! I'm Andrew
                   </div>
                   <div class="Landing-Page-School">
-                    <p> Computer Science Student 📖 | University of Waterloo 🏫 | Software Developer 👨‍💻 |
-                      Software Tester 🤖 </p>
-                  </div>
-                </div>
+                    <!--                    <p> Computer Science Student 📖 | University of Waterloo 🏫 | Software Developer 👨‍💻 |
+                      Software Tester 🤖 </p>-->
 
-                <div class="socials">
-                  <a href="https://github.com/ALin837" target="_blank">
-                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                      <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
-                    </span>
-                  </a>
-                  <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                      <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
-                    </span>
-                  </a>
-                  <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                    <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
-                      <i class="fa fa-circle fa-stack-2x icon-background"></i>
-                      <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
-                    </span>
-                  </a>
+                    <p> I am a Computer Science Student that goes to the University of Waterloo</p>
+                  </div>
                 </div>
 
                 <div class="button-group">
-                  <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> <i
-                      class="fa-solid fa-phone"></i> &nbsp;Contact</button>
-                  <button id="Go-to-Resume" onclick="Project();"> <i class="fa-solid fa-book"></i> &nbsp;Projects
+
+                  <button id="Go-to-Contact" onclick="Resume();" style="margin-right: 1rem;">
+                    Resume
+                  </button>
+
+                  <button id="Go-to-Resume" onclick="Project();">
+                    Projects
                   </button>
                 </div>
 
               </div>
             </div>
+            <!--
             <div class="landing-image-contain">
               <img src="./images/drawkit-images/Group (5).svg" class="undraw-photo" alt="">
             </div>
+            -->
           </div>
 
         </section>
       </section>
     </div>
 
+
     <!--School Skills-->
-    <div class="Skills-Global top border" id="Skills-Me">
+    <div class="Skills-Global top" id="Skills-Me">
       <section class="Main-wrap max-width-container">
-        <section class="Skills-Container" data-aos="fade-up">
-          <div class="Section-title-wrap center">
+        <section class="Skills-Container">
+          <div class="Section-title-wrap left">
             <div class="Section-title-container">
+              <h1 class="Section-header text-left">SERVICES</h1>
               <h2 class="Section-title">What I Do</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
             </div>
           </div>
 
           <!--Skills Content-->
-          <div class="Skill-wrap">
+          <div class="Skill-wrap" data-aos="fade-up">
 
             <div class="Skill-Section" id="Programming-Lang">
-              <div class="skill-photo-wrap">
-                <img src="./images/drawkit-images/Group (5).png" alt="" class="skill-image">
-              </div>
-              <div class="skill-title">
-                <h3><span>Community Involvment</span></h3>
+              <div class="skill-content">
+                <div class="skill-photo-wrap">
+                  <img src="./images/drawkit-images/Group (7).png" alt="" class="skill-image">
+                </div>
+                <div class="skill-title">
+                  <h3><span>Community Involvment</span></h3>
 
-              </div>
-              <div class="skill-container" id="Programming-Languages">
-                <p>
-                  I enjoy getting involved in the community and I play hockey and volleyball in my free time.
-                </p>
+                </div>
+                <div class="skill-container" id="Programming-Languages">
+                  <p>
+                    I enjoy getting involved in the community and I play hockey and volleyball in my free time.
+                  </p>
+                </div>
               </div>
             </div>
 
             <div class="Skill-Section" id="Libraries-Frameworks">
-              <div class="skill-photo-wrap">
-                <img src="./images/drawkit-images/Group (4).png" alt="" class="skill-image">
-              </div>
-              <div class="skill-title">
-                <h3><span>Software Development</span></h3>
-              </div>
-              <div class="skill-container" id="Libraries-Frameworks">
-                <p>
-                  I have a solid foundation in Computer Science and have taken courses relating to object orientated
-                  programming, and logic and computation
-                </p>
+              <div class="skill-content">
+                <div class="skill-photo-wrap">
+                  <img src="./images/drawkit-images/Group (9).png" alt="" class="skill-image">
+                </div>
+                <div class="skill-title">
+                  <h3><span>Software Development</span></h3>
+                </div>
+                <div class="skill-container" id="Libraries-Frameworks">
+                  <p>
+                    I have a solid foundation in Computer Science and have taken courses relating to object orientated
+                    programming, and logic and computation
+                  </p>
+                </div>
               </div>
             </div>
 
             <div class="Skill-Section" id="Tools">
-              <div class="skill-photo-wrap">
-                <img src="./images/drawkit-images/Group (6).png" alt="" class="skill-image">
-              </div>
-              <div class="skill-title">
-                <h3><span>Software Testing</span></h3>
-              </div>
-              <div class="skill-container" id="Tools">
-                <p>I come from a QA background and I have experience testing applications in a professional
-                  setting.
-                </p>
+              <div class="skill-content">
+                <div class="skill-photo-wrap">
+                  <img src="./images/drawkit-images/Group (8).png" alt="" class="skill-image">
+                </div>
+                <div class="skill-title">
+                  <h3><span>Software Testing</span></h3>
+                </div>
+                <div class="skill-container" id="Tools">
+                  <p>I come from a QA background and I have experience testing applications in a professional
+                    setting.
+                  </p>
 
+                </div>
               </div>
             </div>
+
           </div>
         </section>
       </section>
@@ -249,10 +248,9 @@
             <div class="About-Me-Wrap">
               <div class="Section-title-wrap">
                 <div class="Section-title-container">
-                  <h2 class="Section-title"> About Me</h2>
-                  <div class="divider-wrap">
-                    <div class="divider"></div>
-                  </div>
+                  <h1 class="Section-header">ABOUT</h1>
+                  <h2 class="Section-title">Personal Info</h2>
+
                 </div>
               </div>
               <div class="About-Me-Description">
@@ -265,14 +263,34 @@
                   Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
                 </p>
               </div>
+              <div class="socials">
+                <a href="https://github.com/ALin837" target="_blank">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
+                  </span>
+                </a>
+                <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
+                  </span>
+                </a>
+                <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
+                    <i class="fa fa-circle fa-stack-2x icon-background"></i>
+                    <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
+                  </span>
+                </a>
+              </div>
               <section class="about-Skills-Container" data-aos="fade-up">
                 <!--Skills Title-->
                 <div class="Section-title-wrap">
                   <div class="Section-title-container">
-                    <h2 class="Section-title"> Skills</h2>
-                    <div class="divider-wrap">
-                      <div class="divider"></div>
-                    </div>
+
+                    <h1 class="Section-header">SKILLS</h1>
+                    <h2 class="Section-title">Technologies</h2>
+
                   </div>
                 </div>
 
@@ -339,16 +357,17 @@
       </section>
     </div>
 
+
+
     <!--Experience-->
-    <div class="Experience-Global top border" id="Experience-Me">
+    <div class="Experience-Global top" id="Experience-Me">
       <section class="Main-wrap max-width-container">
         <section class="Experience-Container" data-aos="fade-up">
           <div class="Section-title-wrap">
             <div class="Section-title-container">
-              <h2 class="Section-title">Experience</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
+              <h1 class="Section-header">EXPERIENCE</h1>
+              <h2 class="Section-title">A few of the places I've worked at</h2>
+
             </div>
           </div>
           <div class="Experience-Box">
@@ -478,16 +497,15 @@
 
 
     <!--Projects-->
-    <div class="Projects-Global top border" id="Projects-Me">
+    <div class="Projects-Global top" id="Projects-Me">
       <section class="Main-wrap max-width-container">
         <section class="Projects-Container" data-aos="fade-up">
           <!--Project Title-->
-          <div class="Section-title-wrap center">
+          <div class="Section-title-wrap ">
             <div class="Section-title-container">
-              <h2 class="Section-title">Projects</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
+              <h1 class="Section-header">PROJECTS</h1>
+              <h2 class="Section-title">Selected Works</h2>
+
             </div>
           </div>
 
@@ -600,6 +618,13 @@
               </div>
             </div>
           </div>
+
+          <div class="github-button-wrap">
+            <button class="github-button" onclick="Github();">
+              More Projects
+            </button>
+          </div>
+
         </section>
 
       </section>
@@ -609,12 +634,10 @@
     <div class="Contact-Global top" id="Contact-Me">
       <section class="Main-wrap max-width-container">
         <section class="Contact-Container" data-aos="fade-up">
-          <div class="Section-title-wrap center">
+          <div class="Section-title-wrap left">
             <div class="Section-title-container">
-              <h2 class="Section-title">Contact</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
+              <h1 class="Section-header">CONTACT</h1>
+              <h2 class="Section-title">Get in Touch</h2>
             </div>
           </div>
 
@@ -691,6 +714,8 @@
         </div>
       </div>
     </footer>
+
+
 
   </div>
   <script src="js/main.js"></script>

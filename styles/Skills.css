@@ -1,8 +1,11 @@
 .Skills-Global {
     padding-top: 3.5vmax;
-    padding-bottom: 3.5vmax;
+    padding-bottom: 1.5vmax;
     background-color: var(--bright);
 
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
 }
 
 .Skills-Container {
@@ -25,6 +28,15 @@
 
 .Skill-Section {
     text-align: center;
+    background-color: var(--bright);
+    border-radius: 40px;
+    box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07)
+}
+
+
+
+.skill-content {
+    margin: 1rem;
 }
 
 /*Experience skill*/
@@ -34,7 +46,7 @@
 }
 
 .skill-image {
-    height: 100px;
+    height: 230px;
     object-fit: cover;
     object-position: center center;
 }
@@ -61,4 +73,12 @@
     color: var(--bright);
 
     background-color: rgb(32, 32, 33);
+}
+
+@media only screen and (max-width:900px) {
+    .Skill-wrap {
+        margin-top: 1rem;
+        display: block;
+
+    }
 }

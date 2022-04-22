@@ -7,6 +7,8 @@ footer {
   justify-content: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
+  border-radius: 1rem;
 }
 
 .footer-socials {

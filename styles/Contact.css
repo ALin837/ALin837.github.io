@@ -1,18 +1,20 @@
 .Contact-Global {
     padding-top: 1vmax;
     padding-bottom: 1vmax;
-    background-color: #f1f5ff;
+    background-color: var(--offWhiteColor);
+    margin-bottom: 1.25rem;
+    border-radius: 1rem;
 }
 
 .Contact-links p {
     font-size: var(--bodyFontSize);
     margin-right: 1rem;
-    text-align: center;
+    text-align: left;
 }
 
 .Contact-Container {
     color: var(--contentColor);
-    font-family: 'Lexend', "Noto-sans", sans-serif;
+    font-family: var(--fonts);
     box-sizing: border-box;
     width: 100%;
 }
@@ -25,8 +27,7 @@
 .Contact-Wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: left;
 
 }
 
@@ -39,7 +40,6 @@
 .Contact-links {
     padding-top: 0;
     display: flex;
-    justify-content: center;
 }
 
 .Contact-Quick {
@@ -48,7 +48,6 @@
 
 .contact-socials {
     display: flex;
-    justify-content: center;
     margin-bottom: 3rem;
 }
 
@@ -102,7 +101,7 @@ input[type=text] {
     background-color: var(--offWhiteColor);
     box-sizing: border-box;
     border-radius: 4px;
-    font-family: 'Lexend', "Noto-sans", sans-serif;
+    font-family: var(--fonts);
     outline-width: 0;
     font-size: var(--bodyFontSize);
     padding: 10px;
@@ -112,7 +111,7 @@ input[type=text] {
 
 textarea {
     background-color: var(--offWhiteColor);
-    font-family: 'Lexend', "Noto-sans", sans-serif;
+    font-family: var(--fonts);
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -127,7 +126,7 @@ textarea {
 
 input[type=button] {
     background-color: var(--offWhiteColor);
-    font-family: 'Lexend', "Noto-sans", sans-serif;
+    font-family: var(--fonts);
     border-radius: 4px;
     color: var(--mainBlack);
     border: 1px solid #ccc;

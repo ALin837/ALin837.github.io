@@ -6,39 +6,39 @@ function scrollFunction() {
     document.getElementById("Navigation-Bar-Container").style.background = "#5558b7";
     document.getElementById("Navigation-Bar-Container").style.background = "rgba(254,254,254,.97)";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "0 0 1.25rem rgb(30 34 40 / 6%)";
-    /*
-    document.getElementById("logo-text").style.color = "#f8f9f9";
-    document.getElementById("hamburger").style.color = "#f8f9f9";
+    document.getElementById("wrap-navigation").style.height = "67px"
+    document.getElementById("logo-text").style.color = "#363a41";
+    document.getElementById("hamburger").style.color = "#363a41";
     let resume = document.getElementsByClassName("ResumeClass");
     for (let i = 0; i < resume.length; i++) {
       let element = resume[i];
-      element.style.color="#f8f9f9";
+      element.style.color="#363a41";
     }
     let collection = document.getElementsByClassName("scroll_to");
     for (let i = 0; i < collection.length; i++) {
       let element = collection[i];
-      element.style.color="#f8f9f9";
+      element.style.color="#363a41";
     }
-    */
+    
   } else {
     
    
-    document.getElementById("Navigation-Bar-Container").style.background = "#f1f5ff";
+    document.getElementById("Navigation-Bar-Container").style.background = "none";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "none";
-     /* 
-    document.getElementById("logo-text").style.color = "#2f2e41";
-    document.getElementById("hamburger").style.color =  "#2f2e41";
+    document.getElementById("wrap-navigation").style.height = "90px"
+    document.getElementById("logo-text").style.color = "#f8f9f9";
+    document.getElementById("hamburger").style.color =  "#f8f9f9";
     let resume = document.getElementsByClassName("ResumeClass");
     for (let i = 0; i < resume.length; i++) {
       let element =resume[i];
-      element.style.color="#2f2e41";
+      element.style.color="#f8f9f9";
     }
     let collection = document.getElementsByClassName("scroll_to")
     for (let i = 0; i < collection.length; i++) {
       let element = collection[i];
-      element.style.color="#2f2e41";
+      element.style.color="#f8f9f9";
     }
-    */
+    
   }
 }
 
@@ -71,6 +71,10 @@ function Project() {
 
 function Resume() {
   window.open('/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf', '_blank')
+}
+
+function Github() {
+  window.open('https://github.com/ALin837', '_blank')
 }
 
 
@@ -127,8 +131,7 @@ window.addEventListener("scroll", ()=> {
       li.classList.add('active')
     }
   })
-  console.log(`right: ${window.innerHeight + window.scrollY}`)
-  console.log("left:" + document.body.offsetHeight)
+
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
     const contact = document.getElementById("Contact-text-normal")
     const project = document.getElementById("projects-text-normal")

@@ -4,17 +4,22 @@
   --fonts: 'Lexend', "Noto-sans", sans-serif;
   --mainBlack: #2f2e41;
   --mainBlack: #242428;
-  --contentColor: #3a3a40;
+  --mainBlack: #363a41;
+  --contentColor: #585858;
+  --contentColor: #4b4f58;
   --offWhiteColor: #f8f9f9;
   --bright: #fefefe;
   --mainBlue: #8285e8;
-  --mainBlue: #4e53e0;
+  --mainBlue: #565be0;
+  padding: 1.25rem;
+  background-color: #e9eaf8;
   --bodyFontSize: 1.15rem;
-  --sectionTitleSize: 2rem;
+  --sectionTitleSize: 2.25rem;
   --h3size: 1.25rem;
   --h4size: 1.15rem;
-  --LandingPage: 4.75rem;
-  --LandingPageSchool: 1.75rem;
+  --LandingPage: 3.5rem;
+  --LandingPageSchool: 1.35rem;
+  --header: 1.25rem;
 }
 
 .center {
@@ -39,11 +44,23 @@ code {
     monospace;
 }
 
+.text-left {
+  text-align: left;
+}
+
+
+.text-center {
+  text-align: center;
+}
 
 .Section-title-wrap {
   display: flex;
+}
 
-
+.Section-header {
+  color: var(--mainBlue);
+  margin-bottom: 0.5rem;
+  font-size: var(--header);
 }
 
 .Section-title {
@@ -51,8 +68,10 @@ code {
   font-size: var(--sectionTitleSize);
   color: var(--mainBlue);
   color: var(--mainBlack);
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   padding-top: 0rem;
+  line-height: 35px;
   /*
   border-bottom: 4px solid #e76215;
   */
@@ -112,13 +131,11 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
-
 }
 
 
 .layer4 {
-  background-image: url('../images/polygon-scatter-haikei.svg');
+  background-image: url('../images/Photographs/glenn-carstens-peters-npxXWgQ33ZQ-unsplash(2).jpg');
 
 }
 
@@ -158,7 +175,7 @@ h4 {
     --sectionTitleSize: 2.25rem;
     --h3size: 1.5rem;
     --h4size: 1.3rem;
-    --LandingPage: 4.25rem;
+    --LandingPage: 3.25rem;
     --LandingPageSchool: 1.25rem;
   }
 
@@ -171,7 +188,7 @@ h4 {
     --sectionTitleSize: 1.75rem;
     --h3size: 1.25rem;
     --h4size: 1.25rem;
-    --LandingPage: 4rem;
+    --LandingPage: 3rem;
     --LandingPageSchool: 1rem;
   }
 
