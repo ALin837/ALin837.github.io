@@ -113,6 +113,58 @@ code {
   max-width: 1140px;
 }
 
+.typewriter {
+  font-weight: 500;
+
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  font-size: var(--LandingPage);
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+  /*Animation*/
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 2.3s steps(15) infinite alternate,
+    blink 800ms steps(20) infinite normal;
+  border-right: 5px solid black;
+
+}
+
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+
+  to {
+    width: 70%;
+  }
+}
+
+@keyframes blink {
+  from {
+    border-color: var(--offWhiteColor);
+  }
+
+  to {
+    border-color: transparent;
+  }
+}
+
+
+.smaller {
+  font-size: 2rem;
+  color: #E9E9E9;
+  font-weight: 500;
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  font-size: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+}
+
 
 h3 {
   font-size: var(--h3size);

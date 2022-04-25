@@ -41,7 +41,7 @@
 .container {
   padding: 10px 30px;
   position: relative;
-  box-sizing: border-box;
+
   height: 50%;
 
 
@@ -85,7 +85,7 @@ ul li {
   font-style: normal;
 }
 
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:950px) {
   .left {
     margin-right: 0;
   }

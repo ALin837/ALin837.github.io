@@ -52,6 +52,12 @@
   color: var(--bright);
 }
 
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Words-Container {
   text-align: center;
 }
