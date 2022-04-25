@@ -9,10 +9,7 @@
 
 .landing-page-wrap {
   display: flex;
-  animation-name: fadeInOpacityBottom;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
+
 }
 
 .Content-Container {
@@ -22,18 +19,17 @@
 }
 
 .Landing-Page-Global {
-  height: 80vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   background-color: var(--offWhiteColor);
   background-color: #ffffff;
-  margin-bottom: 1.25rem;
-  border-radius: 1rem;
+
 }
 
 .button-group {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 
@@ -41,7 +37,7 @@
 .Landing-Page-Container {
   font-family: var(--fonts);
   display: flex;
-  justify-content: left;
+  justify-content: center;
   color: var(--offWhiteColor);
 }
 
@@ -57,11 +53,11 @@
 }
 
 .Words-Container {
-  text-align: left;
+  text-align: center;
 }
 
 .Landing-Page-Intro {
-  text-align: left;
+  text-align: center;
   font-size: var(--LandingPage);
   font-weight: 500;
   font-style: normal;
@@ -69,13 +65,14 @@
 }
 
 .Landing-Page-School {
-  text-align: left;
+  max-width: 700px;
+  text-align: center;
   font-size: var(--LandingPageSchool);
   font-weight: 400;
   font-style: normal;
   margin-bottom: 3%;
-  color: #5c5c5d;
-  color: var(--offWhiteColor);
+  color: #c2c2c2;
+
 }
 
 a {
@@ -119,7 +116,8 @@ a {
   border-radius: 100px;
 
   color: var(--offWhiteColor);
-  background-color: var(--mainBlue);
+  border: 2px solid var(--offWhiteColor);
+  background-color: transparent;
   transition: 0.5s;
 
 }
@@ -134,8 +132,8 @@ a {
 #Go-to-Contact:hover,
 #Go-to-Resume:hover {
   font-family: var(--fonts);
-  background-color: #34389a;
-  color: var(--offWhiteColor);
+  background-color: var(--offWhiteColor);
+  color: var(--mainBlack);
   cursor: pointer;
 }
 
@@ -160,46 +158,6 @@ a {
   }
 }
 
-
-
-.arrow {
-  margin-top: 1rem;
-  position: absolute;
-  bottom: 45%;
-  left: 50%;
-  margin-left: -20px;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  background-image: url('../images/down-arrow.svg');
-  background-size: contain;
-  /*Animation -> Fade-in -> bounce*/
-  opacity: 0;
-  animation: 0.25s fadeInOpacityTop 1s linear forwards, bounce 2s infinite;
-}
-
-.bounce {
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-
-  40% {
-    transform: translateY(-30px);
-  }
-
-  60% {
-    transform: translateY(-15px);
-  }
-}
 
 @media only screen and (max-width:915px) {
   .Content-Container {
@@ -241,5 +199,119 @@ a {
   #Go-to-Contact,
   #Go-to-Resume {
     font-size: 0.8rem;
+  }
+}
+
+body {
+  background: #212121;
+}
+
+.scroll-down {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  bottom: 60px;
+  height: 50px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 30px;
+}
+
+.scroll-down:hover {
+  cursor: pointer;
+}
+
+.scroll-down::before {
+  animation: scrollDownAnimation 2s infinite;
+  background-color: #fff;
+  border-radius: 100%;
+  content: '';
+  height: 6px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 6px;
+}
+
+@-moz-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
   }
 }

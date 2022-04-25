@@ -39,7 +39,7 @@
   display: inline-block;
   font-family: var(--fonts);
 
-  font-size: 1.3rem;
+  font-size: 1rem;
 
   font-weight: 600;
   font-style: normal;
@@ -93,8 +93,8 @@
 .resume-button a,
 .nav-buttons a {
   display: inline-block;
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 8%;
   text-decoration: none;
@@ -116,7 +116,10 @@
 }
 
 .active {
-  color: var(--offWhiteColor);
+  /*
+  color: var(--mainBlue);
+  */
+  transform: scale(1.15);
   cursor: pointer;
 }
 

@@ -1,15 +1,14 @@
 .Contact-Global {
     padding-top: 1vmax;
     padding-bottom: 1vmax;
-    background-color: var(--offWhiteColor);
-    margin-bottom: 1.25rem;
-    border-radius: 1rem;
+    background-color: var(--bright);
+
 }
 
 .Contact-links p {
     font-size: var(--bodyFontSize);
     margin-right: 1rem;
-    text-align: left;
+    text-align: center;
 }
 
 .Contact-Container {
@@ -27,7 +26,7 @@
 .Contact-Wrap {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
 
 }
 
@@ -40,6 +39,7 @@
 .Contact-links {
     padding-top: 0;
     display: flex;
+    justify-content: center;
 }
 
 .Contact-Quick {
@@ -49,6 +49,7 @@
 .contact-socials {
     display: flex;
     margin-bottom: 3rem;
+    justify-content: center;
 }
 
 /*undraw photo*/

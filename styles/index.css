@@ -5,21 +5,26 @@
   --mainBlack: #2f2e41;
   --mainBlack: #242428;
   --mainBlack: #363a41;
+  --mainBlack: #33373c;
   --contentColor: #585858;
   --contentColor: #4b4f58;
+  --contentColor: #666769;
   --offWhiteColor: #f8f9f9;
   --bright: #fefefe;
   --mainBlue: #8285e8;
   --mainBlue: #565be0;
+  --mainBlue: #5f63e6;
+  /*
   padding: 1.25rem;
   background-color: #e9eaf8;
+  */
   --bodyFontSize: 1.15rem;
-  --sectionTitleSize: 2.25rem;
+  --sectionTitleSize: 2rem;
   --h3size: 1.25rem;
   --h4size: 1.15rem;
   --LandingPage: 3.5rem;
-  --LandingPageSchool: 1.35rem;
-  --header: 1.25rem;
+  --LandingPageSchool: 1rem;
+  --header: 1.15rem;
 }
 
 .center {
@@ -59,6 +64,9 @@ code {
 
 .Section-header {
   color: var(--mainBlue);
+
+  color: #8d96aa;
+
   margin-bottom: 0.5rem;
   font-size: var(--header);
 }
@@ -101,6 +109,8 @@ code {
 
 .max-width-container {
   max-width: 1400px;
+  max-width: 1250px;
+  max-width: 1140px;
 }
 
 
@@ -126,6 +136,12 @@ h4 {
   color: var(--mainBlack);
 }
 
+h2 {
+  font-family: var(--fonts);
+  font-weight: 700;
+  color: var(--mainBlack);
+}
+
 .spacer {
   width: 100%;
   background-repeat: no-repeat;
@@ -136,7 +152,12 @@ h4 {
 
 .layer4 {
   background-image: url('../images/Photographs/glenn-carstens-peters-npxXWgQ33ZQ-unsplash(2).jpg');
+  background-image: url('../images/Photographs/glenn-carstens-peters-npxXWgQ33ZQ-unsplash\(3\).jpg');
 
+}
+
+.layer5 {
+  background-image: url();
 }
 
 
@@ -171,12 +192,13 @@ h4 {
 
 @media only screen and (max-width:915px) {
   .root {
-    --bodyFontSize: 1.3rem;
-    --sectionTitleSize: 2.25rem;
-    --h3size: 1.5rem;
-    --h4size: 1.3rem;
-    --LandingPage: 3.25rem;
-    --LandingPageSchool: 1.25rem;
+    --bodyFontSize: 1.15rem;
+    --sectionTitleSize: 2rem;
+    --h3size: 1.25rem;
+    --h4size: 1.15rem;
+    --LandingPage: 3.5rem;
+    --LandingPageSchool: 1rem;
+    --header: 1.15rem;
   }
 
 }
@@ -185,11 +207,12 @@ h4 {
 @media only screen and (max-width:355px) {
   .root {
     --bodyFontSize: 1.15rem;
-    --sectionTitleSize: 1.75rem;
+    --sectionTitleSize: 2rem;
     --h3size: 1.25rem;
-    --h4size: 1.25rem;
-    --LandingPage: 3rem;
+    --h4size: 1.15rem;
+    --LandingPage: 3.5rem;
     --LandingPageSchool: 1rem;
+    --header: 1.15rem;
   }
 
 }

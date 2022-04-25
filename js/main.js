@@ -7,6 +7,7 @@ function scrollFunction() {
     document.getElementById("Navigation-Bar-Container").style.background = "rgba(254,254,254,.97)";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "0 0 1.25rem rgb(30 34 40 / 6%)";
     document.getElementById("wrap-navigation").style.height = "67px"
+    
     document.getElementById("logo-text").style.color = "#363a41";
     document.getElementById("hamburger").style.color = "#363a41";
     let resume = document.getElementsByClassName("ResumeClass");
@@ -20,12 +21,14 @@ function scrollFunction() {
       element.style.color="#363a41";
     }
     
+    
   } else {
     
    
     document.getElementById("Navigation-Bar-Container").style.background = "none";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "none";
     document.getElementById("wrap-navigation").style.height = "90px"
+    
     document.getElementById("logo-text").style.color = "#f8f9f9";
     document.getElementById("hamburger").style.color =  "#f8f9f9";
     let resume = document.getElementsByClassName("ResumeClass");
@@ -38,6 +41,7 @@ function scrollFunction() {
       let element = collection[i];
       element.style.color="#f8f9f9";
     }
+    
     
   }
 }

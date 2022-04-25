@@ -1,11 +1,10 @@
 .Skills-Global {
     padding-top: 3.5vmax;
-    padding-bottom: 1.5vmax;
-    background-color: var(--bright);
+    padding-bottom: 3.5vmax;
+    background-color: var(--offWhiteColor);
 
 
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
+
 }
 
 .Skills-Container {
@@ -45,10 +44,11 @@
     margin-bottom: 2rem;
 }
 
-.skill-image {
-    height: 230px;
-    object-fit: cover;
-    object-position: center center;
+.skill-icon {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--mainBlack);
 }
 
 .skill-container {

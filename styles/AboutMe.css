@@ -1,17 +1,14 @@
+#About-Me {
+  scroll-behavior: smooth;
+}
+
 .About-Me-Global {
   padding-top: 3.5vmax;
   padding-bottom: 3.5vmax;
   background-color: var(--bright);
-  margin-bottom: 1.25rem;
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
+
 }
 
-.image-about-wrap {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
 
 .About-Me-Container {
@@ -24,8 +21,10 @@
 }
 
 .About-Me-Wrap {
-  display: block;
-  flex-basis: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 2.25rem;
+
 }
 
 .About-Me-Description {
