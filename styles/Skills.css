@@ -32,6 +32,11 @@
     box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07)
 }
 
+.Skill-Section:hover {
+    background-color: #576af0;
+    transform: scale(1.1, 1.1);
+}
+
 
 
 .skill-content {
