@@ -122,12 +122,13 @@ code {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 
-  /*Animation*/
+  /*Animation
   white-space: nowrap;
   overflow: hidden;
   animation: typewriter 2.3s steps(15) infinite alternate,
     blink 800ms steps(20) infinite normal;
   border-right: 5px solid black;
+  */
 
 }
 
@@ -209,7 +210,8 @@ h2 {
 }
 
 .layer5 {
-  background-image: url();
+
+  background-image: url('../images/Photographs/ian-dooley-DJ7bWa-Gwks-unsplash\(1\).jpg');
 }
 
 
@@ -243,28 +245,34 @@ h2 {
 
 
 @media only screen and (max-width:915px) {
+
+
+
   .root {
-    --bodyFontSize: 1.15rem;
-    --sectionTitleSize: 2rem;
-    --h3size: 1.25rem;
-    --h4size: 1.15rem;
-    --LandingPage: 3.5rem;
-    --LandingPageSchool: 1rem;
-    --header: 1.15rem;
+    --bodyFontSize: 1rem;
+    --sectionTitleSize: 1.85rem;
+    --h3size: 1.05rem;
+    --h4size: 1rem;
+    --LandingPage: 3.35rem;
+    --LandingPageSchool: 0.85rem;
+    --header: 1rem;
   }
 
 }
 
 
 @media only screen and (max-width:355px) {
+
+
+
   .root {
-    --bodyFontSize: 1.15rem;
-    --sectionTitleSize: 2rem;
-    --h3size: 1.25rem;
-    --h4size: 1.15rem;
-    --LandingPage: 3.5rem;
-    --LandingPageSchool: 1rem;
-    --header: 1.15rem;
+    --bodyFontSize: 0.85rem;
+    --sectionTitleSize: 1.70rem;
+    --h3size: 0.9rem;
+    --h4size: 0.85rem;
+    --LandingPage: 3.20rem;
+    --LandingPageSchool: 0.70rem;
+    --header: 0.85rem;
   }
 
 }

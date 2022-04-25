@@ -71,7 +71,8 @@
 }
 
 .Landing-Page-School {
-  max-width: 700px;
+  display: flex;
+  justify-content: center;
   text-align: center;
   font-size: var(--LandingPageSchool);
   font-weight: 400;
@@ -217,7 +218,7 @@ body {
   border-radius: 20px;
   bottom: 60px;
   height: 50px;
-  left: 0;
+  left: -17px;
   margin: 0 auto;
   position: absolute;
   right: 0;

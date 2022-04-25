@@ -106,7 +106,7 @@
 /*Hamburger Menu*/
 .icon {
   font-size: 1rem;
-  color: var(--mainBlack);
+  color: var(--offWhiteColor);
   display: none;
 }
 
@@ -139,7 +139,7 @@
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 725px) {
 
   .nav-buttons,
   .nav-button {
@@ -178,8 +178,10 @@
     width: 100%;
     z-index: 2;
     transition: 1s;
+    /*
     background-color: #EEEEEE !important;
     background-color: white !important;
+    */
   }
 
   .Nav {

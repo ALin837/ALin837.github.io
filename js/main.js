@@ -6,7 +6,12 @@ function scrollFunction() {
     document.getElementById("Navigation-Bar-Container").style.background = "#5558b7";
     document.getElementById("Navigation-Bar-Container").style.background = "rgba(254,254,254,.97)";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "0 0 1.25rem rgb(30 34 40 / 6%)";
-    document.getElementById("wrap-navigation").style.height = "67px"
+    if (window.innerWidth > 725) {
+      document.getElementById("wrap-navigation").style.height = "67px"
+    } else {
+      document.getElementById("wrap-navigation").style.height = "67px"
+    }
+
     
     document.getElementById("logo-text").style.color = "#363a41";
     document.getElementById("hamburger").style.color = "#363a41";
@@ -27,7 +32,12 @@ function scrollFunction() {
    
     document.getElementById("Navigation-Bar-Container").style.background = "none";
     document.getElementById("Navigation-Bar-Container").style.boxShadow = "none";
-    document.getElementById("wrap-navigation").style.height = "90px"
+
+    if (window.innerWidth > 725) {
+      document.getElementById("wrap-navigation").style.height = "90px"
+    } else {
+      document.getElementById("wrap-navigation").style.height = "67px"
+    }
     
     document.getElementById("logo-text").style.color = "#f8f9f9";
     document.getElementById("hamburger").style.color =  "#f8f9f9";
@@ -114,7 +124,14 @@ window.onresize = () => {
     x.style.display = "none";
   } else {
     x.style.display = "none";
+  } 
+
+  if (window.innerWidth > 725) {
+    document.getElementById("wrap-navigation").style.height = "90px"
+  } else {
+    document.getElementById("wrap-navigation").style.height = "67px"
   }
+
 }
 
 
