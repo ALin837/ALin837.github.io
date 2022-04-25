@@ -27,6 +27,10 @@
   --header: 1.15rem;
 }
 
+* {
+  transition: all 0.5s;
+}
+
 .center {
   justify-content: center;
 }
