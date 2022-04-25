@@ -29,7 +29,8 @@
     text-align: center;
     background-color: var(--bright);
     border-radius: 40px;
-    box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07)
+    box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07);
+    transition: all 0.5s;
 }
 
 .Skill-Section:hover {
