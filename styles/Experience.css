@@ -3,151 +3,95 @@
   padding-bottom: 3.5vmax;
   background-color: var(--bright);
 
+
+}
+
+.Experience-Box {
+  margin-top: 2rem;
+}
+
+
+.Experience-Inner {
+  display: flex;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  box-sizing: border-box;
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.left {
+  margin-right: 10%;
+}
+
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  background-color: rgb(185, 181, 181);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin-left: -3px;
+}
+
+.container {
+  padding: 10px 30px;
+  position: relative;
+
+  height: 50%;
+
+
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  left: -11px;
+  background-color: var(--mainBlack);
+  top: 40px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.content {
+
+  position: relative;
+  width: 90%;
+  padding: 5px 30px;
+  border-radius: 5px;
+  border: 1px solid rgb(185, 181, 181);
+  height: 95%;
 }
 
 .Experience-Container {
-  color: var(--mainBlack);
-  font-family: 'Lexend', "Noto-sans", sans-serif;
+  color: var(--contentColor);
+  font-family: var(--fonts);
   line-height: 25px;
   font-style: normal;
   letter-spacing: 8%;
 }
 
-.row-experience {
-  display: flex;
 
-}
-
-.timeline-segment {
-  width: 10%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.vertical-line {
-  height: 50%;
-  width: 6px;
-  background-color: var(--mainBlack);
-}
-
-.ball {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background-color: var(--bright);
-  border: var(--mainBlack) 5px solid;
-}
 
 ul li {
-  font-size: 1.15rem;
+  font-size: var(--bodyFontSize);
   font-weight: 400;
   font-style: normal;
 }
 
-/*
-.job-title {
-  color: var(--bright);
-}
-
-.job-company {
-  color: var(--bright);
-}
-*/
-
-.Experience-Content {
-  padding: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*Experience skill*/
-.experience-skill-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.experience-skill {
-  font-size: 1rem;
-  margin: 0.5rem;
-  padding: 0.4rem;
-  border-radius: 5px;
-  color: var(--bright);
-  background-color: rgb(52, 51, 60);
-
-}
-
-
-/*Company*/
-.Company {
-  position: relative;
-  background-color: var(--offWhiteColor);
-  padding: 1rem;
-  /*Timeline*/
-  width: 90%;
-  margin: 1rem;
-
-  border: 5px solid var(--mainBlack);
-  border-radius: 15px 50px 30px 5px;
-  border-radius: 15px 50px;
-  border-radius: 15px 50px 30px;
-
-  transition: all .2s ease-out;
-  /**/
-  animation-name: bounceIn;
-  animation-duration: 1.5s;
-  animation-fill-mode: forwards;
-  animation-timing-function: ease;
-
-}
-
-@keyframes bounceIn {
-
-  0% {
-    opacity: 0;
-    transform: translateX(60px);
+@media only screen and (max-width:950px) {
+  .left {
+    margin-right: 0;
   }
 
-  50%,
-  80%,
-  100% {
-    transform: translateX(0);
+  .Experience-Inner {
+    display: block;
   }
 
-  40% {
-    transform: translateX(-30px);
-  }
-
-  60% {
-    transform: translateX(-15px);
-  }
-}
-
-
-
-@media only screen and (max-width:680px) {
-  .triangle {
-    display: none;
-  }
-
-  .timeline-segment {
-    display: none;
-  }
-
-  .Company {
-    margin: 1rem auto;
-  }
-
-  ul li {
-    font-size: 1rem;
-  }
-
-  .experience-skill {
-    font-size: 1rem;
-  }
 }

@@ -2,9 +2,47 @@
 window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("Navigation-Bar-Container").style.background = "#494C9E";
+    
+    document.getElementById("Navigation-Bar-Container").style.background = "#5558b7";
+    document.getElementById("Navigation-Bar-Container").style.background = "rgba(254,254,254,.97)";
+    document.getElementById("Navigation-Bar-Container").style.boxShadow = "0 0 1.25rem rgb(30 34 40 / 6%)";
+    document.getElementById("wrap-navigation").style.height = "67px"
+    
+    document.getElementById("logo-text").style.color = "#363a41";
+    document.getElementById("hamburger").style.color = "#363a41";
+    let resume = document.getElementsByClassName("ResumeClass");
+    for (let i = 0; i < resume.length; i++) {
+      let element = resume[i];
+      element.style.color="#363a41";
+    }
+    let collection = document.getElementsByClassName("scroll_to");
+    for (let i = 0; i < collection.length; i++) {
+      let element = collection[i];
+      element.style.color="#363a41";
+    }
+    
+    
   } else {
+    
+   
     document.getElementById("Navigation-Bar-Container").style.background = "none";
+    document.getElementById("Navigation-Bar-Container").style.boxShadow = "none";
+    document.getElementById("wrap-navigation").style.height = "90px"
+    
+    document.getElementById("logo-text").style.color = "#f8f9f9";
+    document.getElementById("hamburger").style.color =  "#f8f9f9";
+    let resume = document.getElementsByClassName("ResumeClass");
+    for (let i = 0; i < resume.length; i++) {
+      let element =resume[i];
+      element.style.color="#f8f9f9";
+    }
+    let collection = document.getElementsByClassName("scroll_to")
+    for (let i = 0; i < collection.length; i++) {
+      let element = collection[i];
+      element.style.color="#f8f9f9";
+    }
+    
+    
   }
 }
 
@@ -36,7 +74,11 @@ function Project() {
 }
 
 function Resume() {
-  window.open('/Files/Andrew_Lin_Resume_08-04-2022-10-23-10.pdf', '_blank')
+  window.open('/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf', '_blank')
+}
+
+function Github() {
+  window.open('https://github.com/ALin837', '_blank')
 }
 
 
@@ -93,8 +135,7 @@ window.addEventListener("scroll", ()=> {
       li.classList.add('active')
     }
   })
-  console.log(`right: ${window.innerHeight + window.scrollY}`)
-  console.log("left:" + document.body.offsetHeight)
+
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
     const contact = document.getElementById("Contact-text-normal")
     const project = document.getElementById("projects-text-normal")

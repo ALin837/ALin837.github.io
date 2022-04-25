@@ -3,6 +3,7 @@
   padding-bottom: 3.5vmax;
   background-color: var(--offWhiteColor);
 
+
 }
 
 .disabled {
@@ -25,10 +26,10 @@
 .enabled,
 .disabled {
   font-family: var(--fonts);
-  font-size: 1.3rem;
+  font-size: var(--bodyFontSize);
   font-weight: 700;
   margin: 5px 0px;
-  color: #4b4fbb;
+  color: #5155ca;
   transition: all 0.3s ease-in-out;
 }
 
@@ -41,7 +42,7 @@
 
 
 .Projects-Container {
-  color: var(--mainBlack);
+  color: var(--contentColor);
   font-family: var(--fonts);
   font-weight: normal;
   font-style: normal;
@@ -77,13 +78,14 @@
 .Project-section {
   margin-bottom: 2rem;
   padding: 2rem;
-  background-color: #eeeeee;
+  background-color: #efeeee;
   border-radius: 10px;
 }
 
 
 .Project-Text {
-  font-size: 1.15rem;
+  font-size: var(--bodyFontSize);
+  ;
 }
 
 
@@ -103,9 +105,34 @@
   background-color: rgb(52, 51, 60);
 }
 
+.github-button-wrap {
+  display: flex;
+
+}
+
+.github-button {
+
+  font-family: var(--fonts);
+  padding: 10px 28px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  border: none;
+  border-radius: 100px;
+
+  color: var(--offWhiteColor);
+  background-color: var(--mainBlue);
+  transition: 0.5s;
+}
+
+.github-button:hover {
+  font-family: var(--fonts);
+  background-color: #34389a;
+  color: var(--offWhiteColor);
+  cursor: pointer;
+}
 
 
-@media only screen and (max-width:680px) {
+@media only screen and (max-width:940px) {
   .project-skill {
     font-size: 0.88rem;
   }

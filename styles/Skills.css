@@ -3,6 +3,8 @@
     padding-bottom: 3.5vmax;
     background-color: var(--offWhiteColor);
 
+
+
 }
 
 .Skills-Container {
@@ -19,33 +21,34 @@
     margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2rem;
 }
 
 
 .Skill-Section {
     text-align: center;
+    background-color: var(--bright);
+    border-radius: 40px;
+    box-shadow: 0 .25rem 1.75rem rgba(30, 34, 40, .07)
+}
+
+
+
+.skill-content {
+    margin: 1rem;
 }
 
 /*Experience skill*/
 
 .skill-photo-wrap {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 2rem;
 }
 
-.skill-photo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    background-color: var(--mainBlack);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.75rem;
-
+.skill-icon {
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    color: var(--mainBlack);
 }
 
 .skill-container {
@@ -56,48 +59,26 @@
 
 }
 
+.skill-container p {
+    font-size: var(--bodyFontSize);
+    color: var(--contentColor);
+
+}
+
 .skill {
-    font-size: 1rem;
+    font-size: var(--bodyFontSize);
     margin: 0.5rem;
     padding: 0.4rem;
     border-radius: 5px;
     color: var(--bright);
 
-    background-color: rgb(52, 51, 60);
+    background-color: rgb(32, 32, 33);
 }
 
-.fa-code:hover,
-.fa-laptop-code:hover,
-.fa-git-alt:hover {
-    animation-name: spin;
-    animation-duration: 0.5s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
-}
-
-/*Animation*/
-@keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
-}
-
-
-
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:900px) {
     .Skill-wrap {
-        margin-top: 0px;
-        display: grid;
-        grid-template-columns: 1fr;
+        margin-top: 1rem;
+        display: block;
+
     }
-
-    .Skill-Section {
-        margin-top: 3.5rem;
-    }
-
-
 }

@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="styles/AboutMe.css" />
   <link rel="stylesheet" href="styles/Skills.css" />
   <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <script src="https://kit.fontawesome.com/71c6f26d48.js" crossorigin="anonymous"></script>
 </head>
 
@@ -25,9 +26,10 @@
   <div class="root">
     <!--Navigation Bar-->
     <header class=" Navigation-Bar-Container" id="Navigation-Bar-Container">
-      <div class="wrap-nav max-width-container">
+      <div class="wrap-nav max-width-container" id="wrap-navigation">
         <div class="logo">
-          <a href="index.html" id="logo-text"> ANDREW LIN
+          <a href="index.html" id="logo-text">
+            ANDREW LIN
           </a>
         </div>
         <a href="javascript:void(0);" class="icon" onclick="DisplayOptions()" id="hamburger">
@@ -37,42 +39,41 @@
         <!--<img src="images/Images/download (1).svg" alt="Logo" style="padding: 5px;" id="logo">  -->
         <nav id="NormalNavBar">
           <ul class="Navigation">
-            <li class="nav-buttons">
-              <a data-link="Landing-Page" title="Home" class="scroll_to" id="home-text-normal">
+            <li class="nav-buttons nav-button-style">
+              <a data-link="Landing-Page" title="Home" class="scroll_to active" id="home-text-normal">
                 HOME
               </a>
             </li>
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="About-Me" title="About Me" class="scroll_to" id="about-text">
                 ABOUT
               </a>
             </li>
-            <li class="nav-buttons">
-              <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
-                SKILLS
-              </a>
-            </li>
-            <li class="nav-buttons">
+
+            <li class="nav-buttons nav-button-style">
               <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
-                EXPERIENCE
+                RESUME
               </a>
             </li>
-            <li class="nav-buttons">
+
+            <li class="nav-buttons nav-button-style">
               <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text-normal">
-                PROJECTS
+                PORTFOLIO
               </a>
             </li>
-            <li class="nav-buttons">
+            <li class="nav-buttons nav-button-style">
               <a data-link="Contact-Me" title="Contact" class="scroll_to" id="Contact-text-normal">
                 CONTACT
               </a>
             </li>
-            <li class="nav-button" id="Resume">
-              <a href="/Files/Andrew_Lin_Resume_08-04-2022-10-23-10.pdf" target="_blank" title="Resume" id="resume-text"
+            <!--
+            <li class="resume-button resume-button-style" id="Resume">
+              <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
                 RESUME
               </a>
             </li>
+            -->
           </ul>
         </nav>
       </div>
@@ -90,19 +91,16 @@
                 ABOUT
               </a>
             </li>
-            <li class="nav-buttons">
-              <a data-link="Skills-Me" title="Skill Me" class="scroll_to" id="skill-text">
-                SKILLS
-              </a>
-            </li>
+
             <li class="nav-buttons">
               <a data-link="Experience-Me" title="Experience" class="scroll_to" id="experience-text">
-                EXPERIENCE
+                RESUME
               </a>
             </li>
+
             <li class="nav-buttons">
               <a data-link="Projects-Me" title="Projects" class="scroll_to" id="projects-text">
-                PROJECTS
+                PORTFOLIO
               </a>
             </li>
             <li class="nav-buttons">
@@ -110,12 +108,14 @@
                 CONTACT
               </a>
             </li>
-            <li class="nav-button" id="Resume">
-              <a href="/Files/Andrew_Lin_Resume_08-04-2022-10-23-10.pdf" target="_blank" title="Resume" id="resume-text"
+            <!--
+            <li class="resume-button" id="Resume">
+              <a href="/Files/Andrew_Lin_Resume_13-04-2022-12-16-59.pdf" target="_blank" title="Resume" id="resume-text"
                 class="ResumeClass">
                 RESUME
               </a>
             </li>
+            -->
           </ul>
         </nav>
       </div>
@@ -123,98 +123,176 @@
 
 
     <!--Landing Page-->
-    <div class="Landing-Page-Global top spacer layer1" id="Landing-Page">
+    <div class="Landing-Page-Global top spacer layer4" id="Landing-Page">
       <section class="Main-wrap maximize-width max-width-container">
+
         <section class="Landing-Page-Container">
           <div class="landing-page-wrap">
             <div class="Content-Container">
-              <div class="Words-Container">
-                <div class="Landing-Page-Intro">
-                  Hi! I'm Andrew Lin
+              <div>
+
+                <div class="Words-Container">
+                  <h2 class="smaller">Hello!</h2>
+                  <div class="type">
+                    <h1 class="typewriter">I'm Andrew Lin.</h1>
+                  </div>
+                  <div class="Landing-Page-School">
+                    <!--                    <p> Computer Science Student 📖 | University of Waterloo 🏫 | Software Developer 👨‍💻 |
+                      Software Tester 🤖 </p>-->
+
+                    <p> I am a Computer Science Student that goes to the University of Waterloo and I am always looking
+                      for opportunies to grow as a developer</p>
+                  </div>
                 </div>
-                <div class="Landing-Page-School">
-                  <p> I am a Computer Science Student from the University of Waterloo. </p>
+
+                <div class="button-group">
+
+                  <button id="Go-to-Contact" onclick="Resume();" style="margin-right: 1rem;">
+                    Resume
+                  </button>
+
                 </div>
-              </div>
-              <div class="button-group">
-                <button id="Go-to-Contact" onclick="Contact();" style="margin-right: 1rem;"> <i
-                    class="fa-solid fa-phone"></i> &nbsp;Contact</button>
-                <button id="Go-to-Resume" onclick="Resume();"> <i class="fa-solid fa-download"></i> &nbsp;Resume
-                </button>
+
               </div>
             </div>
+            <!--
+            <div class="landing-image-contain">
+              <img src="./images/drawkit-images/Group (5).svg" class="undraw-photo" alt="">
+            </div>
+            -->
+            <a data-link="About-Me" class="scroll_to">
+              <div class="scroll-down"></div>
+            </a>
           </div>
+
         </section>
       </section>
     </div>
 
-
     <!--About Me-->
     <div class="About-Me-Global top" id="About-Me">
       <section class="Main-wrap max-width-container">
-        <section class="About-Me-Container">
-          <div class="Section-title-wrap">
-            <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-user"></i> &nbsp;About Me</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
-            </div>
-          </div>
-          <div class="About-Me-Wrap">
-            <div class="About-Me-Description">
-              <p>
-                Hi! My name is Andrew Lin and I study Computer Science at the University of Waterloo.
-                I started coding after taking Computer Science in highschool and that's where I learned HTML/CSS,
-                Turing, Python and Java. In the end, that's how I ended up choosing to study Computer Science.
-              </p>
-              <p>
-                Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
-              </p>
+        <section class="About-Me-Container" data-aos="fade-up">
 
-              <p>
-                Check out some of my socials below.
-              </p>
+
+          <div class="About-Me-Wrap">
+            <div>
+              <div class="Section-title-wrap ">
+                <div class="Section-title-container">
+                  <h1 class="Section-header">ABOUT</h1>
+                  <h2 class="Section-title">Personal Info</h2>
+
+                </div>
+              </div>
+              <div class="About-Me-Description">
+                <p>
+                  My name is Andrew Lin and I study Computer Science at the University of Waterloo.
+                  I started coding after taking Computer Science in highschool and that's where I learned HTML/CSS,
+                  Turing, Python and Java. Ultimately, that's how I ended up choosing to study Computer Science.
+                </p>
+                <p>
+                  Feel free to email me at <b>Andrew.61523@gmail.com</b> for any business inquiries.
+                </p>
+              </div>
               <div class="socials">
                 <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
                   </span>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
                   </span>
                 </a>
                 <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>
                 </a>
               </div>
             </div>
-            <div class="image-contain">
-              <img src="./images/undraw_code_thinking_re_gka2.svg" class="undraw-photo" alt="">
-            </div>
+            <section class="about-Skills-Container">
+              <!--Skills Title-->
+              <div class="Section-title-wrap">
+                <div class="Section-title-container">
+
+                  <h1 class="Section-header">SKILLS</h1>
+                  <h2 class="Section-title">Technologies</h2>
+
+                </div>
+              </div>
+
+              <!--Skills Content-->
+              <div class="about-Skill-wrap">
+                <div class="about-Skill-Section" id="Programming-Lang">
+                  <div class="about-skill-container" id="Programming-Languages">
+                    <div class="about-skill">
+                      <code>C/C++</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Java</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Python</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>HTML</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>CSS</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>JavaScript</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Golang</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>C#.Net</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Groovy</code>
+                    </div>
+                    <div class="about-skill" id="React">
+                      <code>React</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Django</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Node.js</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Express.js</code>
+                    </div>
+                    <div class="about-skill">
+                      <code>Socket.io</code>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
+
+
+
         </section>
       </section>
     </div>
 
-    <!--Skills-->
+
+    <!--School Skills-->
     <div class="Skills-Global top" id="Skills-Me">
       <section class="Main-wrap max-width-container">
-        <section class="Skills-Container">
-          <!--Skills Title-->
-          <div class="Section-title-wrap">
+        <section class="Skills-Container" data-aos="fade-up">
+          <div class="Section-title-wrap center">
             <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-computer"></i> &nbsp;Skills</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
+              <h1 class="Section-header text-center">SERVICES</h1>
+              <h2 class="Section-title">What I Do</h2>
             </div>
           </div>
 
@@ -222,176 +300,119 @@
           <div class="Skill-wrap">
 
             <div class="Skill-Section" id="Programming-Lang">
-              <div class="skill-photo-wrap">
-                <div class="skill-photo">
-                  <i class="fa-solid fa-code"></i>
-                </div>
-              </div>
-              <div class="skill-title">
-                <h3><span>Programming Languages:</span></h3>
+              <div class="skill-content">
+                <i class="fa-solid fa-hand-holding-heart skill-icon"></i>
+                <div class="skill-title">
+                  <h3><span>Community Involvment</span></h3>
 
-              </div>
-              <div class="skill-container" id="Programming-Languages">
-                <div class="skill">
-                  <code>C/C++</code>
                 </div>
-                <div class="skill">
-                  <code>Java</code>
-                </div>
-                <div class="skill">
-                  <code>Python</code>
-                </div>
-                <div class="skill">
-                  <code>HTML</code>
-                </div>
-                <div class="skill">
-                  <code>CSS</code>
-                </div>
-                <div class="skill">
-                  <code>JavaScript</code>
-                </div>
-                <div class="skill">
-                  <code>Golang</code>
-                </div>
-                <div class="skill">
-                  <code>C#.Net</code>
-                </div>
-                <div class="skill">
-                  <code>Groovy</code>
+                <div class="skill-container" id="Programming-Languages">
+                  <p>
+                    I enjoy getting involved in the community and I play hockey and volleyball in my free time.
+                  </p>
                 </div>
               </div>
             </div>
 
             <div class="Skill-Section" id="Libraries-Frameworks">
-              <div class="skill-photo-wrap">
-                <div class="skill-photo">
-                  <i class="fa-solid fa-laptop-code"></i>
+              <div class="skill-content">
+                <i class="fa-solid fa-code  skill-icon"></i>
+                <div class="skill-title">
+                  <h3><span>Software Development</span></h3>
                 </div>
-              </div>
-              <div class="skill-title">
-                <h3><span>Libraries/Frameworks:</span></h3>
-              </div>
-              <div class="skill-container" id="Libraries-Frameworks">
-                <div class="skill" id="React">
-                  <code>React</code>
-                </div>
-                <div class="skill">
-                  <code>Django</code>
-                </div>
-                <div class="skill">
-                  <code>Node.js</code>
-                </div>
-                <div class="skill">
-                  <code>Express.js</code>
-                </div>
-                <div class="skill">
-                  <code>Socket.io</code>
-                </div>
-                <div class="skill">
-                  <code>PyGame</code>
-                </div>
-                <div class="skill">
-                  <code>Ncurses</code>
+                <div class="skill-container" id="Libraries-Frameworks">
+                  <p>
+                    I have a solid foundation in Computer Science and have taken courses relating to object orientated
+                    programming, and logic and computation
+                  </p>
                 </div>
               </div>
             </div>
 
             <div class="Skill-Section" id="Tools">
-              <div class="skill-photo-wrap">
-                <div class="skill-photo">
-                  <i class="fa-brands fa-git-alt"></i>
+              <div class="skill-content">
+                <i class="fa-solid fa-computer  skill-icon"></i>
+                <div class="skill-title">
+                  <h3><span>Software Testing</span></h3>
                 </div>
-              </div>
-              <div class="skill-title">
-                <h3><span>Tools:</span></h3>
-              </div>
-              <div class="skill-container" id="Tools">
-                <div class="skill">
-                  <code>Git</code>
-                </div>
-                <div class="skill">
-                  <code>Jmeter</code>
-                </div>
-                <div class="skill">
-                  <code>Heroku</code>
-                </div>
-                <div class="skill">
-                  <code>Selenium</code>
-                </div>
-                <div class="skill">
-                  <code>PostgreSQL</code>
-                </div>
-                <div class="skill">
-                  <code>Kanban/JIRA board</code>
+                <div class="skill-container" id="Tools">
+                  <p>I come from a QA background and I have experience testing applications in a professional
+                    setting.
+                  </p>
+
                 </div>
               </div>
             </div>
+
           </div>
         </section>
       </section>
     </div>
 
+
+    <!--Experience-->
     <div class="Experience-Global top" id="Experience-Me">
       <section class="Main-wrap max-width-container">
-        <!--Experience-->
-        <section class="Experience-Container">
-          <div class="Section-title-wrap">
-            <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-suitcase"></i> &nbsp;Experience</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
+        <section class="Experience-Container" data-aos="fade-up">
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">RESUME</h1>
+              <h2 class="Section-title">Education & Experience</h2>
+
+
             </div>
           </div>
+
           <div class="Experience-Box">
             <div class="Experience-Inner">
-              <div class="row-experience">
-                <div class="timeline-segment">
-                  <div class="vertical-line" style="visibility: hidden;">
 
-                  </div>
-                  <div class="ball">
-                  </div>
-                  <div class="vertical-line">
+              <div class="timeline left">
 
-                  </div>
 
+                <div class="container">
+                  <div class="content">
+                    <h2>Sept. 2020-Present</h2>
+                    <h3><span class="job-company">Studying at University of Waterloo</span></h3>
+                    <h3 class="job-title">Computer Science Student</h3>
+                    <p>Some relevant course include: Object Oriented Programming, Logic and Computation, Elementary
+                      Algorithm Design and Data Abstraction and Designing Functional Programs
+                    </p>
+                  </div>
                 </div>
-                <div class="Company">
+                <div class="container">
+                  <div class="content">
+                    <h2>May 2021-August 2021</h2>
+                    <h3><span class="job-company">InFlight Corporation</span></h3>
+                    <h3 class="job-title">QA Analyst</h3>
+                    <p> Experience with Manual Regression Testing, Functional Testing, and Black Box Testing
+                      to test backend and frontend issues.</p>
+                  </div>
+                </div>
 
-                  <div class="Experience-Content" id="Monest">
-                    <div class="Experience-Wrap">
-                      <h3><span class="job-company">Monest Co.</span></h3>
-                      <h3 class="job-title">Junior Developer, December 2021-Present</h3>
-                      <ul>
-                        <li>
-                          Implemented an Email Sign-up feature onto Monest's website to save emails using Django's
-                          REST API
-                          framework and models
-                        </li>
-                        <li>
-                          Involved in both frontend and backend bug fixing, refactoring of React Components, and
-                          adding additional
-                          APIs to improve code manageability and sustainability.
-                        </li>
-                      </ul>
-                      <!--
-                      <div class="experience-skill-container">
-                        <div class="experience-skill">
-                          <code>Python</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>Django</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>React</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>PostgreSQL</code>
-                        </div>
-                      </div>
-                      -->
-                    </div>
+              </div>
+
+              <div class="timeline">
+
+
+                <div class="container">
+                  <div class="content">
+                    <h2>Janurary 2022 - May 2022</h2>
+                    <h3><span class="job-company">OpenText Corporation</span></h3>
+                    <h3 class="job-title">Software QA Automation Developer</h3>
+                    <p> Developed automated tests to test REST APIs using Jmeter and Developed a TCP and UDP
+                      Client/Server application using Golang and C# .Net for performance
+                      statistic
+                      baselines. </p>
+                  </div>
+                </div>
+                <div class="container">
+                  <div class="content">
+                    <h2>December 2021 - Present</h2>
+                    <h3><span class="job-company">Monest Co.</span></h3>
+                    <h3 class="job-title">Junior Developer</h3>
+                    <p> Experience with Django's
+                      REST API framework and involved in both frontend and backend bug fixing, and refactoring of React
+                      Components.</p>
                   </div>
                 </div>
 
@@ -399,114 +420,6 @@
 
 
 
-
-              <div class="row-experience">
-                <div class="timeline-segment">
-                  <div class="vertical-line">
-
-                  </div>
-                  <div class="ball">
-
-                  </div>
-                  <div class="vertical-line">
-
-                  </div>
-
-                </div>
-
-                <div class="Company">
-                  <div class="Experience-Content" id="OpenText">
-                    <div class="Experience-Wrap">
-                      <h3><span class="job-company">OpenText Corporation</span></h3>
-                      <h3 class="job-title">Software QA Automation Developer, Janurary 2022-Present</h3>
-                      <ul>
-                        <li>
-                          Developed automated tests to test REST APIs and utilized Jmeter JSR223 samplers and
-                          assertions, and
-                          Groovy scripts to facilitate API response, performance, and load testing.
-                        </li>
-                        <li>
-                          Developed a TCP and UDP Client/Server application using Golang and C# .Net for performance
-                          statistic
-                          baselines.
-                        </li>
-                      </ul>
-                      <!--
-                      <div class="experience-skill-container">
-                        <div class="experience-skill">
-                          <code> Golang</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>C#.Net</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code>Jmeter</code>
-                        </div>
-                        <div class="experience-skill">
-                          <code> Groovy</code>
-                        </div>
-                      </div>
-                      -->
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-
-
-
-              <div class="row-experience">
-                <div class="timeline-segment">
-                  <div class="vertical-line">
-
-                  </div>
-                  <div class="ball">
-
-                  </div>
-                  <div class="vertical-line" style="visibility: hidden;">
-
-                  </div>
-
-                </div>
-                <div class="Company">
-
-                  <div class="Experience-Content" id="InFlight">
-                    <div class="Experience-Wrap">
-                      <h3><span class="job-company">InFlight Corporation</span></h3>
-                      <h3 class="job-title">QA Analyst, May 2021-August 2021</h3>
-                      <ul>
-                        <li>
-                          Created test plans to test multiple areas within Business Enterprise Systems
-                        </li>
-                        <li>
-                          Experience with Manual Regression Testing, Functional Testing, Black Box Testing and
-                          utilized many other
-                          Testing Practices to test backend and frontend issues.
-                        </li>
-                        <li>
-                          Automated testing processes with Selenium to test functional behaviour.
-                        </li>
-                      </ul>
-                      <!--
-                      <div class="experience-skill-container">
-                        <div class="experience-skill">
-                          <code>Regression Testing</code>
-
-                        </div>
-                        <div class="experience-skill">
-                          <code>Manual Testing</code>
-
-                        </div>
-                        <div class="experience-skill">
-                          <code>Functional Testing</code>
-                        </div>
-                      </div>
-                      -->
-                    </div>
-                  </div>
-                </div>
-
-              </div>
 
 
             </div>
@@ -514,18 +427,18 @@
         </section>
       </section>
     </div>
+
 
     <!--Projects-->
     <div class="Projects-Global top" id="Projects-Me">
       <section class="Main-wrap max-width-container">
-        <section class="Projects-Container">
+        <section class="Projects-Container" data-aos="fade-up">
           <!--Project Title-->
-          <div class="Section-title-wrap">
-            <div class="Section-title-container">
-              <h2 class="Section-title"> <i class="fa-solid fa-book-bookmark"></i> &nbsp;Projects</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">PORTFOLIO</h1>
+              <h2 class="Section-title">Selected Projects</h2>
+
             </div>
           </div>
 
@@ -548,35 +461,12 @@
                         frontend is built using HTML/CSS and Javascript while the backend is built using Node.js,
                         Express.js, and Socket.io. Please try the application out!
                       </p>
-                      <!--
-                      <div class="project-skill-container">
-                        <h4>Tech Stack: &nbsp;</h4>
-                        <div class="project-skill">
-                          <code>HTML</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>CSS</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>JavaScript</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>Node.js</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>Express.js</code>
-                        </div>
-                        <div class="project-skill">
-                          <code>Socket.io</code>
-                        </div>
-                      </div>
-                      -->
                     </div>
                   </div>
                 </div>
                 <div class="See-work-link">
                   <a href="https://github.com/ALin837/My-Chat-App" target="_blank">
-                    <h5 class="enabled">See work &#8594</h5>
+                    <h5 class="enabled">See Code &#8594</h5>
                   </a>
                 </div>
               </div>
@@ -601,22 +491,11 @@
                         Game.
                       </p>
                     </div>
-                    <!--
-                    <div class="project-skill-container">
-                      <h4>Tech Stack: &nbsp;</h4>
-                      <div class="project-skill">
-                        <code>C++</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>Ncurses</code>
-                      </div>
-                    </div>
-                    -->
                   </div>
                 </div>
               </div>
               <div class="See-work-link">
-                <h5 class="disabled">See work &#8594</h5>
+                <h5 class="disabled">See Code &#8594</h5>
               </div>
 
             </div>
@@ -637,23 +516,12 @@
                         the game.
                       </p>
                     </div>
-                    <!--
-                    <div class="project-skill-container">
-                      <h4>Tech Stack:</h4>
-                      <div class="project-skill">
-                        <code>Python</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>PyGame</code>
-                      </div>
-                    </div>
-                    -->
                   </div>
                 </div>
               </div>
               <div class="See-work-link">
                 <a href="https://github.com/ALin837/Snake" target="_blank">
-                  <h5 class="enabled">See work &#8594</h5>
+                  <h5 class="enabled">See Code &#8594</h5>
                 </a>
               </div>
             </div>
@@ -670,78 +538,71 @@
                       <p class="Project-Text">
                         A re-creation of the Atari Breakout game that tracks score and
                         includes a double paddle mode for higher scores. The game also includes sound
-                        effects and also includes basic collision physics
+                        effects and basic collision physics
                       </p>
                     </div>
-                    <!--
-                    <div class="project-skill-container">
-                      <h4>Tech Stack: &nbsp;</h4>
-                      <div class="project-skill">
-                        <code>Python</code>
-                      </div>
-                      <div class="project-skill">
-                        <code>PyGame</code>
-                      </div>
-                    </div>
-                    -->
-
                   </div>
                 </div>
               </div>
               <div class="See-work-link">
                 <a href="https://github.com/ALin837/Breakout" target="_blank">
-                  <h5 class="enabled">See work &#8594</h5>
+                  <h5 class="enabled">See Code &#8594</h5>
                 </a>
               </div>
             </div>
           </div>
+
         </section>
 
       </section>
     </div>
 
+    <!--Contact-->
     <div class="Contact-Global top" id="Contact-Me">
       <section class="Main-wrap max-width-container">
-        <!--Contact-->
-        <section class="Contact-Container">
-          <div class="Section-title-wrap">
-            <div class="Section-title-container">
-              <h2 class="Section-title"><i class="fa-solid fa-phone"></i> &nbsp;Contact</h2>
-              <div class="divider-wrap">
-                <div class="divider"></div>
-              </div>
+        <section class="Contact-Container" data-aos="fade-up">
+          <div class="Section-title-wrap center">
+            <div class="Section-title-container text-center">
+              <h1 class="Section-header">CONTACT</h1>
+              <h2 class="Section-title">Get in Touch</h2>
             </div>
           </div>
 
           <div class="Contact-Wrap">
             <div class="Contact-Quick">
               <div class="Contact-links">
-                <p style="font-size:1.25rem; margin-right: 1rem;">Got any questions? Feel free to send me an email!</p>
+                <p>Got any questions? <br> Feel free to email me at
+                  <b>Andrew.61523@gmail.com</b>
+                </p>
               </div>
+
               <div class="contact-socials">
                 <a href="https://github.com/ALin837" target="_blank">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-github fa-stack-1x" id="github-icon"></i>
                   </span>
                 </a>
                 <a href="https://www.linkedin.com/in/andrew-lin-a778721a3/" target="_blank" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fab fa-linkedin-in fa-stack-1x" id="linkedin-icon"></i>
                   </span>
                 </a>
                 <a href="mailto: andrew.61523@gmail.com" class="socials-icon">
-                  <span class="fa-stack fa-4x outer" style="font-size: 1.15rem; margin-right: 5px;">
+                  <span class="fa-stack fa-4x outer" style="font-size: 1.35rem; margin-right: 5px;">
                     <i class="fa fa-circle fa-stack-2x icon-background"></i>
                     <i class="fa-solid fa-envelope fa-stack-1x" id="email-icon"></i>
                   </span>
                 </a>
               </div>
+              <!--
               <div class="contact-image-contain">
                 <img src="./images/undraw_mailbox_re_dvds.svg" class="undraw-photo" alt="">
               </div>
+              -->
             </div>
+            <!--
             <div class="Contact-Form-Input">
               <form action="">
                 <div class="name">
@@ -767,6 +628,7 @@
                 <input type="button" value="Send">
               </form>
             </div>
+            -->
           </div>
         </section>
       </section>
@@ -775,13 +637,19 @@
     <footer>
       <div class="footer-container">
         <div class="footer-name over">
-          Made by Andrew Lin
+          Made by Andrew Lin 🙂
         </div>
       </div>
     </footer>
 
+
+
   </div>
   <script src="js/main.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ offset: 150, delay: 200, duration: 250, once: true, easing: 'ease', anchorPlacement: 'top-bottom', });
+  </script>
 
 </body>
 

@@ -1,28 +1,44 @@
 .maximize-width {
   width: 100%;
+
+}
+
+.Landing {
+  color: var(--mainBlue);
+}
+
+.landing-page-wrap {
+  display: flex;
+
+}
+
+.Content-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .Landing-Page-Global {
-  height: 60vh;
+  height: 100vh;
   display: flex;
   align-items: center;
+  background-color: var(--offWhiteColor);
+  background-color: #ffffff;
 
 }
 
 .button-group {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 
 
 
 .Landing-Page-Container {
   font-family: var(--fonts);
-  font-weight: 800;
-  font-style: normal;
   display: flex;
-  justify-content: left;
-  color: var(--bright);
+  justify-content: center;
+  color: var(--offWhiteColor);
 }
 
 
@@ -36,29 +52,33 @@
   color: var(--bright);
 }
 
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .Words-Container {
-  text-align: left;
-  animation-name: fadeInOpacityBottom;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-duration: 0.5s;
+  text-align: center;
 }
 
 .Landing-Page-Intro {
-  text-align: left;
-  font-size: 4rem;
-  font-weight: 700;
+  text-align: center;
+  font-size: var(--LandingPage);
+  font-weight: 500;
   font-style: normal;
   margin-bottom: 0.5rem;
 }
 
 .Landing-Page-School {
-  text-align: left;
-  font-size: 1.25rem;
+  max-width: 700px;
+  text-align: center;
+  font-size: var(--LandingPageSchool);
   font-weight: 400;
   font-style: normal;
   margin-bottom: 3%;
-  color: #bec0c7;
+  color: #c2c2c2;
+
 }
 
 a {
@@ -95,32 +115,31 @@ a {
 #Go-to-Contact,
 #Go-to-Resume {
   font-family: var(--fonts);
-  box-sizing: border-box;
-  padding: 4px 28px;
-  font-size: 1rem;
-  height: 2.4rem;
+  padding: 10px 28px;
+  font-size: 1.25rem;
   font-weight: 500;
   border: none;
   border-radius: 100px;
 
   color: var(--offWhiteColor);
-  background-color: #40a45e;
+  border: 2px solid var(--offWhiteColor);
+  background-color: transparent;
   transition: 0.5s;
-  /*animation*/
-  animation-name: fadeInOpacityBottom;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-in;
-  animation-delay: 0.6s;
-  animation-duration: 0.5s;
-  animation-fill-mode: forwards;
-  opacity: 0;
+
 }
+
+.landing-image-contain {
+  width: 89%;
+  height: auto;
+  /*animation: action 1s infinite alternate;*/
+}
+
 
 #Go-to-Contact:hover,
 #Go-to-Resume:hover {
   font-family: var(--fonts);
-  background-color: rgb(54, 120, 94);
-  color: var(--offWhiteColor);
+  background-color: var(--offWhiteColor);
+  color: var(--mainBlack);
   cursor: pointer;
 }
 
@@ -130,7 +149,7 @@ a {
   }
 
   100% {
-    transform: translateY(-10px);
+    transform: translateY(-5px);
   }
 }
 
@@ -146,58 +165,9 @@ a {
 }
 
 
-
-.arrow {
-  margin-top: 1rem;
-  position: absolute;
-  bottom: 45%;
-  left: 50%;
-  margin-left: -20px;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  background-image: url('../images/down-arrow.svg');
-  background-size: contain;
-  /*Animation -> Fade-in -> bounce*/
-  opacity: 0;
-  animation: 0.25s fadeInOpacityTop 1s linear forwards, bounce 2s infinite;
-}
-
-.bounce {
-  animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-
-  0%,
-  20%,
-  50%,
-  80%,
-  100% {
-    transform: translateY(0);
-  }
-
-  40% {
-    transform: translateY(-30px);
-  }
-
-  60% {
-    transform: translateY(-15px);
-  }
-}
-
 @media only screen and (max-width:915px) {
   .Content-Container {
     padding-top: 4rem;
-  }
-
-
-  .Landing-Page-Intro {
-    font-size: 3.5rem;
-  }
-
-  .Landing-Page-School {
-    font-size: 1rem;
   }
 
 
@@ -218,14 +188,136 @@ a {
 
 }
 
+@media only screen and (max-width: 820px) {
+
+  .landing-image-contain {
+    display: none;
+  }
+
+}
+
 @media only screen and (max-width:355px) {
-  .Landing-Page-Intro {
-    font-size: 2.5rem;
+  .Content-Container {
+    padding-top: 4rem;
   }
 
 
   #Go-to-Contact,
   #Go-to-Resume {
     font-size: 0.8rem;
+  }
+}
+
+body {
+  background: #212121;
+}
+
+.scroll-down {
+  border: 2px solid #fff;
+  border-radius: 20px;
+  bottom: 60px;
+  height: 50px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  width: 30px;
+}
+
+.scroll-down:hover {
+  cursor: pointer;
+}
+
+.scroll-down::before {
+  animation: scrollDownAnimation 2s infinite;
+  background-color: #fff;
+  border-radius: 100%;
+  content: '';
+  height: 6px;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  top: 10px;
+  width: 6px;
+}
+
+@-moz-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@-o-keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes scrollDownAnimation {
+  0% {
+    opacity: 0;
+    transform: translate(0, 0);
+  }
+
+  40% {
+    opacity: 1;
+  }
+
+  80% {
+    opacity: 0;
+    transform: translate(0, 20px);
+  }
+
+  100% {
+    opacity: 0;
   }
 }
