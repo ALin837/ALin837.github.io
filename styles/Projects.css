@@ -80,6 +80,7 @@
   padding: 2rem;
   background-color: #efeeee;
   border-radius: 10px;
+  transition: all 0.5s;
 }
 
 .Project-section:hover {
