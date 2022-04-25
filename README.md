@@ -9,14 +9,8 @@ After working on this I learned a lot about CSS and what goes into building out 
 I used Font Awesome for all of my icons so I would like to reference Font Awesome and their awesome icons.\
 https://fontawesome.com/
 
-I used some images from Undraw. Undraw provides illustrations that you can use in any project, commercial or personal without attribution or any costs. \
-https://undraw.co/illustrations
-
 I also used an image from UnSplash which is a website dedicated to sharing stock photography. \
 https://unsplash.com/images/stock/public-domain \
-Also specifically from this photographer \
-https://unsplash.com/@clark_fransa \
-Please check out the individual's work 
 
 My scroll animations are from AOS. \
 https://github.com/michalsnik/aos
