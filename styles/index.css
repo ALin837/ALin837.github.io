@@ -20,7 +20,8 @@
   background-color: #e9eaf8;
   */
   --bodyFontSize: 1.15rem;
-  --sectionTitleSize: 2rem;
+  --sectionTitleSize: 2.25rem;
+  --h2size: 1.5rem;
   --h3size: 1.25rem;
   --h4size: 1.15rem;
   --landingPageHello: 2rem;
@@ -88,6 +89,12 @@ code {
   */
 }
 
+.Section-subtitle {
+  color: var(--mainBlack);
+  font-weight: 600;
+  font-size: var(--h3size);
+}
+
 .divider-wrap {
   display: flex;
   justify-content: center;
@@ -141,22 +148,28 @@ h3 {
 
 span {
   font-family: var(--fonts);
-  font-weight: 700;
+  font-weight: 600;
 }
 
 
 h4 {
   font-family: var(--fonts);
   font-size: var(--h4size);
-  font-weight: 700;
+  font-weight: 600;
   margin: 5px 0px;
   color: var(--mainBlack);
 }
 
 h2 {
   font-family: var(--fonts);
-  font-weight: 700;
+  font-weight: 600;
   color: var(--mainBlack);
+  font-size: var(--h2size);
+}
+
+#about,
+#tech {
+  margin-bottom: 0.35rem;
 }
 
 .spacer {

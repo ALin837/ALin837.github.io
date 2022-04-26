@@ -12,6 +12,7 @@
 .Section-title-wrap p,
 .Landing-Page-School p {
   max-width: 40rem;
+  font-size: var(--bodyFontSize);
 }
 
 
