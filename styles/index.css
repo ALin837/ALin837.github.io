@@ -4,10 +4,15 @@
 
 .root {
   --fonts: 'Noto Sans', 'Lexend', verdana, arial, sans-serif;
+  /*Blacks*/
   --mainBlack: #2f2e41;
   --mainBlack: #242428;
   --mainBlack: #363a41;
   --mainBlack: #33373c;
+
+
+  --mainBlack: #242428;
+  /*Greys*/
   --contentColor: #585858;
   --contentColor: #4b4f58;
   --contentColor: #666769;
@@ -68,9 +73,11 @@ code {
 }
 
 .Section-header {
+  /*Colors*/
   color: var(--mainBlue);
-
   color: #8d96aa;
+  color: #7c8394;
+
 
   margin-bottom: 0.5rem;
   font-size: var(--header);
