@@ -1,13 +1,11 @@
 .Experience-Global {
-  padding-top: 3.5vmax;
-  padding-bottom: 3.5vmax;
+  padding-top: 67px;
+  padding-bottom: 67px;
   background-color: var(--bright);
-
-
 }
 
 .Experience-Box {
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 

@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap');
 
 .root {
-  --fonts: 'Lexend', "Noto-sans", sans-serif;
+  --fonts: 'Noto Sans', 'Lexend', verdana, arial, sans-serif;
   --mainBlack: #2f2e41;
   --mainBlack: #242428;
   --mainBlack: #363a41;
@@ -199,11 +200,6 @@ h2 {
 }
 
 
-@media only screen and (max-width:930px) {
-  .Section-title {
-    padding-top: 1.5rem;
-  }
-}
 
 
 

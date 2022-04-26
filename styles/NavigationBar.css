@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@400;500;600;700&display=swap');
+
 .Navigation-Bar-Container {
   position: -webkit-sticky;
   position: sticky;
@@ -37,11 +39,11 @@
 .logo a {
   color: var(--offWhiteColor);
   display: inline-block;
-  font-family: var(--fonts);
+  font-family: 'Signika', sans-serif, var(--fonts);
 
-  font-size: 1rem;
+  font-size: 1.5rem;
 
-  font-weight: 600;
+  font-weight: 400;
   font-style: normal;
   letter-spacing: 8%;
   transition: 0.3s;
@@ -49,13 +51,10 @@
 
 #logo-text:hover,
 .nav-buttons a:hover {
-  color: var(--mainBlue);
+
   cursor: pointer;
 }
 
-.resume-button:hover {
-  background-color: #34389a;
-}
 
 
 .resume-button a {
@@ -94,7 +93,7 @@
 .nav-buttons a {
   display: inline-block;
   font-size: 0.9rem;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
   letter-spacing: 8%;
   text-decoration: none;

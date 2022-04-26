@@ -233,7 +233,7 @@ document.addEventListener("DOMContentLoaded", init);
 function init() {
   const element = document.getElementById('type-writer-content')
   const words = ["I'm Andrew Lin.", "I'm a Developer."]
-  const wait = 3000;
+  const wait = 2250;
   // Init TypeWriter
   
   new Typewriter(element, words, wait);
