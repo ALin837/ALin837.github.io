@@ -126,7 +126,7 @@ window.onresize = () => {
     x.style.display = "none";
   } 
 
-  if (window.innerWidth > 725) {
+  if (window.innerWidth > 750) {
     document.getElementById("wrap-navigation").style.height = "90px"
   } else {
     document.getElementById("wrap-navigation").style.height = "67px"

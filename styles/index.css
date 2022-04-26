@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap');
+/*Lexend, Lato, Noto Sans*/
 
 .root {
   --fonts: 'Noto Sans', 'Lexend', verdana, arial, sans-serif;
@@ -23,7 +24,7 @@
   --sectionTitleSize: 2.25rem;
   --h2size: 1.5rem;
   --h3size: 1.25rem;
-  --h4size: 1.15rem;
+  --h4size: 1.25rem;
   --landingPageHello: 2rem;
   --LandingPage: 3.5rem;
   --LandingPageSchool: 1rem;
@@ -89,6 +90,18 @@ code {
   */
 }
 
+.Section-title-wrap p {
+  max-width: 40rem;
+  color: var(--contentColor);
+  font-size: var(--bodyFontSize);
+}
+
+.Landing-Page-School p {
+  max-width: 40rem;
+  font-size: var(--bodyFontSize);
+}
+
+
 .Section-subtitle {
   color: var(--mainBlack);
   font-weight: 600;
@@ -121,6 +134,7 @@ code {
   max-width: 1400px;
   max-width: 1250px;
   max-width: 1140px;
+
 }
 
 
@@ -224,7 +238,7 @@ h2 {
     --bodyFontSize: 1rem;
     --sectionTitleSize: 1.85rem;
     --h3size: 1.05rem;
-    --h4size: 1rem;
+    --h4size: 1.05rem;
     --landingPageHello: 1.88rem;
     --LandingPage: 3.35rem;
     --LandingPageSchool: 0.85rem;
@@ -255,7 +269,7 @@ h2 {
     --bodyFontSize: 0.85rem;
     --sectionTitleSize: 1.5rem;
     --h3size: 0.9rem;
-    --h4size: 0.85rem;
+    --h4size: 0.9rem;
     --landingPageHello: 0.85rem;
     --LandingPage: 1.5rem;
     --typeheight: 2rem;

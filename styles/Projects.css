@@ -6,11 +6,8 @@
 
 }
 
-.disabled {
+#disabled {
   cursor: not-allowed;
-  text-decoration: line-through;
-  text-decoration-color: rgb(40, 39, 39);
-  text-decoration-thickness: 3px;
 }
 
 .Projects-Box {
@@ -23,24 +20,6 @@
 .See-work-link {
   display: flex;
 }
-
-.enabled,
-.disabled {
-  font-family: var(--fonts);
-  font-size: var(--bodyFontSize);
-  font-weight: 700;
-  margin: 5px 0px;
-  color: #5155ca;
-  transition: all 0.3s ease-in-out;
-}
-
-
-.enabled:hover {
-  cursor: pointer;
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-}
-
 
 .Projects-Container {
   color: var(--contentColor);
@@ -55,7 +34,7 @@
   height: 300px;
   margin-bottom: 2%;
 
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
@@ -80,7 +59,7 @@
   margin-bottom: 2rem;
   padding: 2rem;
   background-color: #efeeee;
-  border-radius: 10px;
+  border-radius: 5px;
 
 }
 
@@ -92,21 +71,6 @@
 }
 
 
-.project-skill-container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.project-skill {
-  font-size: 1rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-  padding: 0.4rem;
-  border-radius: 5px;
-  color: var(--bright);
-
-  background-color: rgb(52, 51, 60);
-}
 
 .github-button-wrap {
   display: flex;
@@ -117,20 +81,20 @@
 
   font-family: var(--fonts);
   padding: 10px 28px;
-  font-size: 1.25rem;
+  font-size: var(--bodyFontSize);
   font-weight: 500;
-  border: none;
-  border-radius: 100px;
+  border: 3px solid var(--mainBlack);
+  border-radius: 5px;
 
   color: var(--offWhiteColor);
-  background-color: var(--mainBlue);
+  background-color: var(--mainBlack);
   transition: 0.5s;
 }
 
-.github-button:hover {
+.enabled:hover {
   font-family: var(--fonts);
-  background-color: #34389a;
-  color: var(--offWhiteColor);
+  background-color: #efeeee;
+  color: var(--mainBlack);
   cursor: pointer;
 }
 

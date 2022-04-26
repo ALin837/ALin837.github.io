@@ -7,11 +7,6 @@
   color: var(--mainBlue);
 }
 
-.landing-page-wrap {
-  display: flex;
-
-}
-
 .Content-Container {
   display: flex;
   justify-content: center;
@@ -30,6 +25,7 @@
 .button-group {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 
@@ -257,7 +253,7 @@ body {
   border-radius: 20px;
   bottom: 60px;
   height: 50px;
-  left: -17px;
+  left: 0;
   margin: 0 auto;
   position: absolute;
   right: 0;

@@ -2,17 +2,22 @@ footer {
   color: var(--bright);
   background-color: var(--mainBlack);
   font-family: var(--fonts);
-  bottom: 0px;
-  display: flex;
-  justify-content: center;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 
+
 }
 
-.footer-socials {
+.footer-container {
+  bottom: 0px;
+  margin: 0 auto;
+
+}
+
+.footer-content {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 3rem 0;
 }
 
 .footer-name {
