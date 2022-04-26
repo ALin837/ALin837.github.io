@@ -22,8 +22,10 @@
   --sectionTitleSize: 2rem;
   --h3size: 1.25rem;
   --h4size: 1.15rem;
+  --landingPageHello: 2rem;
   --LandingPage: 3.5rem;
   --LandingPageSchool: 1rem;
+  --typeheight: 5rem;
   --header: 1.15rem;
 }
 
@@ -113,54 +115,15 @@ code {
   max-width: 1140px;
 }
 
-.typewriter {
-  font-weight: 500;
 
-  font-style: normal;
-  margin-bottom: 0.5rem;
-  font-size: var(--LandingPage);
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-
-  /*Animation
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typewriter 2.3s steps(15) infinite alternate,
-    blink 800ms steps(20) infinite normal;
-  border-right: 5px solid black;
-  */
-
-}
-
-
-@keyframes typewriter {
-  from {
-    width: 0%;
-  }
-
-  to {
-    width: 70%;
-  }
-}
-
-@keyframes blink {
-  from {
-    border-color: var(--offWhiteColor);
-  }
-
-  to {
-    border-color: transparent;
-  }
-}
 
 
 .smaller {
-  font-size: 2rem;
+  font-size: var(--landingPageHello);
   color: #E9E9E9;
   font-weight: 500;
   font-style: normal;
   margin-bottom: 0.5rem;
-  font-size: 2.5rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 
@@ -253,6 +216,7 @@ h2 {
     --sectionTitleSize: 1.85rem;
     --h3size: 1.05rem;
     --h4size: 1rem;
+    --landingPageHello: 1.88rem;
     --LandingPage: 3.35rem;
     --LandingPageSchool: 0.85rem;
     --header: 1rem;
@@ -260,17 +224,32 @@ h2 {
 
 }
 
+@media only screen and (max-width:580px) {
 
-@media only screen and (max-width:355px) {
+
+  .root {
+
+    --landingPageHello: 1.5rem;
+    --LandingPage: 2rem;
+    --typeheight: 3rem;
+
+  }
+
+}
+
+
+@media only screen and (max-width:370px) {
 
 
 
   .root {
     --bodyFontSize: 0.85rem;
-    --sectionTitleSize: 1.70rem;
+    --sectionTitleSize: 1.5rem;
     --h3size: 0.9rem;
     --h4size: 0.85rem;
-    --LandingPage: 3.20rem;
+    --landingPageHello: 0.85rem;
+    --LandingPage: 1.5rem;
+    --typeheight: 2rem;
     --LandingPageSchool: 0.70rem;
     --header: 0.85rem;
   }

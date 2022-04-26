@@ -53,10 +53,54 @@
 }
 
 .type {
+  font-weight: 500;
+
+  font-style: normal;
+  margin-bottom: 0.5rem;
+  font-size: var(--LandingPage);
+
   display: flex;
   justify-content: center;
   align-items: center;
+  height: var(--typeheight);
 }
+
+.typewriter {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+
+}
+
+
+
+.type:after {
+  content: " |";
+  animation: blink 1s infinite;
+  animation-timing-function: step-end;
+}
+
+
+@keyframes typing {
+
+  75%,
+  100% {
+    max-width: calc(var(--characters) * 1ch);
+  }
+}
+
+@keyframes blink {
+
+  0%,
+  75%,
+  100% {
+    opacity: 1;
+  }
+
+  25% {
+    opacity: 0;
+  }
+}
+
 
 .Words-Container {
   text-align: center;
@@ -129,11 +173,6 @@ a {
 
 }
 
-.landing-image-contain {
-  width: 89%;
-  height: auto;
-  /*animation: action 1s infinite alternate;*/
-}
 
 
 #Go-to-Contact:hover,

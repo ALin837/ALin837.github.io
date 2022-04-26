@@ -120,8 +120,10 @@
   color: var(--mainBlue);
   */
   transform: scale(1.15);
+
   cursor: pointer;
 }
+
 
 
 @media only screen and (max-width:1400px) {
