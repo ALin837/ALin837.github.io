@@ -1,6 +1,6 @@
 .Skills-Global {
-    padding-top: 3.5vmax;
-    padding-bottom: 3.5vmax;
+    padding-top: 67px;
+    padding-bottom: 67px;
     background-color: var(--offWhiteColor);
 
 
@@ -18,7 +18,7 @@
 
 
 .Skill-wrap {
-    margin-top: 1rem;
+    margin-top: 3rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
