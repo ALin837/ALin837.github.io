@@ -26,10 +26,10 @@
   background-color: #e9eaf8;
   */
   --bodyFontSize: 1.15rem;
-  --sectionTitleSize: 2.25rem;
-  --h2size: 1.5rem;
-  --h3size: 1.25rem;
-  --h4size: 1.25rem;
+  --sectionTitleSize: 2.5rem;
+  --h2size: 1.75rem;
+  --h3size: 1.35rem;
+  --h4size: 1.35rem;
   --landingPageHello: 2rem;
   --LandingPage: 3.5rem;
   --LandingPageSchool: 1rem;
@@ -177,7 +177,7 @@ h4 {
   font-family: var(--fonts);
   font-size: var(--h4size);
   font-weight: 600;
-  margin: 5px 0px;
+  margin: 15px 0px;
   color: var(--mainBlack);
 }
 
@@ -242,10 +242,13 @@ h2 {
 
 
   .root {
-    --bodyFontSize: 1rem;
-    --sectionTitleSize: 1.85rem;
-    --h3size: 1.05rem;
-    --h4size: 1.05rem;
+    --bodyFontSize: 1.15rem;
+    --sectionTitleSize: 2.5rem;
+    --h2size: 1.60rem;
+    --h3size: 1.2rem;
+    --h4size: 1.2rem;
+
+
     --landingPageHello: 1.88rem;
     --LandingPage: 3.35rem;
     --LandingPageSchool: 0.85rem;
@@ -258,6 +261,13 @@ h2 {
 
 
   .root {
+
+    --bodyFontSize: 1rem;
+    --sectionTitleSize: 1.85rem;
+    --h2size: 1.45rem;
+    --h3size: 1.05rem;
+    --h4size: 1.05rem;
+
 
     --landingPageHello: 1.5rem;
     --LandingPage: 2rem;
@@ -275,8 +285,11 @@ h2 {
   .root {
     --bodyFontSize: 0.85rem;
     --sectionTitleSize: 1.5rem;
+    --h2size: 1.45rem;
     --h3size: 0.9rem;
     --h4size: 0.9rem;
+
+
     --landingPageHello: 0.85rem;
     --LandingPage: 1.5rem;
     --typeheight: 2rem;

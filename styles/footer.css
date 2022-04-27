@@ -22,5 +22,6 @@ footer {
 
 .footer-name {
   font-weight: 400;
+  font-size: var(--bodyFontSize);
   text-align: center;
 }

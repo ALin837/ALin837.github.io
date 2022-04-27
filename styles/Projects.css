@@ -19,6 +19,7 @@
 
 .See-work-link {
   display: flex;
+  margin-top: 15px;
 }
 
 .Projects-Container {
@@ -32,7 +33,6 @@
 
 .image-box {
   height: 300px;
-  margin-bottom: 2%;
 
   border-radius: 5px;
 }
@@ -67,7 +67,8 @@
 
 .Project-Text {
   font-size: var(--bodyFontSize);
-  ;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 
