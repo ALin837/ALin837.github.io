@@ -22,7 +22,7 @@
 .About-Me-Wrap {
   margin-top: 3rem;
   display: grid;
-  grid-template-columns: 1.2fr 1fr;
+  grid-template-columns: 1fr 1.2fr;
   column-gap: 2.25rem;
 
 }
