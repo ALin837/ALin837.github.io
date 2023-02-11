@@ -12,7 +12,9 @@
     letter-spacing: 8%;
 }
 
-
+.service {
+    font-weight: 500;
+}
 
 .Skill-wrap {
     margin-top: 3rem;
