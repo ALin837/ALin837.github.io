@@ -283,14 +283,14 @@ h2 {
     --job: 1.05rem;
 
     --landingPageHello: 1.5rem;
-    --LandingPage: 2rem;
+    --LandingPage: 1.75rem;
     --typeheight: 3rem;
 
   }
 
 }
 
-/*
+
 @media only screen and (max-width:370px) {
 
 
@@ -304,11 +304,11 @@ h2 {
     --job: 0.9em;
 
     --landingPageHello: 0.85rem;
-    --LandingPage: 1.5rem;
+    --LandingPage: 1.28rem;
     --typeheight: 2rem;
     --LandingPageSchool: 0.70rem;
     --header: 0.85rem;
   }
 
 }
-*/
+
