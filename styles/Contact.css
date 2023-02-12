@@ -24,9 +24,7 @@
 }
 
 .Contact-Wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin: 0 auto;
 
 }
 
@@ -61,10 +59,8 @@
 
 /*Contact Form*/
 .Contact-Form-Input {
-    display: flex;
-    justify-content: center;
-    width: 50%;
-
+    margin: 0 auto;
+    width: 80%;
 }
 
 label {
@@ -74,7 +70,6 @@ label {
 
 .name {
     display: grid;
-    margin-bottom: 1.5rem;
     width: 100%;
     grid-template-columns: 1fr 1fr;
     column-gap: 1.5rem;
@@ -91,11 +86,21 @@ label {
     width: 100%;
 }
 
+#send {    
+    font-family: var(--fonts);
+    padding: 10px 28px;
+    font-size: var(--bodyFontSize);
+    font-weight: 500;
+    border: 3px solid var(--mainBlack);
+    border-radius: 5px;
+    color: var(--offWhiteColor);
+    background-color: var(--mainBlack);
+    transition: all 0.5s ease 0s;
+}
 
 .message-seg {
-
     width: 100%;
-    margin-bottom: 1.5rem;
+
 }
 
 input[type=text] {
@@ -152,15 +157,9 @@ input[type=button]:hover {
     .Contact-Form-Input {
         width: 100%;
     }
-
-
-
     /*undraw photo*/
     .contact-image-contain {
         height: 300px;
         width: auto;
     }
-
-
-
 }
