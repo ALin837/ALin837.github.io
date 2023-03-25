@@ -53,8 +53,8 @@
 .container {
   padding: 10px 30px;
   position: relative;
-
-  height: 50%;
+  height: 275px;
+  /*height: 50%;*/
 
 
 }
@@ -101,7 +101,7 @@ ul li {
   font-style: normal;
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:990px) {
   .left {
     margin-right: 0;
   }
@@ -109,5 +109,9 @@ ul li {
   .Experience-Inner {
     display: block;
   }
-
+  .container {
+    height: 50%;
+  
+  
+  }
 }
