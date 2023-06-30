@@ -84,7 +84,7 @@ function Project() {
 }
 
 function Resume() {
-  window.open('/Files/Andrew_s_Resume.pdf', '_blank')
+  window.open('/Files/Andrew_Lin_s_Resume.pdf', '_blank')
 }
 
 function Github() {
