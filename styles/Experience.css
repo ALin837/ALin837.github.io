@@ -31,7 +31,7 @@
 .timeline {
   box-sizing: border-box;
   position: relative;
-  max-width: 1200px;
+  flex:50%;
   margin: 0 auto;
 }
 
@@ -54,7 +54,8 @@
   padding: 10px 30px;
   position: relative;
 
-  height: 50%;
+  /* height: 50%; */
+  height:275px
 
 
 }
@@ -101,13 +102,16 @@ ul li {
   font-style: normal;
 }
 
-@media only screen and (max-width:950px) {
+@media only screen and (max-width:990px) {
   .left {
     margin-right: 0;
   }
 
   .Experience-Inner {
     display: block;
+  }
+  .container {
+    height: 50%;
   }
 
 }
