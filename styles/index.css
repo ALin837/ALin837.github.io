@@ -35,7 +35,7 @@
   --h4size: 1.25rem;
   --job: 1rem;
   --landingPageHello: 2rem;
-  --LandingPage: 3.5rem;
+  --LandingPage: 3.2rem;
   --LandingPageSchool: 1rem;
   --typeheight: 5rem;
   --header: 1.15rem;
@@ -263,14 +263,14 @@ h2 {
 
 
     --landingPageHello: 1.88rem;
-    --LandingPage: 3.35rem;
+    --LandingPage: 2.8rem;
     --LandingPageSchool: 0.85rem;
     --header: 1rem;
   }
 
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (max-width:800px) {
 
 
   .root {
@@ -283,7 +283,7 @@ h2 {
     --job: 1.05rem;
 
     --landingPageHello: 1.5rem;
-    --LandingPage: 1.75rem;
+    --LandingPage: 1.2rem;
     --typeheight: 3rem;
 
   }
@@ -304,7 +304,7 @@ h2 {
     --job: 0.9em;
 
     --landingPageHello: 0.85rem;
-    --LandingPage: 1.28rem;
+    --LandingPage: 0.9rem;
     --typeheight: 2rem;
     --LandingPageSchool: 0.70rem;
     --header: 0.85rem;
